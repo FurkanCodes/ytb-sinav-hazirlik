@@ -134,6 +134,12 @@ details summary{cursor:pointer}
 .grades3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
 .grades3 .btn{display:flex;flex-direction:column;align-items:center;gap:2px}
 .grades3 small{font:400 .72rem var(--mono);opacity:.75}
+.ncard{display:flex;flex-direction:column;gap:4px;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:var(--ink);text-decoration:none}
+.ncard:hover{border-color:var(--muted)}
+.ncard .nt{font-weight:600}
+.ncard .np{color:var(--muted);font-size:.9rem;line-height:1.45}
+.ncard .nm{font:500 .72rem var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+input[type=search],#nTitle{border:1px solid var(--line);border-radius:8px;padding:9px 12px;background:var(--paper);color:var(--ink);font:inherit;width:100%}
 </style>
 <meta name="description" content="YTB Uzman Yardımcılığı sınavı için adım adım dersler, aralıklı tekrar kartları ve kaynaklı sorular.">
 <meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
@@ -163,6 +169,7 @@ details summary{cursor:pointer}
     <a href="#deneme" data-v="deneme">Deneme</a>
     <a href="#yanlislar" data-v="yanlislar">Yanlışlar</a>
     <a href="#yazili" data-v="yazili">Yazılı</a>
+    <a href="#notlar" data-v="notlar">Notlar</a>
   </nav>
 
   <section id="v-bugun" class="list"><div class="card"><p class="muted">Yükleniyor…</p></div></section>
@@ -203,6 +210,8 @@ details summary{cursor:pointer}
 
   <section id="v-yanlislar" class="list" hidden></section>
 
+  <section id="v-notlar" class="list" hidden></section>
+
   <section id="v-yazili" class="list" hidden>
     <div class="card list">
       <h2>Yazılı sınav nasıl değerlendirilir</h2>
@@ -232,6 +241,7 @@ details summary{cursor:pointer}
       </div>
       <p class="note" id="wMsg"></p>
     </div>
+    <div id="wModel"></div>
   </section>
 
   <p class="note">Her soru resmi mevzuat ve kurum sayfalarından kontrol edilmiştir; kaynak bağlantısı açıklamanın altındadır. Mevzuat değişebilir, sınavdan önce mevzuat.gov.tr üzerinden son metni kontrol et.</p>

@@ -66,7 +66,7 @@ function feedbackHtml(q,sel,ord,c){const ok=sel===q.a;const ls=lessonOf[q.id];
   let h='<div class="expl"><span class="verdict '+(ok?"ok":"bad")+'">'+(ok?"Doğru.":"Yanlış. Doğru cevap "+L[ord.indexOf(q.a)]+".")+'</span> ';
   if(!ok&&c==="sure")h+='<div class="hyper">Emin olduğun hâlde yanlış. Bu tür hatalar düzeltildiğinde en iyi akılda kalanlardır: açıklamayı dikkatle oku, bu soru yakında tekrar karşına çıkacak.</div>';
   if(ok&&c==="guess")h+='<div class="note" style="margin:6px 0">Tahminle doğru buldun. Bilgiyi sağlamlaştırmak için açıklamayı oku.</div>';
-  h+=rich(q.e)+srcHtml(q.src)+(ls?'<div class="src">Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a></div>':'')+'</div>';return h}
+  h+=rich(q.e)+srcHtml(q.src)+(ls?'<div class="src">Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a> · <a href="#notlar/yeni/q/'+q.id+'">Not al</a></div>':'<div class="src"><a href="#notlar/yeni/q/'+q.id+'">Not al</a></div>')+'</div>';return h}
 function optsHtml(q,ord,st){return '<div class="opts">'+ord.map((oi,k)=>{let c="opt";
   if(st.reveal){if(oi===q.a)c+=" ok";else if(oi===st.sel)c+=" bad"}else if(oi===st.sel)c+=" sel";
   return '<button class="'+c+'" data-oi="'+oi+'"'+(st.reveal?" disabled":"")+'><span class="bub">'+L[k]+'</span><span>'+rich(q.o[oi])+'</span></button>'}).join("")+'</div>'}
@@ -200,7 +200,7 @@ function renderNote(id){const l=byL[id];const v=$("#v-not");if(!l){location.hash
   h+='<ul>'+l.points.map(p=>'<li>'+p+'</li>').join("")+'</ul></div>';
   if(l.traps&&l.traps.length)h+='<div class="trap"><h3>Sınav tuzakları</h3><ul class="steps">'+l.traps.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul></div>';
   if(sums[l.id])h+='<div class="card"><h3>Senin özetin</h3><p style="white-space:pre-wrap;margin:8px 0 0">'+esc(sums[l.id])+'</p></div>';
-  h+=srcHtml(l.src)+'<div class="nav2"><a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nCards">Kartlarını tekrar et</button><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>';
+  h+=srcHtml(l.src)+'<div class="nav2"><a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nCards">Kartlarını tekrar et</button><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>'+lessonNotesHtml(l.id);
   v.innerHTML=h;window.scrollTo(0,0);$("#nQs").onclick=()=>{startPractice(l.qs.map(x=>byId[x]).filter(Boolean))};
   const nC=$("#nCards");if(nC)nC.onclick=()=>startFree(freeKeys("l:"+l.id,false),"weak",999)}
 
@@ -299,10 +299,13 @@ function renderW(){const s=$("#v-yanlislar");const w=Q.filter(q=>hist[q.id]&&his
   $("#wRetry").onclick=()=>startPractice(w)}
 
 /* ---------- Yazılı ---------- */
-function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyon "+(i+1),t:x.t,h:x.h})).concat(D.ceviri.map((x,i)=>({k:"c"+i,label:"Çeviri "+(i+1)+" (İngilizceden Türkçeye)",t:x.t,h:x.h})));
-  const sel=$("#wSel");sel.innerHTML=items.map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,60))+'…</option>').join("");
+function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyon "+(i+1),t:x.t,h:x.h})).concat(D.ceviri.map((x,i)=>({k:"c"+i,label:"Çeviri "+(i+1)+(x.dir==="tr-en"?" (Türkçeden İngilizceye)":" (İngilizceden Türkçeye)"),t:x.t,h:x.h,m:x.m,dir:x.dir})));
+  const sel=$("#wSel");sel.innerHTML='<optgroup label="Kompozisyon">'+items.filter(x=>x.k[0]==="k").map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,60))+'…</option>').join("")+'</optgroup><optgroup label="Çeviri">'+items.filter(x=>x.k[0]==="c").map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,50))+'…</option>').join("")+'</optgroup>';
   const drafts=store.get("drafts",{});
-  function show(){const it=items.find(x=>x.k===sel.value);$("#wPrompt").textContent=it.t;$("#wHint").textContent=(it.k[0]==="k"?"Ele alınabilecek noktalar: ":"İpucu: ")+it.h;$("#wText").value=drafts[it.k]||"";count();$("#wMsg").textContent=""}
+  function show(){const it=items.find(x=>x.k===sel.value);$("#wPrompt").textContent=it.t;$("#wHint").textContent=(it.k[0]==="k"?"Ele alınabilecek noktalar: ":"Terimler: ")+it.h;$("#wText").value=drafts[it.k]||"";
+    $("#wText").placeholder=it.k[0]==="k"?"Giriş: kavramı tanımla ve konunun neden önemli olduğunu söyle…":(it.dir==="tr-en"?"Write your English translation here…":"Türkçe çevirini buraya yaz…");
+    const wm=$("#wModel");if(it.m){wm.innerHTML='<details class="card"><summary><b>Örnek çeviri</b> <span class="note">önce kendi çevirini bitir</span></summary><p class="answer" style="margin-top:10px;white-space:pre-wrap">'+esc(it.m)+'</p><p class="note">Örnek tek doğru değil. Anlamın tam aktarılıp aktarılmadığına, terimlere ve cümlenin doğal olup olmadığına bak. Kendi çevirini sohbete yapıştırırsan ayrıntılı değerlendiririm.</p></details>'}else wm.innerHTML="";
+    count();$("#wMsg").textContent=""}
   function count(){const n=($("#wText").value.trim().match(/\S+/g)||[]).length;$("#wCount").textContent=n+" kelime"}
   sel.onchange=show;$("#wText").oninput=()=>{drafts[sel.value]=$("#wText").value;store.set("drafts",drafts);count()};
   $("#wCopy").onclick=()=>{const it=items.find(x=>x.k===sel.value);const txt="Yazılı deneme ("+it.label+")\nSoru: "+it.t+"\n\nCevabım:\n"+$("#wText").value;
@@ -313,14 +316,53 @@ function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyo
     $("#wTimer").textContent=String(Math.floor(ms/60000)).padStart(2,"0")+":"+String(Math.floor(ms%60000/1000)).padStart(2,"0")},1000)};
   show()}
 
+/* ---------- Notlarım ---------- */
+let notes=store.get("notes",[]);
+function saveNotes(){store.set("notes",notes)}
+function noteDate(t){return new Date(t).toLocaleString("tr-TR",{day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}
+function lessonOpts(sel){return '<option value="">Konu seçilmedi</option>'+D.areas.map(a=>'<optgroup label="'+esc(a.name)+'">'+LS.filter(l=>l.area===a.id).map(l=>'<option value="'+l.id+'"'+(l.id===sel?" selected":"")+'>'+esc(l.title)+'</option>').join("")+'</optgroup>').join("")}
+function noteCard(n){const l=byL[n.l];const prev=(n.b||"").replace(/\s+/g," ").slice(0,140);
+  return '<a class="ncard" href="#notlar/'+n.id+'"><span class="nt">'+esc(n.t||"Başlıksız not")+'</span>'+(prev?'<span class="np">'+esc(prev)+(n.b.length>140?"…":"")+'</span>':'')+
+    '<span class="nm">'+(l?'<span class="tag">'+esc(l.title)+'</span> ':'')+(n.q?'<span class="tag">'+esc(n.q)+'</span> ':'')+noteDate(n.up||n.at)+'</span></a>'}
+let nQuery="",nFilter="";
+function renderNotes(){const v=$("#v-notlar");
+  v.innerHTML='<div class="row" style="justify-content:space-between"><h2>Notlarım</h2><a class="btn" href="#notlar/yeni">Yeni not</a></div>'+
+    '<div class="row"><input id="nSearch" type="search" placeholder="Notlarda ara" value="'+esc(nQuery)+'" style="flex:1;min-width:0"><select id="nFilter" style="flex:1;min-width:0"><option value="">Bütün notlar</option><option value="-"'+(nFilter==="-"?" selected":"")+'>Konusu olmayanlar</option>'+lessonOpts(nFilter).replace('<option value="">Konu seçilmedi</option>','')+'</select></div><div id="nList" class="list"></div>';
+  const draw=()=>{const q=nQuery.toLocaleLowerCase("tr");let list=notes.slice().sort((a,b)=>(b.up||b.at)-(a.up||a.at));
+    if(nFilter==="-")list=list.filter(n=>!n.l);else if(nFilter)list=list.filter(n=>n.l===nFilter);
+    if(q)list=list.filter(n=>((n.t||"")+" "+(n.b||"")+" "+((byL[n.l]||{}).title||"")).toLocaleLowerCase("tr").includes(q));
+    $("#nList").innerHTML=list.length?list.map(noteCard).join(""):'<div class="card"><p class="note">'+(notes.length?'Bu aramaya uyan not yok.':'Henüz notun yok. "Yeni not" ile başla. Konu notlarından ve soru açıklamalarından da doğrudan not alabilirsin.')+'</p></div>'};
+  $("#nSearch").oninput=e=>{nQuery=e.target.value;draw()};$("#nFilter").onchange=e=>{nFilter=e.target.value;draw()};draw()}
+function editNote(parts){const v=$("#v-notlar");let n=null;
+  if(parts[1]==="yeni"){n={id:null,t:"",b:"",l:"",q:""};
+    if(parts[2]==="l"&&byL[parts[3]])n.l=parts[3];
+    if(parts[2]==="q"&&byId[parts[3]]){const q=byId[parts[3]];n.q=q.id;n.l=(lessonOf[q.id]||{}).id||"";n.t=q.id+" hakkında";n.b="Soru: "+q.q.replace(/<br>/g," ")+"\nDoğru cevap: "+q.o[q.a]+"\n\n"}}
+  else{n=notes.find(x=>x.id===parts[1]);if(!n){location.hash="#notlar";return}}
+  const l=byL[n.l];
+  v.innerHTML='<div class="row" style="justify-content:space-between"><a class="btn ghost" href="#notlar">← Notlarım</a><span class="note" id="nSaved">'+(n.id?"Kaydedildi":"Yazmaya başlayınca kaydedilir")+'</span></div>'+
+    '<div class="card list"><input id="nTitle" placeholder="Başlık" value="'+esc(n.t)+'" style="font:600 1.05rem var(--sans)">'+
+    '<select id="nLesson">'+lessonOpts(n.l)+'</select>'+
+    '<textarea id="nBody" placeholder="Notun…" style="min-height:260px">'+esc(n.b)+'</textarea>'+
+    '<div class="row" style="justify-content:space-between">'+(n.id?'<button class="btn ghost" id="nDel">Notu sil</button>':'<span></span>')+'<div class="row">'+(l?'<a class="btn ghost" href="#not/'+l.id+'">Konu notunu aç</a>':'')+'<a class="btn" href="#notlar">Bitti</a></div></div></div>';
+  const save=()=>{n.t=$("#nTitle").value;n.b=$("#nBody").value;n.l=$("#nLesson").value;
+    if(!n.id){if(!n.t.trim()&&!n.b.trim())return;n.id="n"+Date.now().toString(36);n.at=Date.now();notes.push(n);history.replaceState(null,"","#notlar/"+n.id)}
+    n.up=Date.now();saveNotes();$("#nSaved").textContent="Kaydedildi · "+noteDate(n.up)};
+  ["#nTitle","#nBody"].forEach(s=>$(s).oninput=save);$("#nLesson").onchange=save;
+  const del=$("#nDel");if(del)del.onclick=()=>{if(!confirm("Bu not silinsin mi? Bu işlem geri alınamaz."))return;notes=notes.filter(x=>x!==n);saveNotes();location.hash="#notlar"};
+  const body=$("#nBody");if(!n.id||parts[1]==="yeni"){try{(n.t?body:$("#nTitle")).focus({preventScroll:true})}catch(e){}}
+  window.scrollTo(0,0)}
+function lessonNotesHtml(id){const ns=notes.filter(n=>n.l===id).sort((a,b)=>(b.up||b.at)-(a.up||a.at));
+  return '<div class="card list"><div class="row" style="justify-content:space-between"><h3>Notlarım ('+ns.length+')</h3><a class="btn ghost sm" href="#notlar/yeni/l/'+id+'">Not ekle</a></div>'+(ns.length?'<div class="list">'+ns.map(noteCard).join("")+'</div>':'<p class="note">Bu konuya ait notun yok.</p>')+'</div>'}
+
 /* ---------- Routing ---------- */
-const views=["bugun","ogren","ders","not","tekrar","calis","deneme","yanlislar","yazili"];
+const views=["bugun","ogren","ders","not","tekrar","calis","deneme","yanlislar","yazili","notlar"];
 const navOf={ders:"ogren",not:"ogren"};
 function route(){const parts=(location.hash||"#bugun").slice(1).split("/");let v=parts[0];if(!views.includes(v))v="bugun";
   views.forEach(x=>{$("#v-"+x).hidden=x!==v});const nv=navOf[v]||v;document.querySelectorAll("nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===nv?"page":"false"));
   if(!D)return;renderBadge();
   if(v==="bugun")renderToday();if(v==="ogren")renderLearn();if(v==="ders")startLesson(parts[1]);if(v==="not")renderNote(parts[1]);
-  if(v==="tekrar")renderReview();if(v==="yanlislar")renderW();if(v==="calis")renderStats()}
+  if(v==="tekrar")renderReview();if(v==="yanlislar")renderW();if(v==="calis")renderStats();
+  if(v==="notlar"){if(parts[1])editNote(parts);else renderNotes()}}
 window.addEventListener("hashchange",route);
 $("#diffSel").onchange=e=>{pDiff=+e.target.value;buildPList()};
 $("#onlyNew").onchange=e=>{pOnlyNew=e.target.checked;buildPList()};

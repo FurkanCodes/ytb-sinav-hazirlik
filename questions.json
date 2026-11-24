@@ -4017,11 +4017,69 @@
 "ceviri": [
 {
 "t": "Diaspora communities are no longer seen merely as recipients of services provided by their countries of origin. Increasingly, they are recognised as actors in their own right: they build bridges between societies, shape public opinion and contribute to economic and cultural exchange. A successful diaspora policy therefore aims to empower these communities rather than simply to protect them.",
-"h": "Terimlere dikkat: country of origin = kök ülke / menşe ülke; actors in their own right = başlı başına birer aktör; empower = güçlendirmek."
+"h": "Terimlere dikkat: country of origin = kök ülke / menşe ülke; actors in their own right = başlı başına birer aktör; empower = güçlendirmek.",
+"m": "Diaspora toplulukları artık yalnızca köken ülkelerinin sunduğu hizmetlerin alıcıları olarak görülmüyor. Bu topluluklar giderek daha fazla, başlı başına birer aktör olarak kabul ediliyor: Toplumlar arasında köprüler kuruyor, kamuoyunu şekillendiriyor ve ekonomik ve kültürel alışverişe katkıda bulunuyorlar. Bu nedenle başarılı bir diaspora politikası, bu toplulukları yalnızca korumayı değil, güçlendirmeyi amaçlar.",
+"dir": "en-tr"
 },
 {
 "t": "International scholarship programmes are often evaluated by the number of students they attract. Yet their real impact becomes visible only years later, when graduates return home and take up positions in government, academia and business. Maintaining contact with these alumni is therefore as important as the programme itself.",
-"h": "\"Yet\" burada \"ancak / oysa\" anlamındadır. take up positions = görev üstlenmek. alumni = mezunlar."
+"h": "\"Yet\" burada \"ancak / oysa\" anlamındadır. take up positions = görev üstlenmek. alumni = mezunlar.",
+"m": "Uluslararası burs programları çoğu zaman çektikleri öğrenci sayısıyla değerlendirilir. Oysa bu programların gerçek etkisi ancak yıllar sonra, mezunlar ülkelerine dönüp kamu yönetiminde, akademide ve iş dünyasında görev üstlendiklerinde görünür hâle gelir. Bu nedenle mezunlarla ilişkiyi sürdürmek, programın kendisi kadar önemlidir.",
+"dir": "en-tr"
+},
+{
+"dir": "en-tr",
+"t": "The Universal Declaration of Human Rights, adopted by the United Nations General Assembly in 1948, proclaims that all human beings are born free and equal in dignity and rights. Although the Declaration is not itself a binding treaty, it has inspired a large body of international law, including legally binding covenants and regional conventions. Today, the main challenge is not the absence of rules but their effective implementation, particularly for minorities and migrants who face discrimination in their daily lives.",
+"h": "adopted = kabul edilen; proclaims = ilan eder; binding = bağlayıcı; covenant = (BM) sözleşme; body of law = hukuk birikimi; implementation = uygulama.",
+"m": "1948 yılında Birleşmiş Milletler Genel Kurulu tarafından kabul edilen İnsan Hakları Evrensel Beyannamesi, bütün insanların özgür, onur ve haklar bakımından eşit doğduğunu ilan eder. Beyanname kendi başına bağlayıcı bir antlaşma olmasa da hukuken bağlayıcı sözleşmeler ve bölgesel sözleşmeler de dâhil olmak üzere geniş bir uluslararası hukuk birikimine ilham kaynağı olmuştur. Bugün asıl sorun kuralların yokluğu değil, özellikle günlük hayatlarında ayrımcılıkla karşılaşan azınlıklar ve göçmenler açısından bu kuralların etkili biçimde uygulanmasıdır."
+},
+{
+"dir": "en-tr",
+"t": "Integration is a two-way process. Migrants are expected to learn the language of the host country and to participate in its economic and social life, while the host society is expected to provide equal opportunities and to respect cultural diversity. When either side fails to meet these expectations, the result is often segregation rather than integration. Policies that treat integration as the sole responsibility of migrants risk turning into assimilation.",
+"h": "two-way = iki yönlü; host country = ev sahibi ülke, yaşanılan ülke; while = -ırken (karşılaştırma); segregation = ayrışma; sole responsibility = yalnızca ...nin sorumluluğu.",
+"m": "Uyum iki yönlü bir süreçtir. Göçmenlerden ev sahibi ülkenin dilini öğrenmeleri ve o ülkenin ekonomik ve sosyal hayatına katılmaları beklenirken ev sahibi toplumdan da eşit fırsatlar sunması ve kültürel çeşitliliğe saygı göstermesi beklenir. Taraflardan biri bu beklentileri karşılamadığında ortaya çoğu zaman uyum yerine ayrışma çıkar. Uyumu yalnızca göçmenlerin sorumluluğu olarak gören politikalar ise asimilasyona dönüşme riski taşır."
+},
+{
+"dir": "en-tr",
+"t": "Research on bilingual children suggests that a strong command of the mother tongue does not hinder learning a second language; on the contrary, it often supports it. Children who can read and write in their first language tend to transfer these skills to the language of schooling. For this reason, mother tongue education for the children of migrant families should be seen not as an obstacle to integration but as an investment in their academic success.",
+"h": "command of = ...ye hâkimiyet; hinder = engellemek; on the contrary = aksine; tend to = ...me eğiliminde olmak; language of schooling = eğitim dili.",
+"m": "İki dilli çocuklar üzerine yapılan araştırmalar, ana dile iyi hâkim olmanın ikinci bir dili öğrenmeyi engellemediğini, aksine çoğu zaman desteklediğini göstermektedir. Birinci dillerinde okuyup yazabilen çocuklar bu becerileri okulda eğitim gördükleri dile aktarma eğilimindedir. Bu nedenle göçmen ailelerin çocuklarına yönelik ana dili eğitimi, uyumun önünde bir engel olarak değil, bu çocukların akademik başarısına yapılan bir yatırım olarak görülmelidir."
+},
+{
+"dir": "en-tr",
+"t": "No single state, however powerful, can address challenges such as pandemics, climate change or financial crises on its own. International organisations provide forums where states can negotiate common rules, share information and coordinate their responses. Their effectiveness, however, depends on the willingness of member states to comply with collective decisions, even when these decisions limit their freedom of action in the short term.",
+"h": "however powerful = ne kadar güçlü olursa olsun; address = ele almak, baş etmek; forum = platform, zemin; comply with = uymak; freedom of action = hareket serbestliği.",
+"m": "Hiçbir devlet, ne kadar güçlü olursa olsun, salgın hastalıklar, iklim değişikliği ya da finansal krizler gibi sorunlarla tek başına baş edemez. Uluslararası kuruluşlar, devletlerin ortak kurallar üzerinde müzakere edebileceği, bilgi paylaşabileceği ve tepkilerini eş güdüm içinde belirleyebileceği platformlar sunar. Ancak bu kuruluşların etkinliği, üye devletlerin kısa vadede hareket serbestliklerini sınırlasa bile ortak kararlara uyma istekliliğine bağlıdır."
+},
+{
+"dir": "en-tr",
+"t": "Two principles lie at the heart of the multilateral trading system. Under the most-favoured-nation principle, a country that grants a trade advantage to one member must extend the same advantage to all other members. Under the national treatment principle, imported goods, once they have entered the market, must be treated no less favourably than locally produced goods. Both principles aim to prevent discrimination and to make trade more predictable.",
+"h": "lie at the heart of = merkezinde bulunmak; most-favoured nation = en çok kayrılan ülke; national treatment = ulusal muamele; no less favourably = daha olumsuz olmayan biçimde; predictable = öngörülebilir.",
+"m": "Çok taraflı ticaret sisteminin merkezinde iki ilke bulunur. En çok kayrılan ülke ilkesine göre bir üyeye ticari bir avantaj tanıyan ülke, aynı avantajı diğer bütün üyelere de tanımak zorundadır. Ulusal muamele ilkesine göre ise ithal edilen mallara, piyasaya girdikten sonra, yerli üretim mallardan daha olumsuz bir muamele yapılamaz. Her iki ilke de ayrımcılığı önlemeyi ve ticareti daha öngörülebilir hâle getirmeyi amaçlar."
+},
+{
+"dir": "en-tr",
+"t": "Public diplomacy is no longer the exclusive domain of diplomats. In the digital age, citizens, journalists and civil society organisations can all shape how a country is perceived abroad. This creates new opportunities for dialogue, but it also exposes societies to disinformation campaigns that spread faster than they can be corrected. Building media literacy and maintaining credible sources of information have therefore become part of a country's foreign policy toolkit.",
+"h": "exclusive domain = yalnızca ...nin alanı; perceived = algılanmak; expose to = ...ye açık hâle getirmek; credible = güvenilir; toolkit = araçlar.",
+"m": "Kamu diplomasisi artık yalnızca diplomatların alanı değildir. Dijital çağda vatandaşlar, gazeteciler ve sivil toplum kuruluşları, bir ülkenin yurt dışında nasıl algılandığını şekillendirebilir. Bu durum diyalog için yeni fırsatlar yaratır, ancak toplumları düzeltilebileceklerinden daha hızlı yayılan dezenformasyon kampanyalarına da açık hâle getirir. Bu nedenle medya okuryazarlığını geliştirmek ve güvenilir bilgi kaynaklarını korumak, bir ülkenin dış politika araçlarının bir parçası hâline gelmiştir."
+},
+{
+"dir": "en-tr",
+"t": "Climate change is often described as a collective action problem: every country benefits from a stable climate, but each is tempted to leave the costs of reducing emissions to others. International climate conferences try to overcome this dilemma by turning national commitments into shared targets and by reviewing progress at regular intervals. Hosting such a conference gives a country visibility, but also places its own climate policies under international scrutiny.",
+"h": "collective action problem = kolektif eylem sorunu; be tempted to = ...meye meyilli olmak; commitments = taahhütler; at regular intervals = düzenli aralıklarla; scrutiny = denetim, mercek altına alınma.",
+"m": "İklim değişikliği çoğu zaman bir kolektif eylem sorunu olarak tanımlanır: Her ülke istikrarlı bir iklimden yararlanır, ancak her biri emisyonları azaltmanın maliyetini başkalarına bırakmaya meyillidir. Uluslararası iklim konferansları, ulusal taahhütleri ortak hedeflere dönüştürerek ve ilerlemeyi düzenli aralıklarla gözden geçirerek bu ikilemi aşmaya çalışır. Böyle bir konferansa ev sahipliği yapmak bir ülkeye görünürlük kazandırır, ancak o ülkenin kendi iklim politikalarını da uluslararası denetime açar."
+},
+{
+"dir": "tr-en",
+"t": "Yurt dışında yaşayan vatandaşlarımız, bulundukları ülkelerin ekonomik, sosyal ve kültürel hayatına önemli katkılar sunmaktadır. Bu toplulukların haklarını korumak ve anavatanla bağlarını güçlendirmek, kamu kurumlarının temel görevleri arasındadır. Bu amaçla sivil toplum kuruluşlarıyla iş birliği yapılmakta, eğitim ve kültür alanlarında çeşitli programlar yürütülmektedir.",
+"h": "anavatan = homeland; katkı sunmak = make contributions; temel görevler = core duties; bu amaçla = to this end; program yürütmek = run / carry out programmes. Edilgen yapıları (\"yapılmakta\") İngilizcede etken yapıya çevirmek daha doğal olabilir.",
+"m": "Our citizens living abroad make significant contributions to the economic, social and cultural life of the countries where they live. Protecting the rights of these communities and strengthening their ties with the homeland are among the core duties of public institutions. To this end, public institutions cooperate with civil society organisations and run a range of programmes in the fields of education and culture."
+},
+{
+"dir": "tr-en",
+"t": "Uluslararası öğrenciler, eğitimlerini tamamladıktan sonra ülkeleri ile Türkiye arasında doğal birer köprü hâline gelir. Bu nedenle burs programlarının başarısı yalnızca öğrenci sayısıyla değil, mezunlarla kurulan uzun vadeli ilişkilerle de ölçülmelidir.",
+"h": "köprü hâline gelmek = become a bridge; yalnızca ... değil ... de = not only ... but also; uzun vadeli = long-term; mezunlar = alumni, graduates.",
+"m": "Once they complete their studies, international students become natural bridges between their own countries and Türkiye. The success of scholarship programmes should therefore be measured not only by the number of students but also by the long-term relationships built with alumni."
 }
 ]
 }
