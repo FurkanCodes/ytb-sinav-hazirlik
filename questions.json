@@ -911,11 +911,19 @@
 "Üyeler altı yıl için seçilir."
 ],
 "a": 4,
-"e": "Md. 159: HSK 13 üyelidir. Üyeler dört yıl için seçilir ve süresi biten üye bir kez daha seçilebilir.",
+"e": "Anayasa md. 159: HSK 13 üyelidir; Başkan Adalet Bakanı, tabii üye Adalet Bakanlığı Müsteşarıdır. Cumhurbaşkanı 4, TBMM 7 üye seçer. Üyeler altı değil dört yıl için seçilir ve süresi biten üye bir kez daha seçilebilir. Not: 6087 sayılı Kanun 2018-2025 arasında \"ilgili bakan yardımcısı\" diyordu; 7547 sayılı Kanun (RG 16.5.2025) yeniden \"Adalet Bakanlığı Müsteşarı\" yaptı. Müsteşar kadrosu ihdas edilip atama yapılana kadar bu görevi Bakanın belirlediği bakan yardımcısı yürütür (6087 geçici md. 8).",
 "src": [
 {
 "t": "Anayasa md. 159",
 "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+},
+{
+"t": "6087 sayılı HSK Kanunu md. 3 ve geçici md. 8",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6087.pdf"
+},
+{
+"t": "7547 sayılı Kanun (RG 16.5.2025)",
+"u": "https://www.resmigazete.gov.tr/eskiler/2025/05/20250516-5.htm"
 }
 ]
 },
@@ -1917,18 +1925,22 @@
 "Çekirdeğini 24 Şubat 1955'te Türkiye ile Irak arasında imzalanan antlaşma oluşturur.",
 "İngiltere, Pakistan ve İran pakta 1955 içinde katılmıştır.",
 "ABD paktın tam üyesi olmuş ve kuruluş antlaşmasını imzalamıştır.",
-"Irak'ın 1959'da ayrılmasından sonra merkez Ankara'ya taşınmıştır.",
+"1958 Irak darbesinin ardından merkezi Bağdat'tan Ankara'ya taşınmıştır.",
 "Irak'ın ayrılmasından sonra teşkilatın adı Merkezî Antlaşma Teşkilâtı (CENTO) olmuştur."
 ],
 "a": 2,
-"e": "TDV İslâm Ansiklopedisine göre ABD pakta üye olmadı; ilk konsey toplantısına gözlemci gönderdi, bazı komitelere ve 1957'de askerî komiteye katıldı. Diğer ifadeler doğrudur: Türk-Irak antlaşması 24.2.1955; İngiltere 5.4, Pakistan 23.9, İran 3.11.1955'te katıldı; Irak 24.3.1959'da ayrıldıktan sonra merkez Ankara'ya taşındı ve ad CENTO oldu (NATO arşivine göre 19.8.1959).",
+"e": "ABD pakta üye olmadı; ilk konsey toplantısına gözlemci gönderdi, bazı komitelere ve 1957'de askerî komiteye katıldı (TDV İslâm Ansiklopedisi). Diğer ifadeler doğrudur: Türk-Irak antlaşması 24.2.1955; İngiltere 5.4, Pakistan 23.9, İran 3.11.1955'te katıldı; 14 Temmuz 1958 Irak darbesinden sonra merkez Ekim 1958'de Ankara'ya taşındı (İngiliz Parlamentosu kayıtları); Irak 24.3.1959'da ayrıldığını bildirdi ve pakt 19.8.1959'da CENTO adını aldı (NATO arşivi).",
 "src": [
 {
 "t": "TDV İslâm Ansiklopedisi: Bağdat Paktı",
 "u": "https://islamansiklopedisi.org.tr/bagdat-pakti"
 },
 {
-"t": "NATO arşivi: The Baghdad Pact becomes CENTO (19.8.1959)",
+"t": "UK Hansard, 2.3.1959: Bagdad Pact Headquarters",
+"u": "https://api.parliament.uk/historic-hansard/written-answers/1959/mar/02/bagdad-pact-headquarters"
+},
+{
+"t": "NATO arşivi, 19.8.1959: CENTO",
 "u": "https://www.nato.int/en/news-and-events/articles/news/1959/08/19/the-baghdad-pact-becomes-the-central-treaty-organisation-cento"
 }
 ]

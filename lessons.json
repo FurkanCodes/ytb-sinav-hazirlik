@@ -518,13 +518,13 @@
 "points": [
 "<b>Anayasa Mahkemesi</b> (md. 146-147): 15 üye. TBMM 3 üye seçer (2'si Sayıştay adaylarından, 1'i serbest avukatlardan), Cumhurbaşkanı 12 üye seçer. Görev süresi 12 yıl, bir kişi iki kez seçilemez.",
 "<b>Bireysel başvuru</b> (md. 148): Kamu gücünün ihlali gerekir. Hak hem Anayasada hem AİHS kapsamında olmalı. Olağan kanun yolları tüketilmeli. Kanun yolunda gözetilecek hususlarda inceleme yapılmaz. 23.9.2012'den sonra kesinleşen işlemler için.",
-"<b>HSK</b> (md. 159): 13 üye. Başkan Adalet Bakanı, tabii üye Adalet Bakanlığı Müsteşarı (2025 değişikliği, 7547 sayılı Kanun). Cumhurbaşkanı 4, TBMM 7 üye seçer. Görev süresi 4 yıl, bir kez daha seçilebilir.",
+"<b>HSK</b> (md. 159): 13 üye. Başkan Adalet Bakanı, tabii üye Adalet Bakanlığı Müsteşarı (Anayasa md. 159; 6087 sayılı Kanunda 7547 sayılı Kanunla 2025'te yeniden). Kadro doldurulana kadar bu görevi Bakanın belirlediği bakan yardımcısı yürütür. Cumhurbaşkanı 4, TBMM 7 üye seçer. Görev süresi 4 yıl, bir kez daha seçilebilir.",
 "<b>Danıştay</b> (md. 155): Üyelerin dörtte üçünü HSK, dörtte birini Cumhurbaşkanı seçer.",
 "<b>Uyuşmazlık Mahkemesi</b> (md. 158): Adli ve idari yargı arasındaki görev ve hüküm uyuşmazlıklarını kesin çözer. Başkanını AYM kendi üyeleri arasından görevlendirir."
 ],
 "traps": [
 "HSK üyeleri 6 değil 4 yıl için seçilir.",
-"Eski kitaplarda HSK tabii üyesi \"Adalet Bakan Yardımcısı\" yazar. 2025'ten beri Müsteşar.",
+"2018-2025 arasında 6087 sayılı Kanun \"ilgili bakan yardımcısı\" diyordu, bu yüzden bazı kaynaklarda öyle geçer. Anayasa md. 159 ve bugünkü 6087: Adalet Bakanlığı Müsteşarı.",
 "Yalnızca Anayasada olup AİHS'te olmayan bir hak için bireysel başvuru yapılamaz."
 ],
 "recall": [
@@ -541,6 +541,10 @@
 {
 "t": "Anayasa md. 146-159",
 "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+},
+{
+"t": "6087 sayılı HSK Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6087.pdf"
 }
 ],
 "qs": [
@@ -1066,12 +1070,16 @@
 "Bağdat'ta Türkiye-Irak antlaşması: Bağdat Paktının çekirdeği"
 ],
 [
+"Ekim 1958",
+"Bağdat Paktı merkezi Bağdat'tan Ankara'ya taşındı (14 Temmuz 1958 Irak darbesinin ardından)"
+],
+[
 "24.3.1959",
 "Irak Bağdat Paktından ayrıldığını bildirdi"
 ],
 [
 "19.8.1959",
-"Bağdat Paktının adı CENTO oldu; merkez Ankara"
+"Bağdat Paktının adı CENTO (Merkezî Antlaşma Teşkilâtı) oldu"
 ],
 [
 "21.12.1963",
@@ -1109,14 +1117,14 @@
 "points": [
 "<b>Truman Doktrini ve Marshall Planı:</b> Truman 12 Mart 1947'de Kongreden Yunanistan ve Türkiye için 400 milyon dolarlık askerî yardım yetkisi istedi; Türkiye'nin payı 100 milyon dolardı. Yardım anlaşması 12 Temmuz 1947'de imzalandı. Ekonomik ayak Marshall Planıdır: Türkiye ikili anlaşmayı 4 Temmuz 1948'de imzaladı (TBMM onayı 8.7.1948, 5253 sayılı Kanun).",
 "<b>Kore Savaşı:</b> 25 Temmuz 1950 tarihli Bakanlar Kurulu kararıyla 4500 kişilik birlik BM emrine verildi. Karar TBMM'ye ve muhalefete danışılmadan alındı; CHP bunu anayasa ihlali saydı. I. Türk Tugayının komutanı Tuğgeneral Tahsin Yazıcı. DP hükümeti bunu NATO üyeliği için fırsat gördü (ilk başvuru 11 Mayıs 1950'de reddedilmişti).",
-"<b>Bağdat Paktı / CENTO:</b> 24 Şubat 1955'te Bağdat'ta Türkiye ile Irak arasında Karşılıklı Güvenlik ve Savunma İşbirliği Antlaşması imzalandı. İngiltere (5.4.1955), Pakistan (23.9.1955) ve İran (3.11.1955) katıldı. ABD üye olmadı; gözlemci gönderdi, 1957'de askerî komiteye katıldı. Irak 24 Mart 1959'da ayrıldığını bildirdi; ardından merkez Ankara'ya taşındı ve 19 Ağustos 1959'da adı Merkezî Antlaşma Teşkilâtı (CENTO) oldu.",
+"<b>Bağdat Paktı / CENTO:</b> 24 Şubat 1955'te Bağdat'ta Türkiye ile Irak arasında Karşılıklı Güvenlik ve Savunma İşbirliği Antlaşması imzalandı. İngiltere (5.4.1955), Pakistan (23.9.1955) ve İran (3.11.1955) katıldı. ABD üye olmadı; gözlemci gönderdi, 1957'de askerî komiteye katıldı. 1958 Irak darbesinden sonra merkez Ekim 1958'de Bağdat'tan Ankara'ya taşındı. Irak 24 Mart 1959'da ayrıldığını bildirdi ve pakt 19 Ağustos 1959'da Merkezî Antlaşma Teşkilâtı (CENTO) adını aldı.",
 "<b>Johnson Mektubu (5 Haziran 1964):</b> Kıbrıs'a müdahaleye hazırlanan Türkiye'ye ABD Başkanı Johnson'ın Başbakan İsmet İnönü'ye gönderdiği mektup. Türkiye müdahale eder ve SSCB ile karşı karşıya gelirse NATO'nun ve ABD'nin Türkiye'yi savunmayabileceği, ABD silahlarının Kıbrıs'ta kullanılamayacağı bildirildi. Mektup ancak 13 Ocak 1966'da Hürriyet'te yayımlandı. Sonrasında Türkiye SSCB ve Arap ülkeleriyle ilişkilerini geliştirdi.",
 "<b>Kıbrıs 1963-1974:</b> 21 Aralık 1963'te Kıbrıs Türklerine yönelik saldırılar başladı; 30 Aralık 1963'te Lefkoşa ikiye ayrıldı (Yeşil Hat). BMGK 4 Mart 1964 tarihli 186 sayılı kararla UNFICYP'i adaya konuşlandırdı. 15 Temmuz 1974'te adayı Yunanistan'a bağlamak amacıyla Makarios'a karşı darbe yapıldı; Türkiye 20 Temmuz 1974'te 1960 Garanti Andlaşması çerçevesinde Barış Harekâtını başlattı.",
 "<b>KKTC ve Annan Planı:</b> Kıbrıs Türk Federe Devleti 13 Şubat 1975'te kuruldu; KKTC 15 Kasım 1983'te ilan edildi. 24 Nisan 2004 Annan Planı referandumlarında Rumların %75,83'ü planı reddetti, Kıbrıs Türkleri %64,91 ile 'evet' dedi."
 ],
 "traps": [
 "ABD Bağdat Paktının üyesi olmadı; yalnızca gözlemci gönderdi ve bazı komitelere katıldı.",
-"CENTO'nun merkezi Bağdat değil, Irak'ın 1959'da ayrılmasından sonra Ankara'dır.",
+"Merkez, Irak'ın 1959'daki resmî ayrılışından önce, Ekim 1958'de Ankara'ya taşındı. Bazı kaynaklar bu sırayı karıştırır.",
 "Annan Planını reddeden Kıbrıs Türkleri değil, Rum tarafıdır (%75,83 hayır)."
 ],
 "recall": [
@@ -1169,6 +1177,10 @@
 {
 "t": "FRUS 1950 c. V, belge 715: Ankara telgrafı (24.7.1950)",
 "u": "https://history.state.gov/historicaldocuments/frus1950v05/d715"
+},
+{
+"t": "UK Hansard, 2.3.1959: Bagdad Pact Headquarters",
+"u": "https://api.parliament.uk/historic-hansard/written-answers/1959/mar/02/bagdad-pact-headquarters"
 }
 ],
 "qs": [
