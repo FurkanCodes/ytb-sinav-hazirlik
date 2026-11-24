@@ -23,6 +23,7 @@
   --accent:#7C9CF0; --accent-soft:#1E2A44; --ok:#5CC492; --ok-soft:#14301F; --warn:#E0A64A; --bad:#EE8A75; --bad-soft:#3A1D17; color-scheme:dark}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
+.tbl{width:100%;border-collapse:collapse;font-size:.88rem;margin:6px 0}.tbl td{padding:5px 6px;border-top:1px solid var(--line,rgba(127,127,127,.25));vertical-align:top}details.card h3{margin:14px 0 4px}details.card ul{margin:4px 0;padding-left:20px}.tEn.hid{color:transparent;background:var(--line,rgba(127,127,127,.2));border-radius:4px;cursor:pointer}
 body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
 .wrap{max-width:780px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
 header h1{font:600 1.65rem/1.2 var(--sans);margin:0;letter-spacing:-.01em;text-wrap:balance}
@@ -254,6 +255,7 @@ dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
       <p class="note" id="wMsg"></p>
     </div>
     <div id="wModel"></div>
+    <div id="wExtra" class="list"></div>
   </section>
 
   <p class="note">Her soru resmi mevzuat ve kurum sayfalarından kontrol edilmiştir; kaynak bağlantısı açıklamanın altındadır. Mevzuat değişebilir, sınavdan önce mevzuat.gov.tr üzerinden son metni kontrol et.</p>

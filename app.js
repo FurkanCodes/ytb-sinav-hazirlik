@@ -299,13 +299,21 @@ function renderW(){const s=$("#v-yanlislar");const w=Q.filter(q=>hist[q.id]&&his
   $("#wRetry").onclick=()=>startPractice(w)}
 
 /* ---------- Yazılı ---------- */
-function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyon "+(i+1),t:x.t,h:x.h})).concat(D.ceviri.map((x,i)=>({k:"c"+i,label:"Çeviri "+(i+1)+(x.dir==="tr-en"?" (Türkçeden İngilizceye)":" (İngilizceden Türkçeye)"),t:x.t,h:x.h,m:x.m,dir:x.dir})));
-  const sel=$("#wSel");sel.innerHTML='<optgroup label="Kompozisyon">'+items.filter(x=>x.k[0]==="k").map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,60))+'…</option>').join("")+'</optgroup><optgroup label="Çeviri">'+items.filter(x=>x.k[0]==="c").map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,50))+'…</option>').join("")+'</optgroup>';
+function initWrite(){const W=WR||{};const isEn=it=>it.en;
+  const items=D.yazili.map((x,i)=>({k:"k"+i,g:"Türkçe kompozisyon",label:"Kompozisyon "+(i+1),t:x.t,h:x.h,hp:"Ele alınabilecek noktalar: "}))
+   .concat((W.ingyazili||[]).map((x,i)=>({k:"e"+i,g:"İngilizce kompozisyon",label:"English essay "+(i+1),t:x.t,h:x.h,hp:"",en:1})))
+   .concat((W.mfa_topics||[]).filter(x=>/Kompozisyon/.test(x.bolum)).map((x,i)=>{const fl=/Yabancı/.test(x.bolum);return {k:"m"+i,g:"Dışişleri örnek soruları",label:(fl?"Yabancı dilde":"Türkçe")+" kompozisyon ("+x.sinav+")",t:x.tr,h:(fl&&x.en?"İngilizce yaz. Soru resmî sayfada Türkçe; gayriresmî İngilizcesi: "+x.en:"Dışişleri Bakanlığının yayımladığı örnek soru."),hp:"",en:fl,src:x.u}}))
+   .concat(D.ceviri.map((x,i)=>({k:"c"+i,g:"Çeviri",label:"Çeviri "+(i+1)+(x.dir==="tr-en"?" (TR→EN)":" (EN→TR)"),t:x.t,h:x.h,hp:"Terimler: ",m:x.m,dir:x.dir,en:x.dir==="tr-en"})))
+   .concat((W.paralel||[]).map((x,i)=>({k:"p"+i,g:"YTB metinleri: Türkçeden İngilizceye",label:"YTB: "+x.k,t:x.tr,h:"Bu paragrafın YTB sitesinde resmî İngilizcesi var. Önce kendin çevir, sonra karşılaştır."+(x.n?" Not: "+x.n:""),hp:"",m:x.en,mt:"YTB'nin resmî İngilizce metni",mu:x.u_en,dir:"tr-en",en:1})));
+  const groups=[];items.forEach(x=>{if(groups.indexOf(x.g)<0)groups.push(x.g)});
+  const sel=$("#wSel");sel.innerHTML=groups.map(g=>'<optgroup label="'+esc(g)+'">'+items.filter(x=>x.g===g).map(x=>'<option value="'+x.k+'">'+esc(x.label)+': '+esc(x.t.slice(0,55))+'…</option>').join("")+'</optgroup>').join("");
   const drafts=store.get("drafts",{});
-  function show(){const it=items.find(x=>x.k===sel.value);$("#wPrompt").textContent=it.t;$("#wHint").textContent=(it.k[0]==="k"?"Ele alınabilecek noktalar: ":"Terimler: ")+it.h;$("#wText").value=drafts[it.k]||"";
-    $("#wText").placeholder=it.k[0]==="k"?"Giriş: kavramı tanımla ve konunun neden önemli olduğunu söyle…":(it.dir==="tr-en"?"Write your English translation here…":"Türkçe çevirini buraya yaz…");
-    const wm=$("#wModel");if(it.m){wm.innerHTML='<details class="card"><summary><b>Örnek çeviri</b> <span class="note">önce kendi çevirini bitir</span></summary><p class="answer" style="margin-top:10px;white-space:pre-wrap">'+esc(it.m)+'</p><p class="note">Örnek tek doğru değil. Anlamın tam aktarılıp aktarılmadığına, terimlere ve cümlenin doğal olup olmadığına bak. Kendi çevirini sohbete yapıştırırsan ayrıntılı değerlendiririm.</p></details>'}else wm.innerHTML="";
+  function show(){const it=items.find(x=>x.k===sel.value);$("#wPrompt").textContent=it.t;$("#wHint").textContent=it.hp+it.h;$("#wText").value=drafts[it.k]||"";
+    $("#wText").placeholder=it.dir==="tr-en"?"Write your English translation here…":it.dir?"Türkçe çevirini buraya yaz…":it.en?"Introduction: context, key term, thesis (This essay argues that…)":"Giriş: kavramı tanımla ve konunun neden önemli olduğunu söyle…";
+    $("#wText").lang=it.en?"en":"tr";$("#wText").spellcheck=true;
+    const wm=$("#wModel");if(it.m){wm.innerHTML='<details class="card"><summary><b>'+esc(it.mt||"Örnek çeviri")+'</b> <span class="note">önce kendi çevirini bitir</span></summary><p class="answer" style="margin-top:10px;white-space:pre-wrap" lang="'+(it.dir==="tr-en"?"en":"tr")+'">'+esc(it.m)+'</p>'+(it.mu?srcHtml([{t:"ytb.gov.tr (İngilizce sayfa)",u:it.mu}]):"")+'<p class="note">Örnek tek doğru değil. Anlamın tam aktarılıp aktarılmadığına, terimlere ve cümlenin doğal olup olmadığına bak. Kendi çevirini sohbete yapıştırırsan ayrıntılı değerlendiririm.</p></details>'}else wm.innerHTML=it.src?srcHtml([{t:"Dışişleri Bakanlığı: Örnek Sınav Soruları",u:it.src}]):"";
     count();$("#wMsg").textContent=""}
+  renderWExtra(W);
   function count(){const n=($("#wText").value.trim().match(/\S+/g)||[]).length;$("#wCount").textContent=n+" kelime"}
   sel.onchange=show;$("#wText").oninput=()=>{drafts[sel.value]=$("#wText").value;store.set("drafts",drafts);count()};
   $("#wCopy").onclick=()=>{const it=items.find(x=>x.k===sel.value);const txt="Yazılı deneme ("+it.label+")\nSoru: "+it.t+"\n\nCevabım:\n"+$("#wText").value;
@@ -317,8 +325,15 @@ function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyo
   show()}
 
 
+function renderWExtra(W){const x=$("#wExtra");if(!x)return;let h="";const P=W.plan_en;
+  if(P){h+='<details class="card"><summary><b>İngilizce kompozisyon rehberi</b></summary><h3 style="margin-top:10px">Yapı</h3><ol class="steps">'+(P.yapi||[]).map(t=>'<li>'+esc(t)+'</li>').join("")+'</ol><h3>Süre</h3><ul>'+(P.zaman||[]).map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul><h3>Bağlaçlar</h3><table class="tbl">'+(P.baglac||[]).map(r=>'<tr><td lang="en"><b>'+esc(r[0])+'</b></td><td>'+esc(r[1])+'</td></tr>').join("")+'</table><h3>Sık yapılan hatalar</h3><ul>'+(P.hatalar||[]).map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul></details>'}
+  if(W.terim&&W.terim.length){h+='<details class="card" id="termBox"><summary><b>Kurum terimleri: Türkçe ve İngilizce</b> <span class="note">'+W.terim.length+' terim</span></summary><p class="note" style="margin-top:8px">YTB ve Dışişleri sitelerinin kendi İngilizce sayfalarında geçen karşılıklar. Kendini sınamak için İngilizceleri gizle, aklından söyle, sonra dokunup aç.</p><label class="row" style="gap:6px"><input type="checkbox" id="termHide"> İngilizceleri gizle</label><table class="tbl" id="termTbl">'+W.terim.map((r,i)=>'<tr><td>'+esc(r[0])+'</td><td lang="en" class="tEn" data-i="'+i+'">'+esc(r[1])+'</td><td class="muted" style="font-size:.75rem">'+esc((W.terim_tag||[])[i]||"")+'</td></tr>').join("")+'</table></details>'}
+  const B=W.mfa_bilgi;if(B){h+='<details class="card"><summary><b>Dışişleri meslek memurluğu sınavı: ne yayımlanıyor?</b></summary><p style="margin-top:8px">'+esc(B.ozet)+'</p><ul>'+(B.format_2026||[]).map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>'+((W.style||[]).length?'<h3>Soru üslubu</h3><ul>'+W.style.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul>':"")+
+    ((W.mfa_topics||[]).some(t=>/Çeviri/.test(t.bolum))?'<h3>Çeviri metinlerinin konuları</h3><ul>'+W.mfa_topics.filter(t=>/Çeviri/.test(t.bolum)).map(t=>'<li>'+esc(t.sinav)+': '+esc(t.tr)+'</li>').join("")+'</ul>':"")+srcHtml(B.urls||[])+'<p class="note">Örnek kompozisyon soruları yukarıdaki konu listesinde "Dışişleri örnek soruları" başlığında.</p></details>'}
+  x.innerHTML=h;const hb=$("#termHide");if(hb){const tb=$("#termTbl");hb.onchange=()=>tb.querySelectorAll(".tEn").forEach(td=>td.classList.toggle("hid",hb.checked));tb.onclick=e=>{const td=e.target.closest(".tEn");if(td)td.classList.remove("hid")}}}
+
 /* ---------- Ezber: tarihler, kanun numaraları, madde numaraları ---------- */
-let MEM={laws:[],arts:[]};const EZ={d:[],k:[],m:[]};const EZBY={};
+let MEM={laws:[],arts:[]};let WR={};const EZ={d:[],k:[],m:[]};const EZBY={};
 const AYLAR=["ocak","şubat","mart","nisan","mayıs","haziran","temmuz","ağustos","eylül","ekim","kasım","aralık"];
 function parseD(s){let m,mo=0,d=0;const ys=s.match(/\d{4}/g);const y=ys?+ys[ys.length-1]:0;
   if((m=s.match(/^(\d{1,2})\.(\d{1,2})\.\d{4}$/))){d=+m[1];mo=+m[2]}
@@ -488,7 +503,7 @@ window.addEventListener("hashchange",route);
 $("#diffSel").onchange=e=>{pDiff=+e.target.value;buildPList()};
 $("#onlyNew").onchange=e=>{pOnlyNew=e.target.checked;buildPList()};
 
-Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()})).concat([fetch("memory.json").then(r=>r.ok?r.json():{laws:[],arts:[]}).catch(()=>({laws:[],arts:[]}))])).then(([d,ld,cd,md])=>{MEM=md;
+Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()})).concat([fetch("memory.json").then(r=>r.ok?r.json():{laws:[],arts:[]}).catch(()=>({laws:[],arts:[]})),fetch("writing.json").then(r=>r.ok?r.json():{}).catch(()=>({}))])).then(([d,ld,cd,md,wd])=>{MEM=md;WR=wd;
   D=d;Q=d.questions;Q.forEach(q=>byId[q.id]=q);LS=ld.lessons;LS.forEach(l=>{byL[l.id]=l;l.qs.forEach(id=>{if(!lessonOf[id])lessonOf[id]=l})});
   const cnt={};C=cd.cards.map(c=>{cnt[c.l]=(cnt[c.l]||0)+1;return Object.assign({id:c.l+"-"+cnt[c.l]},c)});C.forEach(c=>cById[c.id]=c);
   buildEz();$("#countMeta").innerHTML="<b>"+LS.length+"</b> konu · <b>"+C.length+"</b> kart · <b>"+Q.length+"</b> soru";

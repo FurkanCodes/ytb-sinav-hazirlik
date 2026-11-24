@@ -732,6 +732,306 @@
 ]
 },
 {
+"id": "B33",
+"area": "B",
+"d": 1,
+"q": "YTB'nin yurtdışı vatandaşlara yönelik \"Türkçe Saati Proje Destek Programı\" aşağıdakilerden hangisini destekler?",
+"o": [
+"Kardeş toplulukların kamu görevlileri ve akademisyenlerine verilen Türkçe iletişim eğitimini",
+"Yurt dışındaki Türk sivil toplum kuruluşlarının yürüttüğü Türkçe ve kültür eğitimi projelerini",
+"Türkiye Burslusu öğrencilerin üniversite öncesi bir yıllık Türkçe hazırlık eğitimini",
+"Yabancı üniversitelerdeki Türkoloji bölümlerinin akademik kadro giderlerini",
+"Yurt dışındaki Türk vatandaşlarının Türkiye'deki üniversitelerde okuyacağı lisans programlarını"
+],
+"a": 1,
+"e": "YTB'nin Destek/Burs Programları sayfasına göre Türkçe Saati Proje Destek Programı, yurt dışındaki Türk STK'larının Türkçe ve kültür eğitimi projelerini destekler. Kamu görevlileri ve akademisyenlere yönelik Türkçe iletişim programı KATİP'tir. Türkiye Burslarının Türkçe eğitimi ise uluslararası öğrencilere yöneliktir.",
+"src": [
+{
+"t": "YTB, Destek/Burs Programları",
+"u": "https://ytb.gov.tr/daireler/yurtdisi-vatandaslar/vatandaslik/"
+}
+]
+},
+{
+"id": "B34",
+"area": "B",
+"d": 2,
+"q": "Aşağıdakilerden hangisi YTB'nin yurt dışında yaşayan vatandaşlara yönelik \"Destek/Burs Programları\" arasında yer almaz?",
+"o": [
+"Prof. Dr. Fuat Sezgin Üstün Başarı Bursu",
+"Lise Bitirme Başarı Bursu",
+"Hukuk Alanında Uzmanlık Bursu",
+"Uluslararası Öğrenci Staj Programı",
+"Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu"
+],
+"a": 3,
+"e": "Yurtdışı Vatandaşlar Destek/Burs Programları sayfasında Türkçe Saati Proje Destek Programı, Prof. Dr. Fuat Sezgin Üstün Başarı Bursu, Lise Bitirme Başarı Bursu, Tez ve Araştırma Bursu, Hukuk Alanında Uzmanlık Bursu ve Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu yer alır. Uluslararası Öğrenci Staj Programı ise Türkiye'de okuyan Türkiye Burslusu öğrenciler içindir (2025 Faaliyet Raporu).",
+"src": [
+{
+"t": "YTB, Destek/Burs Programları",
+"u": "https://ytb.gov.tr/daireler/yurtdisi-vatandaslar/vatandaslik/"
+},
+{
+"t": "YTB 2025 Yılı Faaliyet Raporu",
+"u": "https://ytbweb1.blob.core.windows.net/files/2025%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu-3%20Haziran.pdf"
+}
+]
+},
+{
+"id": "B35",
+"area": "B",
+"d": 2,
+"q": "YTB Türkiye Stajları Programı ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Türkiye'de okuyan Türkiye Burslusu uluslararası öğrencilere kamu kurumlarında staj imkânı sunar.",
+"Dışişleri Bakanlığı tarafından yürütülen bir kamu diplomasisi stajıdır.",
+"Yalnızca hukuk fakültesi öğrencilerinin başvurabildiği bir programdır.",
+"2023'te TUSAŞ iş birliğiyle başlamış olup yurt dışında okuyan diaspora kökenli genç mühendisleri savunma sanayii kuruluşlarında staja yerleştirir.",
+"İlk kez 2026 yılında, ASELSAN'ın katılımıyla başlatılmıştır."
+],
+"a": 3,
+"e": "YTB'nin haberine göre program 2023'te TUSAŞ iş birliğiyle \"SKY GLOBAL TÜRK\" adıyla başladı. Yurt dışında okuyan diaspora kökenli genç mühendisleri TUSAŞ, ASELSAN, TEI, ROKETSAN, HAVELSAN ve STM'de staja yerleştirir; 2026'da 115 genç mühendis hak kazandı. ASELSAN programa 2026'da katıldı, program 2026'da başlamadı. Türkiye Bursluları için ayrı bir Uluslararası Öğrenci Staj Programı vardır.",
+"src": [
+{
+"t": "YTB news: 2026 Term Commenced for YTB Türkiye Internships Program",
+"u": "https://ytb.gov.tr/en/news/2026-term-commenced-for-ytb-turkiye-internships-program"
+}
+]
+},
+{
+"id": "B36",
+"area": "B",
+"d": 3,
+"q": "YTB 2025 Yılı Faaliyet Raporuna göre, 2025 yılında Türkiye Bursları kapsamında yapılan uzun ve kısa dönemli toplam burslandırma sayısı (ortak burslar dahil) kaçtır?",
+"o": [
+"1.164",
+"6.527",
+"15.755",
+"125.000",
+"145.000"
+],
+"a": 1,
+"e": "Rapora göre 2025'te uzun ve kısa dönemli toplam burslandırma sayısı (ortak burslar dahil) 6.527'dir. 15.755 yıl sonunda Türkiye'deki toplam Türkiye Burslusu öğrenci sayısıdır. Yaklaşık 125 bin başvuru sayısı, 145.000 Türkiye Mezunları Portali üye sayısı, 1.164 ise hibe ve destek verilen proje ve faaliyet sayısıdır.",
+"src": [
+{
+"t": "YTB 2025 Yılı Faaliyet Raporu",
+"u": "https://ytbweb1.blob.core.windows.net/files/2025%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu-3%20Haziran.pdf"
+}
+],
+"keep": true
+},
+{
+"id": "B37",
+"area": "B",
+"d": 2,
+"q": "YTB'nin kardeş topluluklara yönelik programlarından KATİP'in açılımı aşağıdakilerden hangisidir?",
+"o": [
+"Kardeş Topluluklar İletişim Platformu",
+"Kültürel Aktarım ve Türkçe İşbirliği Projesi",
+"Kamu Görevlileri ve Akademisyenlere Yönelik Türkçe İletişim Programı",
+"Kardeş Akademisyenler Türkoloji İhtisas Programı",
+"Kamu Diplomasisi ve Türk İmajı Programı"
+],
+"a": 2,
+"e": "2025 Faaliyet Raporunda program \"Kamu Görevlileri ve Akademisyenlere Yönelik Türkçe İletişim Programı (KATİP)\" adıyla geçer; 2025'te 17 katılımcı vardı. Programın sitesi katip.ytb.gov.tr'dir ve Kardeş Topluluklar bölümünde yer alır.",
+"src": [
+{
+"t": "YTB 2025 Yılı Faaliyet Raporu",
+"u": "https://ytbweb1.blob.core.windows.net/files/2025%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu-3%20Haziran.pdf"
+},
+{
+"t": "YTB, KATİP",
+"u": "https://ytb.gov.tr/daireler/kardes-topluluklar/katip/"
+}
+]
+},
+{
+"id": "B38",
+"area": "B",
+"d": 2,
+"q": "YTB'nin desteklediği sözlü tarih çalışmalarından \"Onlar Da İnsandı\" hangi topluluğun yaşadığı sürgünü kayıt altına alır?",
+"o": [
+"Ahıska Türkleri",
+"Bulgaristan Türkleri",
+"Kırım Tatarları",
+"Boşnaklar",
+"Batı Trakya Türkleri"
+],
+"a": 2,
+"e": "YTB'nin Sözlü Tarih Çalışmaları sayfasına göre \"Onlar Da İnsandı\", Kırım Tatarlarının 1944 sürgününe ilişkin bir sözlü tarih çalışmasıdır; yaklaşık 250 tanıkla görüşülmüştür. Ahıska Türkleri için ayrı çalışma \"1944 Ahıska Sürgünü: Son Tanıklar\"dır. Bulgaristan Türkleri için 1989 Zorunlu Göçün 30. Yıl anma programı yapılmıştır.",
+"src": [
+{
+"t": "YTB, Sözlü Tarih Çalışmaları",
+"u": "https://ytb.gov.tr/daireler/kardes-topluluklar/sozlu-tarih-calismalari/"
+}
+]
+},
+{
+"id": "B40",
+"area": "B",
+"d": 1,
+"q": "YTB'nin süreli yayınlarından Telve dergisi kimlerin yazılarıyla hazırlanır?",
+"o": [
+"Kardeş toplulukların",
+"Türkiye'de okuyan uluslararası öğrencilerin",
+"Yurtdışı vatandaşların",
+"YTB uzmanlarının",
+"Türkiye Mezunları dernek yöneticilerinin"
+],
+"a": 2,
+"e": "2025 Faaliyet Raporuna göre Telve yurtdışı vatandaşların yazılarıyla hazırlanır. Kardeş toplulukların yazılarıyla hazırlanan dergi Bağlar, uluslararası öğrencilerinkiyle hazırlanan dergi Her Boydan'dır. Kütüphane sayfası Telve'yi \"dil, düşünce ve edebiyat dergisi\" olarak tanımlar.",
+"src": [
+{
+"t": "YTB 2025 Yılı Faaliyet Raporu",
+"u": "https://ytbweb1.blob.core.windows.net/files/2025%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu-3%20Haziran.pdf"
+},
+{
+"t": "YTB Yayınları (Kütüphane)",
+"u": "https://www.ytb.gov.tr/kutuphane"
+}
+]
+},
+{
+"id": "B41",
+"area": "B",
+"d": 2,
+"q": "YTB dergileri ile yazar kitleleri aşağıdakilerin hangisinde doğru eşleştirilmiştir?",
+"o": [
+"Telve: kardeş topluluklar; Bağlar: uluslararası öğrenciler; Her Boydan: yurtdışı vatandaşlar",
+"Telve: uluslararası öğrenciler; Bağlar: yurtdışı vatandaşlar; Her Boydan: kardeş topluluklar",
+"Telve: yurtdışı vatandaşlar; Bağlar: uluslararası öğrenciler; Her Boydan: kardeş topluluklar",
+"Telve: kardeş topluluklar; Bağlar: yurtdışı vatandaşlar; Her Boydan: uluslararası öğrenciler",
+"Telve: yurtdışı vatandaşlar; Bağlar: kardeş topluluklar; Her Boydan: uluslararası öğrenciler"
+],
+"a": 4,
+"e": "2025 Faaliyet Raporuna göre yurtdışı vatandaşların yazılarıyla Telve (2025'te 4 sayı), kardeş toplulukların yazılarıyla Bağlar (4 sayı), uluslararası öğrencilerin yazılarıyla Her Boydan (3 sayı) hazırlanır. 2025'te toplam 11 sayı çıkmıştır.",
+"src": [
+{
+"t": "YTB 2025 Yılı Faaliyet Raporu",
+"u": "https://ytbweb1.blob.core.windows.net/files/2025%20Y%C4%B1l%C4%B1%20Faaliyet%20Raporu-3%20Haziran.pdf"
+}
+]
+},
+{
+"id": "B42",
+"area": "B",
+"d": 2,
+"q": "YTB 2024-2028 Stratejik Planında Başkanlığın VİZYONU aşağıdakilerden hangisidir?",
+"o": [
+"Türk diasporasının varlığını güçlendirmek, kardeş topluluklarla kuvvetli bağlar kurmak, Türkiye Burslarını dünyanın önde gelen burs programlarından biri haline getirmek.",
+"Türk diasporası, kardeş topluluklar ve uluslararası öğrencilere yönelik yürütülen faaliyetlerle Türkiye yüzyılı hedeflerinin gerçekleştirilmesine katkı sağlamak.",
+"Yurt dışındaki vatandaşlara konsolosluk hizmetlerini en hızlı ve güvenli biçimde sunan kurum olmak.",
+"Türkiye'nin kalkınma yardımlarını tek elden koordine eden öncü ajans olmak.",
+"Yurt dışında yaşayan vatandaşların Türkiye'ye kesin dönüşünü sağlamak."
+],
+"a": 0,
+"e": "Stratejik Planın 4.2 başlığındaki vizyon A seçeneğidir. B seçeneği planın misyonudur (4.1). C, D ve E seçenekleri planın misyon ve vizyon bölümlerinde yer almaz.",
+"src": [
+{
+"t": "YTB Stratejik Planı 2024-2028",
+"u": "https://dkp.blob.core.windows.net/kurumsal-multimedia/YTBStratejikPlan2024-2028.pdf"
+}
+]
+},
+{
+"id": "B43",
+"area": "B",
+"d": 2,
+"q": "Aşağıdakilerden hangisi YTB 2024-2028 Stratejik Planında sayılan temel değerler arasında YER ALMAZ?",
+"o": [
+"Tarafsızlık",
+"Çözüm Odaklılık",
+"Şeffaflık ve Hesap Verebilirlik",
+"Paydaşlarla Etkin İş Birliği",
+"Rekabetçilik"
+],
+"a": 4,
+"e": "Planda temel değerler şunlardır: Stratejik Bakış Açısı; Öncü, Yenilikçi ve Yönlendirici Yaklaşımlar; Kaynak Kullanımında Etkinlik ve Verimlilik; Tutarlılık ve Sürdürülebilirlik; Tarafsızlık; Çözüm Odaklılık; Şeffaflık ve Hesap Verebilirlik; Paydaşlarla Etkin İş Birliği. Rekabetçilik bu listede yoktur.",
+"src": [
+{
+"t": "YTB Stratejik Planı 2024-2028",
+"u": "https://dkp.blob.core.windows.net/kurumsal-multimedia/YTBStratejikPlan2024-2028.pdf"
+}
+]
+},
+{
+"id": "B44",
+"area": "B",
+"d": 3,
+"q": "YTB 2024-2028 Stratejik Planında \"Türkiye Mezunlarının ülkemizle olan bağları ve kendi aralarındaki ilişki ağları güçlendirilecektir\" hedefi hangi amacın altında yer alır?",
+"o": [
+"Amaç 1: Türk diasporasının kültürel kimliği, aidiyeti ve anavatan ile bağları",
+"Amaç 2: Tarih, kültür, din ve dil bağı olan ülke ve topluluklarla iş birlikleri",
+"Amaç 3: Türkiye Burslarının dünyanın önde gelen burs programlarından biri olması",
+"Amaç 4: Ulusal ve uluslararası kuruluşlarla iş birlikleri",
+"Amaç 5: Başkanlığın bilinirliği ve etkilerinin yaygınlaştırılması"
+],
+"a": 1,
+"e": "Bu hedef H2.3'tür ve Amaç 2'nin altındadır. Amaç 2'nin diğer hedefleri kardeş ülke ve topluluklarla eğitim iş birliği (H2.1) ile akademik ve kültürel etkileşimdir (H2.2). Amaç 3'ün hedefleri burslandırmanın niteliği ve Türkiye Burslularının donanımıdır (H3.1, H3.2).",
+"src": [
+{
+"t": "YTB Stratejik Planı 2024-2028",
+"u": "https://dkp.blob.core.windows.net/kurumsal-multimedia/YTBStratejikPlan2024-2028.pdf"
+}
+],
+"keep": true
+},
+{
+"id": "B45",
+"area": "B",
+"d": 2,
+"q": "YTB'nin yayınlarından \"Yurt Dışı Vatandaşlar Hak ve Özgürlükler Güncesi\" aşağıdakilerden hangisidir?",
+"o": [
+"2018'den beri yurt dışındaki vatandaşlara, Türklerin kurduğu STK'lara ve camilere yönelik saldırıları izleyen rapor",
+"Yaz tatili için Türkiye'ye gelen vatandaşlarla yapılan, 8 Avrupa ülkesini kapsayan saha araştırması",
+"2020'den beri yurt dışındaki vatandaşların haklarını etkileyen idari ve hukuki gelişmeleri kronolojik olarak kaydeden yayın",
+"Almanya'da ayrımcılıkla mücadeleye yönelik hazırlanan rehber",
+"Uluslararası öğrencilerin Türkçe yazılarından oluşan kültür ve edebiyat dergisi"
+],
+"a": 2,
+"e": "YTB'nin Yayınlar sayfasına göre Hak ve Özgürlükler Güncesi, 2020'den beri vatandaşların haklarını etkileyen idari ve hukuki gelişmeleri kronolojik olarak kaydeder (2022'de 289 gelişme: 120 olumlu, 169 olumsuz). A seçeneği Saldırılar Raporu, B seçeneği AYTA, D seçeneği Almanya Ayrımcılıkla Mücadele Rehberi, E seçeneği Her Boydan dergisidir.",
+"src": [
+{
+"t": "YTB, Yurtdışı Vatandaşlar Yayınları",
+"u": "https://ytb.gov.tr/daireler/yurtdisi-vatandaslar/yayinlar/"
+},
+{
+"t": "YTB, Avrupa'da Yaşayan Türkler Araştırması",
+"u": "https://ytb.gov.tr/daireler/yurtdisi-vatandaslar/avrupada-yasayan-turkler-arastirmasi-ayta/"
+}
+]
+},
+{
+"id": "B46",
+"area": "B",
+"d": 2,
+"q": "YTB'nin 2026 yayın faaliyetleriyle ilgili aşağıdaki ifadelerden hangileri doğrudur?<br>I. Telve dergisinin 20. sayısı \"Sanat Öldü Mü?\" dosyasıyla çıkmıştır.<br>II. Bağlar dergisinin 15. sayısının teması \"Dil, Kimlik ve Çocuk\"tur.<br>III. 2. Her Boydan Yazarlık Akademisi Brüksel'de yapılmıştır.",
+"o": [
+"Yalnız I",
+"Yalnız III",
+"I ve II",
+"I ve III",
+"I, II ve III"
+],
+"a": 2,
+"e": "Telve'nin 20. sayısı (30.07.2026) \"Sanat Öldü Mü?\" dosyasıyla çıktı. Bağlar'ın 15. sayısı (18.11.2026) \"Dil, Kimlik ve Çocuk\" temalıdır. 2. Her Boydan Yazarlık Akademisi 8-13 Mayıs 2026'da Konya'da yapıldı. Brüksel'de düzenlenmesi duyurulan program Diaspora Diplomasi ve Kariyer Akademisidir (16-20 Haziran 2026), bu yüzden III yanlıştır.",
+"src": [
+{
+"t": "YTB haberi: Telve Dergisinin 20. Sayısı Çıktı",
+"u": "https://ytb.gov.tr/haberler/telve-dergisinin-20-sayisi-cikti"
+},
+{
+"t": "YTB haberi: Bağlar'ın 15. Sayısı Çıktı",
+"u": "https://ytb.gov.tr/haberler/baglarin-15-sayisi-cikti"
+},
+{
+"t": "YTB haberi: 2. Her Boydan Yazarlık Akademisi",
+"u": "https://ytb.gov.tr/haberler/2-her-boydan-yazarlik-akademisinde-37-ulkeden-70-yazar-bir-araya-geldi"
+}
+],
+"keep": true
+},
+{
 "id": "H01",
 "area": "H",
 "d": 1,

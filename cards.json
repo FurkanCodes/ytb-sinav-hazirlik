@@ -1877,6 +1877,144 @@
 "7393 sayılı Kanun",
 "2022"
 ]
+},
+{
+"l": "b8",
+"p": 0,
+"q": "Yurtdışı vatandaşlara yönelik YTB burslarından üçünü say.",
+"a": "Prof. Dr. Fuat Sezgin Üstün Başarı Bursu, Lise Bitirme Başarı Bursu, Tez ve Araştırma Bursu, Hukuk Alanında Uzmanlık Bursu, Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu.",
+"u": [
+"Prof. Dr. Fuat Sezgin Üstün Başarı Bursu",
+"Lise Bitirme Başarı Bursu",
+"Tez ve Araştırma Bursu",
+"Hukuk Alanında Uzmanlık Bursu",
+"Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu"
+],
+"need": 3
+},
+{
+"l": "b8",
+"p": 1,
+"q": "Büyük Türkçe Projeleri hangi ülkelerde, hangi yıldan beri yürütülüyor?",
+"a": "Hollanda 2018, Belçika 2022, Fransa 2023 (toplam 18.560 öğrenci).",
+"u": [
+"Hollanda 2018",
+"Belçika 2022",
+"Fransa 2023"
+]
+},
+{
+"l": "b8",
+"p": 2,
+"q": "YTB Türkiye Stajları Programı kime yönelik, nerede yapılır?",
+"a": "Yurt dışında okuyan diaspora kökenli genç mühendislere, savunma sanayii kuruluşlarında (TUSAŞ, ASELSAN, TEI, ROKETSAN, HAVELSAN, STM). 2023'te başladı, 2026'da 115 stajyer.",
+"u": [
+"Yurt dışındaki genç mühendisler",
+"Savunma sanayii kuruluşları"
+]
+},
+{
+"l": "b8",
+"p": 3,
+"q": "13. Yurtdışı Hukukçular Buluşması nerede, ne zaman, kaç kişiyle yapıldı?",
+"a": "Amsterdam, 16-18 Ekim 2026; 9 ülkeden 40 hukukçu.",
+"u": [
+"Amsterdam",
+"16-18 Ekim 2026",
+"9 ülkeden 40 hukukçu"
+]
+},
+{
+"l": "b8",
+"p": 4,
+"q": "Kardeş topluluklara yönelik iki sözlü tarih çalışmasının adı ve topluluğu?",
+"a": "\"Onlar Da İnsandı\" (Kırım Tatarları, 1944 sürgünü) ve \"1944 Ahıska Sürgünü: Son Tanıklar\" (Ahıska Türkleri).",
+"u": [
+"Onlar Da İnsandı: Kırım Tatarları",
+"Son Tanıklar: Ahıska Türkleri"
+]
+},
+{
+"l": "b8",
+"p": 5,
+"q": "2025 Faaliyet Raporuna göre Türkiye Mezunları Portalının üye sayısı ve desteklenen mezun derneği sayısı?",
+"a": "145.000 üye; 31 ülkede 35 Türkiye Mezunları Derneği.",
+"u": [
+"145.000 üye",
+"31 ülkede 35 dernek"
+]
+},
+{
+"l": "b8",
+"p": "t",
+"q": "Türkiye Stajları ile Uluslararası Öğrenci Staj Programının farkı nedir?",
+"a": "Türkiye Stajları yurt dışındaki Türk gençlerine (savunma sanayii), Uluslararası Öğrenci Staj Programı Türkiye Burslusu öğrencilere yöneliktir (2025'te 107 stajyer).",
+"u": [
+"Türkiye Stajları: yurt dışındaki Türk gençleri",
+"Uluslararası Öğrenci Staj Programı: Türkiye Bursluları"
+]
+},
+{
+"l": "b9",
+"p": 0,
+"q": "YTB'nin dört dergisini ve tanımlarını say.",
+"a": "Telve (dil, düşünce ve edebiyat; yurtdışı vatandaşlar), Bağlar (edebiyat, düşünce ve kültür; kardeş topluluklar), Her Boydan (kültür, edebiyat ve düşünce; uluslararası öğrenciler), Memleketim (3 aylık süreli yayın).",
+"u": [
+"Telve",
+"Bağlar",
+"Her Boydan",
+"Memleketim"
+]
+},
+{
+"l": "b9",
+"p": 1,
+"q": "Telve ve Bağlar'a 2025'te hangi ödül verildi?",
+"a": "Türkiye Yazarlar Birliğinin 2025 ödüllerinde kamu yayıncılığı ödülü (EN: Public Publishing Award)."
+},
+{
+"l": "b9",
+"p": 2,
+"q": "AYTA nedir, ne zaman ve kimlerle yapıldı?",
+"a": "Avrupa'da Yaşayan Türkler Araştırması; Ağustos-Eylül 2022'de, yaz tatili için Türkiye'ye gelen vatandaşlarla, 8 Avrupa ülkesini kapsayan saha araştırması.",
+"u": [
+"Avrupa'da Yaşayan Türkler Araştırması",
+"Ağustos-Eylül 2022",
+"8 Avrupa ülkesi"
+]
+},
+{
+"l": "b9",
+"p": 3,
+"q": "YTB 2024-2028 Stratejik Planının misyonu nedir?",
+"a": "Türk diasporası, kardeş topluluklar ve uluslararası öğrencilere yönelik yürütülen faaliyetlerle Türkiye yüzyılı hedeflerinin gerçekleştirilmesine katkı sağlamak."
+},
+{
+"l": "b9",
+"p": 4,
+"q": "Stratejik Planın ilk üç amacını kısaca say.",
+"a": "A1 diasporanın kimliği, aidiyeti ve anavatanla bağları; A2 tarih, kültür, din ve dil bağı olan ülke ve topluluklarla iş birlikleri; A3 Türkiye Burslarını dünyanın önde gelen burs programlarından biri yapmak.",
+"u": [
+"A1: Diaspora kimliği ve anavatan bağı",
+"A2: Kardeş ülke ve topluluklarla iş birliği",
+"A3: Türkiye Bursları önde gelen program"
+]
+},
+{
+"l": "b9",
+"p": 5,
+"q": "2 Kasım 2026'daki Türkiye-Almanya programının teması neydi?",
+"a": "\"Almanya Türk Diasporasının 65. Yılı: Birlikte Geleceğe\" (İşgücü Anlaşmasının 65. yılı)."
+},
+{
+"l": "b9",
+"p": 6,
+"q": "YTB'nin diaspora çalışmalarını yürüttüğü anlayışı ve Başkan Turus'un hukuk desteğiyle ilgili sözünü yaz.",
+"a": "\"Güçlü diaspora, güçlü Türkiye\"; \"Hak aramak kadar, hak arama yollarına ulaşabilmek de önemli.\"",
+"u": [
+"Güçlü diaspora, güçlü Türkiye",
+"Hak aramak kadar, hak arama yollarına ulaşabilmek de önemli"
+]
 }
 ]
 }
