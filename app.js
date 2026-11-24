@@ -332,6 +332,9 @@ function renderWExtra(W){const x=$("#wExtra");if(!x)return;let h="";const P=W.pl
     ((W.mfa_topics||[]).some(t=>/Çeviri/.test(t.bolum))?'<h3>Çeviri metinlerinin konuları</h3><ul>'+W.mfa_topics.filter(t=>/Çeviri/.test(t.bolum)).map(t=>'<li>'+esc(t.sinav)+': '+esc(t.tr)+'</li>').join("")+'</ul>':"")+srcHtml(B.urls||[])+'<p class="note">Örnek kompozisyon soruları yukarıdaki konu listesinde "Dışişleri örnek soruları" başlığında.</p></details>'}
   x.innerHTML=h;const hb=$("#termHide");if(hb){const tb=$("#termTbl");hb.onchange=()=>tb.querySelectorAll(".tEn").forEach(td=>td.classList.toggle("hid",hb.checked));tb.onclick=e=>{const td=e.target.closest(".tEn");if(td)td.classList.remove("hid")}}}
 
+function renderBooklets(){const x=$("#dLinks"),K=(WR||{}).kitapcik;if(!x||!K)return;const gs=[];K.items.forEach(i=>{if(gs.indexOf(i.g)<0)gs.push(i.g)});
+  x.innerHTML='<details class="card"><summary><b>Resmî çıkmış sorular ve kitapçıklar</b> <span class="note">'+K.items.length+' bağlantı</span></summary><p style="margin-top:8px">'+esc(K.ozet)+'</p>'+gs.map(g=>'<h3>'+esc(g)+'</h3><ul>'+K.items.filter(i=>i.g===g).map(i=>'<li><a href="'+esc(i.u)+'" target="_blank" rel="noopener">'+esc(i.t)+'</a><br><span class="note">'+esc(i.n)+'</span></li>').join("")+'</ul>').join("")+'<p class="note">'+esc(K.telif)+' ÖSYM sayfaları yurt dışından ya da bazı ağlardan açılmayabilir.</p></details>'}
+
 /* ---------- Ezber: tarihler, kanun numaraları, madde numaraları ---------- */
 let MEM={laws:[],arts:[]};let WR={};const EZ={d:[],k:[],m:[]};const EZBY={};
 const AYLAR=["ocak","şubat","mart","nisan","mayıs","haziran","temmuz","ağustos","eylül","ekim","kasım","aralık"];
@@ -507,7 +510,7 @@ Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(
   D=d;Q=d.questions;Q.forEach(q=>byId[q.id]=q);LS=ld.lessons;LS.forEach(l=>{byL[l.id]=l;l.qs.forEach(id=>{if(!lessonOf[id])lessonOf[id]=l})});
   const cnt={};C=cd.cards.map(c=>{cnt[c.l]=(cnt[c.l]||0)+1;return Object.assign({id:c.l+"-"+cnt[c.l]},c)});C.forEach(c=>cById[c.id]=c);
   buildEz();$("#countMeta").innerHTML="<b>"+LS.length+"</b> konu · <b>"+C.length+"</b> kart · <b>"+Q.length+"</b> soru";
-  chips();buildPList();initExam();initWrite();route();setInterval(renderBadge,60000)
+  chips();buildPList();initExam();initWrite();renderBooklets();route();setInterval(renderBadge,60000)
 }).catch(()=>{$("#v-bugun").innerHTML='<div class="card"><p>İçerik yüklenemedi.</p><p class="note">Sayfayı yenile. Sorun sürerse sohbette haber ver.</p></div>'});
 route();
 })();

@@ -19,7 +19,7 @@ Yöntemler ve kaynakları uygulamada "Bugün → Bu uygulama nasıl öğretiyor?
 | `index.html` | Sayfa ve stiller |
 | `app.js` | Uygulama mantığı (tekrar takvimi, dersler, deneme) |
 | `questions.json` | Test soruları, yazılı ve çeviri konuları |
-| `writing.json` | İngilizce kompozisyon, Dışişleri örnekleri, paralel YTB metinleri, terimler |
+| `writing.json` | İngilizce kompozisyon, Dışişleri örnekleri, paralel YTB metinleri, terimler, resmî çıkmış soru bağlantıları |
 | `lessons.json` | Konu anlatımları |
 | `cards.json` | Tekrar kartları (`u`: kontrol parçaları, `need`: yeterli parça sayısı) |
 | `sw.js`, `manifest.webmanifest`, `icons/` | Telefona kurulum ve çevrim dışı çalışma |
