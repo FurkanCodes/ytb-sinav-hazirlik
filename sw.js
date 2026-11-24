@@ -1,6 +1,6 @@
 // Offline support. Network first (so updates arrive as soon as you are online), cache as fallback.
 // Bump VERSION when files are added or renamed.
-const VERSION = "ytb-v7";
+const VERSION = "ytb-v8";
 const SHELL = [
   "./",
   "index.html",
@@ -8,6 +8,7 @@ const SHELL = [
   "questions.json",
   "lessons.json",
   "cards.json",
+  "memory.json",
   "manifest.webmanifest",
   "icons/icon-192.png",
   "icons/icon-512.png",

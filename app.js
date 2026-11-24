@@ -105,7 +105,7 @@ function renderToday(){const s=$("#v-bugun");const due=dueItems().length;const n
   h+='<p style="margin:0"><b>Bugünkü plan</b></p><ol class="steps">';
   h+='<li>'+(due?'<b>'+due+'</b> tekrar kartı ve sorusu seni bekliyor.':'Planlı tekrar yok. İstersen <a href="#tekrar">Tekrar</a> bölümünde beklemeden serbest tekrar yapabilirsin.')+'</li>';
   h+='<li>'+(nl?(perDay>1?'Günde <b>'+perDay+' yeni konu</b> bitirirsen sınavdan önce 4 gün genel tekrar kalır. Sıradaki: <b>'+esc(nl.title)+'</b>.':'Sıradaki yeni konu: <b>'+esc(nl.title)+'</b>.'):'Bütün konuları bitirdin. Şimdi deneme sınavı ve tekrar zamanı.')+'</li>';
-  h+=(left<=3?'<li><b>Sınava '+left+' gün kaldı:</b> Tekrar bölümündeki "Sınav öncesi son tur" ile bütün kartları en zayıftan başlayarak bir kez daha geç. Yeni konuya başlama.</li>':'<li>Haftada en az bir deneme sınavı. Gerçek sınav da çoktan seçmeli olduğu için bu format pratiği önemli.</li>')+'</ol>';
+  h+=(left<=3?'<li><b>Sınava '+left+' gün kaldı:</b> Tekrar bölümündeki "Sınav öncesi son tur" ile bütün kartları en zayıftan başlayarak bir kez daha geç. Yeni konuya başlama.</li>':(()=>{const n=["d","k","m"].reduce((a,k)=>a+ezStats(k).due,0);return n?'<li><b>'+n+'</b> tarih, kanun ya da madde numarası tekrarı seni bekliyor: <a href="#ezber">Ezber</a>.</li>':''})()+'<li>Haftada en az bir deneme sınavı. Gerçek sınav da çoktan seçmeli olduğu için bu format pratiği önemli.</li>')+'</ol>';
   h+='<div class="row" style="margin-top:6px">'+(due?'<a class="btn" href="#tekrar">Tekrara başla ('+due+')</a>':'')+(nl&&left>3?'<a class="btn'+(due?' ghost':'')+'" href="#ders/'+nl.id+'">'+(due?'Sonra: ':'')+'Yeni konu</a>':(left<=3?'<a class="btn'+(due?' ghost':'')+'" href="#tekrar">Son tur</a>':'<a class="btn" href="#deneme">Deneme sınavı</a>'))+'</div></div></div>';
   const cs=conf.sure.ok+conf.sure.bad, cg=conf.guess.ok+conf.guess.bad;
   h+='<div class="stats">';
@@ -317,6 +317,102 @@ function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyo
   show()}
 
 
+/* ---------- Ezber: tarihler, kanun numaraları, madde numaraları ---------- */
+let MEM={laws:[],arts:[]};const EZ={d:[],k:[],m:[]};const EZBY={};
+const AYLAR=["ocak","şubat","mart","nisan","mayıs","haziran","temmuz","ağustos","eylül","ekim","kasım","aralık"];
+function parseD(s){let m,mo=0,d=0;const ys=s.match(/\d{4}/g);const y=ys?+ys[ys.length-1]:0;
+  if((m=s.match(/^(\d{1,2})\.(\d{1,2})\.\d{4}$/))){d=+m[1];mo=+m[2]}
+  else if((m=s.match(/^(\d{1,2})\.(\d{1,2})-/))){d=+m[1];mo=+m[2]}
+  else if((m=s.match(/^(\d{1,2})-\d{1,2}\.(\d{1,2})\.\d{4}/))){d=+m[1];mo=+m[2]}
+  else{const lw=s.toLocaleLowerCase("tr");AYLAR.forEach((a,i)=>{if(lw.indexOf(a)===0)mo=i+1})}
+  return {y:y,key:y*10000+mo*100+d}}
+// hide years inside the event text so the question does not give the answer away (law numbers stay)
+function maskY(t){return t.replace(/\b\d{1,2}\.\d{1,2}\.\d{4}\b/g,"…").replace(/\b(1[89]\d\d|20[0-3]\d)\b(?! sayılı)/g,"…")}
+function buildEz(){EZ.d=[];const ctx={b5:"İşgücü anlaşması: "};const seen={};
+  LS.forEach(l=>(l.tl||[]).forEach((r,i)=>{const p=parseD(r[0]);if(!p.y)return;const ev=(ctx[l.id]||"")+String(r[1]).replace(/\.\s*$/,"");
+    const sig=p.key+"|"+ev.replace(/[\d\s.]/g,"").slice(0,10);if(seen[sig])return;seen[sig]=1;
+    EZ.d.push({id:"d-"+l.id+"-"+i,kind:"d",date:r[0],y:p.y,key:p.key,ev:ev,l:l.id})}));
+  EZ.d.sort((a,b)=>a.key-b.key);
+  EZ.k=MEM.laws.map(x=>Object.assign({id:"k-"+x.k+"-"+x.n,kind:"k",lab:x.n+" sayılı "+(x.k==="CBK"?"Cumhurbaşkanlığı Kararnamesi":"Kanun")},x));
+  EZ.m=MEM.arts.map(x=>Object.assign({id:"m-"+x.w+"-"+x.m,kind:"m",lab:x.w+" md. "+x.m},x));
+  EZ.d.concat(EZ.k,EZ.m).forEach(x=>EZBY[x.id]=x)}
+const ezKey=x=>"e:"+x.id;
+function ezStats(kind){const xs=EZ[kind];const now=Date.now();
+  return {n:xs.length,solid:xs.filter(x=>((srs[ezKey(x)]||{}).ds||0)>=3).length,seen:xs.filter(x=>srs[ezKey(x)]).length,due:xs.filter(x=>srs[ezKey(x)]&&srs[ezKey(x)].due<=now).length}}
+const EZNAME={d:"Tarihler",k:"Kanun numaraları",m:"Madde numaraları"};
+function renderEzber(){const v=$("#v-ezber");
+  let h='<div class="card list"><h2>Ezber</h2><p class="note">Tarih, kanun numarası ve madde numarası gibi akılda kalması zor bilgiler için kısa alıştırmalar. Hepsi derslerdeki doğrulanmış bilgilerden geliyor. Yanlış yaptıkların daha sık, bildiklerin daha seyrek gelir.</p></div><div class="ezgrid">';
+  h+=["d","k","m"].map(k=>{const s=ezStats(k);return '<div class="stat"><span>'+EZNAME[k]+'</span><b>'+s.solid+' / '+s.n+' kalıcı</b><div class="bar"><i style="width:'+Math.round(s.solid/s.n*100)+'%"></i></div><span>'+s.seen+' çalışıldı'+(s.due?' · <b style="font:inherit;color:var(--bad)">'+s.due+' tekrar bekliyor</b>':'')+'</span><div class="row"><button class="btn sm" data-ez="'+k+'">Alıştırma</button><a class="btn ghost sm" href="#ezber/liste/'+k+'">Liste</a></div></div>'}).join("");
+  h+='</div><div class="row"><button class="btn" data-ez="mix">Karışık alıştırma (hepsi)</button></div>';
+  h+='<details class="card"><summary><b>Tarih ve numara nasıl akılda kalır?</b></summary><ul class="steps" style="margin-top:10px">'+
+    '<li><b>Önce sıra, sonra yıl.</b> "Hangisi önce?" sorularıyla olayların sırasını otur. Sırayı bilen yılı tahmin etmekte çok daha az zorlanır.</li>'+
+    '<li><b>Çapa tarihler.</b> 1923 (Cumhuriyet), 1961 (ilk işgücü anlaşması), 2010 (YTB), 2017 (Anayasa değişikliği) gibi birkaç tarihi sağlamlaştır, diğerlerini bunlara göre yerleştir: "Lozan’dan 3 yıl sonra Musul".</li>'+
+    '<li><b>Benzerleri yan yana çalış.</b> 1924 ile 1925 kanunları, 4389 ile 4651 gibi karışan bilgiler aynı alıştırmada seçenek olarak gelir. Birbirine benzeyenleri ayırt etmek, karıştırmayı bırakmanın yolu.</li>'+
+    '<li><b>Neden-sonuç bağı kur.</b> "2001 krizi, ardından 4651 ile Merkez Bankasına fiyat istikrarı amacı" gibi bir zincir, tek başına bir numaradan daha kolay hatırlanır.</li>'+
+    '<li><b>Okuma, kendini test et.</b> Listeye bakmak tanıdık gelir ama hatırlatmaz. Listeye yalnızca alıştırmadan sonra, yanlışlarına bakmak için dön.</li>'+
+    '<li><b>Az ama her gün.</b> Günde 10 dakikalık bir alıştırma, haftada bir saatlik ezberden daha kalıcıdır.</li></ul></details>';
+  v.innerHTML=h;
+  v.querySelectorAll("[data-ez]").forEach(b=>b.onclick=()=>startEz(b.dataset.ez))}
+function renderEzList(kind){const v=$("#v-ezber");let h='<div class="row" style="justify-content:space-between"><a class="btn ghost" href="#ezber">← Ezber</a><button class="btn sm" data-ez="'+kind+'">Alıştırma</button></div><div class="card list"><h2>'+EZNAME[kind]+'</h2>';
+  const dot=x=>{const s=srs[ezKey(x)];const ds=s?(s.ds||0):-1;return '<span class="dot" style="background:'+(ds>=3?"var(--ok)":ds>=1?"var(--accent)":ds===0?"var(--bad)":"var(--line)")+'"></span>'};
+  if(kind==="d"){let dec=null;h+=EZ.d.map(x=>{const dd=Math.floor(x.y/10)*10;const head=dd!==dec?'<h3 style="margin-top:8px">'+dd+'\'ler</h3>':'';dec=dd;return head+'<div class="tlrow">'+dot(x)+'<span class="tld">'+esc(x.date)+'</span><span>'+esc(x.ev)+'</span></div>'}).join("")}
+  if(kind==="k"){const gs=[...new Set(EZ.k.map(x=>x.g))];h+=gs.map(g=>'<h3 style="margin-top:8px">'+esc(g)+'</h3>'+EZ.k.filter(x=>x.g===g).map(x=>'<div class="tlrow">'+dot(x)+'<span class="tld">'+esc(x.n)+(x.k==="CBK"?" CBK":"")+'</span><span>'+esc(x.s)+'</span></div>').join("")).join("")}
+  if(kind==="m"){const ws=[...new Set(EZ.m.map(x=>x.w))];h+=ws.map(w=>'<h3 style="margin-top:8px">'+esc(w)+'</h3>'+EZ.m.filter(x=>x.w===w).map(x=>'<div class="tlrow">'+dot(x)+'<span class="tld">md. '+esc(x.m)+'</span><span>'+esc(x.s)+'</span></div>').join("")).join("")}
+  h+='<p class="note">Renkler: yeşil kalıcı (3 ayrı günde doğru), mavi çalışılıyor, kırmızı son denemede yanlış, gri henüz görülmedi.</p></div>';
+  v.innerHTML=h;window.scrollTo(0,0);v.querySelector("[data-ez]").onclick=()=>startEz(kind)}
+/* ---- question generators ---- */
+function ezPool(kind){return kind==="mix"?EZ.d.concat(EZ.k,EZ.m):EZ[kind]}
+function ezPick(kind,n){const now=Date.now();const pool=ezPool(kind);
+  const due=shuffle(pool.filter(x=>srs[ezKey(x)]&&srs[ezKey(x)].due<=now));
+  const fresh=shuffle(pool.filter(x=>!srs[ezKey(x)]));
+  const rest=shuffle(pool.filter(x=>srs[ezKey(x)]&&srs[ezKey(x)].due>now)).sort((a,b)=>weakness(ezKey(a))-weakness(ezKey(b)));
+  const out=[];[due,fresh,rest].forEach(arr=>arr.forEach(x=>{if(out.length<n&&out.indexOf(x)<0)out.push(x)}));return out}
+function nearBy(list,t,n,f,distinct){const used=new Set([f(t)]);const c=shuffle(list.filter(x=>x!==t)).sort((a,b)=>Math.abs(f(a)-f(t))-Math.abs(f(b)-f(t)));const out=[];
+  for(const x of c){if(out.length>=n)break;if(distinct&&used.has(f(x)))continue;used.add(f(x));out.push(x)}return out}
+function makeEzQ(t){const r=Math.random();
+  if(t.kind==="d"){
+    if(r<0.3){const offs=shuffle([-1,1,-2,2,-3,3,-5,5,-10,10]).slice(0,4);const ys=[t.y].concat(offs.map(o=>t.y+o)).sort((a,b)=>a-b);
+      return {type:"mc",prompt:'<span class="tag">Hangi yıl?</span><p class="qtext">'+esc(maskY(t.ev))+'</p>',opts:ys.map(y=>({t:String(y),ok:y===t.y})),ids:[t]}}
+    if(r<0.6){const p=nearBy(EZ.d,t,1,x=>x.y,true)[0];if(p){const two=shuffle([t,p]);const first=t.key<p.key?t:p;
+      return {type:"mc",prompt:'<span class="tag">Hangisi daha önce?</span>',opts:two.map(x=>({t:maskY(x.ev),ok:x===first})),ids:[t,p]}}}
+    if(r<0.8){const o=nearBy(EZ.d,t,3,x=>x.y,true);if(o.length===3){const items=shuffle([t].concat(o));return {type:"order",items:items,ids:items}}}
+    const o=nearBy(EZ.d,t,3,x=>x.y,true);return {type:"mc",prompt:'<span class="tag">'+t.y+' yılında hangisi oldu?</span>',opts:shuffle([t].concat(o)).map(x=>({t:maskY(x.ev),ok:x===t})),ids:[t]}}
+  if(t.kind==="k"){const same=EZ.k.filter(x=>x!==t&&x.g===t.g);const other=EZ.k.filter(x=>x!==t&&x.g!==t.g);const ds=shuffle(same).slice(0,3);shuffle(other).forEach(x=>{if(ds.length<3)ds.push(x)});
+    if(r<0.5)return {type:"mc",prompt:'<span class="tag">Bu hangisi?</span><p class="qtext">'+esc(t.lab)+'</p>',opts:shuffle([t].concat(ds)).map(x=>({t:x.s,ok:x===t})),ids:[t]};
+    return {type:"mc",prompt:'<span class="tag">Kaç sayılı?</span><p class="qtext">'+esc(t.s)+'</p>',opts:shuffle([t].concat(ds)).map(x=>({t:x.lab,ok:x===t})),ids:[t]}}
+  const same=EZ.m.filter(x=>x!==t&&x.w===t.w);const ds=nearBy(same,t,3,x=>+x.m,false);EZ.m.filter(x=>x!==t&&ds.indexOf(x)<0).forEach(x=>{if(ds.length<3)ds.push(x)});
+  if(r<0.5)return {type:"mc",prompt:'<span class="tag">Bu madde neyi düzenler?</span><p class="qtext">'+esc(t.lab)+'</p>',opts:shuffle([t].concat(ds)).map(x=>({t:x.s,ok:x===t})),ids:[t]};
+  return {type:"mc",prompt:'<span class="tag">Hangi madde?</span><p class="qtext">'+esc(t.s)+'</p>',opts:[t].concat(ds).sort((a,b)=>a.w===b.w?(+a.m)-(+b.m):(a.w<b.w?-1:1)).map(x=>({t:x.lab,ok:x===t})),ids:[t]}}
+function ezContext(t){if(t.kind==="d"){const i=EZ.d.indexOf(t);const near=EZ.d.slice(Math.max(0,i-2),i+3);
+    return '<p class="note" style="margin:10px 0 4px">Zaman çizelgesinde yeri:</p>'+near.map(x=>'<div class="tlrow'+(x===t?' cur':'')+'"><span class="tld">'+esc(x.date)+'</span><span>'+esc(x.ev)+'</span></div>').join("")}
+  if(t.kind==="k")return '<p class="note" style="margin:10px 0 4px">Aynı gruptaki kanunlar ('+esc(t.g)+'):</p>'+EZ.k.filter(x=>x.g===t.g).map(x=>'<div class="tlrow'+(x===t?' cur':'')+'"><span class="tld">'+esc(x.n)+(x.k==="CBK"?" CBK":"")+'</span><span>'+esc(x.s)+'</span></div>').join("");
+  const same=EZ.m.filter(x=>x.w===t.w);const i=same.indexOf(t);
+  return '<p class="note" style="margin:10px 0 4px">'+esc(t.w)+' içinde komşu maddeler:</p>'+same.slice(Math.max(0,i-2),i+3).map(x=>'<div class="tlrow'+(x===t?' cur':'')+'"><span class="tld">md. '+esc(x.m)+'</span><span>'+esc(x.s)+'</span></div>').join("")}
+function ezAnswerLine(t){return t.kind==="d"?'<b>'+esc(t.date)+'</b>: '+esc(t.ev):t.kind==="k"?'<b>'+esc(t.lab)+'</b>: '+esc(t.s):'<b>'+esc(t.lab)+'</b>: '+esc(t.s)}
+let EZS=null;
+function startEz(kind){const items=ezPick(kind,12);if(!items.length)return;EZS={kind:kind,q:items,i:0,ok:0,n:0,tries:{}};location.hash="#ezber/calis";drawEz()}
+function drawEz(){const v=$("#v-ezber");if(!EZS){location.hash="#ezber";return}
+  if(EZS.i>=EZS.q.length){v.innerHTML='<div class="card list"><h2>Alıştırma bitti</h2><div class="stats"><div class="stat"><span>Soru</span><b>'+EZS.n+'</b></div><div class="stat"><span>İlk denemede doğru</span><b>'+EZS.ok+' / '+EZS.n+'</b></div></div><p class="note">Yanlış yaptıkların yakında tekrar gelecek. Şimdi listeye bakıp yanlışlarının yerini görmek iyi olur.</p><div class="row"><button class="btn" id="ezAgain">Yeni alıştırma</button><a class="btn ghost" href="#ezber/liste/'+(EZS.kind==="mix"?"d":EZS.kind)+'">Listeyi aç</a><a class="btn ghost" href="#ezber">Ezber</a></div></div>';
+    const k=EZS.kind;$("#ezAgain").onclick=()=>startEz(k);EZS=null;return}
+  const t=EZS.q[EZS.i];const Qz=makeEzQ(t);
+  v.innerHTML='<div class="row" style="justify-content:space-between"><span class="note">'+(EZS.q.length-EZS.i)+' kaldı · '+EZNAME[t.kind]+'</span><a class="btn ghost" href="#ezber">Bitir</a></div><div class="bar"><i style="width:'+Math.round(EZS.i/EZS.q.length*100)+'%"></i></div><div class="card" id="ezBody"></div>';
+  const b=$("#ezBody");
+  const finish=(ok)=>{const first=!EZS.tries[t.id];EZS.tries[t.id]=(EZS.tries[t.id]||0)+1;if(first){EZS.n++;if(ok)EZS.ok++}
+    Qz.ids.forEach(x=>{if(x===t||ok)schedEarly(ezKey(x),ok?2:0)});
+    if(!ok&&EZS.tries[t.id]<3)EZS.q.splice(Math.min(EZS.q.length,EZS.i+4),0,t)};
+  const fb=(ok,extra)=>'<div class="expl"><span class="verdict '+(ok?"ok":"bad")+'">'+(ok?"Doğru.":"Yanlış.")+'</span> '+(extra||"")+Qz.ids.slice().sort((a,b)=>a.kind==="d"&&b.kind==="d"?a.key-b.key:0).map(x=>'<div style="margin-top:4px">'+ezAnswerLine(x)+'</div>').join("")+ezContext(t)+'</div><div class="nav2"><span></span><button class="btn" id="ezNext">Devam</button></div>';
+  if(Qz.type==="mc"){b.innerHTML=Qz.prompt+'<div class="opts">'+Qz.opts.map((o,i)=>'<button class="opt" data-i="'+i+'"><span class="bub">'+L[i]+'</span><span>'+esc(o.t)+'</span></button>').join("")+'</div><div id="ezFb"></div>';
+    b.querySelectorAll(".opt").forEach(btn=>btn.onclick=()=>{const i=+btn.dataset.i;const ok=Qz.opts[i].ok;finish(ok);
+      b.querySelectorAll(".opt").forEach((x,j)=>{x.disabled=true;if(Qz.opts[j].ok)x.classList.add("ok");else if(j===i)x.classList.add("bad")});
+      $("#ezFb").innerHTML=fb(ok);$("#ezNext").onclick=()=>{EZS.i++;drawEz()}});return}
+  // order: tap the events from earliest to latest
+  const picked=[];const draw=()=>{b.innerHTML='<span class="tag">Sırala</span><p class="qtext">Olayları en eskiden en yeniye doğru sırayla dokun.</p><div class="opts">'+Qz.items.map((x,i)=>{const p=picked.indexOf(i);return '<button class="opt'+(p>=0?" sel":"")+'" data-i="'+i+'"><span class="bub">'+(p>=0?p+1:"·")+'</span><span>'+esc(maskY(x.ev))+'</span></button>'}).join("")+'</div><div class="nav2"><button class="btn ghost" id="ezReset">Sıfırla</button><button class="btn" id="ezCheck"'+(picked.length<Qz.items.length?" disabled":"")+'>Kontrol et</button></div><div id="ezFb"></div>';
+    b.querySelectorAll(".opt").forEach(btn=>btn.onclick=()=>{const i=+btn.dataset.i;const p=picked.indexOf(i);if(p>=0)picked.splice(p,1);else picked.push(i);draw()});
+    $("#ezReset").onclick=()=>{picked.length=0;draw()};
+    $("#ezCheck").onclick=()=>{const order=picked.map(i=>Qz.items[i]);const ok=order.every((x,i)=>i===0||order[i-1].key<x.key);finish(ok);
+      b.querySelectorAll("button").forEach(x=>x.disabled=true);$("#ezFb").innerHTML=fb(ok,ok?"":"Doğru sıra:");$("#ezNext").onclick=()=>{EZS.i++;drawEz()}}};
+  draw()}
+
 /* ---------- Hata bildir ---------- */
 let reports=store.get("reports",[]);
 const repReasons=["Cevap anahtarı yanlış","Birden fazla şık doğru","Açıklama ya da bilgi hatalı","Bilgi güncel değil","Kaynak bağlantısı açılmıyor","Yazım ya da ifade hatası","Diğer"];
@@ -379,22 +475,23 @@ function lessonNotesHtml(id){const ns=notes.filter(n=>n.l===id).sort((a,b)=>(b.u
   return '<div class="card list"><div class="row" style="justify-content:space-between"><h3>Notlarım ('+ns.length+')</h3><a class="btn ghost sm" href="#notlar/yeni/l/'+id+'">Not ekle</a></div>'+(ns.length?'<div class="list">'+ns.map(noteCard).join("")+'</div>':'<p class="note">Bu konuya ait notun yok.</p>')+'</div>'}
 
 /* ---------- Routing ---------- */
-const views=["bugun","ogren","ders","not","tekrar","calis","deneme","yanlislar","yazili","notlar"];
+const views=["bugun","ogren","ders","not","tekrar","ezber","calis","deneme","yanlislar","yazili","notlar"];
 const navOf={ders:"ogren",not:"ogren"};
 function route(){const parts=(location.hash||"#bugun").slice(1).split("/");let v=parts[0];if(!views.includes(v))v="bugun";
   views.forEach(x=>{$("#v-"+x).hidden=x!==v});const nv=navOf[v]||v;document.querySelectorAll("nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===nv?"page":"false"));
   if(!D)return;renderBadge();
   if(v==="bugun")renderToday();if(v==="ogren")renderLearn();if(v==="ders")startLesson(parts[1]);if(v==="not")renderNote(parts[1]);
   if(v==="tekrar")renderReview();if(v==="yanlislar")renderW();if(v==="calis")renderStats();
-  if(v==="notlar"){if(parts[1])editNote(parts);else renderNotes()}}
+  if(v==="notlar"){if(parts[1])editNote(parts);else renderNotes()}
+  if(v==="ezber"){if(parts[1]==="liste"&&EZ[parts[2]])renderEzList(parts[2]);else if(parts[1]==="calis"&&EZS)drawEz();else renderEzber()}}
 window.addEventListener("hashchange",route);
 $("#diffSel").onchange=e=>{pDiff=+e.target.value;buildPList()};
 $("#onlyNew").onchange=e=>{pOnlyNew=e.target.checked;buildPList()};
 
-Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()}))).then(([d,ld,cd])=>{
+Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()})).concat([fetch("memory.json").then(r=>r.ok?r.json():{laws:[],arts:[]}).catch(()=>({laws:[],arts:[]}))])).then(([d,ld,cd,md])=>{MEM=md;
   D=d;Q=d.questions;Q.forEach(q=>byId[q.id]=q);LS=ld.lessons;LS.forEach(l=>{byL[l.id]=l;l.qs.forEach(id=>{if(!lessonOf[id])lessonOf[id]=l})});
   const cnt={};C=cd.cards.map(c=>{cnt[c.l]=(cnt[c.l]||0)+1;return Object.assign({id:c.l+"-"+cnt[c.l]},c)});C.forEach(c=>cById[c.id]=c);
-  $("#countMeta").innerHTML="<b>"+LS.length+"</b> konu · <b>"+C.length+"</b> kart · <b>"+Q.length+"</b> soru";
+  buildEz();$("#countMeta").innerHTML="<b>"+LS.length+"</b> konu · <b>"+C.length+"</b> kart · <b>"+Q.length+"</b> soru";
   chips();buildPList();initExam();initWrite();route();setInterval(renderBadge,60000)
 }).catch(()=>{$("#v-bugun").innerHTML='<div class="card"><p>İçerik yüklenemedi.</p><p class="note">Sayfayı yenile. Sorun sürerse sohbette haber ver.</p></div>'});
 route();
