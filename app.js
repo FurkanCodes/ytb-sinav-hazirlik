@@ -66,7 +66,7 @@ function feedbackHtml(q,sel,ord,c){const ok=sel===q.a;const ls=lessonOf[q.id];
   let h='<div class="expl"><span class="verdict '+(ok?"ok":"bad")+'">'+(ok?"Doğru.":"Yanlış. Doğru cevap "+L[ord.indexOf(q.a)]+".")+'</span> ';
   if(!ok&&c==="sure")h+='<div class="hyper">Emin olduğun hâlde yanlış. Bu tür hatalar düzeltildiğinde en iyi akılda kalanlardır: açıklamayı dikkatle oku, bu soru yakında tekrar karşına çıkacak.</div>';
   if(ok&&c==="guess")h+='<div class="note" style="margin:6px 0">Tahminle doğru buldun. Bilgiyi sağlamlaştırmak için açıklamayı oku.</div>';
-  h+=rich(q.e)+srcHtml(q.src)+(ls?'<div class="src">Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a> · <a href="#notlar/yeni/q/'+q.id+'">Not al</a></div>':'<div class="src"><a href="#notlar/yeni/q/'+q.id+'">Not al</a></div>')+'</div>';return h}
+  h+=rich(q.e)+srcHtml(q.src)+qLinks(q)+'</div>';return h}
 function optsHtml(q,ord,st){return '<div class="opts">'+ord.map((oi,k)=>{let c="opt";
   if(st.reveal){if(oi===q.a)c+=" ok";else if(oi===st.sel)c+=" bad"}else if(oi===st.sel)c+=" sel";
   return '<button class="'+c+'" data-oi="'+oi+'"'+(st.reveal?" disabled":"")+'><span class="bub">'+L[k]+'</span><span>'+rich(q.o[oi])+'</span></button>'}).join("")+'</div>'}
@@ -288,14 +288,14 @@ function finishD(){clearInterval(dTick);dConfirm=false;$("#dRun").hidden=true;$(
   h+='<p class="note">'+(score>=60?"Eleme barajı olan 60 puanın üzerindesin. Sıralamaya girmek için daha yüksek puan gerekebilir.":"Eleme barajı 60 puan.")+' En zayıf alanın: <b>'+esc(weak.name)+'</b>. Yanlış ve boş bıraktığın sorular tekrar takvimine eklendi.</p>';
   h+='<div class="stats">'+D.areas.filter(a=>per[a.id].n).map(a=>'<div class="stat"><span>'+esc(a.name)+'</span><b>'+per[a.id].ok+' / '+per[a.id].n+'</b><div class="bar"><i style="width:'+Math.round(per[a.id].ok/per[a.id].n*100)+'%"></i></div></div>').join("")+'</div></div>';
   h+='<h3>Cevaplar</h3>'+dQs.map((q,i)=>{const sel=dAns[i];const res=sel===null?"Boş":(sel===q.a?"Doğru":"Yanlış");const ls=lessonOf[q.id];
-    return '<div class="card"><div class="qhead"><span><span class="tag">'+esc(areaName(q.area))+'</span> '+res+'</span><span>'+(i+1)+' · '+q.id+'</span></div><p class="qtext">'+rich(q.q)+'</p>'+optsHtml(q,dOrds[i],{sel:sel,reveal:true})+'<div class="expl">'+rich(q.e)+srcHtml(q.src)+(ls?'<div class="src">Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a></div>':'')+'</div></div>'}).join("");
+    return '<div class="card"><div class="qhead"><span><span class="tag">'+esc(areaName(q.area))+'</span> '+res+'</span><span>'+(i+1)+' · '+q.id+'</span></div><p class="qtext">'+rich(q.q)+'</p>'+optsHtml(q,dOrds[i],{sel:sel,reveal:true})+'<div class="expl">'+rich(q.e)+srcHtml(q.src)+qLinks(q)+'</div></div>'}).join("");
   const r=$("#dRes");r.innerHTML=h;r.hidden=false;r.scrollIntoView({behavior:"smooth",block:"start"});renderBadge()}
 
 /* ---------- Yanlışlarım ---------- */
 function renderW(){const s=$("#v-yanlislar");const w=Q.filter(q=>hist[q.id]&&hist[q.id].last===0);
   if(!w.length){s.innerHTML='<div class="card"><h2>Yanlış sorun yok</h2><p class="note" style="margin-top:6px">Yanlış cevapladığın sorular burada toplanır ve tekrar takvimine de eklenir. Sonradan doğru cevaplarsan listeden çıkar.</p></div>';return}
   s.innerHTML='<div class="row" style="justify-content:space-between"><h2>'+w.length+' soru tekrar bekliyor</h2><button class="btn" id="wRetry">Bunları çöz</button></div>'+
-  w.map(q=>{const ls=lessonOf[q.id];return '<div class="card"><div class="qhead"><span><span class="tag">'+esc(areaName(q.area))+'</span></span><span>'+q.id+' · '+hist[q.id].n+' deneme</span></div><p class="qtext">'+rich(q.q)+'</p><div class="expl" style="margin-top:0;border-top:0;padding-top:0"><b>Doğru cevap:</b> '+rich(q.o[q.a])+'<br>'+rich(q.e)+srcHtml(q.src)+(ls?'<div class="src">Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a></div>':'')+'</div></div>'}).join("");
+  w.map(q=>{const ls=lessonOf[q.id];return '<div class="card"><div class="qhead"><span><span class="tag">'+esc(areaName(q.area))+'</span></span><span>'+q.id+' · '+hist[q.id].n+' deneme</span></div><p class="qtext">'+rich(q.q)+'</p><div class="expl" style="margin-top:0;border-top:0;padding-top:0"><b>Doğru cevap:</b> '+rich(q.o[q.a])+'<br>'+rich(q.e)+srcHtml(q.src)+qLinks(q)+'</div></div>'}).join("");
   $("#wRetry").onclick=()=>startPractice(w)}
 
 /* ---------- Yazılı ---------- */
@@ -316,6 +316,30 @@ function initWrite(){const items=D.yazili.map((x,i)=>({k:"k"+i,label:"Kompozisyo
     $("#wTimer").textContent=String(Math.floor(ms/60000)).padStart(2,"0")+":"+String(Math.floor(ms%60000/1000)).padStart(2,"0")},1000)};
   show()}
 
+
+/* ---------- Hata bildir ---------- */
+let reports=store.get("reports",[]);
+const repReasons=["Cevap anahtarı yanlış","Birden fazla şık doğru","Açıklama ya da bilgi hatalı","Bilgi güncel değil","Kaynak bağlantısı açılmıyor","Yazım ya da ifade hatası","Diğer"];
+function qLinks(q){const ls=lessonOf[q.id];const done=reports.some(r=>r.q===q.id);
+  return '<div class="src">'+(ls?'Konu: <a href="#not/'+ls.id+'">'+esc(ls.title)+'</a> · ':'')+'<a href="#notlar/yeni/q/'+q.id+'">Not al</a> · <button class="linkbtn" data-rep="'+q.id+'">'+(done?'Bildirildi ✓':'Hata bildir')+'</button></div>'}
+function openReport(qid){const q=byId[qid];if(!q)return;const dlg=$("#repDlg");
+  dlg.innerHTML='<form method="dialog" class="list" id="repForm"><h3>Hata bildir · '+esc(qid)+'</h3><p class="note" style="margin:0">'+esc(q.q.replace(/<br>/g," ").slice(0,160))+(q.q.length>160?"…":"")+'</p>'+
+    '<div class="units">'+repReasons.map((r,i)=>'<label><input type="radio" name="rr" value="'+i+'"'+(i===0?" checked":"")+'><span>'+esc(r)+'</span></label>').join("")+'</div>'+
+    '<textarea id="repText" style="min-height:90px" placeholder="Ne düşünüyorsun? Doğru olduğunu düşündüğün şık, kaynak vb. (isteğe bağlı)"></textarea>'+
+    '<div class="row" style="justify-content:flex-end"><button class="btn ghost" value="cancel" type="submit">Vazgeç</button><button class="btn" id="repSave" type="button">Kaydet</button></div></form>';
+  $("#repSave").onclick=()=>{const r=+dlg.querySelector('input[name=rr]:checked').value;reports.push({id:"r"+Date.now().toString(36),q:qid,r:repReasons[r],t:$("#repText").value.trim(),at:Date.now()});store.set("reports",reports);
+    dlg.close();document.querySelectorAll('[data-rep="'+qid+'"]').forEach(b=>b.textContent="Bildirildi ✓")};
+  try{dlg.showModal()}catch(e){dlg.setAttribute("open","")}}
+document.addEventListener("click",e=>{const b=e.target.closest&&e.target.closest("[data-rep]");if(b){e.preventDefault();openReport(b.dataset.rep)}});
+function reportsText(){return "Bildirdiğim soru hataları:\n\n"+reports.map(r=>{const q=byId[r.q];return "- "+r.q+" ("+r.r+")"+(r.t?": "+r.t:"")+(q?"\n  Soru: "+q.q.replace(/<br>/g," ").slice(0,200):"")}).join("\n")}
+function reportsHtml(){if(!reports.length)return "";
+  return '<details class="card" id="repBox"><summary><b>Bildirdiğin hatalar ('+reports.length+')</b></summary><div class="list" style="margin-top:10px">'+
+    '<p class="note">Bildirimler yalnızca bu cihazda saklanır. Kontrol etmem için "Kopyala"ya basıp sohbete yapıştır.</p>'+
+    reports.slice().reverse().map(r=>'<div class="ncard"><span class="nt">'+esc(r.q)+' · '+esc(r.r)+'</span>'+(r.t?'<span class="np">'+esc(r.t)+'</span>':'')+'<span class="nm">'+noteDate(r.at)+' · <button class="linkbtn" data-delrep="'+r.id+'">Sil</button></span></div>').join("")+
+    '<div class="row"><button class="btn" id="repCopy">Hepsini kopyala</button><span class="note" id="repMsg"></span></div></div></details>'}
+function bindReports(){const c=$("#repCopy");if(c)c.onclick=()=>{const t=reportsText();try{navigator.clipboard.writeText(t).then(()=>$("#repMsg").textContent="Kopyalandı, sohbete yapıştır.",()=>$("#repMsg").textContent="Kopyalanamadı.")}catch(e){$("#repMsg").textContent="Kopyalanamadı."}};
+  document.querySelectorAll("[data-delrep]").forEach(b=>b.onclick=()=>{if(!confirm("Bu bildirim silinsin mi?"))return;reports=reports.filter(r=>r.id!==b.dataset.delrep);store.set("reports",reports);renderNotes();const box=$("#repBox");if(box)box.open=true})}
+
 /* ---------- Notlarım ---------- */
 let notes=store.get("notes",[]);
 function saveNotes(){store.set("notes",notes)}
@@ -327,12 +351,12 @@ function noteCard(n){const l=byL[n.l];const prev=(n.b||"").replace(/\s+/g," ").s
 let nQuery="",nFilter="";
 function renderNotes(){const v=$("#v-notlar");
   v.innerHTML='<div class="row" style="justify-content:space-between"><h2>Notlarım</h2><a class="btn" href="#notlar/yeni">Yeni not</a></div>'+
-    '<div class="row"><input id="nSearch" type="search" placeholder="Notlarda ara" value="'+esc(nQuery)+'" style="flex:1;min-width:0"><select id="nFilter" style="flex:1;min-width:0"><option value="">Bütün notlar</option><option value="-"'+(nFilter==="-"?" selected":"")+'>Konusu olmayanlar</option>'+lessonOpts(nFilter).replace('<option value="">Konu seçilmedi</option>','')+'</select></div><div id="nList" class="list"></div>';
+    reportsHtml()+'<div class="row"><input id="nSearch" type="search" placeholder="Notlarda ara" value="'+esc(nQuery)+'" style="flex:1;min-width:0"><select id="nFilter" style="flex:1;min-width:0"><option value="">Bütün notlar</option><option value="-"'+(nFilter==="-"?" selected":"")+'>Konusu olmayanlar</option>'+lessonOpts(nFilter).replace('<option value="">Konu seçilmedi</option>','')+'</select></div><div id="nList" class="list"></div>';
   const draw=()=>{const q=nQuery.toLocaleLowerCase("tr");let list=notes.slice().sort((a,b)=>(b.up||b.at)-(a.up||a.at));
     if(nFilter==="-")list=list.filter(n=>!n.l);else if(nFilter)list=list.filter(n=>n.l===nFilter);
     if(q)list=list.filter(n=>((n.t||"")+" "+(n.b||"")+" "+((byL[n.l]||{}).title||"")).toLocaleLowerCase("tr").includes(q));
     $("#nList").innerHTML=list.length?list.map(noteCard).join(""):'<div class="card"><p class="note">'+(notes.length?'Bu aramaya uyan not yok.':'Henüz notun yok. "Yeni not" ile başla. Konu notlarından ve soru açıklamalarından da doğrudan not alabilirsin.')+'</p></div>'};
-  $("#nSearch").oninput=e=>{nQuery=e.target.value;draw()};$("#nFilter").onchange=e=>{nFilter=e.target.value;draw()};draw()}
+  $("#nSearch").oninput=e=>{nQuery=e.target.value;draw()};$("#nFilter").onchange=e=>{nFilter=e.target.value;draw()};draw();bindReports()}
 function editNote(parts){const v=$("#v-notlar");let n=null;
   if(parts[1]==="yeni"){n={id:null,t:"",b:"",l:"",q:""};
     if(parts[2]==="l"&&byL[parts[3]])n.l=parts[3];

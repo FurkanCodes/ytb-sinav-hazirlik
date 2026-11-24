@@ -140,6 +140,9 @@ details summary{cursor:pointer}
 .ncard .np{color:var(--muted);font-size:.9rem;line-height:1.45}
 .ncard .nm{font:500 .72rem var(--mono);color:var(--muted);display:flex;flex-wrap:wrap;gap:6px;align-items:center}
 input[type=search],#nTitle{border:1px solid var(--line);border-radius:8px;padding:9px 12px;background:var(--paper);color:var(--ink);font:inherit;width:100%}
+.linkbtn{background:none;border:0;padding:0;color:var(--accent);font:inherit;text-decoration:underline;cursor:pointer}
+dialog#repDlg{border:1px solid var(--line);border-radius:12px;background:var(--paper);color:var(--ink);padding:18px;max-width:min(520px,calc(100vw - 32px));width:100%}
+dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
 </style>
 <meta name="description" content="YTB Uzman Yardımcılığı sınavı için adım adım dersler, aralıklı tekrar kartları ve kaynaklı sorular.">
 <meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
@@ -247,6 +250,7 @@ input[type=search],#nTitle{border:1px solid var(--line);border-radius:8px;paddin
   <p class="note">Her soru resmi mevzuat ve kurum sayfalarından kontrol edilmiştir; kaynak bağlantısı açıklamanın altındadır. Mevzuat değişebilir, sınavdan önce mevzuat.gov.tr üzerinden son metni kontrol et.</p>
 </div>
 
+<dialog id="repDlg"></dialog>
 <script src="app.js"></script>
 
 <script>
