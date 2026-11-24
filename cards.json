@@ -1131,6 +1131,489 @@
 "p": 3,
 "q": "Sıralama sorusunda yerleştirme sırası?",
 "a": "Önce kesin konumlar, sonra yan yana koşulları, en son \"değildir\" koşulları."
+},
+{
+"l": "b6",
+"p": 0,
+"q": "Türk babanın yabancı anadan evlilik dışı doğan çocuğu ne zaman Türk olur?",
+"a": "Soy bağı kurulmasını sağlayan usul ve esaslar yerine getirilince (5901 md. 7/3)."
+},
+{
+"l": "b6",
+"p": 1,
+"q": "Doğum yeri esasıyla kim Türk vatandaşı olur?",
+"a": "Türkiye'de doğan ve yabancı ana-babasından dolayı hiçbir ülkenin vatandaşlığını kazanamayan çocuk (md. 8)."
+},
+{
+"l": "b6",
+"p": 2,
+"q": "Sonradan kazanmanın üç yolu?",
+"a": "Yetkili makam kararı, evlat edinilme, seçme hakkı (md. 9).",
+"u": [
+"Yetkili makam kararı",
+"Evlat edinilme",
+"Seçme hakkı"
+]
+},
+{
+"l": "b6",
+"p": 3,
+"q": "İstisnai kazanmada karar makamı ve kapsamdaki dört grup?",
+"a": "Cumhurbaşkanı; sanayi tesisi getiren veya olağanüstü hizmet edenler, Turkuaz Kart / 31-j ikamet izni sahipleri, zaruri görülenler, göçmenler.",
+"u": [
+"Cumhurbaşkanı kararı",
+"Sanayi tesisi / olağanüstü hizmet",
+"Turkuaz Kart sahipleri",
+"Zaruri görülenler",
+"Göçmenler"
+]
+},
+{
+"l": "b6",
+"p": 4,
+"q": "Evlenme yoluyla başvuruda aranan üç şart?",
+"a": "Aile birliği içinde yaşama, evlilikle bağdaşmayan faaliyette bulunmama, millî güvenlik ve kamu düzeni engeli olmama (md. 16).",
+"u": [
+"Aile birliği içinde yaşama",
+"Evlilikle bağdaşmayan faaliyette bulunmama",
+"Millî güvenlik engeli olmama"
+]
+},
+{
+"l": "b6",
+"p": 5,
+"q": "Türk vatandaşlığı çıkmada tam olarak ne zaman kaybedilir?",
+"a": "Çıkma belgesinin ilgiliye imza karşılığı teslimiyle (md. 27/1)."
+},
+{
+"l": "b6",
+"p": 6,
+"q": "Kaybettirme kararı kimce verilir, ne zaman hüküm doğurur?",
+"a": "Cumhurbaşkanınca; Resmî Gazetede yayımlandığı tarihte (md. 29-30).",
+"u": [
+"Cumhurbaşkanı",
+"RG'de yayım tarihi"
+]
+},
+{
+"l": "b7",
+"p": 0,
+"q": "Yunus Emre Vakfının kanunu ve merkezi?",
+"a": "5653 sayılı Kanun (2007); Ankara.",
+"u": [
+"5653 sayılı Kanun",
+"Ankara"
+]
+},
+{
+"l": "b7",
+"p": 1,
+"q": "YEV Mütevelli Heyetinin ve Yönetim Kurulunun başkanları?",
+"a": "Mütevelli Heyet: Kültür ve Turizm Bakanı; Yönetim Kurulu: Yunus Emre Enstitüsü Başkanı.",
+"u": [
+"Kültür ve Turizm Bakanı",
+"YEE Başkanı"
+]
+},
+{
+"l": "b7",
+"p": 2,
+"q": "TİKA'nın bağlılık tarihçesi?",
+"a": "1992 Dışişleri Bakanlığı (480 sayılı KHK), 1999 Başbakanlık, 2018'den beri Kültür ve Turizm Bakanlığı (4 sayılı CBK).",
+"u": [
+"1992 Dışişleri",
+"1999 Başbakanlık",
+"2018 Kültür ve Turizm Bakanlığı"
+]
+},
+{
+"l": "b7",
+"p": 3,
+"q": "TİKA'nın yurt dışı birimlerinin adı?",
+"a": "Program Koordinasyon Ofisleri (4 sayılı CBK md. 525)."
+},
+{
+"l": "b7",
+"p": 4,
+"q": "Türkiye Maarif Vakfı Mütevelli Heyeti kaç üyeden oluşur, kaçı daimi?",
+"a": "12 üye; Cumhurbaşkanının atadığı 7 daimi üye ve 5 kamu temsilcisi (2 MEB, Dışişleri, Maliye, YÖK).",
+"u": [
+"12 üye",
+"7 daimi üye"
+]
+},
+{
+"l": "b7",
+"p": 5,
+"q": "Diyanet'in yurt dışı teşkilatı ve sürekli görev süresi?",
+"a": "Müşavirlik ve ataşelikler; üç yıl, Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir (633 md. 18/A).",
+"u": [
+"Müşavirlik ve ataşelikler",
+"Üç yıl"
+]
+},
+{
+"l": "b7",
+"p": "tl",
+"q": "Bu kurumların kuruluş yıllarını sırala: TİKA, Yunus Emre Vakfı, Türkiye Maarif Vakfı.",
+"a": "TİKA 1992, Yunus Emre Vakfı 2007, Türkiye Maarif Vakfı 2016.",
+"u": [
+"TİKA 1992",
+"YEV 2007",
+"TMV 2016"
+]
+},
+{
+"l": "h6",
+"p": 0,
+"q": "İHEB hangi Genel Kurul kararıyla ilan edildi?",
+"a": "217 A sayılı karar (10 Aralık 1948, Paris)."
+},
+{
+"l": "h6",
+"p": 1,
+"q": "Türkiye ICCPR ve ICESCR'yi ne zaman imzaladı ve onayladı?",
+"a": "İmza 15 Ağustos 2000; onay 23 Eylül 2003.",
+"u": [
+"İmza 15.8.2000",
+"Onay 23.9.2003"
+]
+},
+{
+"l": "h6",
+"p": 2,
+"q": "AİHS Ek Protokolün (No. 1) güvence altına aldığı üç hak?",
+"a": "Mülkiyetin korunması, eğitim hakkı, serbest seçim hakkı.",
+"u": [
+"Mülkiyetin korunması",
+"Eğitim hakkı",
+"Serbest seçim hakkı"
+]
+},
+{
+"l": "h6",
+"p": 3,
+"q": "TİHEK Kurulu kaç üyeden oluşur ve üyeleri kim seçer?",
+"a": "11 üye; hepsini Cumhurbaşkanı seçer (6701 md. 10, 2025 değişikliği).",
+"u": [
+"11 üye",
+"Cumhurbaşkanı"
+]
+},
+{
+"l": "h6",
+"p": 4,
+"q": "Kamu Başdenetçisi seçiminde ilk üç oylamadaki çoğunluklar?",
+"a": "İlk iki oylamada üye tamsayısının üçte ikisi, üçüncüde salt çoğunluk; sonra ilk iki aday arasında dördüncü oylama.",
+"u": [
+"İlk iki tur: üçte iki",
+"Üçüncü tur: salt çoğunluk"
+]
+},
+{
+"l": "h6",
+"p": 5,
+"q": "KDK'nın görev alanı dışında kalan üç konu?",
+"a": "Yasama işlemleri, yargı kararları, TSK'nın sırf askerî faaliyetleri (6328 md. 5/2).",
+"u": [
+"Yasama işlemleri",
+"Yargı kararları",
+"TSK'nın sırf askerî faaliyetleri"
+]
+},
+{
+"l": "h6",
+"p": 6,
+"q": "Dilekçeye cevap süresi ile bilgi edinmede itiraz süresi?",
+"a": "Dilekçe: en geç 30 gün (3071 md. 7). Bilgi edinme reddine itiraz: tebliğden itibaren 15 gün (4982 md. 13).",
+"u": [
+"Dilekçe 30 gün",
+"İtiraz 15 gün"
+]
+},
+{
+"l": "h7",
+"p": 0,
+"q": "Anayasa md. 123'e göre idarenin kuruluş ve görevleri hangi iki esasa dayanır?",
+"a": "Merkezden yönetim ve yerinden yönetim.",
+"u": [
+"Merkezden yönetim",
+"Yerinden yönetim"
+]
+},
+{
+"l": "h7",
+"p": 1,
+"q": "İl, ilçe ve bucak nasıl kurulur?",
+"a": "İl ve ilçe kanunla, bucak Cumhurbaşkanı onayıyla (5442 md. 2).",
+"u": [
+"İl ve ilçe: kanun",
+"Bucak: Cumhurbaşkanı onayı"
+]
+},
+{
+"l": "h7",
+"p": 2,
+"q": "5442'ye göre vali ilde neyin temsilcisidir?",
+"a": "Cumhurbaşkanının temsilcisi ve idari yürütme vasıtası (md. 9)."
+},
+{
+"l": "h7",
+"p": 3,
+"q": "Kaymakam kimin talimat ve emirlerini yürütür?",
+"a": "Valinin (5442 md. 31/A)."
+},
+{
+"l": "h7",
+"p": 4,
+"q": "İçişleri Bakanı mahalli idare organlarını hangi durumda, ne kadar süreyle uzaklaştırabilir?",
+"a": "Görevle ilgili suç nedeniyle soruşturma veya kovuşturma açılınca; geçici tedbir olarak kesin hükme kadar (Anayasa md. 127)."
+},
+{
+"l": "h7",
+"p": 5,
+"q": "Meslek kuruluşunu faaliyetten men eden merciin kararı hangi sürelerde hâkim denetimine girer?",
+"a": "24 saat içinde hâkim onayına sunulur; hâkim 48 saat içinde karar verir (Anayasa md. 135).",
+"u": [
+"24 saat",
+"48 saat"
+]
+},
+{
+"l": "h7",
+"p": 6,
+"q": "1 sayılı CBK'de bugün hangi ofis düzenlenir?",
+"a": "Yalnızca Yatırım ve Finans Ofisi (2025, 183 sayılı CBK sonrası)."
+},
+{
+"l": "g4",
+"p": 0,
+"q": "Altı ilke Anayasaya ne zaman, hangi kanunla, hangi maddeye girdi?",
+"a": "Şubat 1937, 3115 sayılı Kanun, 1924 Anayasası md. 2.",
+"u": [
+"Şubat 1937",
+"3115 sayılı Kanun",
+"md. 2"
+]
+},
+{
+"l": "g4",
+"p": 1,
+"q": "1921 Teşkilat-ı Esasiye'nin sayısı ve üç temel özelliği?",
+"a": "85 sayılı Kanun; millî egemenlik, Meclis hükümeti, kuvvetler birliği.",
+"u": [
+"85 sayılı Kanun",
+"Millî egemenlik",
+"Meclis hükümeti",
+"Kuvvetler birliği"
+]
+},
+{
+"l": "g4",
+"p": 2,
+"q": "1924 Anayasasında 1928, 1945 ve 1952 değişiklikleri?",
+"a": "1928 (1222): din ibaresi çıktı; 1945 (4695): dil Türkçeleşti, adı “Anayasa” oldu; 1952 (5997): eski metne dönüldü.",
+"u": [
+"1928: din ibaresi çıkarıldı",
+"1945: dil Türkçeleştirildi",
+"1952: eski metne dönüldü"
+]
+},
+{
+"l": "g4",
+"p": 3,
+"q": "TCF ne zaman kuruldu, ne zaman ve neden kapatıldı?",
+"a": "17.11.1924; 3.6.1925'te Şeyh Sait İsyanı ile ilişkilendirilerek kapatıldı.",
+"u": [
+"17.11.1924",
+"3.6.1925",
+"Şeyh Sait İsyanı"
+]
+},
+{
+"l": "g4",
+"p": 4,
+"q": "SCF'yi kim, ne zaman kurdu; ne kadar yaşadı?",
+"a": "Ali Fethi Okyar, Ağustos 1930; yaklaşık üç ay.",
+"u": [
+"Ali Fethi Okyar",
+"Ağustos 1930",
+"Yaklaşık üç ay"
+]
+},
+{
+"l": "g4",
+"p": 5,
+"q": "671, 677, 697 ve 698 sayılı kanunların konuları?",
+"a": "Şapka; tekke ve zaviyelerin kapatılması; günün 24 saate bölünmesi; takvim başlangıcı.",
+"u": [
+"671: şapka",
+"677: tekke ve zaviyeler",
+"697: 24 saat",
+"698: takvim"
+]
+},
+{
+"l": "g4",
+"p": 6,
+"q": "Harf kanunu ve Ölçüler Kanunu kabul tarihleri?",
+"a": "1353 sayılı Kanun 1.11.1928; 1782 sayılı Ölçüler Kanunu 1931.",
+"u": [
+"Harf: 1.11.1928",
+"Ölçüler: 1931"
+]
+},
+{
+"l": "g5",
+"p": 0,
+"q": "2026 NATO Zirvesi: yer, tarih, bildiri adı?",
+"a": "Ankara (Beştepe), 7-8 Temmuz 2026, Ankara Zirvesi Bildirisi.",
+"u": [
+"Ankara (Beştepe)",
+"7-8 Temmuz 2026",
+"Ankara Zirvesi Bildirisi"
+]
+},
+{
+"l": "g5",
+"p": 1,
+"q": "COP31'de Türkiye ve Avustralya'nın rolleri?",
+"a": "Türkiye ev sahibi ve COP31 Başkanı; Avustralya Müzakereler Başkanı (COP Başkan Yardımcısı).",
+"u": [
+"Türkiye: ev sahibi ve COP31 Başkanı",
+"Avustralya: Müzakereler Başkanı"
+]
+},
+{
+"l": "g5",
+"p": 2,
+"q": "COP31 nerede, ne zaman; COP30 nerede yapıldı?",
+"a": "Antalya, 9-20 Kasım 2026; COP30 Belém (Brezilya).",
+"u": [
+"Antalya",
+"9-20 Kasım 2026",
+"COP30: Belém"
+]
+},
+{
+"l": "g5",
+"p": 3,
+"q": "TDT 12. Zirvesi: yer, tarih, tema?",
+"a": "Gebele (Azerbaycan), 7 Ekim 2025, “Bölgesel Barış ve Güvenlik”.",
+"u": [
+"Gebele",
+"7 Ekim 2025",
+"Bölgesel Barış ve Güvenlik"
+]
+},
+{
+"l": "g5",
+"p": 4,
+"q": "TDT 13. Zirvesi: yer, tarih, tema?",
+"a": "Ankara, 29-30 Ekim 2026, “Türk Yüzyılı: Dilde, Fikirde, İşte Birlik”.",
+"u": [
+"Ankara",
+"29-30 Ekim 2026",
+"Türk Yüzyılı: Dilde, Fikirde, İşte Birlik"
+]
+},
+{
+"l": "g5",
+"p": 5,
+"q": "Türkiye Bursları: 2025 ve 2026 başvuru sayıları?",
+"a": "2025: 171 ülkeden 125.668; 2026: yaklaşık 200.000 (rekor).",
+"u": [
+"2025: 125.668 (171 ülke)",
+"2026: yaklaşık 200.000"
+]
+},
+{
+"l": "g6",
+"p": 0,
+"q": "Türkiye'nin matematik konumu?",
+"a": "36°-42° kuzey enlemleri, 26°-45° doğu boylamları.",
+"u": [
+"36°-42° kuzey enlemleri",
+"26°-45° doğu boylamları"
+]
+},
+{
+"l": "g6",
+"p": 1,
+"q": "Büyük ve Küçük Ağrı'nın yükseklikleri?",
+"a": "Büyük Ağrı 5.137 m (HGK haritaları), Küçük Ağrı yaklaşık 3.896 m.",
+"u": [
+"Büyük Ağrı 5.137 m",
+"Küçük Ağrı yaklaşık 3.896 m"
+]
+},
+{
+"l": "g6",
+"p": 2,
+"q": "Van Gölünün üç özelliği?",
+"a": "Türkiye'nin en büyük gölü (yaklaşık 3.700 km²), dünyanın en büyük sodalı gölü, dışa akışı olmayan volkanik set gölü.",
+"u": [
+"En büyük göl",
+"En büyük sodalı göl",
+"Dışa akışı yok",
+"Volkanik set gölü (Nemrut)"
+],
+"need": 3
+},
+{
+"l": "g6",
+"p": 3,
+"q": "Sayıştay raporuna göre en uzun kıyı hangi denizde, kaç km?",
+"a": "Ege, 2.805 km.",
+"u": [
+"Ege",
+"2.805 km"
+]
+},
+{
+"l": "g6",
+"p": 4,
+"q": "1923'teki il sayısı ve 81. il?",
+"a": "71 il; 81. il Düzce (1999).",
+"u": [
+"1923: 71 il",
+"81. il: Düzce (1999)"
+]
+},
+{
+"l": "g6",
+"p": 5,
+"q": "ADNKS 2025: toplam nüfus, en kalabalık ve en az nüfuslu il?",
+"a": "86.092.168; İstanbul; Bayburt.",
+"u": [
+"86.092.168",
+"En kalabalık: İstanbul",
+"En az: Bayburt"
+]
+},
+{
+"l": "y3",
+"p": 11,
+"q": "A havuzu 4 saatte dolduruyor, B 12 saatte boşaltıyor. Birlikte açılırsa boş havuz kaç saatte dolar?",
+"a": "1/4 − 1/12 = 1/6, yani 6 saat."
+},
+{
+"l": "y3",
+"p": 12,
+"q": "Maliyeti 200 TL olan mal %30 kârla satılıyor. Satış fiyatı?",
+"a": "200 × 1,30 = 260 TL."
+},
+{
+"l": "y3",
+"p": 13,
+"q": "Şeker oranı %10 olan 50 litre şerbete 50 litre su ekleniyor. Yeni oran?",
+"a": "Şeker 5 litre, toplam 100 litre: %5."
+},
+{
+"l": "y4",
+"p": 4,
+"q": "\"Bazı öğrenciler sporcudur. Hiçbir sporcu tembel değildir.\" Kesin sonuç?",
+"a": "Bazı öğrenciler tembel değildir."
 }
 ]
 }

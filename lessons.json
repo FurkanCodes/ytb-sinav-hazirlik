@@ -1,9 +1,20 @@
 {
 "lessons": [
 {
-"id": "b1", "area": "B", "title": "YTB'nin kuruluşu ve hukuki statüsü",
+"id": "b1",
+"area": "B",
+"title": "YTB'nin kuruluşu ve hukuki statüsü",
 "intro": "Sınavın kurum bölümünde en çok sorulan bilgiler: YTB hangi düzenlemeyle kuruldu, bugün nerede düzenleniyor, kime bağlı ve bütçesi nasıl.",
-"tl": [["24.3.2010", "5978 sayılı Kanun kabul edildi (RG 6.4.2010). YTB Başbakanlığa bağlı olarak kuruldu."], ["2018", "4 sayılı CBK ile yeniden düzenlendi. Bugünkü yeri: CBK'nin 51. bölümü, md. 732-753."]],
+"tl": [
+[
+"24.3.2010",
+"5978 sayılı Kanun kabul edildi (RG 6.4.2010). YTB Başbakanlığa bağlı olarak kuruldu."
+],
+[
+"2018",
+"4 sayılı CBK ile yeniden düzenlendi. Bugünkü yeri: CBK'nin 51. bölümü, md. 732-753."
+]
+],
 "points": [
 "<b>Bağlılık:</b> YTB bugün <b>Kültür ve Turizm Bakanlığına bağlıdır</b> (CBK md. 735).",
 "<b>Sorumluluk:</b> Başkan, Bakana karşı sorumludur (md. 736). md. 734/a'ya göre \"Bakan\" Kültür ve Turizm Bakanıdır.",
@@ -16,12 +27,48 @@
 "YTB 2018'de kurulmadı. 2010'da kuruldu, 2018'de yeniden düzenlendi.",
 "375 sayılı KHK ek 26 sözleşmeli uzmanlar içindir. YTB uzman yardımcılığının dayanağı 657 ek md. 41'dir."
 ],
-"recall": [["YTB hangi bakanlığa bağlı, hangi madde?", "Kültür ve Turizm Bakanlığı, 4 sayılı CBK md. 735."], ["5018 sayılı Kanunda YTB hangi cetvelde?", "(II) sayılı cetvel, özel bütçeli idareler."], ["En çok kaç başkan yardımcısı olabilir?", "Üç (md. 736)."]],
-"src": [{"t": "4 sayılı CBK", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.4.pdf"}, {"t": "5978 sayılı Kanun (RG 6.4.2010)", "u": "https://www.resmigazete.gov.tr/eskiler/2010/04/20100406-1.htm"}, {"t": "5018 sayılı Kanun", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5018.pdf"}],
-"qs": ["B01", "B02", "B03", "B07", "B08", "B10", "B20"]
+"recall": [
+[
+"YTB hangi bakanlığa bağlı, hangi madde?",
+"Kültür ve Turizm Bakanlığı, 4 sayılı CBK md. 735."
+],
+[
+"5018 sayılı Kanunda YTB hangi cetvelde?",
+"(II) sayılı cetvel, özel bütçeli idareler."
+],
+[
+"En çok kaç başkan yardımcısı olabilir?",
+"Üç (md. 736)."
+]
+],
+"src": [
+{
+"t": "4 sayılı CBK",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.4.pdf"
 },
 {
-"id": "b2", "area": "B", "title": "Teşkilat ve hizmet birimleri",
+"t": "5978 sayılı Kanun (RG 6.4.2010)",
+"u": "https://www.resmigazete.gov.tr/eskiler/2010/04/20100406-1.htm"
+},
+{
+"t": "5018 sayılı Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5018.pdf"
+}
+],
+"qs": [
+"B01",
+"B02",
+"B03",
+"B07",
+"B08",
+"B10",
+"B20"
+]
+},
+{
+"id": "b2",
+"area": "B",
+"title": "Teşkilat ve hizmet birimleri",
 "intro": "YTB'nin hizmet birimleri hedef kitlelerine göre kurulmuştur. Sınavda bir görevin hangi birime ait olduğu ya da uydurma bir birim adı sorulur.",
 "points": [
 "<b>Yapı:</b> CBK md. 737'de 8 daire başkanlığı ve Hukuk Müşavirliği sayılır.",
@@ -36,12 +83,33 @@
 "STK hibe desteği Destek Hizmetleri ya da Strateji Geliştirme Daire Başkanlığının değil, Kurumsal İlişkiler ve İletişim Daire Başkanlığının görevidir.",
 "Geçici koruma, uluslararası koruma ve Turkuaz Kart göç mevzuatının konusudur, YTB kapsamında sayılmaz."
 ],
-"recall": [["Soydaş ve akraba topluluklarla bağları hangi birim koordine eder?", "Kültürel ve Sosyal İlişkiler Daire Başkanlığı (md. 739)."], ["STK'lara hibe desteği hangi birimin?", "Kurumsal İlişkiler ve İletişim Daire Başkanlığı (md. 740)."]],
-"src": [{"t": "4 sayılı CBK md. 733-740", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.4.pdf"}],
-"qs": ["B04", "B05", "B06", "B09"]
+"recall": [
+[
+"Soydaş ve akraba topluluklarla bağları hangi birim koordine eder?",
+"Kültürel ve Sosyal İlişkiler Daire Başkanlığı (md. 739)."
+],
+[
+"STK'lara hibe desteği hangi birimin?",
+"Kurumsal İlişkiler ve İletişim Daire Başkanlığı (md. 740)."
+]
+],
+"src": [
+{
+"t": "4 sayılı CBK md. 733-740",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.4.pdf"
+}
+],
+"qs": [
+"B04",
+"B05",
+"B06",
+"B09"
+]
 },
 {
-"id": "b3", "area": "B", "title": "Türkiye Bursları",
+"id": "b3",
+"area": "B",
+"title": "Türkiye Bursları",
 "intro": "YTB'nin en görünür programı. Hem test sorusu hem yazılı konusu olarak gelir. Yazılıda genellikle yumuşak güç kavramıyla bağlanır.",
 "points": [
 "<b>Markalaşma:</b> Burslar 2012'de \"Türkiye Bursları\" adıyla markalaştı. Program YTB koordinasyonunda ilgili kurumlarla iş birliği içinde yürütülür.",
@@ -50,13 +118,40 @@
 "<b>Neler sağlamaz:</b> Mezuniyet sonrası istihdam güvencesi ya da Türkiye'de kamuda çalışma zorunluluğu yoktur.",
 "<b>Yumuşak güç:</b> Joseph Nye'ın 1990'da ortaya attığı kavram. Zorlama ya da ödeme yerine kültür, değer ve politikaların cazibesiyle etkileme gücü demektir."
 ],
-"traps": ["Burs yalnızca Türk soylulara ya da yalnızca lisansüstüne verilmez.", "Programı YÖK tek başına yürütmez, YTB koordine eder."],
-"recall": [["Türkiye Bursları hangi yıl markalaştı?", "2012."], ["Yumuşak güç kavramı kimin?", "Joseph Nye (1990)."]],
-"src": [{"t": "YTB Uluslararası Öğrenciler", "u": "https://www.ytb.gov.tr/daireler/uluslararasi-ogrenciler/"}, {"t": "Türkiye Bursları", "u": "https://www.turkiyeburslari.gov.tr/whyturkiyescholarships"}],
-"qs": ["B11", "B12", "U10"]
+"traps": [
+"Burs yalnızca Türk soylulara ya da yalnızca lisansüstüne verilmez.",
+"Programı YÖK tek başına yürütmez, YTB koordine eder."
+],
+"recall": [
+[
+"Türkiye Bursları hangi yıl markalaştı?",
+"2012."
+],
+[
+"Yumuşak güç kavramı kimin?",
+"Joseph Nye (1990)."
+]
+],
+"src": [
+{
+"t": "YTB Uluslararası Öğrenciler",
+"u": "https://www.ytb.gov.tr/daireler/uluslararasi-ogrenciler/"
 },
 {
-"id": "b4", "area": "B", "title": "Yurt dışındaki vatandaşların hakları: Anayasa 62, Mavi Kart, seçimler",
+"t": "Türkiye Bursları",
+"u": "https://www.turkiyeburslari.gov.tr/whyturkiyescholarships"
+}
+],
+"qs": [
+"B11",
+"B12",
+"U10"
+]
+},
+{
+"id": "b4",
+"area": "B",
+"title": "Yurt dışındaki vatandaşların hakları: Anayasa 62, Mavi Kart, seçimler",
 "intro": "YTB'nin hedef kitlesini doğrudan ilgilendiren üç hukuki konu. Sorular genellikle \"kim yararlanabilir\" ve \"ne yapamaz\" biçiminde gelir.",
 "points": [
 "<b>Anayasa md. 62:</b> Devlet yabancı ülkelerde çalışan vatandaşların aile birliği, çocuklarının eğitimi, kültürel ihtiyaçları ve sosyal güvenliği için tedbir alır. Anavatanla bağlarını korur, yurda dönüşlerinde yardımcı olur.",
@@ -70,27 +165,270 @@
 "\"Kamuda çalışamaz\" yanlış. Memur olamaz, sözleşmeli ya da işçi olabilir.",
 "Gümrük kapısı (1987) ile temsilcilik sandığı (ilk 2014) karıştırılır."
 ],
-"recall": [["Mavi Kartta altsoy kaçıncı dereceye kadar?", "Üçüncü dereceye kadar."], ["Temsilciliklerde ilk oy hangi seçimde?", "10 Ağustos 2014 Cumhurbaşkanı seçimi."], ["Yurt dışında hangi seçimde oy kullanılamaz?", "Mahalli idareler seçimi."]],
-"src": [{"t": "Anayasa md. 62", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}, {"t": "5901 sayılı Kanun md. 28", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5901.pdf"}, {"t": "298 sayılı Kanun", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.4.298.pdf"}],
-"qs": ["B13", "B14", "B15", "B16", "B18"]
+"recall": [
+[
+"Mavi Kartta altsoy kaçıncı dereceye kadar?",
+"Üçüncü dereceye kadar."
+],
+[
+"Temsilciliklerde ilk oy hangi seçimde?",
+"10 Ağustos 2014 Cumhurbaşkanı seçimi."
+],
+[
+"Yurt dışında hangi seçimde oy kullanılamaz?",
+"Mahalli idareler seçimi."
+]
+],
+"src": [
+{
+"t": "Anayasa md. 62",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
 },
 {
-"id": "b5", "area": "B", "title": "Göç tarihi ve diaspora",
+"t": "5901 sayılı Kanun md. 28",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5901.pdf"
+},
+{
+"t": "298 sayılı Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.4.298.pdf"
+}
+],
+"qs": [
+"B13",
+"B14",
+"B15",
+"B16",
+"B18"
+]
+},
+{
+"id": "b5",
+"area": "B",
+"title": "Göç tarihi ve diaspora",
 "intro": "Yurt dışındaki Türk toplumunun nasıl oluştuğu. Kronoloji soruları ve yazılıda diaspora diplomasisi kavramı gelir.",
-"tl": [["30.10.1961", "Federal Almanya"], ["15.5.1964", "Avusturya"], ["16.7.1964", "Belçika"], ["19.8.1964", "Hollanda"], ["8.4.1965", "Fransa"], ["10.3.1967", "İsveç"], ["5.10.1967", "Avustralya"]],
+"tl": [
+[
+"30.10.1961",
+"Federal Almanya"
+],
+[
+"15.5.1964",
+"Avusturya"
+],
+[
+"16.7.1964",
+"Belçika"
+],
+[
+"19.8.1964",
+"Hollanda"
+],
+[
+"8.4.1965",
+"Fransa"
+],
+[
+"10.3.1967",
+"İsveç"
+],
+[
+"5.10.1967",
+"Avustralya"
+]
+],
 "points": [
 "<b>Ezber yolu:</b> Önce Almanya (1961). Sonra 1964'te üçlü: Avusturya, Belçika, Hollanda (Mayıs, Temmuz, Ağustos). 1965 Fransa. 1967'de İsveç ve Avustralya.",
 "<b>Nüfus:</b> Dışişleri Bakanlığına göre yurt dışında yaklaşık <b>7,5 milyon</b> Türk yaşıyor. Yarıdan fazlası Batı Avrupa'da.",
 "<b>Diaspora diplomasisi:</b> Çağdaş anlayış diasporayı yalnızca hizmet verilen pasif bir kitle olarak değil, kök ülke ile yaşadığı ülke arasında köprü kuran bir aktör olarak görür.",
 "<b>YTB'nin hedefi:</b> Vatandaşların yaşadıkları ülkelerdeki ekonomik, sosyal, kültürel ve hukuki konumlarını güçlendirmek."
 ],
-"traps": ["Avusturya, Belçika ve Hollanda aynı yıl (1964). Fransa onlardan sonra gelir.", "Diaspora politikası yalnızca geri dönüşü teşvik etmek değildir."],
-"recall": [["İlk işgücü anlaşması hangi ülkeyle, ne zaman?", "Federal Almanya, 30.10.1961."], ["Yurt dışındaki Türk nüfusu yaklaşık kaç?", "7,5 milyon (Dışişleri)."]],
-"src": [{"t": "ÇSGB, İşgücü anlaşmaları", "u": "https://csgb.gov.tr/Media/wcbj1zxb/isgucuanlasmalari.pdf"}, {"t": "Dışişleri: Yurtdışında yaşayan Türkler", "u": "https://www.mfa.gov.tr/yurtdisinda-yasayan-turkler_.tr.mfa"}, {"t": "YTB Başkanlık", "u": "https://www.ytb.gov.tr/kurumsal/baskanlik"}],
-"qs": ["B17", "B19", "U20"]
+"traps": [
+"Avusturya, Belçika ve Hollanda aynı yıl (1964). Fransa onlardan sonra gelir.",
+"Diaspora politikası yalnızca geri dönüşü teşvik etmek değildir."
+],
+"recall": [
+[
+"İlk işgücü anlaşması hangi ülkeyle, ne zaman?",
+"Federal Almanya, 30.10.1961."
+],
+[
+"Yurt dışındaki Türk nüfusu yaklaşık kaç?",
+"7,5 milyon (Dışişleri)."
+]
+],
+"src": [
+{
+"t": "ÇSGB, İşgücü anlaşmaları",
+"u": "https://csgb.gov.tr/Media/wcbj1zxb/isgucuanlasmalari.pdf"
 },
 {
-"id": "h1", "area": "H", "title": "Anayasa: temel ilkeler ve dokunulamaz haklar",
+"t": "Dışişleri: Yurtdışında yaşayan Türkler",
+"u": "https://www.mfa.gov.tr/yurtdisinda-yasayan-turkler_.tr.mfa"
+},
+{
+"t": "YTB Başkanlık",
+"u": "https://www.ytb.gov.tr/kurumsal/baskanlik"
+}
+],
+"qs": [
+"B17",
+"B19",
+"U20"
+]
+},
+{
+"id": "b6",
+"area": "B",
+"title": "Türk vatandaşlığının kazanılması ve kaybı",
+"intro": "YTB'nin hedef kitlesi için vatandaşlık en temel hukuki konudur. Sorular genellikle süreler (3 yıl, 5 yıl, 2 yıl), karar makamı (Bakanlık mı Cumhurbaşkanı mı) ve sayılmayan şart üzerinden gelir.",
+"points": [
+"<b>Doğumla kazanma</b> (5901 md. 5-8): Vatandaşlık doğumla veya sonradan kazanılır. Doğumla kazanma soy bağı veya doğum yeri esasına göre kendiliğinden olur ve doğum anından hüküm doğurur. Türk ana veya babadan evlilik içinde doğan çocuk (yurt içinde veya dışında) Türktür. Evlilik dışında Türk ana ve yabancı babadan doğan çocuk da Türktür. Türk baba ve yabancı anadan evlilik dışı doğan çocuk, soy bağı kurulursa kazanır.",
+"<b>Doğum yeri</b> (md. 8): Türkiye'de doğan ve yabancı ana-babasından dolayı hiçbir ülkenin vatandaşlığını kazanamayan çocuk doğumdan itibaren Türktür. Türkiye'de bulunmuş çocuk, aksi sabit olmadıkça Türkiye'de doğmuş sayılır.",
+"<b>Sonradan kazanma ve genel şartlar</b> (md. 9-11, 15, 19): Üç yol vardır: yetkili makam kararı, evlat edinilme, seçme hakkı. Genel şartlar: ergin ve ayırt etme gücüne sahip olmak, başvurudan geriye <b>kesintisiz beş yıl</b> ikamet, yerleşme kararını davranışla teyit, sağlık, iyi ahlak, yeteri kadar Türkçe, geçim, millî güvenlik engeli olmamak. İkamet süresi içinde toplam <b>12 ayı</b> geçmemek üzere yurt dışında bulunulabilir. Şartları taşımak mutlak hak sağlamaz. Karar Bakanlık (İçişleri) kararıdır.",
+"<b>İstisnai kazanma</b> (md. 12): <b>Cumhurbaşkanı kararı</b> ile. Kapsam: Türkiye'ye sanayi tesisi getirenler veya bilim, ekonomi, spor, kültür, sanat alanlarında olağanüstü hizmeti geçenler; 6458 md. 31/1-j ikamet izni alanlar ile Turkuaz Kart sahipleri (ve yabancı eş ile çocukları); vatandaşlığa alınması zaruri görülenler; göçmen olarak kabul edilenler.",
+"<b>Evlenme ve evlat edinme</b> (md. 16-17): Türk vatandaşı ile evlenme vatandaşlığı doğrudan kazandırmaz. <b>En az üç yıldır</b> evli ve evliliği süren yabancı başvurabilir. Şartlar: aile birliği içinde yaşama, evlilikle bağdaşmayan faaliyette bulunmama, millî güvenlik engeli olmama. Başvurudan sonra Türk eş ölürse aile birliği şartı aranmaz. Evlenme butlanla sona ererse iyiniyetli eş vatandaşlığı korur. Türk vatandaşınca evlat edinilen ergin olmayan kişi karar tarihinden itibaren kazanabilir.",
+"<b>Kayıp yolları ve çıkma</b> (md. 21-27): Kayıp yetkili makam kararı (çıkma, kaybettirme, iptal) veya seçme hakkı ile olur. Çıkma izni <b>Bakanlıkça</b> verilir. Şartlar: ergin olmak, yabancı vatandaşlığı kazanmış olmak veya kazanacağına dair inandırıcı belirti, suç veya askerlik nedeniyle aranmamak, mali ve cezai tahdit bulunmamak. Çıkma izin belgesi <b>iki yıl</b> geçerlidir. Vatandaşlık, çıkma belgesinin imza karşılığı teslimiyle kaybedilir. Ana-babaya bağlı olarak kaybeden çocuk ergin olduktan sonra <b>üç yıl</b> içinde seçme hakkıyla yeniden kazanabilir.",
+"<b>Kaybettirme, iptal, çok vatandaşlık</b> (md. 29-32, 44; Anayasa md. 66): Kaybettirme <b>Cumhurbaşkanı kararıyla</b> olur: Türkiye'nin menfaatine aykırı yabancı devlet hizmetini verilen süre (en az 3 ay) içinde bırakmamak, savaş hâlindeki devletin hizmetinde izinsiz çalışmak, izinsiz yabancı devlette gönüllü askerlik, yurt dışında olup yurda dön ilanına rağmen 3 ay içinde dönmemek (TCK 302, 309-315). Karar RG'de yayımlandığı tarihte hüküm doğurur ve şahsidir. Yalan beyanla kazanılan vatandaşlık iptal edilir, iptal bağlı eş ve çocuklara da uygulanır. Yabancı vatandaşlık kazanan, belgelerini ibraz eder ve kütüğüne çok vatandaşlık açıklaması yapılır. Anayasa md. 66: Vatana bağlılıkla bağdaşmayan eylem olmadıkça hiçbir Türk vatandaşlıktan çıkarılamaz, yargı yolu kapatılamaz."
+],
+"traps": [
+"Genel başvuruda ikamet süresi 5 yıl, evlenmede evlilik süresi 3 yıl, kaybettirilenlerin yeniden kazanmasında ikamet 3 yıldır. Çıkma izniyle kaybedenler ise ikamet şartı aranmadan Bakanlık kararıyla yeniden kazanabilir (md. 13-14).",
+"Genel ve evlenme yoluyla kazanmada karar Bakanlığındır. İstisnai kazanma ve kaybettirme ise Cumhurbaşkanı kararıyla olur.",
+"Türk babanın evlilik dışı çocuğu kendiliğinden değil, soy bağı kurulunca kazanır. Türk ananın evlilik dışı çocuğu ise doğrudan Türktür."
+],
+"recall": [
+[
+"Genel başvuruda ikamet süresi?",
+"Kesintisiz beş yıl; toplam 12 aya kadar yurt dışında bulunulabilir."
+],
+[
+"Evlenme yoluyla başvuru için evlilik süresi?",
+"En az üç yıl ve evlilik devam etmeli."
+],
+[
+"Çıkma izin belgesi kaç yıl geçerli?",
+"Karar tarihinden itibaren iki yıl."
+]
+],
+"src": [
+{
+"t": "5901 sayılı Türk Vatandaşlığı Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5901.pdf"
+},
+{
+"t": "Anayasa md. 66",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"B21",
+"B22",
+"B23",
+"B24",
+"B25",
+"B26"
+]
+},
+{
+"id": "b7",
+"area": "B",
+"title": "Kültürel diplomasi kurumları",
+"intro": "YTB yurt dışında tek başına çalışmaz. Yunus Emre Vakfı, TİKA, Türkiye Maarif Vakfı ve Diyanet'in yurt dışı teşkilatı aynı sahadadır. Sorular kuruluş kanunu, merkez, bağlılık ve görev eşleştirmesi biçiminde gelir.",
+"tl": [
+[
+"1965",
+"633 sayılı Diyanet İşleri Başkanlığı Kuruluş ve Görevleri Hakkında Kanun"
+],
+[
+"1992",
+"TİKA, 480 sayılı KHK ile Dışişleri Bakanlığı bünyesinde kuruldu"
+],
+[
+"1999",
+"TİKA Başbakanlığa bağlandı"
+],
+[
+"2007",
+"5653 sayılı Yunus Emre Vakfı Kanunu (RG 18.5.2007)"
+],
+[
+"2016",
+"6721 sayılı Türkiye Maarif Vakfı Kanunu (RG 28.6.2016)"
+],
+[
+"2018",
+"4 sayılı CBK (RG 15.7.2018): TİKA Kültür ve Turizm Bakanlığına bağlı"
+],
+[
+"2026",
+"202 sayılı CBK (RG 31.10.2026): TİKA bölümü yeniden düzenlendi"
+]
+],
+"points": [
+"<b>Yunus Emre Vakfı</b> (5653 sayılı Kanun, 2007, md. 1-3): Merkezi <b>Ankara</b>. Amaç: Türkiye'yi, kültürel mirasını, Türk dilini, kültürünü ve sanatını tanıtmak, dostluğu ve kültürel alışverişi geliştirmek. Türkiye'de <b>Yunus Emre Enstitüsü</b> (Vakfa bağlı eğitim ve araştırma kuruluşu), yurt dışında <b>Yunus Emre Türk Kültür Merkezleri</b> açar. Kültür Merkezi açılan şehirlerde diğer kamu kurumları aynı amaçla başka birim oluşturamaz.",
+"<b>YEV organları</b> (md. 4): Mütevelli Heyet karar organıdır, başkanı <b>Kültür ve Turizm Bakanıdır</b>. Yönetim Kurulu icra organıdır, başkanı <b>Yunus Emre Enstitüsü Başkanıdır</b>. Yönetim Kurulunun tabii üyeleri: YEE Başkanı, <b>TİKA Başkanı</b>, <b>YTB Başkanı</b> ve Dışişleri Bakanlığı Yurtdışı Tanıtım ve Kültürel İlişkiler Genel Müdürü. Ayrıca Denetleme Kurulu ve Danışma Kurulu vardır.",
+"<b>TİKA'nın kuruluşu</b>: 1992'de 480 sayılı KHK ile Dışişleri Bakanlığı bünyesinde kuruldu, 1999'da Başbakanlığa bağlandı (TİKA resmî sitesi). Bugünkü dayanağı <b>4 sayılı CBK md. 520 vd.</b>: <b>Kültür ve Turizm Bakanlığına bağlı</b>, kamu tüzel kişiliğini haiz, özel bütçeli Türk İşbirliği ve Koordinasyon Ajansı Başkanlığı. Başkan, Bakana karşı sorumludur.",
+"<b>TİKA'nın görevi</b> (4 sayılı CBK md. 521-525): İşbirliği hedeflenen ülke ve topluluklarla iktisadi, ticari, teknik, sosyal, kültürel ve eğitim ilişkilerini proje ve programlarla geliştirmek. Ayrıca insani yardım ve teknik işbirliği desteklerini koordine etmek, dış yardımların uygulanmasını, teknik koordinasyonunu ve takibini sağlamak. Yurt dışında <b>Program Koordinasyon Ofisleri</b> kurulabilir (TİKA sitesine göre 61 ülkede 63 ofis). 202 sayılı CBK (31.10.2026) tanımlar ekledi ve hizmet birimlerini bölge dairelerine (Orta Asya ve Kafkaslar, Balkanlar ve Doğu Avrupa vb.) göre yeniden düzenledi.",
+"<b>Türkiye Maarif Vakfı</b> (6721 sayılı Kanun, 2016): Merkezi <b>İstanbul</b>. Yurt dışında okul öncesinden üniversiteye örgün ve yaygın eğitim verir. Burs verir, okul ve yurt açar, eğitmen yetiştirir. Organları: Mütevelli Heyeti (12 üye: Cumhurbaşkanının atadığı 7 daimi üye ile 2 MEB, 1 Dışişleri, 1 Maliye ve 1 YÖK temsilcisi), Yönetim Kurulu (başkan ve 6 üye, 5 yıllık) ve Denetim Kurulu. TMV'nin okul açtığı ülkelerde MEB dışındaki kamu kurumlarının aynı amaçla birim açması <b>MEB iznine</b> tabidir.",
+"<b>Diyanet'in yurt dışı teşkilatı</b> (633 sayılı Kanun, 1965; Anayasa md. 136): Diyanet İşleri Başkanlığı genel idare içinde ve <b>Cumhurbaşkanlığına bağlıdır</b>. Başkanlık merkez, taşra ve yurt dışı teşkilatından oluşur. Yurt dışı teşkilatı <b>müşavirlik ve ataşeliklerden</b> oluşur (md. 18/A, 2025 değişikliği). Yurt dışı sürekli görev süresi <b>üç yıldır</b>, Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir. Dış İlişkiler Genel Müdürlüğü yurt dışındaki vatandaşların din hizmetlerini yürütür, soydaş ve akraba topluluklara yardımcı olur."
+],
+"traps": [
+"TİKA bugün Dışişleri Bakanlığına değil, Kültür ve Turizm Bakanlığına bağlıdır. Dışişleri bağlılığı 1992-1999 dönemine aittir.",
+"Yunus Emre Vakfının merkezi Ankara, Türkiye Maarif Vakfının merkezi İstanbul'dur.",
+"Enstitü Türkiye'deki kuruluştur, yurt dışındaki birimlerin adı Yunus Emre Türk Kültür Merkezidir. TİKA'nın yurt dışı birimleri Program Koordinasyon Ofisi, Diyanet'inkiler müşavirlik ve ataşeliktir."
+],
+"recall": [
+[
+"YTB Başkanı hangi vakfın Yönetim Kurulunun tabii üyesidir?",
+"Yunus Emre Vakfı."
+],
+[
+"TİKA bugün kime bağlı, dayanağı ne?",
+"Kültür ve Turizm Bakanlığı; 4 sayılı CBK md. 520 vd."
+],
+[
+"Türkiye Maarif Vakfının kanunu ve merkezi?",
+"6721 sayılı Kanun (2016); İstanbul."
+]
+],
+"src": [
+{
+"t": "5653 sayılı Yunus Emre Vakfı Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.5653.pdf"
+},
+{
+"t": "4 sayılı CBK (TİKA: md. 520 vd.)",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.4.pdf"
+},
+{
+"t": "TİKA History",
+"u": "https://tika.gov.tr/en/institutional/history/"
+},
+{
+"t": "6721 sayılı Türkiye Maarif Vakfı Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6721.pdf"
+},
+{
+"t": "633 sayılı Diyanet İşleri Başkanlığı Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.633.pdf"
+},
+{
+"t": "Anayasa md. 136",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"B27",
+"B28",
+"B29",
+"B30",
+"B31",
+"B32"
+]
+},
+{
+"id": "h1",
+"area": "H",
+"title": "Anayasa: temel ilkeler ve dokunulamaz haklar",
 "intro": "Anayasanın ilk maddeleri ve olağanüstü hallerde bile dokunulamayan haklar. Sorular \"hangisi sayılmamıştır\" biçiminde gelir.",
 "points": [
 "<b>md. 4:</b> md. 1 (devletin şekli Cumhuriyet), md. 2 (Cumhuriyetin nitelikleri) ve md. 3 (bütünlük, resmî dil, bayrak, millî marş, başkent) değiştirilemez ve değiştirilmesi teklif edilemez.",
@@ -99,13 +437,37 @@
 "<b>md. 66:</b> \"Türk Devletine vatandaşlık bağı ile bağlı olan herkes Türktür.\" Ölçüt soy değil vatandaşlık bağıdır.",
 "<b>Yaşlar:</b> Seçme 18 (md. 67), milletvekili seçilme 18 (md. 76, 2017)."
 ],
-"traps": ["Kişi özgürlüğü ve güvenliği (md. 19) md. 15'teki çekirdek alanda yoktur.", "Seçilme yaşı eski kitaplarda 25 yazar. Güncel hâli 18."],
-"recall": [["md. 4 hangi maddeleri korur?", "md. 1, 2 ve 3."], ["Seçme ve seçilme yaşı?", "18 / 18."]],
-"src": [{"t": "Anayasa", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}],
-"qs": ["H01", "H02", "G14", "G19"]
+"traps": [
+"Kişi özgürlüğü ve güvenliği (md. 19) md. 15'teki çekirdek alanda yoktur.",
+"Seçilme yaşı eski kitaplarda 25 yazar. Güncel hâli 18."
+],
+"recall": [
+[
+"md. 4 hangi maddeleri korur?",
+"md. 1, 2 ve 3."
+],
+[
+"Seçme ve seçilme yaşı?",
+"18 / 18."
+]
+],
+"src": [
+{
+"t": "Anayasa",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"H01",
+"H02",
+"G14",
+"G19"
+]
 },
 {
-"id": "h2", "area": "H", "title": "Yasama ve yürütme: CBK, denetim, Cumhurbaşkanı",
+"id": "h2",
+"area": "H",
+"title": "Yasama ve yürütme: CBK, denetim, Cumhurbaşkanı",
 "intro": "2017 değişikliğinden sonraki sistem. Eski kitaplarda yazan ama artık geçerli olmayan bilgiler bu konuda en büyük tuzaktır.",
 "points": [
 "<b>Kanun teklifi</b> (md. 88): Yalnızca milletvekilleri teklif eder. Bütçe kanunu teklifini ise Cumhurbaşkanı mali yıl başından en az <b>75 gün</b> önce sunar (md. 161).",
@@ -114,13 +476,44 @@
 "<b>CBK ve kanun</b> (md. 104/17): Kanunda açıkça düzenlenen konuda CBK çıkarılamaz. Çatışmada kanun uygulanır. TBMM aynı konuda kanun çıkarırsa CBK hükümsüz kalır.",
 "<b>Üçüncü adaylık</b> (md. 116/3): İkinci döneminde seçimlerin yenilenmesine <b>Meclis</b> karar verirse Cumhurbaşkanı bir defa daha aday olabilir."
 ],
-"traps": ["Gensoru 2017'de 6771 sayılı Kanunla kaldırıldı. Sözlü soru da artık sayılmaz.", "Bakanlar kanun teklif edemez.", "Seçimleri Cumhurbaşkanı kendisi yenilerse yeniden aday olma hakkı doğmaz."],
-"recall": [["md. 98'deki dört denetim yolu?", "Meclis araştırması, genel görüşme, Meclis soruşturması, yazılı soru."], ["CBK ile hangi hak grubu düzenlenebilir?", "Sosyal ve ekonomik haklar."], ["Bütçe teklifi en az kaç gün önce?", "75 gün."]],
-"src": [{"t": "Anayasa md. 88, 98, 104, 116, 161", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}],
-"qs": ["H03", "H04", "H05", "H06", "G15", "G16"]
+"traps": [
+"Gensoru 2017'de 6771 sayılı Kanunla kaldırıldı. Sözlü soru da artık sayılmaz.",
+"Bakanlar kanun teklif edemez.",
+"Seçimleri Cumhurbaşkanı kendisi yenilerse yeniden aday olma hakkı doğmaz."
+],
+"recall": [
+[
+"md. 98'deki dört denetim yolu?",
+"Meclis araştırması, genel görüşme, Meclis soruşturması, yazılı soru."
+],
+[
+"CBK ile hangi hak grubu düzenlenebilir?",
+"Sosyal ve ekonomik haklar."
+],
+[
+"Bütçe teklifi en az kaç gün önce?",
+"75 gün."
+]
+],
+"src": [
+{
+"t": "Anayasa md. 88, 98, 104, 116, 161",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"H03",
+"H04",
+"H05",
+"H06",
+"G15",
+"G16"
+]
 },
 {
-"id": "h3", "area": "H", "title": "Yargı organları",
+"id": "h3",
+"area": "H",
+"title": "Yargı organları",
 "intro": "Sayılar ve seçim usulleri. Bunlar ezber gerektirir, en iyi yol küçük bir tabloyu birkaç kez yazmaktır.",
 "points": [
 "<b>Anayasa Mahkemesi</b> (md. 146-147): 15 üye. TBMM 3 üye seçer (2'si Sayıştay adaylarından, 1'i serbest avukatlardan), Cumhurbaşkanı 12 üye seçer. Görev süresi 12 yıl, bir kişi iki kez seçilemez.",
@@ -129,13 +522,39 @@
 "<b>Danıştay</b> (md. 155): Üyelerin dörtte üçünü HSK, dörtte birini Cumhurbaşkanı seçer.",
 "<b>Uyuşmazlık Mahkemesi</b> (md. 158): Adli ve idari yargı arasındaki görev ve hüküm uyuşmazlıklarını kesin çözer. Başkanını AYM kendi üyeleri arasından görevlendirir."
 ],
-"traps": ["HSK üyeleri 6 değil 4 yıl için seçilir.", "Eski kitaplarda HSK tabii üyesi \"Adalet Bakan Yardımcısı\" yazar. 2025'ten beri Müsteşar.", "Yalnızca Anayasada olup AİHS'te olmayan bir hak için bireysel başvuru yapılamaz."],
-"recall": [["AYM'ye TBMM kaç üye seçer, nereden?", "3: ikisi Sayıştay, biri serbest avukat."], ["HSK: üye sayısı, CB ve TBMM payı, süre?", "13 üye; CB 4, TBMM 7; 4 yıl."]],
-"src": [{"t": "Anayasa md. 146-159", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}],
-"qs": ["H07", "H08", "H09", "H16", "H17"]
+"traps": [
+"HSK üyeleri 6 değil 4 yıl için seçilir.",
+"Eski kitaplarda HSK tabii üyesi \"Adalet Bakan Yardımcısı\" yazar. 2025'ten beri Müsteşar.",
+"Yalnızca Anayasada olup AİHS'te olmayan bir hak için bireysel başvuru yapılamaz."
+],
+"recall": [
+[
+"AYM'ye TBMM kaç üye seçer, nereden?",
+"3: ikisi Sayıştay, biri serbest avukat."
+],
+[
+"HSK: üye sayısı, CB ve TBMM payı, süre?",
+"13 üye; CB 4, TBMM 7; 4 yıl."
+]
+],
+"src": [
+{
+"t": "Anayasa md. 146-159",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"H07",
+"H08",
+"H09",
+"H16",
+"H17"
+]
 },
 {
-"id": "h4", "area": "H", "title": "İdare hukuku ve idari yargı",
+"id": "h4",
+"area": "H",
+"title": "İdare hukuku ve idari yargı",
 "intro": "Uzman yardımcısı olarak her gün karşılaşacağın konu: idari işlem ne zaman hukuka aykırıdır, vatandaş nasıl dava açar.",
 "points": [
 "<b>İdari işlemin beş unsuru</b> (İYUK 2/1-a): yetki, şekil, sebep, konu, maksat. Dayanaksız gerekçe <b>sebebi</b>, kişisel amaç <b>maksadı</b> sakatlar.",
@@ -145,13 +564,43 @@
 "<b>Hiyerarşi ve vesayet:</b> Aynı tüzelkişilik içindeki ilişki hiyerarşidir (vali-kaymakam). Ayrı tüzelkişiler üzerindeki denetim idari vesayettir (bakanlık-belediye).",
 "<b>Tazminat:</b> Görevlinin kusuru nedeniyle dava yalnızca idareye açılır. İdare sonra görevliye rücu eder (Anayasa md. 129/5, 657 md. 13)."
 ],
-"traps": ["Eski kitaplarda 60 gün / 6 ay yazar. Güncel: 30 gün / 4 ay.", "Dava doğrudan kusurlu memura açılmaz."],
-"recall": [["Beş unsur?", "Yetki, şekil, sebep, konu, maksat."], ["Zımni ret süresi ve üst sınır?", "30 gün / 4 ay."]],
-"src": [{"t": "İYUK", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2577.pdf"}, {"t": "Anayasa md. 125-129", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}],
-"qs": ["H10", "H11", "H12", "H13", "H14", "H15"]
+"traps": [
+"Eski kitaplarda 60 gün / 6 ay yazar. Güncel: 30 gün / 4 ay.",
+"Dava doğrudan kusurlu memura açılmaz."
+],
+"recall": [
+[
+"Beş unsur?",
+"Yetki, şekil, sebep, konu, maksat."
+],
+[
+"Zımni ret süresi ve üst sınır?",
+"30 gün / 4 ay."
+]
+],
+"src": [
+{
+"t": "İYUK",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2577.pdf"
 },
 {
-"id": "h5", "area": "H", "title": "Uluslararası hukuk: andlaşmalar, Viyana sözleşmeleri, AİHS",
+"t": "Anayasa md. 125-129",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"H10",
+"H11",
+"H12",
+"H13",
+"H14",
+"H15"
+]
+},
+{
+"id": "h5",
+"area": "H",
+"title": "Uluslararası hukuk: andlaşmalar, Viyana sözleşmeleri, AİHS",
 "intro": "Üç Viyana sözleşmesi ve AİHS sistemi sık karıştırılır. Tarih ile konu eşleştirmesi yeter.",
 "points": [
 "<b>Anayasa md. 90/son:</b> Usulüne göre yürürlüğe konulmuş andlaşmalar kanun hükmündedir. Anayasaya aykırılık iddiasıyla AYM'ye götürülemez. Temel haklara ilişkin andlaşma ile kanun çatışırsa andlaşma esas alınır (2004 eklemesi).",
@@ -160,13 +609,220 @@
 "<b>1969 Viyana:</b> Antlaşmalar hukuku. md. 26: pacta sunt servanda (andlaşmalar bağlar ve iyi niyetle uygulanır).",
 "<b>AİHS:</b> Avrupa Konseyi çatısı altında, 4 Kasım 1950'de Roma'da imzaya açıldı. AİHM Strazburg'dadır. Bireysel başvuru için iç hukuk yolları tüketilmelidir."
 ],
-"traps": ["AİHM bir AB organı değildir, Avrupa Konseyi organıdır. AB'nin yargı organı Lüksemburg'daki AB Adalet Divanıdır.", "Andlaşmalar Anayasanın üstünde değil, kanun hükmündedir.", "BM Şartı md. 51 meşru müdafaadır, andlaşma hukuku değil."],
-"recall": [["Konsolosluk görevleri hangi sözleşmede?", "1963 Viyana Konsolosluk İlişkileri Sözleşmesi, md. 5."], ["AİHM nerede, kimin organı?", "Strazburg, Avrupa Konseyi."]],
-"src": [{"t": "Anayasa md. 90", "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"}, {"t": "1969 Viyana Sözleşmesi", "u": "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf"}, {"t": "1963 Viyana Sözleşmesi", "u": "https://legal.un.org/ilc/texts/instruments/english/conventions/9_2_1963.pdf"}, {"t": "AİHS Türkçe metni", "u": "https://www.echr.coe.int/documents/d/echr/convention_tur"}],
-"qs": ["H18", "H19", "H20", "U17"]
+"traps": [
+"AİHM bir AB organı değildir, Avrupa Konseyi organıdır. AB'nin yargı organı Lüksemburg'daki AB Adalet Divanıdır.",
+"Andlaşmalar Anayasanın üstünde değil, kanun hükmündedir.",
+"BM Şartı md. 51 meşru müdafaadır, andlaşma hukuku değil."
+],
+"recall": [
+[
+"Konsolosluk görevleri hangi sözleşmede?",
+"1963 Viyana Konsolosluk İlişkileri Sözleşmesi, md. 5."
+],
+[
+"AİHM nerede, kimin organı?",
+"Strazburg, Avrupa Konseyi."
+]
+],
+"src": [
+{
+"t": "Anayasa md. 90",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
 },
 {
-"id": "u1", "area": "U", "title": "Türkiye'nin üyesi olduğu örgütler",
+"t": "1969 Viyana Sözleşmesi",
+"u": "https://legal.un.org/ilc/texts/instruments/english/conventions/1_1_1969.pdf"
+},
+{
+"t": "1963 Viyana Sözleşmesi",
+"u": "https://legal.un.org/ilc/texts/instruments/english/conventions/9_2_1963.pdf"
+},
+{
+"t": "AİHS Türkçe metni",
+"u": "https://www.echr.coe.int/documents/d/echr/convention_tur"
+}
+],
+"qs": [
+"H18",
+"H19",
+"H20",
+"U17"
+]
+},
+{
+"id": "h6",
+"area": "H",
+"title": "İnsan hakları: belgeler ve ulusal kurumlar",
+"intro": "Programdaki insan hakları başlığı iki kısımdan oluşur: uluslararası belgeler (İHEB, 1966 sözleşmeleri, AİHS protokolleri) ve Türkiye'deki başvuru mekanizmaları (TİHEK, Kamu Denetçiliği, dilekçe, bilgi edinme). Sorularda tarih, süre ve kurum eşleştirmesi istenir.",
+"tl": [
+[
+"10.12.1948",
+"İnsan Hakları Evrensel Beyannamesi, BM Genel Kurulu, Paris (karar 217 A)"
+],
+[
+"20.3.1952",
+"AİHS Ek Protokol (No. 1), Paris"
+],
+[
+"16.12.1966",
+"ICCPR ve ICESCR, New York"
+],
+[
+"1976",
+"ICESCR 3 Ocak, ICCPR 23 Mart 1976'da yürürlüğe girdi"
+],
+[
+"2003",
+"Türkiye iki sözleşmeyi 23 Eylül 2003'te onayladı (imza 15.8.2000)"
+],
+[
+"2010",
+"Anayasa md. 74'e bilgi edinme ve kamu denetçisi eklendi (5982)"
+],
+[
+"2012",
+"6328 sayılı Kamu Denetçiliği Kurumu Kanunu"
+],
+[
+"2016",
+"6701 sayılı Türkiye İnsan Hakları ve Eşitlik Kurumu Kanunu"
+]
+],
+"points": [
+"<b>İnsan Hakları Evrensel Beyannamesi:</b> BM Genel Kurulunca <b>10 Aralık 1948'de Paris'te</b> ilan edildi (Genel Kurul kararı 217 A). Bütün halklar ve uluslar için ortak bir başarı ölçütü olarak kabul edildi. Evrensel olarak korunacak temel hakları ilk kez ortaya koydu.",
+"<b>1966 sözleşmeleri:</b> Medeni ve Siyasi Haklar Uluslararası Sözleşmesi (ICCPR) ile Ekonomik, Sosyal ve Kültürel Haklar Uluslararası Sözleşmesi (ICESCR) <b>16 Aralık 1966'da New York'ta</b> kabul edildi. ICESCR 3 Ocak 1976'da, ICCPR 23 Mart 1976'da yürürlüğe girdi. Türkiye ikisini de 15 Ağustos 2000'de imzaladı, <b>23 Eylül 2003'te</b> onayladı.",
+"<b>AİHS protokolleri:</b> Ek Protokol (No. 1, Paris 1952): mülkiyetin korunması, eğitim hakkı, serbest seçim hakkı. <b>No. 6</b> (1983): ölüm cezasını kaldırır ama savaş veya yakın savaş tehlikesi zamanı için istisna tanır. <b>No. 12</b> (Roma 2000): ayrımcılığın genel olarak yasaklanması. <b>No. 13</b> (Vilnius 2002): ölüm cezasını her durumda kaldırır, askıya alma ve çekince yasaktır. <b>No. 16</b> (2013): en yüksek mahkemeler AİHM'den danışma görüşü isteyebilir. Anayasa md. 38 (2004): ölüm cezası ve genel müsadere cezası verilemez.",
+"<b>TİHEK</b> (6701 sayılı Kanun, 2016): İdari ve mali özerk, özel bütçeli, kamu tüzel kişiliğini haiz, <b>Cumhurbaşkanının görevlendireceği bakanla ilişkili</b> bir kurumdur. Görevi insan haklarını korumak ve geliştirmek, ayrımcılığı önlemek ve işkence ile kötü muameleyle mücadele etmektir. BM İşkenceye Karşı Sözleşmenin İhtiyari Protokolü uyarınca <b>ulusal önleme mekanizmasıdır</b>. Karar organı Kuruldur: 11 üye, hepsi Cumhurbaşkanınca seçilir (2025, 7547 sayılı Kanun).",
+"<b>Kamu Denetçiliği Kurumu</b> (Anayasa md. 74, 2010; 6328 sayılı Kanun, 2012): <b>TBMM Başkanlığına bağlıdır</b> ve idarenin işleyişiyle ilgili şikâyetleri inceler. Kamu Başdenetçisi TBMM'ce gizli oyla <b>dört yıl</b> için seçilir. İlk iki oylamada üye tamsayısının üçte ikisi, üçüncü oylamada salt çoğunluk aranır, sonra en çok oy alan iki aday arasında dördüncü oylama yapılır. Kurumda bir Başdenetçi ve beş denetçi vardır. Yaş şartı Başdenetçi için 50, denetçi için 40'tır. Bir kişi yalnızca bir dönem daha seçilebilir.",
+"<b>KDK'ya başvuru</b> (6328 md. 5, 17, 20): Gerçek ve tüzel kişiler başvurabilir. Başvuru ücretsizdir ve valilik veya kaymakamlık aracılığıyla da yapılabilir. İdari başvuru yolları önce tüketilmelidir (telafisi güç zarar hâli istisnadır). Başvuru dava açma süresini durdurur. Kurum incelemeyi en geç <b>altı ayda</b> bitirir. Yasama işlemleri, yargı kararları ve TSK'nın sırf askerî faaliyetleri görev alanı dışındadır.",
+"<b>Dilekçe ve bilgi edinme</b> (Anayasa md. 74; 3071; 4982): Vatandaşlar ve karşılıklılık esasıyla Türkiye'de ikamet eden yabancılar dilekçe hakkına sahiptir. Dilekçeye en geç <b>30 gün</b> içinde gerekçeli cevap verilir. TBMM Dilekçe Komisyonu 60 günde sonuçlandırır. Anayasaya göre <b>herkes</b> bilgi edinme ve kamu denetçisine başvurma hakkına sahiptir. Bilgi edinmede süre <b>15 iş günüdür</b>, başka birim veya kurum gerekirse 30 iş günüdür. Ret kararına tebliğden itibaren 15 gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edilebilir. Kurul 30 iş günü içinde karar verir. İtiraz dava açma süresini durdurur."
+],
+"traps": [
+"Kamu Denetçiliği Kurumu TBMM Başkanlığına bağlıdır. TİHEK ise Cumhurbaşkanının görevlendireceği bakanla ilişkilidir. İkisi karıştırılır.",
+"Protokol No. 6 savaş zamanı istisnasını korur. Ölüm cezasını her durumda kaldıran Protokol No. 13'tür.",
+"Dilekçeye cevap süresi 30 gündür. Bilgi edinmede ise süre iş günü olarak hesaplanır: 15 iş günü, gerekirse 30 iş günü."
+],
+"recall": [
+[
+"İHEB ne zaman, nerede ilan edildi?",
+"10 Aralık 1948, Paris (BM Genel Kurulu kararı 217 A)."
+],
+[
+"Kamu Başdenetçisi kim tarafından, kaç yıllığına seçilir?",
+"TBMM, gizli oyla, dört yıl."
+],
+[
+"Bilgi edinme başvurusunda süre?",
+"15 iş günü; başka birim veya kurum gerekiyorsa 30 iş günü."
+]
+],
+"src": [
+{
+"t": "UN: Universal Declaration of Human Rights",
+"u": "https://www.un.org/en/about-us/universal-declaration-of-human-rights"
+},
+{
+"t": "UN Treaty Collection: ICCPR",
+"u": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-4&chapter=4&clang=_en"
+},
+{
+"t": "UN Treaty Collection: ICESCR",
+"u": "https://treaties.un.org/Pages/ViewDetails.aspx?src=TREATY&mtdsg_no=IV-3&chapter=4&clang=_en"
+},
+{
+"t": "AİHS ve protokolleri Türkçe metni",
+"u": "https://www.echr.coe.int/documents/d/echr/convention_tur"
+},
+{
+"t": "6701 sayılı TİHEK Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6701.pdf"
+},
+{
+"t": "6328 sayılı Kamu Denetçiliği Kurumu Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6328.pdf"
+},
+{
+"t": "4982 sayılı Bilgi Edinme Hakkı Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.4982.pdf"
+},
+{
+"t": "3071 sayılı Dilekçe Hakkının Kullanılmasına Dair Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.3071.pdf"
+},
+{
+"t": "Anayasa md. 38, 74",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+}
+],
+"qs": [
+"H21",
+"H22",
+"H23",
+"H24",
+"H25",
+"H26"
+]
+},
+{
+"id": "h7",
+"area": "H",
+"title": "İdari teşkilat: merkezden ve yerinden yönetim",
+"intro": "İdare hukukunun teşkilat kısmı. Anayasa md. 123-127 ve 135 neredeyse her sınavda çıkar. 2017 ve 2025 değişiklikleri eski kitaplardaki bilgileri geçersiz kıldı.",
+"points": [
+"<b>md. 123, bütünlük ve kamu tüzelkişiliği:</b> İdare kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir. İdarenin kuruluş ve görevleri <b>merkezden yönetim ve yerinden yönetim</b> esaslarına dayanır. Kamu tüzelkişiliği <b>kanunla veya Cumhurbaşkanlığı kararnamesiyle</b> kurulur (2017, 6771). Eski metin: ancak kanunla veya kanunun açıkça verdiği yetkiye dayanılarak.",
+"<b>md. 126, merkezi idare:</b> Türkiye coğrafya, ekonomik şartlar ve kamu hizmetlerinin gereklerine göre illere, iller de diğer kademeli bölümlere ayrılır. <b>İllerin idaresi yetki genişliği esasına dayanır.</b> Birden çok ili içine alan merkezi idare teşkilatı kurulabilir. 5442 md. 1-2: İller ilçelere, ilçeler bucaklara bölünür. İl ve ilçe kanunla, bucak Cumhurbaşkanı onayıyla kurulur.",
+"<b>Vali</b> (5442 md. 4, 9, 11): İl genel idaresinin başı ve merciidir. İlde <b>Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır</b>. İlin genel idaresinden Cumhurbaşkanına karşı sorumludur. Cumhurbaşkanı yardımcıları ve bakanlar valilere re'sen emir ve talimat verir. Vali genel emir çıkarabilir ve il sınırları içindeki genel ve özel kolluk kuvvetlerinin amiridir. Adli teşkilat ve askerî birlikler valinin emri altında değildir.",
+"<b>Kaymakam</b> (5442 md. 27, 31): İlçe genel idaresinin başı ve merciidir. İlçede Cumhurbaşkanının idari yürütme vasıtasıdır ve ilçenin genel idaresinden sorumludur. Valinin talimat ve emirlerini yürütür. Valiler ilçeye ait işleri doğrudan kaymakama yazar.",
+"<b>md. 127, mahalli idareler:</b> İl, belediye ve köy halkının mahalli müşterek ihtiyaçlarını karşılayan, karar organları seçmenlerce seçilen kamu tüzelkişileridir. Kuruluşları yerinden yönetim ilkesine uygun olarak kanunla düzenlenir. Seçimler <b>beş yılda bir</b> yapılır. Kanun büyük yerleşim merkezleri için özel yönetim biçimleri getirebilir. Organlık sıfatının kazanılması ve kaybı <b>yargı yoluyla</b> denetlenir. İçişleri Bakanı, görevle ilgili suç soruşturmasında organları geçici tedbir olarak kesin hükme kadar uzaklaştırabilir. Mahalli idarelerin birlik kurması Cumhurbaşkanının iznine bağlıdır.",
+"<b>md. 135, hizmet yerinden yönetim örneği olarak meslek kuruluşları:</b> Kamu kurumu niteliğindeki meslek kuruluşları kanunla kurulur. Organları kendi üyelerince, yargı gözetimi altında, gizli oyla seçilen kamu tüzelkişileridir. Kamu kurumlarında asli ve sürekli görevde çalışanların üye olma zorunluluğu yoktur. Bu kuruluşlar amaçları dışında faaliyette bulunamaz ve seçimlerinde siyasi partiler aday gösteremez. Faaliyetten men kararı 24 saat içinde hâkim onayına sunulur, hâkim 48 saat içinde karar verir.",
+"<b>Cumhurbaşkanlığı teşkilatı</b> (1 sayılı CBK, RG 10.7.2018): Politika Kurullarının <b>başkanı Cumhurbaşkanıdır</b>. Kurullar en az üç üyeden oluşur, üyeleri Cumhurbaşkanı atar (md. 21). Kurullar alanlarında doğrudan Cumhurbaşkanı ile çalışır (md. 33). Bugün 10 kurul vardır, örneğin Güvenlik ve Dış Politikalar, Hukuk Politikaları, Tarım ve Gıda Politikaları (2025'te eklendi). Ofisler: 2025'te (183 sayılı CBK) Dijital Dönüşüm, Finans ve İnsan Kaynakları ofislerine ilişkin hükümler kaldırıldı. Bugün yalnızca <b>Yatırım ve Finans Ofisi</b> vardır (eski adı Yatırım Ofisi; adı da 183 sayılı CBK ile değişti, RG 28.3.2025): Cumhurbaşkanlığına bağlı, özel bütçeli, kamu tüzel kişiliğini haiz, merkezi Ankara."
+],
+"traps": [
+"Yetki genişliği yerinden yönetim değildir. Vali ve il genel idaresi merkezi idarenin parçasıdır, il özel idaresi ise mahalli idaredir.",
+"Kamu tüzelkişiliği artık yalnızca kanunla değil, CBK ile de kurulabilir (2017).",
+"Eski kaynaklarda dört Cumhurbaşkanlığı ofisi yazar. 183 sayılı CBK'den (2025) sonra yalnızca Yatırım Ofisi kaldı ve adı Yatırım ve Finans Ofisi oldu."
+],
+"recall": [
+[
+"İllerin idaresi hangi esasa dayanır?",
+"Yetki genişliği (Anayasa md. 126)."
+],
+[
+"Mahalli idare seçimleri kaç yılda bir yapılır?",
+"Beş yılda bir (md. 127)."
+],
+[
+"Politika Kurullarının başkanı kimdir?",
+"Cumhurbaşkanı (1 sayılı CBK md. 21)."
+]
+],
+"src": [
+{
+"t": "Anayasa md. 123-127, 135",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+},
+{
+"t": "5442 sayılı İl İdaresi Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.5442.pdf"
+},
+{
+"t": "1 sayılı Cumhurbaşkanlığı Teşkilatı Hakkında CBK",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/19.5.1.pdf"
+}
+],
+"qs": [
+"H27",
+"H28",
+"H29",
+"H30",
+"H31",
+"H32"
+]
+},
+{
+"id": "u1",
+"area": "U",
+"title": "Türkiye'nin üyesi olduğu örgütler",
 "intro": "Türkiye'nin hangi örgüte ne zaman, kiminle girdiği ve hangilerinin kurucusu olduğu.",
 "points": [
 "<b>Türk Devletleri Teşkilatı:</b> Kurucu belge Nahçıvan Anlaşması (3 Ekim 2009). Türk Konseyinin adı 12 Kasım 2021 İstanbul Zirvesinde değişti. Tam üyeler: Türkiye, Azerbaycan, Kazakistan, Kırgızistan, Özbekistan. Gözlemci ülkeler: Macaristan, Türkmenistan, KKTC. EİT 2023'ten beri gözlemci kuruluş.",
@@ -175,13 +831,48 @@
 "<b>Türkiye-AB:</b> Ankara Anlaşması 1963, tam üyelik başvurusu 1987, Gümrük Birliği uygulaması 1.1.1996, adaylık 1999 Helsinki, katılım müzakereleri 3 Ekim 2005.",
 "<b>Türkiye'nin kurucusu olduğu örgütler:</b> OECD (1960/61), EİT (1985, 1964 RCD'nin devamı), KEİ (25.6.1992), G20 (1999)."
 ],
-"traps": ["Türkmenistan TDT'nin tam üyesi değil, gözlemcisidir.", "Katılım müzakereleri 2010'da değil 2005'te başladı.", "Türkiye AB üyesi değil, aday ülkedir."],
-"recall": [["TDT'nin üç gözlemci ülkesi?", "Macaristan, Türkmenistan, KKTC."], ["Türkiye NATO'ya ne zaman, kiminle girdi?", "18 Şubat 1952, Yunanistan ile."]],
-"src": [{"t": "Dışişleri: Türk Devletleri Teşkilatı", "u": "https://www.mfa.gov.tr/turk-devletleri-teskilati.tr.mfa"}, {"t": "Dışişleri: Türkiye-AB ilişkileri", "u": "https://www.mfa.gov.tr/turkiye-ab-iliskileri.tr.mfa"}, {"t": "Dışişleri: Avrupa Konseyi", "u": "https://www.mfa.gov.tr/avrupa-konseyi_.tr.mfa"}],
-"qs": ["U01", "U02", "U03", "U05", "U06", "U14"]
+"traps": [
+"Türkmenistan TDT'nin tam üyesi değil, gözlemcisidir.",
+"Katılım müzakereleri 2010'da değil 2005'te başladı.",
+"Türkiye AB üyesi değil, aday ülkedir."
+],
+"recall": [
+[
+"TDT'nin üç gözlemci ülkesi?",
+"Macaristan, Türkmenistan, KKTC."
+],
+[
+"Türkiye NATO'ya ne zaman, kiminle girdi?",
+"18 Şubat 1952, Yunanistan ile."
+]
+],
+"src": [
+{
+"t": "Dışişleri: Türk Devletleri Teşkilatı",
+"u": "https://www.mfa.gov.tr/turk-devletleri-teskilati.tr.mfa"
 },
 {
-"id": "u2", "area": "U", "title": "Küresel sistem: BM, ekonomi örgütleri, AGİT",
+"t": "Dışişleri: Türkiye-AB ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-ab-iliskileri.tr.mfa"
+},
+{
+"t": "Dışişleri: Avrupa Konseyi",
+"u": "https://www.mfa.gov.tr/avrupa-konseyi_.tr.mfa"
+}
+],
+"qs": [
+"U01",
+"U02",
+"U03",
+"U05",
+"U06",
+"U14"
+]
+},
+{
+"id": "u2",
+"area": "U",
+"title": "Küresel sistem: BM, ekonomi örgütleri, AGİT",
 "intro": "Uluslararası sistemin temel kurumları. Sorular sayı ve kuruluş tarihi üzerinden gelir.",
 "points": [
 "<b>BM Güvenlik Konseyi:</b> 15 üye, 5 daimi. 10 geçici üye Genel Kurulca <b>iki yıllığına</b> seçilir (BM Şartı md. 23). Daimi üyelerin usul dışı konularda vetosu vardır.",
@@ -189,26 +880,123 @@
 "<b>GATT ve DTÖ:</b> GATT 1947'de imzalandı. Uruguay Turu (1986-1994) Marakeş Anlaşmasıyla bitti, DTÖ 1 Ocak 1995'te kuruldu.",
 "<b>AGİT:</b> 1975 Helsinki Nihai Senedi AGİK'i kurdu, 1995'te adı AGİT oldu. Güvenliği üç boyutta ele alır: siyasi-askeri, ekonomik-çevresel, insani."
 ],
-"traps": ["Geçici üyelerin süresi dört değil iki yıl.", "DTÖ Bretton Woods'ta kurulmadı, 1995'te kuruldu."],
-"recall": [["Bretton Woods'ta hangi iki kurum doğdu?", "IMF ve Dünya Bankası."], ["DTÖ hangi turun sonunda kuruldu?", "Uruguay Turu (1995)."]],
-"src": [{"t": "BM Şartı, Bölüm V", "u": "https://www.un.org/en/about-us/un-charter/chapter-5"}, {"t": "WTO: The Uruguay Round", "u": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact5_e.htm"}, {"t": "AGİT: Helsinki Final Act", "u": "https://www.osce.org/helsinki-final-act"}],
-"qs": ["U04", "U15", "U16", "U18"]
+"traps": [
+"Geçici üyelerin süresi dört değil iki yıl.",
+"DTÖ Bretton Woods'ta kurulmadı, 1995'te kuruldu."
+],
+"recall": [
+[
+"Bretton Woods'ta hangi iki kurum doğdu?",
+"IMF ve Dünya Bankası."
+],
+[
+"DTÖ hangi turun sonunda kuruldu?",
+"Uruguay Turu (1995)."
+]
+],
+"src": [
+{
+"t": "BM Şartı, Bölüm V",
+"u": "https://www.un.org/en/about-us/un-charter/chapter-5"
 },
 {
-"id": "u3", "area": "U", "title": "Erken Cumhuriyet dış politikası: Lozan, Musul, Montrö",
+"t": "WTO: The Uruguay Round",
+"u": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact5_e.htm"
+},
+{
+"t": "AGİT: Helsinki Final Act",
+"u": "https://www.osce.org/helsinki-final-act"
+}
+],
+"qs": [
+"U04",
+"U15",
+"U16",
+"U18"
+]
+},
+{
+"id": "u3",
+"area": "U",
+"title": "Erken Cumhuriyet dış politikası: Lozan, Musul, Montrö",
 "intro": "Türkiye'nin sınırlarını ve Boğazlar rejimini belirleyen antlaşmalar. 2026 Montrö'nün 90. yılı, güncel soru olarak gelebilir.",
-"tl": [["30.10.1918", "Mondros Ateşkesi"], ["10.8.1920", "Sevr"], ["11.10.1922", "Mudanya Ateşkesi"], ["24.7.1923", "Lozan Barış Antlaşması"], ["5.6.1926", "Ankara Antlaşması (Musul)"], ["1934", "Balkan Antantı"], ["20.7.1936", "Montrö Boğazlar Sözleşmesi"], ["1937", "Sadabat Paktı"]],
+"tl": [
+[
+"30.10.1918",
+"Mondros Ateşkesi"
+],
+[
+"10.8.1920",
+"Sevr"
+],
+[
+"11.10.1922",
+"Mudanya Ateşkesi"
+],
+[
+"24.7.1923",
+"Lozan Barış Antlaşması"
+],
+[
+"5.6.1926",
+"Ankara Antlaşması (Musul)"
+],
+[
+"1934",
+"Balkan Antantı"
+],
+[
+"20.7.1936",
+"Montrö Boğazlar Sözleşmesi"
+],
+[
+"1937",
+"Sadabat Paktı"
+]
+],
 "points": [
 "<b>Musul:</b> Lozan'da çözülemedi. 1926 Ankara Antlaşmasıyla (Türkiye, İngiltere, Irak) Musul Irak'a bırakıldı, Türkiye'ye 25 yıl boyunca petrol gelirinden %10 pay verildi.",
 "<b>Montrö:</b> Lozan'daki Uluslararası Boğazlar Komisyonu kaldırıldı, yetkileri Türkiye'ye geçti. Türkiye Boğazları silahlandırma hakkı kazandı. Dışişleri 20.7.2026'da 90. yıl açıklaması yayımladı."
 ],
-"traps": ["Montrö Boğazları silahsızlandırmadı, tam tersi silahlandırma hakkı verdi.", "Musul'u çözen 1921 değil 1926 Ankara Antlaşmasıdır."],
-"recall": [["Lozan'ın tarihi?", "24 Temmuz 1923."], ["Montrö'nün Türkiye için en önemli sonucu?", "Boğazlar Komisyonu kalktı, yetki Türkiye'ye geçti."]],
-"src": [{"t": "Dışişleri, Montrö 90. yıl", "u": "https://www.mfa.gov.tr/no_-140_-montro-bogazlar-sozlesmesi-nin-imzalanmasinin-90-yil-donumu-hk.tr.mfa"}, {"t": "Atatürk Ansiklopedisi: Musul Meselesi", "u": "https://ataturkansiklopedisi.gov.tr/detay/383/Musul-Meselesi"}, {"t": "Atatürk Ansiklopedisi: Lozan", "u": "https://ataturkansiklopedisi.gov.tr/detay/627/Lozan-Barış-Antlaşması"}],
-"qs": ["U07", "U08", "U19", "G17"]
+"traps": [
+"Montrö Boğazları silahsızlandırmadı, tam tersi silahlandırma hakkı verdi.",
+"Musul'u çözen 1921 değil 1926 Ankara Antlaşmasıdır."
+],
+"recall": [
+[
+"Lozan'ın tarihi?",
+"24 Temmuz 1923."
+],
+[
+"Montrö'nün Türkiye için en önemli sonucu?",
+"Boğazlar Komisyonu kalktı, yetki Türkiye'ye geçti."
+]
+],
+"src": [
+{
+"t": "Dışişleri, Montrö 90. yıl",
+"u": "https://www.mfa.gov.tr/no_-140_-montro-bogazlar-sozlesmesi-nin-imzalanmasinin-90-yil-donumu-hk.tr.mfa"
 },
 {
-"id": "u4", "area": "U", "title": "Kuramlar: uluslararası ilişkiler ve kamu yönetimi",
+"t": "Atatürk Ansiklopedisi: Musul Meselesi",
+"u": "https://ataturkansiklopedisi.gov.tr/detay/383/Musul-Meselesi"
+},
+{
+"t": "Atatürk Ansiklopedisi: Lozan",
+"u": "https://ataturkansiklopedisi.gov.tr/detay/627/Lozan-Barış-Antlaşması"
+}
+],
+"qs": [
+"U07",
+"U08",
+"U19",
+"G17"
+]
+},
+{
+"id": "u4",
+"area": "U",
+"title": "Kuramlar: uluslararası ilişkiler ve kamu yönetimi",
 "intro": "Kuram soruları neredeyse her zaman \"bu kavram kimin\" eşleştirmesidir. Düşünür, okul ve anahtar kelimeyi birlikte öğren.",
 "points": [
 "<b>Uluslararası ilişkiler:</b> Morgenthau klasik realizm. Kenneth Waltz neorealizm, \"Theory of International Politics\" (1979), anahtar kelime anarşik yapı. Robert Keohane neoliberal kurumsalcılık. Alexander Wendt konstrüktivizm. Joseph Nye yumuşak güç (1990).",
@@ -216,23 +1004,136 @@
 "<b>Yeni Kamu İşletmeciliği:</b> 1980'lerde Thatcher ve Reagan dönemlerinde yayıldı. Piyasa mekanizması, performans ölçümü, vatandaşı müşteri olarak görme.",
 "<b>Kuvvetler ayrılığı:</b> Montesquieu, \"Kanunların Ruhu Üzerine\" (1748)."
 ],
-"traps": ["Fayol ile Gulick karışır: beş fonksiyon Fayol'ün, POSDCORB kısaltması Gulick'in."],
-"recall": [["Neorealizmin kurucusu ve eseri?", "Kenneth Waltz, Theory of International Politics (1979)."], ["POSDCORB kimin?", "Luther Gulick."]],
-"src": [{"t": "Britannica: Realism", "u": "https://www.britannica.com/topic/realism-political-and-social-science"}, {"t": "Britannica: Henri Fayol", "u": "https://www.britannica.com/biography/Henri-Fayol"}, {"t": "Belfer Center: Soft power", "u": "https://www.belfercenter.org/collection/what-soft-power"}],
-"qs": ["U09", "U10", "U11", "U12", "U13"]
+"traps": [
+"Fayol ile Gulick karışır: beş fonksiyon Fayol'ün, POSDCORB kısaltması Gulick'in."
+],
+"recall": [
+[
+"Neorealizmin kurucusu ve eseri?",
+"Kenneth Waltz, Theory of International Politics (1979)."
+],
+[
+"POSDCORB kimin?",
+"Luther Gulick."
+]
+],
+"src": [
+{
+"t": "Britannica: Realism",
+"u": "https://www.britannica.com/topic/realism-political-and-social-science"
 },
 {
-"id": "g1", "area": "G", "title": "Kurtuluş Savaşı ve inkılaplar",
+"t": "Britannica: Henri Fayol",
+"u": "https://www.britannica.com/biography/Henri-Fayol"
+},
+{
+"t": "Belfer Center: Soft power",
+"u": "https://www.belfercenter.org/collection/what-soft-power"
+}
+],
+"qs": [
+"U09",
+"U10",
+"U11",
+"U12",
+"U13"
+]
+},
+{
+"id": "g1",
+"area": "G",
+"title": "Kurtuluş Savaşı ve inkılaplar",
 "intro": "Tarih soruları çoğunlukla sıralama ya da \"hangisi aynı gün yapılmadı\" biçimindedir. Kronolojiyi bir kez sırayla oku.",
-"tl": [["22.6.1919", "Amasya Genelgesi: \"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır.\""], ["28.1.1920", "Misak-ı Millî son Osmanlı Mebusan Meclisinde kabul edildi (ilanı 17.2.1920)."], ["1.11.1922", "Saltanat kaldırıldı."], ["13.10.1923", "Ankara başkent oldu."], ["29.10.1923", "Cumhuriyet ilan edildi."], ["3.3.1924", "Halifelik, Şer'iyye ve Evkaf Vekâleti ile Erkân-ı Harbiye-i Umumiye Vekâleti kaldırıldı; Tevhid-i Tedrisat Kanunu çıktı."], ["20.4.1924", "Teşkilat-ı Esasiye Kanunu."], ["17.2.1926", "Türk Medeni Kanunu."], ["3.4.1930", "Kadınlara belediye seçimlerinde seçme ve seçilme hakkı."], ["26.10.1933", "Muhtarlık seçimleri."], ["21.6.1934", "Soyadı Kanunu."], ["5.12.1934", "Milletvekilliği seçme ve seçilme hakkı."]],
-"points": ["<b>Kadın hakları sırası:</b> belediye (1930), muhtarlık (1933), milletvekilliği (1934). Küçükten büyüğe."],
-"traps": ["Misak-ı Millîyi TBMM değil son Osmanlı Mebusan Meclisi kabul etti.", "Soyadı Kanunu 3 Mart 1924 kanunlarından biri değildir (1934)."],
-"recall": [["3 Mart 1924'te hangi kanunlar çıktı?", "Halifeliğin, Şer'iyye ve Evkaf Vekâletinin, Erkân-ı Harbiye Vekâletinin kaldırılması ve Tevhid-i Tedrisat."], ["Ankara hangi tarihte başkent oldu?", "13 Ekim 1923."]],
-"src": [{"t": "Atatürk Ansiklopedisi", "u": "https://ataturkansiklopedisi.gov.tr/"}, {"t": "TBMM: 3 Mart 1924 kanunları", "u": "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc002/kanuntbmmc002/kanuntbmmc00200429.pdf"}],
-"qs": ["G01", "G02", "G03", "G04", "G05", "G20"]
+"tl": [
+[
+"22.6.1919",
+"Amasya Genelgesi: \"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır.\""
+],
+[
+"28.1.1920",
+"Misak-ı Millî son Osmanlı Mebusan Meclisinde kabul edildi (ilanı 17.2.1920)."
+],
+[
+"1.11.1922",
+"Saltanat kaldırıldı."
+],
+[
+"13.10.1923",
+"Ankara başkent oldu."
+],
+[
+"29.10.1923",
+"Cumhuriyet ilan edildi."
+],
+[
+"3.3.1924",
+"Halifelik, Şer'iyye ve Evkaf Vekâleti ile Erkân-ı Harbiye-i Umumiye Vekâleti kaldırıldı; Tevhid-i Tedrisat Kanunu çıktı."
+],
+[
+"20.4.1924",
+"Teşkilat-ı Esasiye Kanunu."
+],
+[
+"17.2.1926",
+"Türk Medeni Kanunu."
+],
+[
+"3.4.1930",
+"Kadınlara belediye seçimlerinde seçme ve seçilme hakkı."
+],
+[
+"26.10.1933",
+"Muhtarlık seçimleri."
+],
+[
+"21.6.1934",
+"Soyadı Kanunu."
+],
+[
+"5.12.1934",
+"Milletvekilliği seçme ve seçilme hakkı."
+]
+],
+"points": [
+"<b>Kadın hakları sırası:</b> belediye (1930), muhtarlık (1933), milletvekilliği (1934). Küçükten büyüğe."
+],
+"traps": [
+"Misak-ı Millîyi TBMM değil son Osmanlı Mebusan Meclisi kabul etti.",
+"Soyadı Kanunu 3 Mart 1924 kanunlarından biri değildir (1934)."
+],
+"recall": [
+[
+"3 Mart 1924'te hangi kanunlar çıktı?",
+"Halifeliğin, Şer'iyye ve Evkaf Vekâletinin, Erkân-ı Harbiye Vekâletinin kaldırılması ve Tevhid-i Tedrisat."
+],
+[
+"Ankara hangi tarihte başkent oldu?",
+"13 Ekim 1923."
+]
+],
+"src": [
+{
+"t": "Atatürk Ansiklopedisi",
+"u": "https://ataturkansiklopedisi.gov.tr/"
 },
 {
-"id": "g2", "area": "G", "title": "Türk tarihi ve kültürü",
+"t": "TBMM: 3 Mart 1924 kanunları",
+"u": "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc002/kanuntbmmc002/kanuntbmmc00200429.pdf"
+}
+],
+"qs": [
+"G01",
+"G02",
+"G03",
+"G04",
+"G05",
+"G20"
+]
+},
+{
+"id": "g2",
+"area": "G",
+"title": "Türk tarihi ve kültürü",
 "intro": "Savaşlar, ilk eserler ve kültürel miras. YTB'nin kültürel diplomasi işleriyle de bağlantılıdır.",
 "points": [
 "<b>Savaşlar:</b> Dandanakan (1040) Büyük Selçuklu Devletini kurdu. Malazgirt (1071) Anadolu'nun kapılarını açtı. Miryokefalon (1176) Anadolu'nun Türk yurdu olduğunu kesinleştirdi.",
@@ -240,13 +1141,37 @@
 "<b>Orhun Yazıtları:</b> Kül Tigin (732), Bilge Kağan (735) ve Tonyukuk (716-734 arası) adına dikildi. Göktürk Devletinin kurucusu Bumin Kağan (552) adına yazıt yoktur.",
 "<b>UNESCO:</b> Türk kahvesi kültürü ve geleneği 2013'te İnsanlığın Somut Olmayan Kültürel Mirası Temsilî Listesine alındı."
 ],
-"traps": ["Mesnevî Yunus Emre'nin değil Mevlânâ'nındır.", "Türk kahvesi Dünya Mirası Listesinde değil, somut olmayan miras listesindedir."],
-"recall": [["Orhun Yazıtları kimler adına?", "Kül Tigin, Bilge Kağan, Tonyukuk."]],
-"src": [{"t": "TDV İslâm Ansiklopedisi: Orhon Yazıtları", "u": "https://islamansiklopedisi.org.tr/orhon-yazitlari"}, {"t": "UNESCO: Turkish coffee", "u": "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645"}],
-"qs": ["G06", "G07", "G13", "G18"]
+"traps": [
+"Mesnevî Yunus Emre'nin değil Mevlânâ'nındır.",
+"Türk kahvesi Dünya Mirası Listesinde değil, somut olmayan miras listesindedir."
+],
+"recall": [
+[
+"Orhun Yazıtları kimler adına?",
+"Kül Tigin, Bilge Kağan, Tonyukuk."
+]
+],
+"src": [
+{
+"t": "TDV İslâm Ansiklopedisi: Orhon Yazıtları",
+"u": "https://islamansiklopedisi.org.tr/orhon-yazitlari"
 },
 {
-"id": "g3", "area": "G", "title": "Coğrafya",
+"t": "UNESCO: Turkish coffee",
+"u": "https://ich.unesco.org/en/RL/turkish-coffee-culture-and-tradition-00645"
+}
+],
+"qs": [
+"G06",
+"G07",
+"G13",
+"G18"
+]
+},
+{
+"id": "g3",
+"area": "G",
+"title": "Coğrafya",
 "intro": "Komşular, sınırlar ve akraba toplulukların yaşadığı bölgeler.",
 "points": [
 "<b>Kara komşuları (8):</b> Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak, Suriye. Romanya ile yalnızca deniz komşuluğu vardır.",
@@ -255,13 +1180,403 @@
 "<b>Yedi bölge:</b> 1941 Birinci Coğrafya Kongresinde (Ankara) kararlaştırıldı.",
 "<b>Kırım:</b> Karadeniz ile Azak Denizi arasında. Azak'ı Karadeniz'e Kerç Boğazı bağlar."
 ],
-"traps": ["Azerbaycan ile sınır yalnızca Nahçıvan üzerinden, ama yine de kara sınırıdır."],
-"recall": [["Türkiye'nin kaç kara komşusu var?", "Sekiz."], ["Yedi bölge hangi toplantıda belirlendi?", "1941 Birinci Coğrafya Kongresi."]],
-"src": [{"t": "Britannica: Turkey", "u": "https://www.britannica.com/place/Turkey"}, {"t": "Türk Coğrafya Dergisi: 1941 Kongresi", "u": "https://dergipark.org.tr/en/download/article-file/198430"}],
-"qs": ["G08", "G09", "G10", "G11", "G12"]
+"traps": [
+"Azerbaycan ile sınır yalnızca Nahçıvan üzerinden, ama yine de kara sınırıdır."
+],
+"recall": [
+[
+"Türkiye'nin kaç kara komşusu var?",
+"Sekiz."
+],
+[
+"Yedi bölge hangi toplantıda belirlendi?",
+"1941 Birinci Coğrafya Kongresi."
+]
+],
+"src": [
+{
+"t": "Britannica: Turkey",
+"u": "https://www.britannica.com/place/Turkey"
 },
 {
-"id": "y1", "area": "Y", "title": "Türkçe: yazım ve anlatım bozuklukları",
+"t": "Türk Coğrafya Dergisi: 1941 Kongresi",
+"u": "https://dergipark.org.tr/en/download/article-file/198430"
+}
+],
+"qs": [
+"G08",
+"G09",
+"G10",
+"G11",
+"G12"
+]
+},
+{
+"id": "g4",
+"area": "G",
+"title": "Atatürk ilkeleri ve Cumhuriyet'in ilk yılları",
+"intro": "Sınavda kanun ile tarih eşleştirmesi, kronolojik sıralama ve “hangisi yanlıştır” soruları çok sorulur. Kanun numaraları ile kabul tarihlerini birlikte öğren.",
+"tl": [
+[
+"Ocak 1921",
+"85 sayılı Teşkilat-ı Esasiye Kanunu (ilk anayasa)."
+],
+[
+"20.4.1924",
+"1924 Teşkilat-ı Esasiye Kanunu kabul edildi."
+],
+[
+"17.11.1924",
+"Terakkiperver Cumhuriyet Fırkası kuruldu."
+],
+[
+"3.6.1925",
+"Terakkiperver Cumhuriyet Fırkası kapatıldı."
+],
+[
+"25.11.1925",
+"671 sayılı Şapka İktisası Hakkında Kanun."
+],
+[
+"30.11.1925",
+"677 sayılı Kanun: tekke, zaviye ve türbeler kapatıldı."
+],
+[
+"26.12.1925",
+"697 sayılı Kanun (24 saat) ve 698 sayılı Kanun (takvim) kabul edildi."
+],
+[
+"10.4.1928",
+"1222 sayılı Kanun: “Türkiye Devletinin dini İslam'dır” ibaresi Anayasadan çıkarıldı."
+],
+[
+"1.11.1928",
+"1353 sayılı Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun."
+],
+[
+"Ağustos 1930",
+"Serbest Cumhuriyet Fırkası kuruldu (yaklaşık üç ay yaşadı)."
+],
+[
+"1931",
+"1782 sayılı Ölçüler Kanunu kabul edildi (RG 4.4.1931)."
+],
+[
+"5.2.1937",
+"3115 sayılı Kanun: altı ilke Anayasanın 2. maddesine girdi."
+]
+],
+"points": [
+"<b>Altı ilke Anayasada:</b> 1937'de 3115 sayılı Kanunla 1924 Anayasasının 2. maddesi şöyle oldu: “Türkiye Devleti, cumhuriyetçi, milliyetçi, halkçı, devletçi, lâik ve inkılâpçıdır.” Resmî dil Türkçe, başkent Ankara olarak kaldı.",
+"<b>1921 Teşkilat-ı Esasiye:</b> 85 sayılı Kanun. Millî egemenliğe dayanır, Meclis hükümeti sistemini kurar, kuvvetler birliği esasına dayanır. Esnek (yumuşak) ve çerçeve bir anayasadır (TBMM).",
+"<b>1924 Anayasasındaki değişiklikler:</b> 10 Nisan 1928'de 1222 sayılı Kanunla devletin dinine ilişkin ibare çıkarıldı. 1945'te 4695 sayılı Kanunla dili Türkçeleştirildi ve adı “Anayasa” oldu. 1952'de 5997 sayılı Kanunla eski metne dönüldü.",
+"<b>Terakkiperver Cumhuriyet Fırkası (TCF):</b> 17 Kasım 1924'te Rauf (Orbay), Kâzım (Karabekir), Ali Fuat (Cebesoy), Refet (Bele) ve Adnan (Adıvar) önderliğinde kuruldu. Cumhuriyetin ilk muhalefet partisidir. Şeyh Sait İsyanı ile ilişkilendirildi ve 3 Haziran 1925'te kapatıldı (yaklaşık yedi ay).",
+"<b>Serbest Cumhuriyet Fırkası (SCF):</b> Ağustos 1930'da Ali Fethi (Okyar) tarafından, kontrollü bir muhalefet olarak kuruldu. 1930 belediye seçimlerine katıldı. Yaklaşık üç ay yaşadı ve Fethi Bey partiyi feshetti.",
+"<b>1925 düzenlemeleri:</b> Şapka Kanunu (671, 25.11.1925), tekke ve zaviyelerin kapatılması (677, 30.11.1925). 26.12.1925'te iki kanun: 697 sayılı Kanunla gün gece yarısından başlar ve Greenwich'e göre 30. boylam esas alınır; 698 sayılı Kanunla 1341 yılı Kânunuevvel ayının 31. gününü izleyen gün 1 Ocak 1926 kabul edildi.",
+"<b>Harf ve ölçü:</b> 1353 sayılı Kanun 1 Kasım 1928'de kabul edildi (RG 3.11.1928). Devlet dairelerinde uygulama 1 Ocak 1929'u geçemezdi (md. 3). 1782 sayılı Ölçüler Kanunu 1931'de kabul edildi (RG 4.4.1931) ve metre sistemini getirdi (md. 1). Kanun uygulamayı ileriye bıraktı (md. 28: 1 Ocak 1933); ATAM'daki makaleye göre yeni ölçüler fiilen 1934 başında uygulanmaya başladı."
+],
+"traps": [
+"Altı ilke 1924'te değil, 1937'de Anayasaya girdi. 1928 değişikliği yalnızca din ibaresini çıkardı; “lâik” kelimesi 1937'de eklendi.",
+"TCF'yi Fethi Okyar kurmadı; Fethi Bey 1930'daki SCF'nin kurucusudur. TCF 1924-1925, SCF 1930.",
+"Ölçüler Kanunu 1931'de kabul edildi, ama uygulama birkaç yıl sonra başladı. Uygulama başlangıcını kabul tarihiyle karıştırma."
+],
+"recall": [
+[
+"Atatürk ilkeleri Anayasaya ne zaman, hangi kanunla girdi?",
+"Şubat 1937, 3115 sayılı Kanun (md. 2)."
+],
+[
+"TCF ve SCF kimlerle, hangi yıllarda?",
+"TCF 1924-1925 (Kâzım Karabekir, Rauf Orbay vd.); SCF 1930 (Ali Fethi Okyar)."
+],
+[
+"697 sayılı Kanuna göre saat hangi boylama göre ayarlanır?",
+"Greenwich'e göre 30. boylam."
+]
+],
+"src": [
+{
+"t": "TBMM: 1921 Teşkilat-ı Esasiye Kanunu",
+"u": "https://tbmm.gov.tr/anayasa/yirmi-bir-teskilati-esasiye-kanunu"
+},
+{
+"t": "TBMM: 1924 Teşkilat-ı Esasiye Kanunu",
+"u": "https://tbmm.gov.tr/anayasa/yirmi-dort-teskilati-esasiye-kanunu"
+},
+{
+"t": "TBMM Kanunlar Dergisi: 1222 sayılı Kanun (10.4.1928)",
+"u": "https://cdn.tbmm.gov.tr/TbmmWeb/Files/anayasa/docs/1924/1924-1/1924-1.pdf"
+},
+{
+"t": "TBMM Kanunlar Dergisi: 3115 sayılı Kanun (kabul 5.2.1937)",
+"u": "https://cdn.tbmm.gov.tr/TbmmWeb/Files/anayasa/docs/1924/1924-4/4-degisiklik.pdf"
+},
+{
+"t": "Akademik İncelemeler Dergisi (2012): Laiklikle ilgili maddeler",
+"u": "https://dergipark.org.tr/en/download/article-file/17748"
+},
+{
+"t": "Mevzuat: 671 sayılı Şapka İktisası Hakkında Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.671.pdf"
+},
+{
+"t": "Mevzuat: 677 sayılı Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.677.pdf"
+},
+{
+"t": "Mevzuat: 698 sayılı Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.698.pdf"
+},
+{
+"t": "Mevzuat: 1353 sayılı Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.1353.pdf"
+},
+{
+"t": "SDÜ FEF Sosyal Bilimler Dergisi (2022): TCF",
+"u": "https://dergipark.org.tr/tr/download/article-file/2451331"
+},
+{
+"t": "Ç.T.A.D.: Serbest Cumhuriyet Fırkası ve İngiliz belgeleri",
+"u": "https://ctad.hacettepe.edu.tr/12_23/10.pdf"
+},
+{
+"t": "Atatürk Araştırma Merkezi Dergisi: Ölçüler Kanunu",
+"u": "https://atamdergi.gov.tr/tam-metin-pdf/1076/tur"
+},
+{
+"t": "Mevzuat: 697 sayılı Günün Yirmi Dört Saate Taksimine Dair Kanun",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.697.pdf"
+},
+{
+"t": "TBMM Kanunlar Dergisi: 1782 sayılı Ölçüler Kanunu (RG 4.4.1931)",
+"u": "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc009/kanuntbmmc009/kanuntbmmc00901782.pdf"
+}
+],
+"qs": [
+"G21",
+"G22",
+"G23",
+"G24",
+"G25",
+"G26"
+]
+},
+{
+"id": "g5",
+"area": "G",
+"title": "Güncel gelişmeler 2025-2026 (Türkiye ve diaspora)",
+"intro": "“Güncel konular” başlığı sınavda son iki yılın zirvelerini ve YTB programlarını sorar. 2026'da Türkiye NATO, COP31 ve Türk Devletleri Teşkilatı zirvelerine ev sahipliği yaptı.",
+"tl": [
+[
+"7.10.2025",
+"Türk Devletleri Teşkilatı (TDT) 12. Zirvesi, Gebele (Azerbaycan)."
+],
+[
+"23.11.2025",
+"COP31 için Türkiye-Avustralya düzenlemesi açıklandı."
+],
+[
+"10.1-20.2.2026",
+"Türkiye Bursları 2026 başvuruları."
+],
+[
+"7-8.7.2026",
+"NATO Zirvesi, Ankara (Beştepe)."
+],
+[
+"29-30.10.2026",
+"TDT 13. Zirvesi, Ankara."
+],
+[
+"9-20.11.2026",
+"COP31 BM İklim Değişikliği Konferansı, Antalya."
+]
+],
+"points": [
+"<b>NATO Zirvesi 2026:</b> 7-8 Temmuz 2026'da Ankara'da, Beştepe Cumhurbaşkanlığı Külliyesinde yapıldı. Ev sahipliğini NATO Genel Sekreteri Mark Rutte 19 Ağustos 2025'te duyurdu. Zirvede “Ankara Zirvesi Bildirisi” kabul edildi.",
+"<b>COP31 rol paylaşımı:</b> Türkiye ev sahibi ve COP31 Başkanıdır; liderler zirvesi de Türkiye'dedir. Avustralya'nın temsilcisi (Chris Bowen) “Müzakereler Başkanı” olarak müzakerelerde münhasır yetkiye sahiptir ve COP Başkan Yardımcısı olur. Pre-COP bir Pasifik ada ülkesinde yapılır.",
+"<b>COP31 yer ve tarih:</b> Antalya, 9-20 Kasım 2026 (UNFCCC/UNCCD takvimi); konferans 9 Kasım'da Antalya'da açıldı. Bir önceki konferans COP30, Brezilya'nın Belém kentindeydi.",
+"<b>TDT 12. Zirvesi:</b> 7 Ekim 2025, Gebele (Azerbaycan). Tema: “Bölgesel Barış ve Güvenlik”. Dönem başkanlığı Kırgızistan'dan Azerbaycan'a geçti.",
+"<b>TDT 13. Zirvesi:</b> 29-30 Ekim 2026'da Türkiye'nin ev sahipliğinde, Ankara'da yapıldı. Tema: “Türk Yüzyılı: Dilde, Fikirde, İşte Birlik”. 3 Ekim, Nahçıvan Anlaşmasının imza günü olarak Türk Devletleri İşbirliği Günüdür (2026'da 17. yıl dönümü).",
+"<b>Türkiye Bursları:</b> 2026 başvuruları 10 Ocak-20 Şubat 2026 arasında alındı. 2025'te 171 ülkeden 125.668 başvuru vardı. 2026'da başvuru yaklaşık 200.000'e ulaşarak rekor kırdı; 2012'de bu sayı 10.000 civarındaydı (YTB)."
+],
+"traps": [
+"COP31'in Başkanı Avustralya değil, Türkiye'dir. Avustralya yalnızca müzakereleri yönetir (Müzakereler Başkanı).",
+"TDT 12. Zirvesi Türkiye'de değil Gebele'de yapıldı; 13. Zirve Ankara'daydı. Temaları karıştırma.",
+"125.668 başvuru 2025'in rakamıdır; 2026'da yaklaşık 200.000 başvuru oldu."
+],
+"recall": [
+[
+"2026 NATO Zirvesi nerede, ne zaman?",
+"Ankara (Beştepe), 7-8 Temmuz 2026."
+],
+[
+"COP31 nerede, ne zaman; müzakereleri hangi ülke yönetir?",
+"Antalya, 9-20 Kasım 2026; Avustralya."
+],
+[
+"TDT 12. ve 13. zirvelerinin yeri?",
+"12.: Gebele (2025); 13.: Ankara (2026)."
+]
+],
+"src": [
+{
+"t": "NATO: Türkiye to host 2026 NATO Summit in Ankara (20.8.2025)",
+"u": "https://www.nato.int/en/news-and-events/articles/news/2025/08/20/turkiye-to-host-2026-nato-summit-in-ankara"
+},
+{
+"t": "NATO: NATO Summit 2026 programme",
+"u": "https://nato.int/en/news-and-events/events/event-programmes/2026/07/nato-summit-2026"
+},
+{
+"t": "UNFCCC: Türkiye-Australia Partnership Modalities (21.11.2025)",
+"u": "https://unfccc.int/sites/default/files/resource/20251121_COP31_Presidency_Modalities-CLEAN-AGREED.pdf"
+},
+{
+"t": "Australian PM: COP to be hosted by Türkiye (23.11.2025)",
+"u": "https://www.pm.gov.au/media/cop-be-hosted-turkiye-australia-leading-negotiations"
+},
+{
+"t": "UNCCD: 2026 UN Climate Change Conference COP31",
+"u": "https://www.unccd.int/index.php/events/other/2026-un-climate-change-conference-cop31"
+},
+{
+"t": "BM Türkiye: COP30'un sonuçları (22.12.2025)",
+"u": "https://turkiye.un.org/en/node/307475"
+},
+{
+"t": "President.az: OTS 12th Summit in Gabala (7.10.2025)",
+"u": "https://president.az/en/articles/view/70283"
+},
+{
+"t": "Dışişleri Bakanlığı No: 188 (3.10.2026)",
+"u": "https://www.mfa.gov.tr/no_-188_-3-ekim-turk-devletleri-isbirligi-gunu-hk.tr.mfa"
+},
+{
+"t": "YTB: Türkiye Scholarships 2026 Applications Are Now Open (15.1.2026)",
+"u": "https://ytb.gov.tr/en/news/turkiye-scholarships-2026-applications-are-now-open"
+},
+{
+"t": "YTB: Record with Nearly 200,000 Applications in 2026 (26.2.2026)",
+"u": "https://ytb.gov.tr/en/news/turkiye-scholarships-achieves-record-with-nearly-200-000-applications-in-2026"
+},
+{
+"t": "TRT Haber: TDT 13. Liderler Zirvesi “Türk Yüzyılı” temasıyla başlıyor (30.10.2026)",
+"u": "https://www.trthaber.com/haber/gundem/tdt-13-liderler-zirvesi-turk-yuzyili-temasiyla-basliyor-961682.html"
+},
+{
+"t": "Türk Devletleri Teşkilatı: 13. Zirve Ankara'da düzenlenecek",
+"u": "https://turkicstates.org/tr/haber/13th-summit-of-the-organization-of-turkic-states-to-be-held-in-ankara"
+},
+{
+"t": "IISD ENB: Antalya Climate Change Conference COP31 (14.11.2026)",
+"u": "https://enb.iisd.org/sites/default/files/2026-11/enb12906e.pdf"
+}
+],
+"qs": [
+"G27",
+"G28",
+"G29",
+"G30",
+"G31",
+"G32"
+]
+},
+{
+"id": "g6",
+"area": "G",
+"title": "Türkiye coğrafyası: nüfus, yer şekilleri, bölgeler",
+"intro": "Genel kültürde konum, en yüksek dağ, en büyük göl, kıyılar ve güncel nüfus rakamı sık sorulur. Nüfus sorularında her zaman TÜİK'in en son ADNKS sonucunu bil.",
+"points": [
+"<b>Matematik konum:</b> Türkiye 36°-42° kuzey enlemleri ile 26°-45° doğu boylamları arasındadır. Göller ve adalar dâhil yüzölçümü 814.578 km² (Ankara Üniversitesi).",
+"<b>En yüksek dağ:</b> Büyük Ağrı Dağı, Doğubayazıt ilçesi sınırlarında. DİE kaynakları ve Harita Genel Komutanlığı haritaları 5.137 m verir; başka kaynaklarda 5.165 m gibi farklı değerler de geçer. Küçük Ağrı yaklaşık 3.896 m (SERKA).",
+"<b>En büyük göl:</b> Van Gölü, yaklaşık 3.700 km² (resmî kaynaklarda 3.712-3.765 km²). 600 km³ hacmiyle dünyanın en büyük sodalı gölüdür. Dışa akışı yoktur, bu yüzden tuzluluğu yüksektir. Nemrut volkanının patlamasıyla tektonik çöküntünün önü kapanarak oluşmuş volkanik set gölüdür.",
+"<b>Kıyılar:</b> Sayıştay raporuna (2006) göre Karadeniz 1.785 km, Marmara 1.089 km, Ege 2.805 km, Akdeniz 1.577 km, adalar 1.067 km. Rakamlar kaynağa göre değişir (MEB ders kitabı: adalar dâhil yaklaşık 8.333 km, Ege payı %33,66), ama en uzun kıyı her iki kaynakta da Ege'dedir.",
+"<b>İl sayısı:</b> 1923'te 71 il vardı. 1995'te Yalova, Kilis, Karabük il oldu (79); 1996'da Osmaniye il oldu. 1999 depremi sonrası Düzce il yapılınca sayı 81'e çıktı. 1999'dan sonra yeni il kurulmadı; TÜİK 2025 tablosunda da 81 il vardır.",
+"<b>Nüfus (ADNKS 2025):</b> 31.12.2025 itibarıyla 86.092.168 (TÜİK, bülten 9.2.2026). En kalabalık iller: İstanbul (15.754.053), Ankara, İzmir, Bursa, Antalya. En az nüfuslu il Bayburt (82.836). Nüfusun %93,6'sı il ve ilçe merkezlerinde yaşar."
+],
+"traps": [
+"81. il Osmaniye değil Düzce'dir (1999). Osmaniye 1996'da il oldu.",
+"Van Gölü tatlı su gölü değildir; dışa akışı olmayan sodalı bir göldür.",
+"Toplam kıyıda en uzun pay Ege'nindir, Karadeniz'in değil."
+],
+"recall": [
+[
+"Türkiye'nin matematik konumu?",
+"36°-42° kuzey enlemleri, 26°-45° doğu boylamları."
+],
+[
+"ADNKS 2025'e göre Türkiye nüfusu?",
+"86.092.168."
+],
+[
+"Türkiye'nin 81. ili hangisi, ne zaman?",
+"Düzce, 1999."
+]
+],
+"src": [
+{
+"t": "Ankara Üniversitesi: About Türkiye",
+"u": "https://iso.ankara.edu.tr/?p=16530"
+},
+{
+"t": "SERKA: Ağrı coğrafyası",
+"u": "https://www.serka.gov.tr/en/bolgemiz/agri/agri-cografya/"
+},
+{
+"t": "Doğanay, Ağrı Dağı ve Turistik Önemi (Doğu Coğrafya Dergisi 9)",
+"u": "https://dergipark.org.tr/tr/download/article-file/26631"
+},
+{
+"t": "TÜBİTAK Bilim Genç: Uzay İstasyonundan Van Gölü",
+"u": "https://bilimgenc.tubitak.gov.tr/uluslararasi-uzay-istasyonundan-van-golu"
+},
+{
+"t": "Sayıştay: Kıyıların kullanımının planlanması ve denetimi (2006)",
+"u": "https://sayistay.gov.tr/reports/download/75-kiyilarin-kullaniminin-planlanmasi-ve-dene"
+},
+{
+"t": "TÜDAD (2022): İdari yapılanmalara dair hukuki düzenlemeler",
+"u": "https://dergipark.org.tr/en/download/article-file/2162700"
+},
+{
+"t": "TÜİK: İstatistiklerle Kadın 2025 (ADNKS 2025 toplam nüfus)",
+"u": "https://www.tuik.gov.tr/media/announcements/ist_kadin2025.pdf"
+},
+{
+"t": "TÜİK: ADNKS 2025 bülten duyurusu",
+"u": "https://www.tuik.gov.tr/media/announcements/ADNKS_2025TR.pdf"
+},
+{
+"t": "Bitlis İl Tarım ve Orman Müdürlüğü: İlimiz hakkında genel bilgiler (Van Gölü)",
+"u": "https://bitlis.tarimorman.gov.tr/Menu/17/Ilimiz-Hakkinda-Genel-Bilgiler"
+},
+{
+"t": "Bitlis Valiliği ÇŞİM: Bitlis İl Çevre Durum Raporu 2017 (Van Gölü)",
+"u": "https://webdosya.csb.gov.tr/db/ced/icerikler/b-tl-s_-cdr2017-20181011142542.pdf"
+},
+{
+"t": "MEB Coğrafya 10 ders kitabı, s. 75 (kıyı uzunluğu)",
+"u": "https://ogmmateryal.eba.gov.tr/panel/upload/etkilesimli/kitap/cografya/10/unite1/files/basic-html/page75.html"
+},
+{
+"t": "TÜİK: İstatistiklerle Türkiye 2025 (tablo 1.3 ve 1.4, ADNKS 2025)",
+"u": "https://veriportali.tuik.gov.tr/api/tr/data/downloads?t=y&p=vDLpOPFcQDv22dRVIr6dULkqynxsPy9u6I5pc7vSmFzptqvIlmSHzzqJS2w8RMqjcVqZTFwqI0k4KMHg0Xyb8RAN9OvlyRTxeOa3NgiK1SQ%3D"
+}
+],
+"qs": [
+"G33",
+"G34",
+"G35",
+"G36",
+"G37",
+"G38"
+]
+},
+{
+"id": "y1",
+"area": "Y",
+"title": "Türkçe: yazım ve anlatım bozuklukları",
 "intro": "Sözel bölümde puan kaybettiren küçük kurallar. Her biri bir kez öğrenilince kalıcıdır.",
 "points": [
 "<b>Kesme işareti:</b> Kurum, kuruluş ve kurul adlarına gelen ekler kesmeyle ayrılmaz: \"Türkiye Büyük Millet Meclisinde\". Kişi ve yer adlarında ayrılır: \"Ankara'da\".",
@@ -270,13 +1585,36 @@
 "<b>Gereksiz sözcük:</b> Aynı anlamı veren iki sözcük yan yana kullanılmaz: \"yaklaşık elli kadar\" yanlış, ya \"yaklaşık elli\" ya \"elli kadar\".",
 "<b>Deyim:</b> \"İnce eleyip sık dokumak\" bir şeyi bütün ayrıntılarıyla araştırmak, gözden geçirmek demektir (TDK)."
 ],
-"traps": ["\"Meclis'te\" değil \"Mecliste\" (kurum adı)."],
-"recall": [["\"Kardeşimde gelecek\" doğru mu?", "Hayır: \"Kardeşim de gelecek\" (bağlaç ayrı)."]],
-"src": [{"t": "TDK: Kesme işareti", "u": "https://tdk.gov.tr/icerik/yazim-kurallari/kesme-isareti/"}, {"t": "TDK: da/de'nin yazılışı", "u": "https://tdk.gov.tr/icerik/yazim-kurallari/baglac-olan-da-denin-yazilisi/"}],
-"qs": ["Y01", "Y02", "Y04", "Y05"]
+"traps": [
+"\"Meclis'te\" değil \"Mecliste\" (kurum adı)."
+],
+"recall": [
+[
+"\"Kardeşimde gelecek\" doğru mu?",
+"Hayır: \"Kardeşim de gelecek\" (bağlaç ayrı)."
+]
+],
+"src": [
+{
+"t": "TDK: Kesme işareti",
+"u": "https://tdk.gov.tr/icerik/yazim-kurallari/kesme-isareti/"
 },
 {
-"id": "y2", "area": "Y", "title": "Paragraf soruları",
+"t": "TDK: da/de'nin yazılışı",
+"u": "https://tdk.gov.tr/icerik/yazim-kurallari/baglac-olan-da-denin-yazilisi/"
+}
+],
+"qs": [
+"Y01",
+"Y02",
+"Y04",
+"Y05"
+]
+},
+{
+"id": "y2",
+"area": "Y",
+"title": "Paragraf soruları",
 "intro": "Paragraf soruları bilgi değil yöntem ister. Birkaç kural soruların çoğunu çözer.",
 "points": [
 "<b>Ana düşünce</b> genellikle son cümlelerdedir. \"Bu nedenle\", \"demek ki\", \"o hâlde\" ile başlayan cümle yazarın vardığı sonuçtur.",
@@ -284,13 +1622,25 @@
 "<b>Boşluk doldurma:</b> Boşluğun öncesi ve sonrası arasında köprü kuran cümleyi seç. Önceki cümleden devam etmeli, sonraki cümleyi hazırlamalı.",
 "<b>Metinde olmayanı ekleme:</b> Doğru gibi görünen ama metinde söylenmeyen bilgi içeren şık yanlıştır."
 ],
-"traps": ["Metindeki bir ayrıntıyı tekrar eden şık ana düşünce değildir."],
-"recall": [["Ana düşünceyi önce nerede ararsın?", "Son cümlelerde, \"bu nedenle\" gibi sonuç bağlaçlarından sonra."]],
+"traps": [
+"Metindeki bir ayrıntıyı tekrar eden şık ana düşünce değildir."
+],
+"recall": [
+[
+"Ana düşünceyi önce nerede ararsın?",
+"Son cümlelerde, \"bu nedenle\" gibi sonuç bağlaçlarından sonra."
+]
+],
 "src": [],
-"qs": ["Y03", "Y18"]
+"qs": [
+"Y03",
+"Y18"
+]
 },
 {
-"id": "y3", "area": "Y", "title": "Sayısal yöntemler",
+"id": "y3",
+"area": "Y",
+"title": "Sayısal yöntemler",
 "intro": "Her soru tipinin bir kalıbı vardır. Örnekler sorulardakinden farklıdır, önce kalıbı öğren, sonra soruları çöz.",
 "points": [
 "<b>İş problemi:</b> Bir günde yapılan işleri topla. A işi 6, B 3 günde bitiriyorsa: 1/6 + 1/3 = 1/2, birlikte 2 gün.",
@@ -303,26 +1653,79 @@
 "<b>Geri koymadan olasılık:</b> Her çekişte pay ve payda azalır. 3 kırmızı 2 mavi topla iki kırmızı: 3/5 × 2/4 = 3/10.",
 "<b>Ortalama:</b> Toplam = ortalama × adet. Çıkarılan sayı = eski toplam − yeni toplam.",
 "<b>Sayı dizisi:</b> Önce ardışık farklara bak. Farklar 2'nin kuvvetiyse kural genellikle \"2 katı + 1\" gibidir.",
-"<b>Gün hesabı:</b> Gün sayısını 7'ye böl, kalan kadar ileri say. 100 gün = 14 × 7 + 2, yani 2 gün sonrası."
+"<b>Gün hesabı:</b> Gün sayısını 7'ye böl, kalan kadar ileri say. 100 gün = 14 × 7 + 2, yani 2 gün sonrası.",
+"<b>Havuz (doldurma ve boşaltma):</b> Dolduranın oranından boşaltanın oranı çıkarılır. A 4 saatte dolduruyor, B 12 saatte boşaltıyorsa: 1/4 − 1/12 = 1/6, havuz 6 saatte dolar.",
+"<b>Kâr ve zarar:</b> Yüzde hep maliyet üzerinden hesaplanır (aksi söylenmedikçe). Satış = maliyet × (1 + kâr oranı). Art arda artış ve indirimde çarpanları çarp.",
+"<b>Karışım:</b> Madde miktarı = oran × toplam miktar. Su eklendiğinde madde miktarı değişmez, yalnızca toplam büyür."
 ],
-"traps": ["%20 artış ve %20 azalış birbirini götürmez.", "Yaş sorularında n yıl sonrasını yalnızca bir kişiye eklemek sık yapılan hatadır."],
-"recall": [["A 10, B 15 günde bitiriyor. Birlikte?", "1/10 + 1/15 = 5/30 = 1/6, yani 6 gün."], ["%10 artış sonra %10 azalış?", "1,1 × 0,9 = 0,99, yani %1 kayıp."]],
+"traps": [
+"%20 artış ve %20 azalış birbirini götürmez.",
+"Yaş sorularında n yıl sonrasını yalnızca bir kişiye eklemek sık yapılan hatadır."
+],
+"recall": [
+[
+"A 10, B 15 günde bitiriyor. Birlikte?",
+"1/10 + 1/15 = 5/30 = 1/6, yani 6 gün."
+],
+[
+"%10 artış sonra %10 azalış?",
+"1,1 × 0,9 = 0,99, yani %1 kayıp."
+]
+],
 "src": [],
-"qs": ["Y06", "Y07", "Y08", "Y09", "Y10", "Y11", "Y12", "Y13", "Y14", "Y19", "Y20"]
+"qs": [
+"Y06",
+"Y07",
+"Y08",
+"Y09",
+"Y10",
+"Y11",
+"Y12",
+"Y13",
+"Y14",
+"Y19",
+"Y20",
+"Y21",
+"Y22",
+"Y23",
+"Y24",
+"Y25",
+"Y26",
+"Y27",
+"Y30",
+"Y31",
+"Y32"
+]
 },
 {
-"id": "y4", "area": "Y", "title": "Mantık ve sıralama",
+"id": "y4",
+"area": "Y",
+"title": "Mantık ve sıralama",
 "intro": "Mantık sorularında \"kesinlikle doğru\" ifadesi kilittir: yalnızca verilen bilgilerden zorunlu olarak çıkanı seç.",
 "points": [
 "<b>\"Bütün A'lar B'dir\"</b> önermesinden kesin çıkan: \"B olmayan A değildir\" (karşıt ters). Kesin çıkmayan: \"Bütün B'ler A'dır\".",
 "<b>\"Bazı B'ler C'dir\"</b> bilgisi, A'ların C olup olmadığı hakkında kesin bir şey söylemez.",
 "<b>Modus tollens:</b> \"p ise q\" ve \"q değil\" verildiyse sonuç \"p değil\"dir.",
-"<b>Sıralama soruları:</b> Önce kesin konumları yerleştir (en son, üçüncü). Sonra \"hemen önünde\" gibi yan yana koşulları kalan boşluklara dene. Son olarak \"değildir\" koşullarıyla ele."
+"<b>Sıralama soruları:</b> Önce kesin konumları yerleştir (en son, üçüncü). Sonra \"hemen önünde\" gibi yan yana koşulları kalan boşluklara dene. Son olarak \"değildir\" koşullarıyla ele.",
+"<b>\"Bazı A B'dir\" ve \"Hiçbir B C değildir\":</b> Kesin sonuç \"Bazı A C değildir\". \"Hiçbir A C değildir\" çıkmaz, çünkü B olmayan A'lar hakkında bilgi yok."
 ],
-"traps": ["\"q doğru\" bilgisinden \"p doğru\" sonucu çıkmaz."],
-"recall": [["\"Bütün memurlar sınava girdi\" ise kesin olan?", "Sınava girmeyen kişi memur değildir."]],
+"traps": [
+"\"q doğru\" bilgisinden \"p doğru\" sonucu çıkmaz."
+],
+"recall": [
+[
+"\"Bütün memurlar sınava girdi\" ise kesin olan?",
+"Sınava girmeyen kişi memur değildir."
+]
+],
 "src": [],
-"qs": ["Y15", "Y16", "Y17"]
+"qs": [
+"Y15",
+"Y16",
+"Y17",
+"Y28",
+"Y29"
+]
 }
 ]
 }
