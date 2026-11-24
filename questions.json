@@ -343,6 +343,10 @@
 {
 "t": "RG 18.5.2012, 6304 sayılı Kanun",
 "u": "https://www.resmigazete.gov.tr/eskiler/2012/05/20120518-3..htm"
+},
+{
+"t": "AGİT/DKİHB, 10 Ağustos 2014 Cumhurbaşkanı Seçimi Sonuç Raporu",
+"u": "https://www.osce.org/files/f/documents/7/e/130791.pdf"
 }
 ]
 },
@@ -895,6 +899,10 @@
 {
 "t": "Anayasa md. 148",
 "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+},
+{
+"t": "6216 sayılı Kanun md. 45, geçici md. 1/8",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.6216.pdf"
 }
 ]
 },
@@ -1034,6 +1042,10 @@
 {
 "t": "Anayasa md. 126-127",
 "u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2709.pdf"
+},
+{
+"t": "5442 sayılı İl İdaresi Kanunu md. 31/A (+ Anayasa md. 127/5)",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.5442.pdf"
 }
 ]
 },
@@ -1502,6 +1514,10 @@
 {
 "t": "NATO: Türkiye and NATO",
 "u": "https://nato.int/en/about-us/nato-history/history-by-theme/my-country-and-nato/tuerkiye-and-nato"
+},
+{
+"t": "NATO: Greece and NATO",
+"u": "https://www.nato.int/en/about-us/nato-history/history-by-theme/my-country-and-nato/greece-and-nato"
 }
 ]
 },
@@ -1602,6 +1618,10 @@
 {
 "t": "Atatürk Ansiklopedisi: Montrö Boğazlar Sözleşmesi",
 "u": "https://ataturkansiklopedisi.gov.tr/detay/355/Montreux-(Montrö)-Boğazlar-Sözleşmesi-(22-Haziran-20-Temmuz-1936)"
+},
+{
+"t": "Atatürk Ansiklopedisi: Montrö Boğazlar Sözleşmesi",
+"u": "https://ataturkansiklopedisi.gov.tr/detay/355/"
 }
 ]
 },
@@ -1642,8 +1662,8 @@
 "e": "Kenneth Waltz, \"Theory of International Politics\" (1979). Morgenthau klasik realizmin, Keohane neoliberal kurumsalcılığın, Wendt konstrüktivizmin temsilcisidir.",
 "src": [
 {
-"t": "Britannica: Neorealism",
-"u": "https://www.britannica.com/topic/realism-political-and-social-science"
+"t": "SEP: Political Realism in International Relations",
+"u": "https://plato.stanford.edu/entries/realism-intl-relations/"
 }
 ]
 },
@@ -1684,8 +1704,8 @@
 "e": "Henri Fayol, yönetim süreci yaklaşımı (1916). Gulick POSDCORB kısaltmasını geliştirdi, Taylor bilimsel yönetimin, Weber bürokrasi kuramının, Mayo insan ilişkileri okulunun temsilcisidir.",
 "src": [
 {
-"t": "Britannica: Henri Fayol",
-"u": "https://www.britannica.com/biography/Henri-Fayol"
+"t": "Duyar, Fayol ve Gulick'ten Günümüze Yönetim Fonksiyonlarının Dönüşümü (dergipark)",
+"u": "https://dergipark.org.tr/en/download/article-file/545543"
 }
 ]
 },
@@ -1705,8 +1725,8 @@
 "e": "Yeni Kamu İşletmeciliği (New Public Management), Thatcher ve Reagan dönemlerinde yaygınlaştı.",
 "src": [
 {
-"t": "Britannica: The new public management",
-"u": "https://www.britannica.com/topic/governance/The-new-public-management"
+"t": "Özer, Kamu Hizmeti Anlayışında Değişim ve Yeni Sağ Politikalar (HAK-İŞ Dergisi 2019)",
+"u": "https://dergipark.org.tr/tr/download/article-file/717836"
 }
 ]
 },
@@ -1726,8 +1746,8 @@
 "e": "Montesquieu, De l'esprit des lois (1748).",
 "src": [
 {
-"t": "Britannica: Montesquieu",
-"u": "https://www.britannica.com/biography/Montesquieu"
+"t": "SEP: Montesquieu",
+"u": "https://plato.stanford.edu/entries/montesquieu/"
 }
 ]
 },
@@ -1780,8 +1800,8 @@
 "e": "Bretton Woods'ta IMF ve Uluslararası İmar ve Kalkınma Bankası (Dünya Bankası) kuruldu. GATT 1947'de imzalandı, DTÖ 1995'te kuruldu.",
 "src": [
 {
-"t": "Britannica: Bretton Woods Conference",
-"u": "https://www.britannica.com/event/Bretton-Woods-Conference"
+"t": "World Bank: History (Bretton Woods Conference)",
+"u": "https://www.worldbank.org/en/archive/history"
 }
 ]
 },
@@ -1892,6 +1912,10 @@
 {
 "t": "YTB Başkanlık",
 "u": "https://www.ytb.gov.tr/kurumsal/baskanlik"
+},
+{
+"t": "Ateş ve Carlak, Diaspora Politikası İçin Bir Stratejik Uygulama Önerisi (Uluslararası Yönetim Akademisi Dergisi 2025)",
+"u": "https://dergipark.org.tr/tr/download/article-file/5317285"
 }
 ]
 },
@@ -2333,10 +2357,6 @@
 {
 "t": "Dünya Bankası podcast: Stagflation",
 "u": "https://www.worldbank.org/en/news/podcast/2022/06/10/stagflation-global-economy-development-podcast"
-},
-{
-"t": "TCMB Terimler Sözlüğü",
-"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
 }
 ]
 },
@@ -2494,6 +2514,14 @@
 {
 "t": "Atatürk Ansiklopedisi: Soyadı Kanunu",
 "u": "https://ataturkansiklopedisi.gov.tr/detay/298/Soyadı-Kanunu"
+},
+{
+"t": "Mevzuat: 430 sayılı Tevhid-i Tedrisat Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.3.430.pdf"
+},
+{
+"t": "TBMM: 431 sayılı Kanun (hilafetin ilgası)",
+"u": "https://www5.tbmm.gov.tr/tutanaklar/KANUNLAR_KARARLAR/kanuntbmmc002/kanuntbmmc002/kanuntbmmc00200431.pdf"
 }
 ]
 },
@@ -2659,11 +2687,11 @@
 "Bulgaristan"
 ],
 "a": 2,
-"e": "Suriye sınırı yaklaşık 911 km'dir.",
+"e": "Türkiye'nin en uzun kara sınırı Suriye iledir. Uzunluk kaynağa göre yaklaşık 877-911 km arasında verilir (MEB ders materyali 877 km; resmî açıklamalarda yaklaşık 911 km). Hangi rakam alınırsa alınsın Suriye en uzun sınırdır.",
 "src": [
 {
-"t": "Milliyet (ikincil kaynak)",
-"u": "https://www.milliyet.com.tr/egitim/haritalar/turkiyenin-sinir-kapilari-haritasi-turkiyeye-sinir-olan-ulkeler-hangileridir-sinir-kapilarinin-isimleri-nelerdir-6311239"
+"t": "MEB (Stuttgart Eğitim Ataşeliği) 7. sınıf: Türkiye ve Komşuları",
+"u": "https://stuttgartegitim.meb.gov.tr/meb_iys_dosyalar/2020_06/09103937_7._SEVYYE_R_PARLAK_Turkiye_ve_KomYularY.pdf"
 }
 ]
 },
@@ -3485,8 +3513,8 @@
 "e": "TDK Güncel Türkçe Sözlük, \"ince eleyip (veya eğirip) sık dokumak\": bir şeyi bütün ayrıntılarıyla araştırmak, gözden veya elden geçirmek.",
 "src": [
 {
-"t": "TDK Güncel Türkçe Sözlük",
-"u": "https://sozluk.gov.tr/"
+"t": "TDK Güncel Türkçe Sözlük: ince eleyip (veya eğirip) sık dokumak",
+"u": "https://sozluk.gov.tr/gts?ara=ince%20eleyip%20%28veya%20e%C4%9Firip%29%20s%C4%B1k%20dokumak"
 }
 ]
 },
