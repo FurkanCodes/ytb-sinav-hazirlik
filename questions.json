@@ -2785,6 +2785,959 @@
 ]
 },
 {
+"id": "U45",
+"area": "U",
+"d": 2,
+"q": "Türkiye-AB katılım müzakerelerinde fasılların güncel durumu hangisinde doğru verilmiştir?",
+"o": [
+"14 fasıl açılmış, hiçbir fasıl geçici olarak kapatılmamıştır.",
+"16 fasıl açılmış, yalnızca Bilim ve Araştırma faslı geçici olarak kapatılmıştır.",
+"16 fasıl açılmış, Bilim ve Araştırma, Eğitim ve Kültür ile Enerji fasılları geçici olarak kapatılmıştır.",
+"35 faslın tamamı açılmış, müzakereler kapanış aşamasında askıya alınmıştır.",
+"8 fasıl açılmış, Gümrük Birliği faslı geçici olarak kapatılmıştır."
+],
+"a": 1,
+"e": "AB Başkanlığının mevcut durum tablosuna (“16/35”, kapatılan 1) ve AB ve Üyelik Sürecimiz kronolojisine göre 2006-2016 arasında 16 fasıl açıldı (ilki 25-Bilim ve Araştırma, 12.6.2006; sonuncusu 33-Mali ve Bütçesel Hükümler, 30.6.2016). Yalnızca Bilim ve Araştırma faslı açıldığı gün geçici olarak kapatıldı; 11.12.2006 GİK kararıyla başka faslın geçici kapatılması engellendi. Eğitim-Kültür ve Enerji GKRY'nin bloke ettiği fasıllardır, Gümrük Birliği ise askıya alınan 8 fasıldan biridir.",
+"src": [
+{
+"t": "AB ve Üyelik Sürecimiz (2018)",
+"u": "https://www.mfa.gov.tr/data/AB/ab-ve-uyelik-surecimiz.pdf"
+},
+{
+"t": "AB Başkanlığı: Mevcut durum tablosu (2017)",
+"u": "https://www.ab.gov.tr/siteimages/2017_08/katilim_mzakerelerini_yrten_ulkelerde_mevcut_durum_tablosu-_tr.pdf"
+}
+]
+},
+{
+"id": "U46",
+"area": "U",
+"d": 2,
+"q": "AB Genel İşler Konseyinin 11 Aralık 2006 tarihli kararıyla, Türkiye'nin Ek Protokol'e ilişkin taahhütlerini yerine getirmediği gerekçesiyle müzakereleri askıya alınan sekiz fasıldan biri DEĞİLDİR?",
+"o": [
+"Malların Serbest Dolaşımı",
+"Balıkçılık",
+"Enerji",
+"Gümrük Birliği",
+"Dış İlişkiler"
+],
+"a": 2,
+"e": "Askıya alınan 8 fasıl: 1-Malların Serbest Dolaşımı, 3-İş Kurma Hakkı ve Hizmet Sunum Serbestisi, 9-Mali Hizmetler, 11-Tarım ve Kırsal Kalkınma, 13-Balıkçılık, 14-Ulaştırma Politikası, 29-Gümrük Birliği, 30-Dış İlişkiler. 15-Enerji faslı ise GKRY'nin 8 Aralık 2009'da tek taraflı olarak açılmasını engelleyeceğini açıkladığı 6 fasıl arasındadır.",
+"src": [
+{
+"t": "AB ve Üyelik Sürecimiz (2018)",
+"u": "https://www.mfa.gov.tr/data/AB/ab-ve-uyelik-surecimiz.pdf"
+},
+{
+"t": "Dışişleri: Türkiye-AB İlişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-ab-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U47",
+"area": "U",
+"d": 2,
+"q": "18 Mart 2016 tarihli Türkiye-AB Mutabakatının en önemli unsuru sayılan “1'e 1” uygulaması aşağıdakilerden hangisidir?",
+"o": [
+"Türkiye'nin AB'ye ihraç ettiği her bir sanayi ürünü karşılığında AB'nin bir tarım ürününde gümrük vergisini kaldırması",
+"AB'de açılan her yeni fasıl karşılığında Türkiye'nin bir faslı geçici olarak kapatması",
+"Yunan adalarından Türkiye'ye iade edilen her düzensiz göçmen karşılığında Türkiye'deki kayıtlı bir Suriyelinin AB üye ülkesine yerleştirilmesi",
+"Vize serbestisi kapsamında her bir Türk vatandaşına karşılık bir AB vatandaşına Türkiye vizesi muafiyeti tanınması",
+"Türkiye'ye verilen her bir avro mali yardıma karşılık Türkiye'nin aynı miktarı göç yönetimine ayırması"
+],
+"a": 2,
+"e": "1'e 1 uygulamasına göre 20 Mart 2016'dan sonra Türkiye üzerinden Yunan adalarına yasa dışı geçen göçmenler, sığınma başvuruları kabul edilmezse Türkiye'ye geri gönderilir; Yunan adalarından gönderilen her düzensiz göçmen karşılığında Türkiye'deki kamplarda kayıtlı bir Suriyeli, öncelik kriterlerine göre üye ülkelere yerleştirilir. Amaç insan kaçakçılarının iş modelini çökertmektir.",
+"src": [
+{
+"t": "AB ve Üyelik Sürecimiz (2018)",
+"u": "https://www.mfa.gov.tr/data/AB/ab-ve-uyelik-surecimiz.pdf"
+}
+]
+},
+{
+"id": "U48",
+"area": "U",
+"d": 3,
+"q": "Aşağıdaki gelişmelerin kronolojik sıralaması hangisidir?<br>I. Komisyonun Türkiye'nin tam üyelik başvurusu hakkındaki görüşünü (Avis) açıklaması<br>II. Gümrük Birliği'ne ilişkin kuralları içeren Katma Protokolün imzalanması<br>III. Vize Serbestisi Diyaloğu Mutabakat Zaptı ile Geri Kabul Anlaşmasının imzalanması<br>IV. Türkiye'nin Ankara Anlaşmasını yeni üyelere genişleten Ek Protokolü imzalaması",
+"o": [
+"II - I - IV - III",
+"I - II - IV - III",
+"II - IV - I - III",
+"II - I - III - IV",
+"I - II - III - IV"
+],
+"a": 0,
+"keep": true,
+"e": "Katma Protokol 23 Kasım 1970'te imzalandı (II); Komisyon görüşü 18 Aralık 1989'da açıklandı (I); Ek Protokol 29 Temmuz 2005'te imzalandı (IV); VSD Mutabakat Zaptı ve Geri Kabul Anlaşması 16 Aralık 2013'te imzalandı (III).",
+"src": [
+{
+"t": "AB Başkanlığı kronolojisi",
+"u": "https://www.ab.gov.tr/files/kronoloji.pdf"
+},
+{
+"t": "AB ve Üyelik Sürecimiz (2018)",
+"u": "https://www.mfa.gov.tr/data/AB/ab-ve-uyelik-surecimiz.pdf"
+}
+]
+},
+{
+"id": "U49",
+"area": "U",
+"d": 2,
+"q": "Avrupa Komisyonunun, Türkiye'nin 14 Nisan 1987 tarihli tam üyelik başvurusuna ilişkin 18 Aralık 1989 tarihli görüşünde (Avis) aşağıdakilerden hangisi yer almıştır?",
+"o": [
+"Türkiye'nin Kopenhag siyasi kriterlerini yeterince karşıladığı ve müzakerelerin gecikmeden başlatılması gerektiği",
+"Türkiye'nin coğrafi olarak Avrupa'da bulunmadığı için başvurunun usulden reddedildiği",
+"Topluluğun iç pazarını tamamlamadan (1992) yeni üye kabul edemeyeceği ve Türkiye'nin ekonomik, sosyal ve siyasal alanda gelişmesine ihtiyaç bulunduğu",
+"Türkiye'nin aday ülke olarak tanındığı ve Katılım Ortaklığı Belgesi hazırlanacağı",
+"Gümrük Birliği tamamlanmadan Türkiye ile ortaklık ilişkisinin askıya alınacağı"
+],
+"a": 2,
+"e": "AB Başkanlığı kronolojisine göre Komisyon, Topluluğun kendi iç pazarını tamamlama sürecinden önce (1992) yeni üye kabul edemeyeceğini ve Türkiye'nin katılımdan önce ekonomik, sosyal ve siyasal alanda gelişmesine ihtiyaç duyulduğunu belirtti. “Siyasi kriterleri yeterince karşıladığı” tespiti 2004 Tavsiye Belgesine, adaylık 1999 Helsinki'ye aittir.",
+"src": [
+{
+"t": "AB Başkanlığı kronolojisi",
+"u": "https://www.ab.gov.tr/files/kronoloji.pdf"
+}
+]
+},
+{
+"id": "U50",
+"area": "U",
+"d": 2,
+"q": "Türkiye-AB Vize Serbestisi Diyaloğu ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Vize muafiyeti 18 Mart Mutabakatıyla Haziran 2016'da yürürlüğe girmiştir.",
+"Vize Serbestisi Diyaloğu Mutabakat Zaptı ile Geri Kabul Anlaşması 16 Aralık 2013'te aynı gün imzalanmıştır.",
+"Yol Haritası üç başlık altında toplam 35 kriterden oluşur.",
+"Geri Kabul Anlaşması 2013'te üçüncü ülke vatandaşlarına ilişkin hükümleri dâhil tüm hükümleriyle yürürlüğe girmiştir.",
+"Süreç, Türkiye'ye adaylık statüsü tanınan Helsinki Zirvesinde başlatılmıştır."
+],
+"a": 1,
+"e": "VSD Mutabakat Zaptı 16 Aralık 2013'te imzalandı ve süreç aynı gün başladı; Geri Kabul Anlaşması da aynı tarihte imzalandı. Yol Haritası 5 başlıkta 72 kriter içerir. GKA 1 Ekim 2014'te üçüncü ülke vatandaşlarına ilişkin hükümler hariç yürürlüğe girdi. 18 Mart Mutabakatı vize serbestisini 72 kriterin karşılanması şartıyla Haziran 2016'ya öne çekmeyi öngördü ama bu gerçekleşmedi.",
+"src": [
+{
+"t": "AB ve Üyelik Sürecimiz (2018)",
+"u": "https://www.mfa.gov.tr/data/AB/ab-ve-uyelik-surecimiz.pdf"
+}
+]
+},
+{
+"id": "U51",
+"area": "U",
+"d": 2,
+"q": "2025-2026 Türkiye-AB gelişmeleriyle ilgili aşağıdakilerden hangisi YANLIŞTIR?",
+"o": [
+"Avrupa Siyasi Topluluğu 6. Zirvesi 16 Mayıs 2025'te Arnavutluk'un ev sahipliğinde Tiran'da yapılmıştır.",
+"16 Aralık 2025 Genel İşler Konseyinde genişlemeye ilişkin değerlendirmeler, Macaristan'ın vetosu nedeniyle Dönem Başkanlığı sonuçları olarak yayımlanmıştır.",
+"Komisyonun 2025 raporu, Türkiye'nin işleyen bir piyasa ekonomisi oluşturmada ileri düzeyde olduğunu vurgulamıştır.",
+"2025 yılında katılım müzakerelerinde yeni fasıllar açılarak müzakereler canlandırılmıştır.",
+"Dışişleri Bakanlığı 2026 Türkiye Raporuna tepkisinde Gümrük Birliğinin güncellenmesine ilişkin beklentisini yinelemiştir."
+],
+"a": 3,
+"e": "Son fasıl 30 Haziran 2016'da açıldı; 13 Aralık 2016 GİK açıklamasından sonra yeni fasıl açılmadı. AB Başkanlığı 2025 Faaliyet Raporu, 16 Aralık 2025 GİK sonuçlarında müzakerelerin canlandırılması ve Gümrük Birliğinin güncellenmesine yönelik somut öneri bulunmadığını belirtir. Diğer şıklar aynı raporda (Tiran Zirvesi; Macaristan vetosu; 4.11.2025 tarihli 2025 raporundaki “işleyen bir piyasa ekonomisi oluşturmada ileri düzeyde” tespiti) ve Dışişleri No: 212 açıklamasında (Gümrük Birliği beklentisi) yer alır.",
+"src": [
+{
+"t": "AB Başkanlığı 2025 Faaliyet Raporu",
+"u": "https://www.ab.gov.tr/siteimages/birimler/sgb/faaliyet_raporlari/ab_baskaniligi_2025_yili_idare_faaliyet_raporu.pdf"
+},
+{
+"t": "Dışişleri No: 212 (4.11.2026)",
+"u": "https://www.mfa.gov.tr/no_-212_-avrupa-komisyonu-2026-turkiye-raporu-hk.tr.mfa"
+}
+]
+},
+{
+"id": "U52",
+"area": "U",
+"d": 2,
+"q": "Dışişleri Bakanlığına göre Yunanistan Ege'de karasularını 6 milden 12 mile çıkarırsa Yunan karasularının Ege'deki payı yaklaşık yüzde kaça yükselir?",
+"o": [
+"%19",
+"%40",
+"%51",
+"%70",
+"%90"
+],
+"a": 3,
+"e": "Bakanlığa göre Yunan karasuları bugün Ege'nin yaklaşık %40'ını oluşturur; 12 milde bu oran %70'e çıkar. Bu durumda açık deniz %51'den %19'a düşer, Türkiye'nin karasuları ise Ege'nin %10'undan azını oluşturur. %40 bugünkü pay, %51 ve %19 açık denizin önceki ve sonraki payıdır.",
+"src": [
+{
+"t": "Dışişleri: Başlıca Ege Denizi Sorunları",
+"u": "https://www.mfa.gov.tr/baslica-ege-denizi-sorunlari.tr.mfa"
+}
+]
+},
+{
+"id": "U53",
+"area": "U",
+"d": 1,
+"q": "Dışişleri Bakanlığına göre Türkiye'nin Balkan politikası hangi iki ilkeyle şekillenmektedir?",
+"o": [
+"Bölgesel sahiplenme ve kapsayıcılık",
+"Kolektif savunma ve caydırıcılık",
+"Karşılıklılık ve koşulluluk",
+"Tarafsızlık ve eşit mesafe",
+"Müdahalecilik ve koruyuculuk"
+],
+"a": 0,
+"e": "Bakanlığın “Relations with the Balkan Region” sayfasına göre politika “regional ownership” (bölgesel sahiplenme) ve “inclusiveness” (kapsayıcılık) ilkeleriyle şekillenir. Dört ekseni ise yüksek düzeyli siyasi diyalog, herkes için güvenlik, derin ekonomik entegrasyon ve çok etnikli, çok kültürlü, çok dinli yapının korunmasıdır. İkili ilişkilerde iç işlere karışmama esastır; bu yüzden “müdahalecilik” yanlıştır.",
+"src": [
+{
+"t": "MFA: Relations with the Balkan Region",
+"u": "https://www.mfa.gov.tr/relations-with-the-balkan-region.en.mfa"
+}
+]
+},
+{
+"id": "U54",
+"area": "U",
+"d": 2,
+"q": "Lozan Barış Antlaşmasının, Yunanistan'ın Türkiye'deki gayrimüslim azınlıklara tanınan hakları kendi Müslüman azınlığına da tanıyacağını öngören maddesi hangisidir?",
+"o": [
+"Madde 37",
+"Madde 40",
+"Madde 42",
+"Madde 44",
+"Madde 45"
+],
+"a": 4,
+"e": "Dışişlerinin Batı Trakya sayfasına göre Lozan md. 37-44 Türkiye'deki gayrimüslim azınlıkların haklarını düzenler; md. 45 ise bu hakların Yunanistan tarafından kendi topraklarındaki Müslüman azınlığa da tanınacağını öngörür. Md. 40 bu hükümler içinde vakıf ve kurumlarla ilgili olarak anılır.",
+"src": [
+{
+"t": "Dışişleri: Yunanistan'daki Türk Varlığı (Batı Trakya)",
+"u": "https://www.mfa.gov.tr/bati-trakya-turk-azinligi.tr.mfa"
+}
+]
+},
+{
+"id": "U55",
+"area": "U",
+"d": 2,
+"q": "Dışişleri Bakanlığının verilerine göre Batı Trakya Türk azınlığıyla ilgili aşağıdakilerden hangisi YANLIŞTIR?",
+"o": [
+"Bölgede yaklaşık 150.000 Müslüman Türk yaşamaktadır.",
+"Müftülerin seçimle belirlenmesi hakkı 1913 Atina Antlaşmasına dayanır.",
+"Yunanistan 1990'da çıkardığı kararnameyle müftü seçimini kaldırıp atama usulünü getirmiştir.",
+"Yunanistan azınlığın etnik kimliğini tanır ve resmî belgelerde “Türk azınlığı” ifadesini kullanır.",
+"Rodos ve İstanköy'deki Türklere azınlık statüsü tanınmamaktadır."
+],
+"a": 3,
+"e": "Bakanlığa göre Yunanistan azınlığın etnik kimliğini tanımaz, “Türk” yerine “Müslüman” ifadesini kullanır; Türkiye ise Lozan'daki “Müslüman” teriminin etnik Türkleri ifade ettiğini savunur. Diğer ifadeler sayfada yer alır: yaklaşık 150.000 kişi; 1913 Atina Antlaşması ve 2345/1920 sayılı Kanun; 1990 kararnamesi; Rodos ve İstanköy'deki yaklaşık 6.000 Türke azınlık statüsü verilmemesi.",
+"src": [
+{
+"t": "Dışişleri: Yunanistan'daki Türk Varlığı (Batı Trakya)",
+"u": "https://www.mfa.gov.tr/bati-trakya-turk-azinligi.tr.mfa"
+}
+]
+},
+{
+"id": "U56",
+"area": "U",
+"d": 2,
+"q": "Türkiye'nin 1 Eylül 2015'te faaliyete geçirdiği ve Kosova'da başkonsolosluk açan ilk ve tek ülke olmasını sağlayan temsilcilik hangi şehirdedir?",
+"o": [
+"Priştine",
+"Prizren",
+"Mitroviça",
+"Peç (İpek)",
+"Gilan"
+],
+"a": 1,
+"e": "Dışişlerine göre Prizren Başkonsolosluğu 1 Eylül 2015'te açıldı ve Türkiye Kosova'da başkonsolosluk açan ilk ve tek ülkedir. Kosova Türk toplumu Prizren'de yoğundur. Priştine'de 1999'da açılan koordinasyon bürosu bağımsızlıktan sonra büyükelçiliğe dönüştürüldü.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Kosova Siyasi İlişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-kosova-siyasi-iliskileri-.tr.mfa"
+}
+]
+},
+{
+"id": "U57",
+"area": "U",
+"d": 2,
+"q": "Bosna-Hersek'te Yüksek Temsilciye siyasi yön veren Barış Uygulama Konseyi Yönlendirme Kurulunda Türkiye hangi uluslararası örgütü temsilen yer almaktadır?",
+"o": [
+"Avrupa Birliği",
+"NATO",
+"Avrupa Güvenlik ve İşbirliği Teşkilatı",
+"İslam İşbirliği Teşkilatı",
+"Güneydoğu Avrupa İşbirliği Süreci"
+],
+"a": 3,
+"e": "Dışişlerinin Bosna-Hersek sayfasına göre Yönlendirme Kurulunda ABD, Almanya, Fransa, Japonya, Kanada, İngiltere, İtalya, Rusya (2021'den beri katılmıyor), İspanya, Hollanda, Avrupa Komisyonu ve İİT'yi temsilen Türkiye yer alır. Askerî denetimi AB'nin EUFOR-Althea gücü yapar; Türkiye buna da en çok katkı veren ülkelerdendir.",
+"src": [
+{
+"t": "Dışişleri: Bosna-Hersek'in Siyasi Görünümü",
+"u": "https://www.mfa.gov.tr/bosna-hersek-siyasi-gorunumu.tr.mfa"
+}
+]
+},
+{
+"id": "U58",
+"area": "U",
+"d": 2,
+"q": "Türkiye ile Libya arasındaki Akdeniz'de deniz yetki alanlarının sınırlandırılmasına ilişkin mutabakat muhtırası hakkında aşağıdakilerden hangisi doğrudur?",
+"o": [
+"27 Kasım 2019'da İstanbul'da Libya Ulusal Mutabakat Hükümeti ile imzalanmış, 8 Aralık 2019'da yürürlüğe girmiştir.",
+"2020'de Trablus'ta imzalanmış, Mısır'ın da taraf olduğu üçlü bir anlaşmadır.",
+"Türkiye'nin Ege'deki karasularını 12 mile çıkaran bir anlaşmadır.",
+"BM Güvenlik Konseyi kararıyla imzalanmış ve AB tarafından onaylanmıştır.",
+"Meis adasına tam etki tanıyan bir sınırlandırma öngörmektedir."
+],
+"a": 0,
+"e": "Muhtıra 27 Kasım 2019'da İstanbul'da Türkiye Hükümeti ile Libya Ulusal Mutabakat Hükümeti arasında imzalandı; yürürlük tarihi 9 sayılı CBK md. 3 uyarınca 8 Aralık 2019 olarak belirlendi (Cumhurbaşkanı Kararı 1818, Resmî Gazete 12.12.2019). Dışişlerine göre mutabakat Türkiye'nin batı deniz yetki alanı sınırlarının bir kısmını belirledi; Türkiye adaların kıyı izdüşümüne “kesme etkisi” yaratamayacağını savunur, bu nedenle Meis'e tam etki tanımaz.",
+"src": [
+{
+"t": "Resmî Gazete 12.12.2019, Cumhurbaşkanı Kararı 1818",
+"u": "https://www.resmigazete.gov.tr/eskiler/2019/12/20191212-11.pdf"
+},
+{
+"t": "MFA QA-73 (1.12.2019)",
+"u": "https://www.mfa.gov.tr/sc_-73_-yunanistan-ve-misir-aciklamalari-hk-sc.en.mfa"
+}
+]
+},
+{
+"id": "U59",
+"area": "U",
+"d": 1,
+"q": "15 Haziran 2021'de imzalanan Şuşa Beyannamesi ile Türkiye-Azerbaycan ilişkileri hangi seviyeye yükseltilmiştir?",
+"o": [
+"Stratejik ortaklık",
+"Genişletilmiş stratejik ortaklık",
+"Müttefiklik",
+"Konfederasyon",
+"İyi komşuluk"
+],
+"a": 2,
+"e": "Dışişlerinin Türkiye-Azerbaycan sayfasına göre “Şuşa Beyannamesiyle, ilişkilerimiz müttefiklik seviyesine yükseltilmiştir.” “Genişletilmiş stratejik ortaklık” 2022'de Kazakistan ile ilişkiler için kullanılan ifadedir.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Azerbaycan Siyasi İlişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-azerbaycan-siyasi-iliskileri.tr.mfa"
+},
+{
+"t": "Dışişleri: Türkiye-Kazakistan Siyasi İlişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-kazakistan-siyasi-iliskileri_.tr.mfa"
+}
+]
+},
+{
+"id": "U60",
+"area": "U",
+"d": 3,
+"q": "8 Ağustos 2025'te Washington'da Azerbaycan ile Ermenistan arasında gerçekleşen gelişmelerle ilgili aşağıdakilerden hangisi YANLIŞTIR?",
+"o": [
+"Aliyev ve Paşinyan ABD Başkanının ev sahipliğinde bir ortak deklarasyon imzalamıştır.",
+"İki ülkenin dışişleri bakanları barış anlaşmasının metnini parafe etmiştir.",
+"Dışişleri bakanları AGİT Minsk Sürecinin ve ilgili yapıların kapatılması için ortak çağrıda bulunmuştur.",
+"TRIPP güzergâhının Ermenistan topraklarından geçerek Azerbaycan'ı Nahçıvan'a bağlaması öngörülmüştür.",
+"Barış anlaşması aynı gün iki ülke parlamentolarınca onaylanarak yürürlüğe girmiştir."
+],
+"a": 4,
+"e": "Ortak Deklarasyon metnine (president.az) göre Washington'da liderler Ortak Deklarasyonu imzaladı; barış anlaşması yalnızca dışişleri bakanlarınca parafe edildi ve liderler imza ve onay için ek adımlar atmayı taahhüt etti. Bakanlar Minsk Sürecinin kapatılması için ortak çağrı imzaladı; deklarasyon Azerbaycan'ın ana kısmını Ermenistan üzerinden Nahçıvan'a bağlayan ulaşımı ve TRIPP çerçevesini öngördü. 10 Ağustos 2026 üçlü ortak açıklamasında anlaşma hâlâ parafe edilmiş taslak olarak anılıyordu; parlamento onayı ve yürürlük söz konusu değildir. Türkiye 8.8.2025 tarihli No: 167 açıklamasıyla ilerlemeden memnuniyet duydu.",
+"src": [
+{
+"t": "President.az: Ortak Deklarasyon (8.8.2025)",
+"u": "https://president.az/en/articles/view/69572"
+},
+{
+"t": "Ermenistan Dışişleri: Üçlü ortak açıklama (10.8.2026)",
+"u": "https://www.mfa.am/en/interviews-articles-and-comments/2026/08/10/Joint_statement/14060"
+},
+{
+"t": "Dışişleri No: 167",
+"u": "https://www.mfa.gov.tr/no_-167_-azerbaycan-ve-ermenistan-arasindaki-baris-sureci-hk.tr.mfa"
+}
+]
+},
+{
+"id": "U61",
+"area": "U",
+"d": 2,
+"q": "Türk Devletleri Teşkilatı ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Nahçıvan Anlaşmasını 2009'da Özbekistan dâhil beş ülke imzalamıştır.",
+"Teşkilatın Sekretaryası Astana'dadır.",
+"Özbekistan 15 Ekim 2019'daki Bakü Zirvesinde tam üye olmuştur.",
+"KKTC 2021 İstanbul Zirvesinde tam üye olmuştur.",
+"Türkmenistan 2022 Semerkant Zirvesinde tam üye olmuştur."
+],
+"a": 2,
+"e": "Dışişlerine göre Nahçıvan Anlaşmasını 3 Ekim 2009'da Türkiye, Azerbaycan, Kazakistan ve Kırgızistan imzaladı; Özbekistan 15 Ekim 2019 Bakü (7.) Zirvesinde tam üye oldu. Sekretarya İstanbul'dadır. KKTC 11 Kasım 2022 Semerkant Zirvesinde gözlemci oldu; Türkmenistan da gözlemcidir.",
+"src": [
+{
+"t": "Dışişleri: Türk Devletleri Teşkilatı",
+"u": "https://www.mfa.gov.tr/turk-devletleri-teskilati.tr.mfa"
+}
+]
+},
+{
+"id": "U62",
+"area": "U",
+"d": 2,
+"q": "Türk Devletleri Teşkilatının ilk kez bir gözlemci ülkede ve AB sınırları içinde düzenlenen zirvesi hangisidir?",
+"o": [
+"Şuşa Gayriresmi Zirvesi (2024)",
+"Budapeşte Gayriresmi Zirvesi (2025)",
+"Gebele 12. Zirvesi (2025)",
+"Türkistan Gayriresmi Zirvesi (2026)",
+"Semerkant 9. Zirvesi (2022)"
+],
+"a": 1,
+"e": "Dışişlerinin TDT sayfasına göre 20-21 Mayıs 2025 Budapeşte Gayriresmi Zirvesi ilk kez bir gözlemci ülkede ve AB sınırları içinde yapıldı (Macaristan gözlemcidir). Şuşa (2024) ve Gebele (2025) Azerbaycan'da, Türkistan (2026) Kazakistan'da, Semerkant (2022) Özbekistan'dadır; bunların hepsi üye ülkedir.",
+"src": [
+{
+"t": "Dışişleri: Türk Devletleri Teşkilatı",
+"u": "https://www.mfa.gov.tr/turk-devletleri-teskilati.tr.mfa"
+}
+]
+},
+{
+"id": "U63",
+"area": "U",
+"d": 2,
+"q": "Karadeniz Tahıl Girişimi ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Cenevre'de ABD, Rusya ve Ukrayna arasında imzalanmıştır.",
+"22 Temmuz 2022'de İstanbul'da Rusya, Türkiye, Ukrayna ve BM tarafından başlatılmıştır.",
+"Ortak Koordinasyon Merkezi NATO gözetiminde Köstence'de kurulmuştur.",
+"Romanya ve Bulgaristan limanlarından yapılan tahıl ihracatını kapsamıştır.",
+"Rusya girişimi 2025'te sona erdirmiştir."
+],
+"a": 1,
+"e": "BM'ye göre girişim 22 Temmuz 2022'de İstanbul'da Rusya, Türkiye, Ukrayna ve BM tarafından başlatıldı; Odesa, Çornomorsk ve Yujni limanlarını kapsadı. Ortak Koordinasyon Merkezi 27 Temmuz 2022'de İstanbul'da BM himayesinde açıldı. Rusya 17 Temmuz 2023'te uygulamayı sona erdirdi.",
+"src": [
+{
+"t": "BM Türkiye: Black Sea Grain Initiative FAQ",
+"u": "https://turkiye.un.org/en/195522-black-sea-grain-initiative-frequently-asked-questions"
+},
+{
+"t": "UNRIC: Genel Sekreterin 17.7.2023 açıklaması",
+"u": "https://unric.org/it/the-secretary-general-press-remarks-on-the-black-sea-initiative-and-memorandum-of-understanding-on-facilitating-exports-of-russian-food-products-and-fertilizers/"
+}
+]
+},
+{
+"id": "U64",
+"area": "U",
+"d": 2,
+"q": "Aşağıdaki ifadelerden hangileri doğrudur?<br>I. Türkiye, Kazakistan'ı bağımsızlığını ilan ettiği 16 Aralık 1991'de tanıyan ilk ülkedir.<br>II. Bakü-Tiflis-Kars demiryolu 30 Ekim 2017'de Bakü'de düzenlenen törenle açılmıştır.<br>III. TANAP, Azerbaycan ham petrolünü Ceyhan'a taşıyan boru hattıdır.",
+"o": [
+"Yalnız I",
+"Yalnız II",
+"I ve II",
+"II ve III",
+"I, II ve III"
+],
+"a": 2,
+"keep": true,
+"e": "I doğru (Dışişleri, Türkiye-Kazakistan). II doğru: tören 30 Ekim 2017'de Bakü Uluslararası Deniz Ticaret Limanında yapıldı (president.az). III yanlış: TANAP Güney Gaz Koridorunun omurgası olan doğal gaz boru hattıdır; ham petrolü Ceyhan'a taşıyan hat Bakü-Tiflis-Ceyhan (BTC) hattıdır (Dışişleri enerji stratejisi).",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Kazakistan Siyasi İlişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-kazakistan-siyasi-iliskileri_.tr.mfa"
+},
+{
+"t": "President.az (30.10.2017)",
+"u": "https://president.az/en/articles/view/25639"
+},
+{
+"t": "Dışişleri: Türkiye'nin Uluslararası Enerji Stratejisi",
+"u": "https://www.mfa.gov.tr/turkiye_nin-enerji-stratejisi.tr.mfa"
+}
+]
+},
+{
+"id": "U65",
+"area": "U",
+"d": 2,
+"q": "Dışişleri Bakanlığına göre Türkiye, Filistin meselesinde aşağıdaki çözümlerden hangisini desteklemektedir?",
+"o": [
+"1948 sınırları temelinde, başkenti Kudüs'ün tamamı olan bir Filistin Devleti",
+"1967 sınırları temelinde, başkenti Doğu Kudüs olan, coğrafi bütünlüğe sahip bağımsız ve egemen bir Filistin Devleti",
+"Kudüs'ün uluslararası yönetime bırakıldığı, başkenti Ramallah olan özerk bir Filistin yönetimi",
+"İsrail ile Filistin'in tek bir federal devlet altında birleştiği tek devletli çözüm",
+"1973 sınırları temelinde, başkenti Batı Kudüs olan bir Filistin Devleti"
+],
+"a": 1,
+"e": "Dışişleri'nin Türkiye-Filistin sayfasına göre Türkiye, BM parametreleri ve iki devletli çözüm vizyonu temelinde '1967 sınırları temelinde başkenti Doğu Kudüs olan, coğrafi bütünlüğe sahip' bağımsız ve egemen bir Filistin Devletini destekler. Fidan da 'barışın anahtarı İki Devletli Çözüm'dür' der. Diğer seçeneklerdeki sınır, başkent ve tek devlet formülleri resmî tutumla çelişir.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Filistin siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-filistin-siyasi-iliskileri.tr.mfa"
+},
+{
+"t": "Dışişleri: Fidan TBMM Plan ve Bütçe hitabı, 18.11.2025",
+"u": "https://www.mfa.gov.tr/bakanimizin-tbmm-plan-ve-butce-komisyonu-ndaki-hitaplari-18-11-2025.tr.mfa"
+}
+]
+},
+{
+"id": "U66",
+"area": "U",
+"d": 2,
+"q": "Basra'daki Al-Fav Limanını yaklaşık 1.200 km'lik otoyol ve demiryoluyla Türkiye'ye bağlamayı amaçlayan Kalkınma Yolu Projesine ilişkin dörtlü mutabakat zaptının taraflarından biri DEĞİLDİR?",
+"o": [
+"Türkiye",
+"Irak",
+"Katar",
+"Birleşik Arap Emirlikleri",
+"Suudi Arabistan"
+],
+"a": 4,
+"e": "Dışişleri'nin Türkiye-Irak sayfasına göre Kalkınma Yolu için Türkiye, Irak, Katar ve BAE arasında dörtlü mutabakat zaptı imzalandı; dörtlü Ulaştırma Bakanları Konseyi 28-29 Ağustos 2024 ve 31 Ekim 2024'te toplandı. Suudi Arabistan bu mutabakatın tarafı değildir.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Irak siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-irak-siyasi-iliskileri.tr.mfa"
+},
+{
+"t": "Dışişleri: Türkiye'nin çok taraflı ulaştırma politikası",
+"u": "https://www.mfa.gov.tr/turkiye_nin-cok-tarafli-ulastirma-politikasi.tr.mfa"
+}
+]
+},
+{
+"id": "U67",
+"area": "U",
+"d": 3,
+"q": "Suriye'de 8 Aralık 2024 sonrasında yaşanan ve Türkiye'nin memnuniyetle karşıladığı aşağıdaki gelişmeler kronolojik olarak nasıl sıralanır?<br>I. ABD'nin Sezar Yasası kapsamındaki yaptırımları kaldırması<br>II. Geçiş hükümetinin kurulması<br>III. Ateşkes ve Tam Entegrasyon Anlaşmasının açıklanması<br>IV. BMGK'nın 2799 sayılı kararıyla Ahmed eş-Şara'nın yaptırım listesinden çıkarılması",
+"o": [
+"II - IV - I - III",
+"II - I - IV - III",
+"IV - II - I - III",
+"II - IV - III - I",
+"I - II - IV - III"
+],
+"a": 0,
+"keep": true,
+"e": "Geçiş hükümeti 30 Mart 2025'te kuruldu (Dışişleri No 68). 2799 (2025) sayılı BMGK kararını Türkiye 7 Kasım 2025'te memnuniyetle karşıladı (SC-18). Sezar Yasası yaptırımlarının kaldırılması 19 Aralık 2025'te karşılandı (QA-25). Ateşkes ve Tam Entegrasyon Anlaşması 18 Ocak 2026'da açıklandı (No 9). Doğru sıra II-IV-I-III.",
+"src": [
+{
+"t": "Dışişleri: No 68 (30.3.2025)",
+"u": "https://www.mfa.gov.tr/no_-68_-suriye-de-gecis-hukumeti-kurulmasi-hk.tr.mfa"
+},
+{
+"t": "Dışişleri: SC-18 (7.11.2025)",
+"u": "https://www.mfa.gov.tr/sc_-18_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-2799-(2025)-sayili-birlesmis-milletler-guvenlik-konseyi-karari-hk-sc.tr.mfa"
+},
+{
+"t": "MFA: QA-25 (19.12.2025)",
+"u": "https://www.mfa.gov.tr/sc_-25_-disisleri-bakanligi-sozcusu-oncu-keceli-nin-abd-nin-suriye-ye-yonelik-sezar-yasasi-kapsamindaki-yaptirimlari-yururlukten-kaldirmasi-hk-sc.en.mfa"
+},
+{
+"t": "MFA: No 9 (18.1.2026)",
+"u": "https://www.mfa.gov.tr/no_-9_-suriye-de-aciklanan-ateskes-ve-tam-entegrasyon-anlasmasi-hk.en.mfa"
+}
+]
+},
+{
+"id": "U68",
+"area": "U",
+"d": 2,
+"q": "Türkiye ile Körfez Arap Ülkeleri İşbirliği Konseyi (KİK) ilişkileri hakkında aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Türkiye 2008'de KİK'e tam üye olmuştur.",
+"KİK 1981'de Manama'da kurulmuş olup merkezi Doha'dadır.",
+"Türkiye-KİK serbest ticaret anlaşması 2010'da yürürlüğe girmiştir.",
+"Türkiye, KİK'in ikili stratejik diyalog mekanizması kurduğu ilk ülkedir; mutabakat 2 Eylül 2008'de Cidde'de imzalanmıştır.",
+"Ekonomik işbirliği çerçeve anlaşması 2015'te Riyad'da imzalanmıştır."
+],
+"a": 3,
+"e": "Dışişleri'nin KİK sayfasına göre stratejik diyalog mutabakatı 2 Eylül 2008'de Cidde'de imzalandı ve Türkiye bu mekanizmanın kurulduğu ilk ülkedir. Türkiye üye değil, stratejik diyalog ortağıdır. KİK tüzüğü 25 Mayıs 1981'de Abu Dabi'de imzalandı, merkezi Riyad'dır. STA müzakereleri 2005'te başladı, 2010'da askıya alındı. Çerçeve anlaşma 30 Mayıs 2005'te Manama'da imzalandı.",
+"src": [
+{
+"t": "Dışişleri: Körfez Arap Ülkeleri İşbirliği Konseyi",
+"u": "https://www.mfa.gov.tr/korfez-arap-ulkeleri-isbirligi-konseyi.tr.mfa"
+}
+]
+},
+{
+"id": "U69",
+"area": "U",
+"d": 2,
+"q": "Türkiye ile Mısır arasında karşılıklı büyükelçilerin atandığı ortak açıklama hangi tarihte yapılmıştır?",
+"o": [
+"3 Temmuz 2013",
+"22 Haziran 2022",
+"4 Temmuz 2023",
+"11 Kasım 2023",
+"14 Şubat 2024"
+],
+"a": 2,
+"keep": true,
+"e": "Dışişleri'nin Türkiye-Mısır sayfasına göre '4 Temmuz 2023'te yapılan ortak açıklamayla karşılıklı Büyükelçiler atanmıştır.' 3 Temmuz 2013 Mursi'nin görevden uzaklaştırılmasıdır; 11 Kasım 2023 Riyad'daki Erdoğan-Sisi görüşmesi; 14 Şubat 2024 Erdoğan'ın Mısır ziyaretidir. 22 Haziran 2022 Suudi Veliaht Prensinin Türkiye ziyaretidir.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Mısır siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-misir_siyasi-iliskileri-.tr.mfa"
+},
+{
+"t": "Dışişleri: Türkiye-Suudi Arabistan siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-suudi-arabistan-siyasi-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U70",
+"area": "U",
+"d": 1,
+"q": "İslam İşbirliği Teşkilatı (İİT) ile ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
+"o": [
+"Merkezi Suudi Arabistan'ın Cidde kentindedir.",
+"57 üye devleti vardır.",
+"İslam Konferansı Örgütü olan adı 2011'de İslam İşbirliği Teşkilatı olarak değiştirilmiştir.",
+"Türkiye, 51. Dışişleri Bakanları Konseyine 2025'te İstanbul'da ev sahipliği yapmıştır.",
+"Türkiye örgüte 2005 yılında katılmıştır."
+],
+"a": 4,
+"e": "Dışişleri'nin İİT sayfasına göre Türkiye örgütün kuruluşundan (1969) beri üyedir; 2005'te katılmamıştır. Merkez Cidde, 57 üye; ad 28-30 Haziran 2011 Astana DBK'da değişti; 51. DBK 21-22 Haziran 2025'te İstanbul'da yapıldı.",
+"src": [
+{
+"t": "Dışişleri: İslam İşbirliği Teşkilatı",
+"u": "https://www.mfa.gov.tr/islam-isbirligi-teskilati.tr.mfa"
+}
+]
+},
+{
+"id": "U71",
+"area": "U",
+"d": 3,
+"q": "Türkiye-Irak ilişkilerine dair aşağıdaki ifadelerden hangileri doğrudur?<br>I. Irak, 14 Mart 2024'te PKK'yı yasaklı örgüt ilan etmiştir.<br>II. Cumhurbaşkanı Erdoğan'ın 22 Nisan 2024 ziyaretinde Stratejik Çerçeve Anlaşması imzalanmıştır.<br>III. Yüksek Düzeyli Stratejik İşbirliği Konseyi 2019'da kurulmuştur.",
+"o": [
+"Yalnız I",
+"Yalnız III",
+"I ve II",
+"II ve III",
+"I, II ve III"
+],
+"a": 2,
+"keep": true,
+"e": "Dışişleri'nin Türkiye-Irak sayfasına göre Irak 14 Mart 2024'te PKK'yı yasaklı örgüt ilan etti (I doğru); 22 Nisan 2024 Bağdat-Erbil ziyaretinde Stratejik Çerçeve Anlaşması dâhil 27 belge imzalandı (II doğru). YDSK 2019'da değil 2009'da kuruldu (III yanlış).",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Irak siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-irak-siyasi-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U72",
+"area": "U",
+"d": 1,
+"q": "Asya ile ilişkileri bütüncül bir strateji çerçevesinde sistematik biçimde güçlendirmeyi amaçlayan 'Yeniden Asya Girişimi' hangi yıl ilan edilmiştir?",
+"o": [
+"2009",
+"2013",
+"2017",
+"2019",
+"2021"
+],
+"a": 3,
+"keep": true,
+"e": "Dışişleri'nin Yeniden Asya Girişimi ve Asya-Pasifik sayfalarına göre girişim Ağustos 2019'da Bakanlıkça ilan edildi. 2017 ASEAN Sektörel Diyalog Ortaklığı, 2013 Japonya stratejik ortaklığı yılıdır.",
+"src": [
+{
+"t": "Dışişleri: Yeniden Asya Girişimi",
+"u": "https://www.mfa.gov.tr/yeniden-asya-girisimi.tr.mfa"
+},
+{
+"t": "Dışişleri: Asya-Pasifik ülkeleri ile ilişkiler",
+"u": "https://www.mfa.gov.tr/dogu-asya-ve-pasifik-ulkeleri-ile-iliskiler.tr.mfa"
+}
+]
+},
+{
+"id": "U73",
+"area": "U",
+"d": 2,
+"q": "Türkiye-ASEAN ilişkileri hakkında aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Türkiye 2026'da ASEAN'a tam üye olmuştur.",
+"Türkiye, Dostluk ve İşbirliği Antlaşmasına (TAC) 2017'de katılmıştır.",
+"Türkiye, 21 Temmuz 2026'da Manila'da ASEAN'ın 12. Diyalog Ortağı olarak kabul edilmiştir.",
+"Sektörel Diyalog Ortaklığı 2010'da kurulmuştur.",
+"ASEAN, 1967'de Türkiye'nin de katıldığı Bangkok Bildirisiyle kurulmuştur."
+],
+"a": 2,
+"e": "Dışişleri'nin ASEAN sayfasına göre Türkiye 59. ASEAN Dışişleri Bakanları Toplantısında (Manila, 21 Temmuz 2026) 12. Diyalog Ortağı olarak kabul edildi. Türkiye üye değildir. TAC'a 2010'da katıldı, Sektörel Diyalog Ortaklığı 2017'de kuruldu. ASEAN 8 Ağustos 1967'de beş kurucu üyece kuruldu.",
+"src": [
+{
+"t": "MFA: ASEAN",
+"u": "https://www.mfa.gov.tr/asean.en.mfa"
+}
+]
+},
+{
+"id": "U74",
+"area": "U",
+"d": 2,
+"q": "Türkiye'nin Şanghay İşbirliği Örgütü (ŞİÖ) diyalog ortaklığı başvurusu hangi zirvede oybirliğiyle kabul edilmiştir?",
+"o": [
+"2001 Şanghay Zirvesi",
+"2012 Pekin Zirvesi",
+"2017 Astana Zirvesi",
+"2022 Semerkant Zirvesi",
+"2025 Tianjin Zirvesi"
+],
+"a": 1,
+"keep": true,
+"e": "Dışişleri Sözcüsünün 5 Şubat 2013 tarihli cevabına göre başvuru 6-7 Haziran 2012 Pekin zirvesinde oybirliğiyle kabul edildi. Şanghay 2001 örgütün kuruluşudur. Erdoğan Semerkant'a (2022) özel misafir olarak katıldı. Tianjin'de (2025) gözlemci ve diyalog ortağı statüleri 'ŞİÖ ortağı' adıyla birleştirildi.",
+"src": [
+{
+"t": "Dışişleri: SC-3 (5.2.2013)",
+"u": "https://www.mfa.gov.tr/sc-3_-5-subat-2013_-turkiye_nin-sanghay-isbirligi-orgutu-diyalog-ortakligi-hk_.tr.mfa"
+},
+{
+"t": "MFA: Shanghai Cooperation Organization",
+"u": "https://www.mfa.gov.tr/shanghai-cooperation-organization.en.mfa"
+}
+]
+},
+{
+"id": "U75",
+"area": "U",
+"d": 2,
+"q": "Aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+"o": [
+"Türkiye-Japonya stratejik ortaklığı: 2013",
+"Türkiye-Güney Kore stratejik ortaklığı: 2012",
+"Ertuğrul Fırkateyninin batışı: 1890",
+"Türkiye-Japonya diplomatik ilişkilerinin başlangıcı: 1924",
+"Kuşak ve Yol ile Orta Koridor'un uyumlaştırılması mutabakatı: 2019"
+],
+"a": 4,
+"e": "Kuşak ve Yol ile Orta Koridor Girişiminin uyumlaştırılması mutabakatı 14 Kasım 2015'te Antalya'da (G20) imzalandı; 2019 değildir. Diğerleri Dışişleri kaynaklarına uygundur: Japonya stratejik ortaklığı 2013, Kore 2012, Ertuğrul 1890, diplomatik ilişkiler 1924.",
+"src": [
+{
+"t": "Dışişleri: Türkiye'nin çok taraflı ulaştırma politikası",
+"u": "https://www.mfa.gov.tr/turkiye_nin-cok-tarafli-ulastirma-politikasi.tr.mfa"
+},
+{
+"t": "MFA: Relations between Türkiye and Japan",
+"u": "https://www.mfa.gov.tr/relations-between-turkiye-and-japan.en.mfa"
+},
+{
+"t": "Dışişleri: Fidan TBMM Plan ve Bütçe hitabı, 18.11.2025",
+"u": "https://www.mfa.gov.tr/bakanimizin-tbmm-plan-ve-butce-komisyonu-ndaki-hitaplari-18-11-2025.tr.mfa"
+},
+{
+"t": "Dışişleri: Asya-Pasifik ülkeleri ile ilişkiler",
+"u": "https://www.mfa.gov.tr/dogu-asya-ve-pasifik-ulkeleri-ile-iliskiler.tr.mfa"
+}
+]
+},
+{
+"id": "U76",
+"area": "U",
+"d": 1,
+"q": "Türkiye ile diplomatik ilişkileri 1921 İttifak Anlaşmasıyla kurulan, 2004-2021 arasında Türkiye'nin yaklaşık 1,1 milyar dolarlık kalkınma programı yürüttüğü ve 2011'de başlayan 'Asya'nın Kalbi-İstanbul Süreci'nin odağındaki ülke hangisidir?",
+"o": [
+"Pakistan",
+"İran",
+"Afganistan",
+"Özbekistan",
+"Bangladeş"
+],
+"a": 2,
+"e": "Dışişleri'nin Türkiye-Afganistan sayfasına göre ilişkiler 1921 İttifak Anlaşmasıyla kuruldu; Türkiye 2004-2021 arasında yaklaşık 1,1 milyar dolarlık program yürüttü; Asya'nın Kalbi-İstanbul Süreci 2011'de başladı. Türkiye bugün geçici yönetimle dengeli ve pratik bir temas politikası izler.",
+"src": [
+{
+"t": "MFA: Türkiye-Afghanistan bilateral political relations",
+"u": "https://www.mfa.gov.tr/turkiye_afghanistan-bilateral-political-relations.en.mfa"
+}
+]
+},
+{
+"id": "U77",
+"area": "U",
+"d": 3,
+"q": "Dışişleri Bakanı Fidan'ın 24 Şubat 2025 tarihli açıklamasına göre Türkiye ile BRICS ilişkisi hakkında aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Türkiye, 2024 Kazan Zirvesinde BRICS'e tam üye olmuştur.",
+"Türkiye, BRICS'in kurucu üyelerindendir.",
+"Türkiye'ye üyelik teklifi gelmemiş; BRICS yeni üye alımını dondurmuş ve ortaklık klasmanını gündeme getirmiştir.",
+"Türkiye, BRICS'e katılmak için Şanghay İşbirliği Örgütündeki statüsünden vazgeçmiştir.",
+"Türkiye, BRICS'e hiçbir ilgisi olmadığını açıklamıştır."
+],
+"a": 2,
+"e": "Fidan, Lavrov ile ortak basın toplantısında BRICS'i yakından takip ettiklerini ve ilgilerini açıkça gösterdiklerini, 'üyelik teklifi bize gelmedi' dediğini, BRICS'in yeni üye alımını dondurduğunu ve 'ortaklık' klasmanını gündeme getirdiğini söyledi. Türkiye tam üye veya kurucu değildir; ŞİÖ statüsünü bırakmamıştır.",
+"src": [
+{
+"t": "Dışişleri: Fidan-Lavrov ortak basın toplantısı, 24.2.2025",
+"u": "https://www.mfa.gov.tr/disisleri-bakani-sayin-hakan-fidan-in-rusya-disisleri-bakani-sergey-lavrov-ile-ortak-basin-toplantisi-24-02-2025.tr.mfa"
+}
+]
+},
+{
+"id": "U78",
+"area": "U",
+"d": 1,
+"q": "Afrika Birliği, Türkiye'yi hangi yıl stratejik ortak ilan etmiştir?",
+"o": [
+"1998",
+"2005",
+"2008",
+"2013",
+"2021"
+],
+"a": 2,
+"keep": true,
+"e": "Dışişleri'nin Afrika Birliği ve Türkiye-Afrika sayfalarına göre AfB 2008 zirvesinde Türkiye'yi stratejik ortak ilan etti. 1998 açılım eylem planı, 2005 gözlemcilik ve Afrika Yılı, 2013 Afrika Ortaklık Politikasına geçiş, 2021 III. Zirve yılıdır.",
+"src": [
+{
+"t": "Dışişleri: Afrika Birliği",
+"u": "https://www.mfa.gov.tr/afrika-birligi.tr.mfa"
+},
+{
+"t": "MFA: Türkiye-Africa relations",
+"u": "https://www.mfa.gov.tr/turkiye-africa-relations.en.mfa"
+}
+]
+},
+{
+"id": "U79",
+"area": "U",
+"d": 2,
+"q": "19-21 Kasım 2014'te düzenlenen II. Türkiye-Afrika Ortaklık Zirvesine hangi şehir ev sahipliği yapmıştır?",
+"o": [
+"İstanbul",
+"Addis Ababa",
+"Malabo",
+"Trablus",
+"Mogadişu"
+],
+"a": 2,
+"e": "Dışişleri'ne göre II. Zirve 19-21 Kasım 2014'te Malabo'da (Ekvator Ginesi) yapıldı. I. (2008) ve III. (2021) zirveler İstanbul'da yapıldı; IV. Zirvenin 2026'da Libya'nın ev sahipliğinde yapılması öngörülmektedir (planlanan etkinlik).",
+"src": [
+{
+"t": "Dışişleri: Afrika Birliği",
+"u": "https://www.mfa.gov.tr/afrika-birligi.tr.mfa"
+},
+{
+"t": "Dışişleri: Fidan TBMM Plan ve Bütçe hitabı, 18.11.2025",
+"u": "https://www.mfa.gov.tr/bakanimizin-tbmm-plan-ve-butce-komisyonu-ndaki-hitaplari-18-11-2025.tr.mfa"
+}
+]
+},
+{
+"id": "U80",
+"area": "U",
+"d": 3,
+"q": "Dışişleri Bakanlığının güncel verilerine göre Türkiye'nin Afrika'daki büyükelçilik sayısı 2002'de kaç iken 2022'de kaça ulaşmıştır?",
+"o": [
+"10'dan 38'e",
+"12'den 39'a",
+"12'den 44'e",
+"5'ten 30'a",
+"20'den 44'e"
+],
+"a": 2,
+"e": "Dışişleri'nin Türkiye-Afrika sayfasına göre Afrika'daki Türk büyükelçilikleri 2002'de 12 iken 2022'de 44'e çıktı. '10'dan 38'e' Ankara'daki Afrika büyükelçilikleridir (2008 başı 10, sonra 38). '39' 2016 tarihli sözcü açıklamasındaki o günkü sayıdır.",
+"src": [
+{
+"t": "MFA: Türkiye-Africa relations",
+"u": "https://www.mfa.gov.tr/turkiye-africa-relations.en.mfa"
+},
+{
+"t": "Dışişleri Sözcüsü basın toplantısı, 2.3.2016",
+"u": "https://www.mfa.gov.tr/disisleri-bakanligi-sozcusu-tanju-bilgic_in-basin-bilgilendirme-toplantisi_-2-mart-2016_-ankara.tr.mfa"
+}
+]
+},
+{
+"id": "U81",
+"area": "U",
+"d": 2,
+"q": "Türkiye'nin kolaylaştırıcılığıyla 11 Aralık 2024'te kabul edilen ve Etiyopya'nın denize erişiminin karşı tarafın egemen yetkisi altında sağlanmasını öngören Ankara Bildirisinin tarafları hangileridir?",
+"o": [
+"Somali ve Kenya",
+"Somali ve Etiyopya",
+"Sudan ve Güney Sudan",
+"Etiyopya ve Eritre",
+"Somali ve Somaliland"
+],
+"a": 1,
+"e": "Dışişleri'nin yayımladığı Ankara Bildirisine göre Erdoğan'ın ev sahipliğinde Somali Cumhurbaşkanı Hasan Şeyh Mahmud ile Etiyopya Başbakanı Abiy Ahmed bildiriyi kabul etti; Etiyopya'nın denize erişimi Somali'nin egemen yetkisi altında sağlanacaktır. Teknik müzakerelerin ilk turu 18 Şubat 2025'te Ankara'da yapıldı. Somali-Somaliland görüşmeleri Türkiye'nin 2013'ten beri ayrıca kolaylaştırdığı başka bir süreçtir.",
+"src": [
+{
+"t": "Dışişleri: Ankara Bildirisi (11.12.2024)",
+"u": "https://www.mfa.gov.tr/etiyopya-federal-demokratik-cumhuriyeti-ve-somali-federal-cumhuriyeti-nin-ankara-bildirisi.tr.mfa"
+},
+{
+"t": "Dışişleri: Türkiye-Somali siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-somali-siyasi-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U82",
+"area": "U",
+"d": 2,
+"q": "Türkiye-Somali ilişkileriyle ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
+"o": [
+"Mogadişu Büyükelçiliği 1 Kasım 2011'de yeniden açılmıştır.",
+"Erdoğan, Başbakan sıfatıyla 19 Ağustos 2011'de kuraklığa dikkat çekmek için Somali'yi ziyaret etmiştir.",
+"Mogadişu Büyükelçilik binası Türkiye'nin yurt dışındaki en büyük temsilciliğidir.",
+"İstanbul Somali Konferansı 2010'da BM himayesinde düzenlenmiştir.",
+"Hargeysa Başkonsolosluğu 1979'da açılmıştır."
+],
+"a": 4,
+"e": "Dışişleri'nin Türkiye-Somali sayfasına göre Hargeysa Başkonsolosluğu 1 Haziran 2014'te açıldı. 1979, Mogadişu Büyükelçiliğinin ilk açılış yılıdır (1991'de kapandı, 1.11.2011'de yeniden açıldı). Diğer ifadeler sayfayla uyumludur.",
+"src": [
+{
+"t": "Dışişleri: Türkiye-Somali siyasi ilişkileri",
+"u": "https://www.mfa.gov.tr/turkiye-somali-siyasi-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U83",
+"area": "U",
+"d": 1,
+"q": "1998 Latin Amerika ve Karayipler Eylem Planının güncellendiği ve Türkiye'de 'Latin Amerika ve Karayipler Yılı' ilan edilen yıl hangisidir?",
+"o": [
+"1995",
+"1998",
+"2005",
+"2006",
+"2013"
+],
+"a": 3,
+"keep": true,
+"e": "Dışişleri'ne göre Eylem Planı 1998'de hazırlandı, 2006'da güncellendi ve 2006 Latin Amerika ve Karayipler Yılı ilan edildi. 2005 Afrika Yılıdır; 1995 Demirel'in bölgeye ilk Cumhurbaşkanı ziyaretidir; 2013 Pasifik İttifakı gözlemciliği yılıdır.",
+"src": [
+{
+"t": "Dışişleri: Türkiye'nin Latin Amerika ve Karayiplere yönelik politikası",
+"u": "https://www.mfa.gov.tr/i_-turkiye_nin-latin-amerika-ve-karayiplere-yonelik-politikasi-ve-bolge-ulkeleri-ile-iliskileri.tr.mfa"
+}
+]
+},
+{
+"id": "U84",
+"area": "U",
+"d": 3,
+"q": "Türkiye'nin Latin Amerika ve Karayipler bölgesindeki örgütlerle ilişkilerine dair aşağıdaki eşleştirmelerden hangisi YANLIŞTIR?",
+"o": [
+"Amerikan Devletleri Örgütü (OAS): 1998'den beri gözlemci",
+"Karayip Devletleri Birliği: 2000'den beri gözlemci",
+"Pasifik İttifakı: 2013'ten beri gözlemci",
+"SICA: 2015'ten beri bölge dışı gözlemci",
+"MERCOSUR: 2010'dan beri tam üye"
+],
+"a": 4,
+"e": "Dışişleri'ne göre MERCOSUR ile 2010'da yalnızca Siyasi İstişare ve İşbirliği Mekanizması kuruldu; Türkiye üye değildir. OAS (1998), KDB (2000) ve Pasifik İttifakı (2013) gözlemciliği, SICA bölge dışı gözlemciliği (Şubat 2015) doğrudur.",
+"src": [
+{
+"t": "Dışişleri: Türkiye'nin Latin Amerika ve Karayiplere yönelik politikası",
+"u": "https://www.mfa.gov.tr/i_-turkiye_nin-latin-amerika-ve-karayiplere-yonelik-politikasi-ve-bolge-ulkeleri-ile-iliskileri.tr.mfa"
+}
+]
+},
+{
 "id": "G01",
 "area": "G",
 "d": 2,
@@ -4344,6 +5297,30 @@
 {
 "t": "Türkiye-AB ilişkilerini tarihsel süreci içinde değerlendiriniz ve ilişkilerin geleceğine dair senaryolar geliştiriniz.",
 "h": "Ankara Anlaşması (1963), üyelik başvurusu (1987), Gümrük Birliği (1996), adaylık (1999), müzakereler (2005); Avrupa'daki Türk toplumunun ilişkilere etkisi; Gümrük Birliğinin güncellenmesi ve diğer olası senaryolar."
+},
+{
+"t": "Türkiye'nin Avrupa Birliği'ne katılım sürecini bugünkü durumu, engelleri ve yurt dışında yaşayan Türk toplumu açısından önemi bakımından değerlendiriniz.",
+"h": "Ankara Anlaşması ve Gümrük Birliği; açılan ve bloke edilen fasıllar; vize serbestisi; Avrupa'daki Türk toplumunun köprü rolü; ortak güvenlik ve ekonomi gündemi (Ders: Avrupa ve AB)."
+},
+{
+"t": "Balkanlar ve Doğu Akdeniz'de Türkiye'nin dış politika önceliklerini, soydaş topluluklar ve Kıbrıs meselesi çerçevesinde değerlendiriniz.",
+"h": "Balkanlarda barış ve istikrar, soydaş toplulukların hakları (Batı Trakya, Lozan), Kıbrıs'ta iki devletli çözüm vizyonu, Ege ve Doğu Akdeniz'deki deniz yetki alanları (Ders: Balkanlar ve Doğu Akdeniz)."
+},
+{
+"t": "Kafkasya ve Orta Asya'daki gelişmelerin Türk dünyası arasındaki iş birliğine etkisini Türk Devletleri Teşkilatı ve bağlantısallık projeleri çerçevesinde tartışınız.",
+"h": "Azerbaycan-Ermenistan barış süreci, Orta Koridor ve ulaşım hatları, enerji boru hatları, TDT'nin kurumsallaşması, kültürel bağlar ve kardeş topluluklar (Ders: Kafkasya, Orta Asya ve Türk dünyası)."
+},
+{
+"t": "Orta Doğu'daki çatışmaların ve geçiş süreçlerinin Türkiye'nin güvenliğine, göç politikasına ve bölgesel iş birliği arayışlarına etkilerini değerlendiriniz.",
+"h": "Suriye'deki geçiş ve gönüllü geri dönüşler, Irak ile Kalkınma Yolu, Filistin meselesinde iki devletli çözüm, Körfez ile normalleşme, bölgesel sorunlara bölgesel sahiplenme (Ders: Orta Doğu ve Körfez)."
+},
+{
+"t": "Yeniden Asya Girişimini küresel güç dengesinin Asya'ya kayması bağlamında değerlendiriniz ve Türkiye'nin Batı ile ilişkileriyle nasıl bağdaştırılabileceğini tartışınız.",
+"h": "Asya'nın yükselen ekonomik ağırlığı, ASEAN ve ŞİÖ ile ilişkiler, Japonya, Kore, Çin, Pakistan; Batı ile ilişkilerin alternatifi değil tamamlayıcısı tezi; Asya'dan gelen uluslararası öğrenciler (Ders: Asya-Pasifik ve Güney Asya)."
+},
+{
+"t": "Türkiye'nin Afrika politikasını kalkınma iş birliği, eğitim ve kültürel diplomasi araçları açısından değerlendiriniz. YTB'nin bu politikadaki yerine değininiz.",
+"h": "1998 eylem planı ve 2005 Afrika yılı, Afrika Birliği stratejik ortaklığı, zirveler, büyükelçilik sayısı, TİKA, Maarif, Türkiye Bursları ve mezun ağları, Somali örneği (Ders: Afrika ve Latin Amerika)."
 }
 ],
 "ceviri": [
