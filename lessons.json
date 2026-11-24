@@ -1040,6 +1040,468 @@
 ]
 },
 {
+"id": "u5",
+"area": "U",
+"title": "Soğuk Savaş'tan günümüze Türk dış politikası",
+"intro": "Türkiye'nin 1947'den sonra Batı ittifakına yönelişi ve Kıbrıs meselesinin kilometre taşları, sınavda kronoloji ve eşleştirme sorusu olarak sık çıkar.",
+"tl": [
+[
+"12.3.1947",
+"Truman Doktrini: Truman, Kongreden Yunanistan ve Türkiye için 400 milyon dolarlık askerî yardım yetkisi istedi"
+],
+[
+"12.7.1947",
+"Türkiye-ABD yardım anlaşması imzalandı"
+],
+[
+"4.7.1948",
+"Türkiye, Marshall Planı ikili anlaşmasını Ankara'da imzaladı"
+],
+[
+"25.7.1950",
+"Bakanlar Kurulu kararı: 4500 kişilik birlik Kore için BM emrine verildi"
+],
+[
+"24.2.1955",
+"Bağdat'ta Türkiye-Irak antlaşması: Bağdat Paktının çekirdeği"
+],
+[
+"24.3.1959",
+"Irak Bağdat Paktından ayrıldığını bildirdi"
+],
+[
+"19.8.1959",
+"Bağdat Paktının adı CENTO oldu; merkez Ankara"
+],
+[
+"21.12.1963",
+"Kıbrıs Türklerine yönelik kapsamlı saldırılar başladı"
+],
+[
+"4.3.1964",
+"BMGK 186 sayılı karar: BM Barış Gücü (UNFICYP)"
+],
+[
+"5.6.1964",
+"Johnson Mektubu"
+],
+[
+"15.7.1974",
+"Kıbrıs'ta Yunan cuntası destekli darbe"
+],
+[
+"20.7.1974",
+"Kıbrıs Barış Harekâtı"
+],
+[
+"13.2.1975",
+"Kıbrıs Türk Federe Devleti"
+],
+[
+"15.11.1983",
+"Kuzey Kıbrıs Türk Cumhuriyeti ilan edildi"
+],
+[
+"24.4.2004",
+"Annan Planı referandumları"
+]
+],
+"points": [
+"<b>Truman Doktrini ve Marshall Planı:</b> Truman 12 Mart 1947'de Kongreden Yunanistan ve Türkiye için 400 milyon dolarlık askerî yardım yetkisi istedi; Türkiye'nin payı 100 milyon dolardı. Yardım anlaşması 12 Temmuz 1947'de imzalandı. Ekonomik ayak Marshall Planıdır: Türkiye ikili anlaşmayı 4 Temmuz 1948'de imzaladı (TBMM onayı 8.7.1948, 5253 sayılı Kanun).",
+"<b>Kore Savaşı:</b> 25 Temmuz 1950 tarihli Bakanlar Kurulu kararıyla 4500 kişilik birlik BM emrine verildi. Karar TBMM'ye ve muhalefete danışılmadan alındı; CHP bunu anayasa ihlali saydı. I. Türk Tugayının komutanı Tuğgeneral Tahsin Yazıcı. DP hükümeti bunu NATO üyeliği için fırsat gördü (ilk başvuru 11 Mayıs 1950'de reddedilmişti).",
+"<b>Bağdat Paktı / CENTO:</b> 24 Şubat 1955'te Bağdat'ta Türkiye ile Irak arasında Karşılıklı Güvenlik ve Savunma İşbirliği Antlaşması imzalandı. İngiltere (5.4.1955), Pakistan (23.9.1955) ve İran (3.11.1955) katıldı. ABD üye olmadı; gözlemci gönderdi, 1957'de askerî komiteye katıldı. Irak 24 Mart 1959'da ayrıldığını bildirdi; ardından merkez Ankara'ya taşındı ve 19 Ağustos 1959'da adı Merkezî Antlaşma Teşkilâtı (CENTO) oldu.",
+"<b>Johnson Mektubu (5 Haziran 1964):</b> Kıbrıs'a müdahaleye hazırlanan Türkiye'ye ABD Başkanı Johnson'ın Başbakan İsmet İnönü'ye gönderdiği mektup. Türkiye müdahale eder ve SSCB ile karşı karşıya gelirse NATO'nun ve ABD'nin Türkiye'yi savunmayabileceği, ABD silahlarının Kıbrıs'ta kullanılamayacağı bildirildi. Mektup ancak 13 Ocak 1966'da Hürriyet'te yayımlandı. Sonrasında Türkiye SSCB ve Arap ülkeleriyle ilişkilerini geliştirdi.",
+"<b>Kıbrıs 1963-1974:</b> 21 Aralık 1963'te Kıbrıs Türklerine yönelik saldırılar başladı; 30 Aralık 1963'te Lefkoşa ikiye ayrıldı (Yeşil Hat). BMGK 4 Mart 1964 tarihli 186 sayılı kararla UNFICYP'i adaya konuşlandırdı. 15 Temmuz 1974'te adayı Yunanistan'a bağlamak amacıyla Makarios'a karşı darbe yapıldı; Türkiye 20 Temmuz 1974'te 1960 Garanti Andlaşması çerçevesinde Barış Harekâtını başlattı.",
+"<b>KKTC ve Annan Planı:</b> Kıbrıs Türk Federe Devleti 13 Şubat 1975'te kuruldu; KKTC 15 Kasım 1983'te ilan edildi. 24 Nisan 2004 Annan Planı referandumlarında Rumların %75,83'ü planı reddetti, Kıbrıs Türkleri %64,91 ile 'evet' dedi."
+],
+"traps": [
+"ABD Bağdat Paktının üyesi olmadı; yalnızca gözlemci gönderdi ve bazı komitelere katıldı.",
+"CENTO'nun merkezi Bağdat değil, Irak'ın 1959'da ayrılmasından sonra Ankara'dır.",
+"Annan Planını reddeden Kıbrıs Türkleri değil, Rum tarafıdır (%75,83 hayır)."
+],
+"recall": [
+[
+"Johnson Mektubu kime gönderildi?",
+"Başbakan İsmet İnönü'ye (5 Haziran 1964)."
+],
+[
+"Bağdat Paktının çekirdeği hangi antlaşmadır?",
+"24 Şubat 1955 Türkiye-Irak Karşılıklı Güvenlik ve Savunma İşbirliği Antlaşması."
+],
+[
+"KKTC ne zaman ilan edildi?",
+"15 Kasım 1983."
+]
+],
+"src": [
+{
+"t": "Dışişleri: Kıbrıs meselesinin tarihçesi",
+"u": "https://www.mfa.gov.tr/kibris-meselesinin-tarihcesi_-bm-muzakerelerinin-baslangici.tr.mfa"
+},
+{
+"t": "TDV İslâm Ansiklopedisi: Bağdat Paktı",
+"u": "https://islamansiklopedisi.org.tr/bagdat-pakti"
+},
+{
+"t": "Tosun, Truman Doktrini'nin İlanı ve Türkiye'deki Etkileri (MANAS, 2022)",
+"u": "https://dergipark.org.tr/en/download/article-file/2513510"
+},
+{
+"t": "Kostak, Truman Doktrini ve Marshall Planı'nın etkisi (Atatürk Dergisi, 2022)",
+"u": "https://dergipark.org.tr/tr/download/article-file/2558672"
+},
+{
+"t": "Tekinsoy, I. Türk Tugayı'nın Kore Savaşı'na Gönderilme Süreci (2024)",
+"u": "https://dergipark.org.tr/tr/download/article-file/4122105"
+},
+{
+"t": "Çelik ve Özgöker, Johnson Mektubundan Trump Mektubuna (2020)",
+"u": "https://dergipark.org.tr/en/download/article-file/976770"
+},
+{
+"t": "FRUS 1964-68 c. XVI, belge 54: Johnson'ın İnönü'ye mektubu (5.6.1964)",
+"u": "https://history.state.gov/historicaldocuments/frus1964-68v16/d54"
+},
+{
+"t": "NATO arşivi: The Baghdad Pact becomes CENTO (19.8.1959)",
+"u": "https://www.nato.int/en/news-and-events/articles/news/1959/08/19/the-baghdad-pact-becomes-the-central-treaty-organisation-cento"
+},
+{
+"t": "FRUS 1950 c. V, belge 715: Ankara telgrafı (24.7.1950)",
+"u": "https://history.state.gov/historicaldocuments/frus1950v05/d715"
+}
+],
+"qs": [
+"U21",
+"U22",
+"U23",
+"U24",
+"U25",
+"U26"
+]
+},
+{
+"id": "u6",
+"area": "U",
+"title": "Türkiye ekonomisi: kilometre taşları",
+"intro": "Cumhuriyet ekonomisinin dönüm noktaları (1923 kongresi, devletçilik, planlı dönem, 1980 dönüşümü, 2001 reformları) Türkiye ekonomisi sorularının omurgasıdır.",
+"tl": [
+[
+"17.2.1923",
+"İzmir İktisat Kongresi toplandı (Misak-ı İktisadi 4 Mart 1923'te ilan edildi)"
+],
+[
+"11.6.1930",
+"1715 sayılı TCMB Kanunu kabul edildi (RG 30.6.1930)"
+],
+[
+"3.10.1931",
+"TCMB faaliyete başladı"
+],
+[
+"1934",
+"Birinci Beş Yıllık Sanayi Planı (1934-1939) uygulamaya kondu"
+],
+[
+"30.9.1960",
+"91 sayılı Kanunla Devlet Planlama Teşkilatı kuruldu"
+],
+[
+"1963",
+"Birinci Beş Yıllık Kalkınma Planı (1963-1967) uygulamaya girdi"
+],
+[
+"1970",
+"1211 sayılı TCMB Kanunu"
+],
+[
+"24.1.1980",
+"24 Ocak kararları"
+],
+[
+"1989",
+"32 sayılı Karar: TL konvertibl ilan edildi"
+],
+[
+"1994",
+"Finansal kriz ve 5 Nisan kararları"
+],
+[
+"23.6.1999",
+"4389 sayılı Bankalar Kanunu yayımlandı (BDDK'nın kuruluşu)"
+],
+[
+"31.8.2000",
+"BDDK faaliyete başladı"
+],
+[
+"22.2.2001",
+"Dalgalı kur rejimine geçildi"
+],
+[
+"25.4.2001",
+"4651 sayılı Kanun: TCMB'nin temel amacı fiyat istikrarı"
+],
+[
+"1.1.2005",
+"Türk lirasından altı sıfır atıldı (Yeni Türk Lirası)"
+]
+],
+"points": [
+"<b>İzmir İktisat Kongresi:</b> 17 Şubat 1923'te, Lozan görüşmelerinin kesintiye uğradığı dönemde İzmir'de toplandı. 1135 delege katıldı; divan başkanı Kazım Karabekir'di. Kararlar 4 Mart 1923'te 'Misak-ı İktisadi' adıyla ilan edildi: özel sektör öncelikli model, yabancı sermayeye düşman olunmaması ama Türk kanunlarına uyma şartı. Merkez bankası fikri de ilk kez bu kongrede ele alındı.",
+"<b>TCMB:</b> 1715 sayılı Kanun TBMM'de 11 Haziran 1930'da kabul edildi, 30 Haziran 1930'da Resmî Gazete'de yayımlandı. Banka 3 Ekim 1931'de faaliyete başladı ve bağımsızlığının göstergesi olarak anonim şirket biçiminde kuruldu. Kuruluş kanununa göre temel amaç ekonomik kalkınmayı desteklemekti. Bugünkü kanun 1970 tarihli 1211 sayılı Kanundur.",
+"<b>Devletçilik ve Birinci Beş Yıllık Sanayi Planı:</b> 1929 krizinden sonra devletçi model benimsendi. Plan 1934-1939 dönemini kapsadı; dokuma, maden, kâğıt, kimya ve taş-toprak kollarına ağırlık verdi. Finansmanı Sümerbank ve İş Bankası üstlendi. İkinci plan 1936'da hazırlanmaya başlandı ama savaş nedeniyle uygulanamadı.",
+"<b>Planlı dönem:</b> DPT 30 Eylül 1960 tarihli 91 sayılı Kanunla kuruldu; 1961 Anayasası md. 129 kalkınmayı plana bağladı ve DPT'yi anayasal kurum yaptı. Birinci Beş Yıllık Kalkınma Planı (1963-1967), 77 sayılı Kanuna uygun olarak TBMM'de 21 Kasım 1962'de onaylandı ve 3 Aralık 1962'de yayımlandı. Hedef: yılda ortalama %7 kalkınma hızı.",
+"<b>24 Ocak 1980 kararları:</b> İthal ikameci sanayileşme terk edildi, ihracata dayalı büyüme benimsendi. Fiyat kontrolleri kaldırıldı, mevduat ve kredi faizlerinin piyasada belirlenmesi kararlaştırıldı, TL devalüe edildi. 1989'da 32 sayılı Kararla TL konvertibl ilan edildi.",
+"<b>2001 krizi ve yapısal reformlar:</b> 22 Şubat 2001'de dalgalı kur rejimine geçildi. 25.4.2001 tarihli 4651 sayılı Kanunla TCMB'nin temel amacı fiyat istikrarı oldu ve Banka para politikasını ve araçlarını doğrudan kendisi belirler hâle geldi (araç bağımsızlığı, 1211 s. K. md. 4); Hazineye avans, kredi ve birincil piyasadan alım yasaklandı (md. 56). BDDK 4389 sayılı Bankalar Kanunuyla (RG 23.6.1999) kuruldu, 31 Ağustos 2000'de faaliyete başladı; 5411 sayılı Bankacılık Kanunu 1 Kasım 2005'te yürürlüğe girdi."
+],
+"traps": [
+"TCMB'nin kanunu 1930'da çıktı ama Banka faaliyete 3 Ekim 1931'de başladı; iki tarih karıştırılır.",
+"BDDK 2001 krizinden sonra kurulmadı: kuruluş kanunu 1999 (4389), faaliyet başlangıcı 31 Ağustos 2000. 2005 tarihli 5411 sayılı Kanun ise sonraki reformdur.",
+"Fiyat istikrarının temel amaç olması 1930 kuruluş kanununda değil, 2001 değişikliğindedir (4651 sayılı Kanun)."
+],
+"recall": [
+[
+"İzmir İktisat Kongresinin kararlarına ne ad verildi?",
+"Misak-ı İktisadi."
+],
+[
+"DPT hangi kanunla, hangi yıl kuruldu?",
+"91 sayılı Kanun, 1960."
+],
+[
+"4651 sayılı Kanunla TCMB'nin temel amacı ne oldu?",
+"Fiyat istikrarını sağlamak."
+]
+],
+"src": [
+{
+"t": "TCMB Sanal Müze: History of the CBRT",
+"u": "https://sanalmuze.tcmb.gov.tr/wps/wcm/connect/sanalmuze/en/main+menu/history+of+the+cbrt"
+},
+{
+"t": "TCMB: Merkez Bankası Tarihçesi",
+"u": "https://www.tcmb.gov.tr/wps/wcm/connect/TR/TCMB+TR/Main+Menu/Banka+Hakkinda/Tarihce"
+},
+{
+"t": "TCMB Tarihçesi ve Görevleri kitapçığı (TCMB yayını; Ankara Ün. ders kopyası)",
+"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
+},
+{
+"t": "1211 sayılı TCMB Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf"
+},
+{
+"t": "Kayıran ve Saygın, İzmir İktisat Kongresi (Yakın Tarih Dergisi, 2019)",
+"u": "https://dergipark.org.tr/en/download/article-file/837325"
+},
+{
+"t": "Aydın, Türkiye Ekonomisinde İhracat ve GSYH (MAKÜ-BİFD, 2021)",
+"u": "https://dergipark.org.tr/tr/download/article-file/1523578"
+},
+{
+"t": "DPT, Kalkınma Plânı (Birinci Beş Yıl) 1963-1967",
+"u": "https://ms.hmb.gov.tr/uploads/sites/23/2025/02/1-Kalkinma_Plani_Birinci_Bes_Yillik_1963-1967.pdf"
+},
+{
+"t": "Sezer, Türkiye'de Planlamanın Hukuki Çerçevesi (ODTÜ, 1981)",
+"u": "https://open.metu.edu.tr/bitstream/handle/11511/109848/1981-ozel%20sayi%20163-182%20T%C3%BCrkiye'de%20Planlaman%C4%B1n1.pdf"
+},
+{
+"t": "BDDK: Kurum hakkında",
+"u": "https://www.bddk.org.tr/KurumHakkinda/Detay/19"
+},
+{
+"t": "Anayasa Mahkemesi, E.1979/7 K.1979/18 (1961 Anayasası md. 129 metni)",
+"u": "https://normkararlarbilgibankasi.anayasa.gov.tr/Dosyalar/Kararlar/KararPDF/1979-18-nrm.pdf"
+}
+],
+"qs": [
+"U27",
+"U28",
+"U29",
+"U30",
+"U31",
+"U32"
+]
+},
+{
+"id": "u7",
+"area": "U",
+"title": "Uluslararası ekonomi: temel kavramlar ve kuruluşlar",
+"intro": "'Uluslararası ekonomik ilişkiler ve kuruluşlar' başlığında kavram tanımları (cari açık, stagflasyon, devalüasyon) ve kuruluşların yapısı (SDR, Dünya Bankası Grubu, DTÖ ilkeleri) sorulur.",
+"points": [
+"<b>Cari işlemler dengesi:</b> IMF'ye göre cari işlemler dengesi = dış ticaret dengesi + net faktör geliri (faiz, kâr payı, işçi gelirleri) + dışarıdan transferler (dış yardım gibi). Cari açık, ülkenin dışarıya, dışarıdan elde ettiğinden fazla harcadığını gösterir; açık finans hesabı girişleriyle finanse edilir, yurt dışına yükümlülük birikir. Cari denge, ulusal tasarruf ile yatırım arasındaki farka eşittir.",
+"<b>Enflasyon, deflasyon, stagflasyon:</b> Enflasyon, belirli bir dönemde (çoğunlukla bir yıl) fiyatlardaki artış oranıdır; en yaygın ölçü TÜFE'dir. Çekirdek enflasyon gıda, enerji ve yönetilen fiyatları dışlar. Talep çekişli ve maliyet itişli enflasyon ayrılır. Fiyatların düştüğü deflasyonda tüketiciler alımlarını erteler, büyüme yavaşlar (Japonya örneği). Stagflasyon: zayıf büyüme ile yüksek enflasyonun bir arada olması; 1970'lerde (Arap petrol ambargosu) yaşandı.",
+"<b>Kur kavramları:</b> Devalüasyon, sabit kur rejiminde ulusal paranın yabancı paralar karşısındaki değerinin azalmasıdır. Dalgalı kurda kur, döviz arz ve talebiyle belirlenir. Konvertibilite, bir paranın başka paralarla serbestçe değiştirilebilmesidir (TCMB terimler sözlüğü).",
+"<b>IMF ve SDR:</b> IMF, SDR'yi 1969'da tamamlayıcı uluslararası rezerv varlığı olarak yarattı. SDR bir para birimi değildir. Sepeti beş paradan oluşur: ABD doları, euro, Çin renminbisi, Japon yeni ve İngiliz sterlini. Son gözden geçirme Mayıs 2022'de tamamlandı, yeni ağırlıklar 1 Ağustos 2022'de yürürlüğe girdi.",
+"<b>Dünya Bankası Grubu:</b> Beş kuruluş: IBRD, IDA, IFC, MIGA, ICSID. IBRD orta gelirli ve kredi değerliliği olan yoksul ülkelere, IDA en yoksul ülkelere odaklanır; IBRD ile IDA birlikte 'Dünya Bankası'dır. IFC, MIGA ve ICSID özel sektöre finansman, teknik yardım, siyasi risk sigortası ve uyuşmazlık çözümü sağlar.",
+"<b>OECD:</b> Selefi OEEC, Marshall Planı yardımlarının dağıtımına yardım için kuruldu. OECD, 14 Aralık 1960'ta imzalanan Paris Sözleşmesiyle oluşturuldu ve 30 Eylül 1961'de faaliyete başladı. Merkezi Paris'tedir; Dışişleri Bakanlığına göre 38 üyesi vardır (Romanya, Bulgaristan, Hırvatistan gibi adaylarla katılım süreci sürmektedir). Türkiye 20 kurucu üyeden biridir.",
+"<b>DTÖ ilkeleri ve bölgesel entegrasyon:</b> En çok kayrılan ülke (MFN): bir üyeye tanınan ayrıcalık tüm üyelere tanınır (GATT md. 1, GATS md. 2, TRIPS md. 4); istisnalar serbest ticaret anlaşmaları ve gelişmekte olan ülkelere tercihli erişimdir. Ulusal muamele: yabancı ve yerli mal eşit tutulur (GATT md. 3), ürün pazara girdikten sonra uygulanır. Balassa'nın (1961) aşamaları: serbest ticaret bölgesi, gümrük birliği, ortak pazar, ekonomik birlik, tam ekonomik birlik. GATT md. XXIV: gümrük birliğinde üyeler üçüncü ülkelere büyük ölçüde aynı vergileri uygular; serbest ticaret bölgesinde ise yalnızca üyeler arası ticaretteki vergiler kalkar."
+],
+"traps": [
+"SDR bir para birimi değildir; IMF'nin yarattığı tamamlayıcı rezerv varlığıdır.",
+"Dar anlamda 'Dünya Bankası' yalnızca IBRD ve IDA'dır; beş kuruluşun tümü 'Dünya Bankası Grubu'dur.",
+"Ulusal muamele ürün pazara girdikten sonra uygulanır; ithalatta alınan gümrük vergisi bu ilkeyi ihlal etmez."
+],
+"recall": [
+[
+"SDR sepetindeki beş para?",
+"ABD doları, euro, Çin renminbisi, Japon yeni, İngiliz sterlini."
+],
+[
+"Cari açık nasıl finanse edilir?",
+"Finans hesabı girişleriyle (yurt dışından borçlanma, yükümlülük artışı)."
+],
+[
+"Gümrük birliğini serbest ticaret bölgesinden ayıran nedir?",
+"Üçüncü ülkelere karşı ortak (büyük ölçüde aynı) gümrük vergileri."
+]
+],
+"src": [
+{
+"t": "IMF F&D: Current Account Deficits (Ghosh, Ramakrishnan)",
+"u": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Current-Account-Deficits"
+},
+{
+"t": "IMF F&D: Inflation: Prices on the Rise (Oner)",
+"u": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Inflation"
+},
+{
+"t": "Dünya Bankası podcast: Stagflation",
+"u": "https://www.worldbank.org/en/news/podcast/2022/06/10/stagflation-global-economy-development-podcast"
+},
+{
+"t": "IMF: Special Drawing Rights factsheet",
+"u": "https://www.imf.org/en/About/Factsheets/Sheets/2023/special-drawing-rights-sdr"
+},
+{
+"t": "World Bank Group Infoguide: basics",
+"u": "https://libguides.worldbank.org/WBGInfoguide/basics"
+},
+{
+"t": "Dışişleri: Ekonomik İşbirliği ve Kalkınma Teşkilatı",
+"u": "https://www.mfa.gov.tr/ekonomik-isbirligi-ve-kalkinma-teskilati.tr.mfa"
+},
+{
+"t": "MFA: Türkiye and the OECD",
+"u": "https://www.mfa.gov.tr/oecd.en.mfa"
+},
+{
+"t": "WTO: Principles of the trading system",
+"u": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm"
+},
+{
+"t": "GATT 1947 metni (md. XXIV)",
+"u": "https://www.wto.org/english/docs_e/legal_e/gatt47_02_e.htm"
+},
+{
+"t": "Bakkalcı, AB ile Türkiye arasındaki Gümrük Birliği (DEÜ İİBF Dergisi, 2002)",
+"u": "https://dergipark.org.tr/en/download/article-file/211334"
+},
+{
+"t": "TCMB Tarihçesi ve Görevleri kitapçığı, Terimler Sözlüğü (TCMB yayını; Ankara Ün. ders kopyası)",
+"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
+}
+],
+"qs": [
+"U33",
+"U34",
+"U35",
+"U36",
+"U37",
+"U38"
+]
+},
+{
+"id": "u8",
+"area": "U",
+"title": "Siyaset bilimi: devlet, egemenlik, hükümet sistemleri",
+"intro": "Egemenlik ve toplum sözleşmesi kuramcıları, Weber'in otorite tipleri ve hükümet sistemlerinin karşılaştırılması siyaset bilimi sorularının çekirdeğidir; seçim barajı ise güncel mevzuat bilgisidir.",
+"points": [
+"<b>Egemenlik ve Jean Bodin:</b> Egemenlik, bir toprak üzerindeki en üstün otoritedir. Bodin kavramı kapsamlı biçimde işleyen ilk Avrupalı filozoftur; modern Avrupa felsefesindeki ilk sistemli egemenlik açıklaması onun 1576 tarihli De la république (Devlet Üzerine Altı Kitap) eseridir. Ona göre egemen beşerî yasaların üstünde ve kaynağıdır, ama doğal ve ilahi hukukla bağlıdır.",
+"<b>Hobbes:</b> Leviathan (1651). Doğa durumu 'herkesin herkese karşı savaşı'dır; yaşam 'yalnız, yoksul, kötü, hayvanca ve kısa'dır. İnsanlar sözleşmeyle ortak bir otorite kurar; Hobbes mutlak, yani bölünmez ve sınırsız bir egemen güç savunur.",
+"<b>Locke ve Rousseau:</b> Locke'un Yönetim Üzerine İki İnceleme'si 1689'da yayımlandı: yaşam, özgürlük ve mülkiyet doğal haklardır; hükümet halkın rızasına dayanır; görevini yapmayan hükümete direnilebilir (devrim hakkı); yasama ile yürütme ayrılmalıdır. Rousseau'nun Toplum Sözleşmesi (Du contrat social) 1762'de yayımlandı: 'İnsan özgür doğar, ama her yerde zincire vurulmuştur.' Merkezde genel irade vardır; Rousseau temsilî egemenliği reddeder.",
+"<b>Max Weber:</b> Devlet, belirli bir toprak üzerinde meşru fiziksel güç kullanma tekelini (başarıyla) talep eden insan topluluğudur (Meslek Olarak Siyaset, 1919). Meşru otoritenin üç ideal tipi: geleneksel (köklü gelenek), karizmatik (liderin kişisel niteliklerine bağlılık) ve yasal-ussal (kişisel olmayan kurallar).",
+"<b>Başkanlık ve parlamenter sistem:</b> ABD Anayasasında yürütme yetkisi Başkana aittir (md. II/1), Başkan dört yıl için seçiciler (electors) aracılığıyla seçilir ve ancak suçlama (impeachment) ve mahkûmiyetle görevden alınır; federal görevdeki kişi aynı anda Kongre üyesi olamaz (md. I/6). Parlamenter Almanya'da Federal Şansölye, Federal Cumhurbaşkanının önerisiyle Federal Meclisçe (Bundestag) seçilir (md. 63); Meclis güvensizliğini ancak halef seçerek ifade edebilir (yapıcı güvensizlik oyu, md. 67).",
+"<b>Yarı başkanlık (Fransa, 1958 Anayasası):</b> Cumhurbaşkanı beş yıl için doğrudan halk tarafından seçilir (md. 6), Başbakanı atar (md. 8), Ulusal Meclisi feshedebilir (md. 12). Hükümet ulusun politikasını belirler ve Parlamentoya karşı sorumludur (md. 20); Ulusal Meclis güvensizlik önergesiyle hükümeti düşürebilir (md. 49-50).",
+"<b>Türkiye'de seçim sistemi:</b> 2839 sayılı Milletvekili Seçimi Kanunu md. 33: genel seçimlerde ülke genelinde geçerli oyların yüzde yedisini geçemeyen partiler milletvekili çıkaramaz. Baraj %10'du; 31.3.2022 tarihli 7393 sayılı Kanunla %7'ye indi. İttifakta barajda ittifakın toplam oyu esas alınır. md. 34: partilerin oyları sırayla bire, ikiye, üçe... bölünür ve sandalyeler en büyük paylardan başlayarak dağıtılır (Kanun adını anmaz; literatürde bu yönteme d'Hondt yöntemi denir); 2022'den beri sandalye hesabı ittifakı oluşturan partilere göre ayrı yapılır."
+],
+"traps": [
+"Seçim barajı artık %10 değildir: 7393 sayılı Kanunla (2022) %7'ye indirildi.",
+"'Meşru fiziksel güç kullanma tekeli' tanımı Hobbes'a değil, Weber'e aittir.",
+"Fransa'da Başbakanı halk ya da meclis seçmez, Cumhurbaşkanı atar; ama hükümet Ulusal Meclise karşı sorumludur."
+],
+"recall": [
+[
+"Toplum Sözleşmesi kimin, hangi yıl?",
+"Rousseau, 1762."
+],
+[
+"Weber'in üç meşru otorite tipi?",
+"Geleneksel, karizmatik, yasal-ussal."
+],
+[
+"Almanya'daki güvensizlik oyunun adı ve şartı?",
+"Yapıcı güvensizlik oyu: Meclis ancak yeni şansölyeyi seçerek güvensizlik bildirir."
+]
+],
+"src": [
+{
+"t": "SEP: Sovereignty",
+"u": "https://plato.stanford.edu/entries/sovereignty/"
+},
+{
+"t": "SEP: Hobbes's Moral and Political Philosophy",
+"u": "https://plato.stanford.edu/entries/hobbes-moral/"
+},
+{
+"t": "SEP: Locke's Political Philosophy",
+"u": "https://plato.stanford.edu/entries/locke-political/"
+},
+{
+"t": "SEP: John Locke",
+"u": "https://plato.stanford.edu/entries/locke/"
+},
+{
+"t": "SEP: Jean Jacques Rousseau",
+"u": "https://plato.stanford.edu/entries/rousseau/"
+},
+{
+"t": "SEP: Max Weber",
+"u": "https://plato.stanford.edu/entries/weber/"
+},
+{
+"t": "US National Archives: Constitution transcript",
+"u": "https://www.archives.gov/founding-docs/constitution-transcript"
+},
+{
+"t": "Basic Law for the Federal Republic of Germany (Bundestag)",
+"u": "https://www.btg-bestellservice.de/pdf/80201000.pdf"
+},
+{
+"t": "Conseil constitutionnel: Constitution of 4 October 1958",
+"u": "https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958"
+},
+{
+"t": "2839 sayılı Milletvekili Seçimi Kanunu",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2839.pdf"
+},
+{
+"t": "Electoral Systems Used around the World (arXiv 1605.01343): D'Hondt yöntemi",
+"u": "https://arxiv.org/pdf/1605.01343"
+}
+],
+"qs": [
+"U39",
+"U40",
+"U41",
+"U42",
+"U43",
+"U44"
+]
+},
+{
 "id": "g1",
 "area": "G",
 "title": "Kurtuluş Savaşı ve inkılaplar",

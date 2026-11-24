@@ -1614,6 +1614,269 @@
 "p": 4,
 "q": "\"Bazı öğrenciler sporcudur. Hiçbir sporcu tembel değildir.\" Kesin sonuç?",
 "a": "Bazı öğrenciler tembel değildir."
+},
+{
+"l": "u5",
+"p": 0,
+"q": "Truman Doktrini kapsamındaki 400 milyon dolarlık yardımdan Türkiye'nin payı ne kadardı?",
+"a": "100 milyon dolar (kalanı Yunanistan'a)."
+},
+{
+"l": "u5",
+"p": 1,
+"q": "Kore'ye asker gönderme kararı: tarih, birlik mevcudu ve tugay komutanı?",
+"a": "25 Temmuz 1950; 4500 kişi; Tuğgeneral Tahsin Yazıcı.",
+"u": [
+"25 Temmuz 1950",
+"4500 kişi",
+"Tahsin Yazıcı"
+]
+},
+{
+"l": "u5",
+"p": 2,
+"q": "Bağdat Paktına 1955'te sonradan katılan üç ülke?",
+"a": "İngiltere, Pakistan, İran.",
+"u": [
+"İngiltere",
+"Pakistan",
+"İran"
+]
+},
+{
+"l": "u5",
+"p": 3,
+"q": "Johnson Mektubundaki iki temel uyarı neydi?",
+"a": "SSCB ile karşı karşıya gelinirse NATO/ABD'nin Türkiye'yi savunmayabileceği; ABD silahlarının Kıbrıs'ta kullanılamayacağı.",
+"u": [
+"NATO/ABD savunmayabilir",
+"ABD silahları kullanılamaz"
+]
+},
+{
+"l": "u5",
+"p": 4,
+"q": "BM Barış Gücü (UNFICYP) hangi kararla, ne zaman Kıbrıs'a konuşlandırıldı?",
+"a": "BMGK 186 sayılı karar, 4 Mart 1964.",
+"u": [
+"186 sayılı karar",
+"4 Mart 1964"
+]
+},
+{
+"l": "u5",
+"p": 5,
+"q": "Kıbrıs Türk Federe Devleti ve KKTC hangi tarihlerde kuruldu/ilan edildi?",
+"a": "KTFD 13 Şubat 1975; KKTC 15 Kasım 1983.",
+"u": [
+"13 Şubat 1975",
+"15 Kasım 1983"
+]
+},
+{
+"l": "u5",
+"p": "t",
+"q": "ABD Bağdat Paktına üye oldu mu?",
+"a": "Hayır; gözlemci gönderdi, 1957'de askerî komiteye katıldı."
+},
+{
+"l": "u6",
+"p": 0,
+"q": "İzmir İktisat Kongresinin divan başkanı ve delege sayısı?",
+"a": "Kazım Karabekir; 1135 delege.",
+"u": [
+"Kazım Karabekir",
+"1135 delege"
+]
+},
+{
+"l": "u6",
+"p": 1,
+"q": "1715 sayılı TCMB Kanununun kabul tarihi ve Bankanın faaliyete başlama tarihi?",
+"a": "Kabul 11 Haziran 1930; faaliyet 3 Ekim 1931.",
+"u": [
+"11 Haziran 1930",
+"3 Ekim 1931"
+]
+},
+{
+"l": "u6",
+"p": 2,
+"q": "Birinci Beş Yıllık Sanayi Planının finansmanını hangi iki banka üstlendi?",
+"a": "Sümerbank ve İş Bankası.",
+"u": [
+"Sümerbank",
+"İş Bankası"
+]
+},
+{
+"l": "u6",
+"p": 3,
+"q": "Birinci Beş Yıllık Kalkınma Planının dönemi ve yıllık kalkınma hızı hedefi?",
+"a": "1963-1967; yılda ortalama %7.",
+"u": [
+"1963-1967",
+"%7"
+]
+},
+{
+"l": "u6",
+"p": 4,
+"q": "24 Ocak 1980 kararlarıyla hangi strateji terk edildi, yerine ne benimsendi?",
+"a": "İthal ikameci sanayileşme terk edildi; ihracata dayalı büyüme benimsendi.",
+"u": [
+"İthal ikamesi terk",
+"İhracata dayalı büyüme"
+]
+},
+{
+"l": "u6",
+"p": 5,
+"q": "2001'de dalgalı kur rejimine hangi tarihte geçildi?",
+"a": "22 Şubat 2001."
+},
+{
+"l": "u6",
+"p": "t",
+"q": "BDDK hangi kanunla kuruldu, ne zaman faaliyete başladı?",
+"a": "4389 sayılı Bankalar Kanunu (1999); 31 Ağustos 2000.",
+"u": [
+"4389 sayılı Bankalar Kanunu",
+"31 Ağustos 2000"
+]
+},
+{
+"l": "u7",
+"p": 0,
+"q": "IMF'ye göre cari işlemler dengesinin üç bileşeni?",
+"a": "Dış ticaret dengesi, net faktör geliri, dışarıdan transferler.",
+"u": [
+"Dış ticaret dengesi",
+"Net faktör geliri",
+"Transferler"
+]
+},
+{
+"l": "u7",
+"p": 1,
+"q": "Enflasyon en yaygın hangi endeksle ölçülür; çekirdek enflasyon neleri dışlar?",
+"a": "TÜFE; gıda, enerji ve yönetilen fiyatlar dışlanır.",
+"u": [
+"TÜFE",
+"Gıda, enerji, yönetilen fiyatlar hariç"
+]
+},
+{
+"l": "u7",
+"p": 2,
+"q": "TCMB sözlüğüne göre devalüasyon nedir?",
+"a": "Sabit kur rejiminde ulusal paranın yabancı paralar karşısındaki değerinin azalması."
+},
+{
+"l": "u7",
+"p": 3,
+"q": "SDR ne zaman yaratıldı ve sepetinde hangi paralar var?",
+"a": "1969; ABD doları, euro, Çin renminbisi, Japon yeni, İngiliz sterlini.",
+"u": [
+"1969",
+"ABD doları",
+"euro",
+"renminbi",
+"yen",
+"sterlin"
+]
+},
+{
+"l": "u7",
+"p": 4,
+"q": "Dar anlamda 'Dünya Bankası' hangi iki kuruluştan oluşur?",
+"a": "IBRD ve IDA.",
+"u": [
+"IBRD",
+"IDA"
+]
+},
+{
+"l": "u7",
+"p": 5,
+"q": "OECD'yi kuran Paris Sözleşmesinin imza tarihi ve OECD'nin faaliyete başlama tarihi?",
+"a": "14 Aralık 1960; 30 Eylül 1961.",
+"u": [
+"14 Aralık 1960",
+"30 Eylül 1961"
+]
+},
+{
+"l": "u7",
+"p": 6,
+"q": "Balassa'ya göre ekonomik entegrasyonun beş aşaması (sırasıyla)?",
+"a": "Serbest ticaret bölgesi, gümrük birliği, ortak pazar, ekonomik birlik, tam ekonomik birlik.",
+"u": [
+"Serbest ticaret bölgesi",
+"Gümrük birliği",
+"Ortak pazar",
+"Ekonomik birlik",
+"Tam ekonomik birlik"
+]
+},
+{
+"l": "u8",
+"p": 0,
+"q": "Bodin'in egemenliği işlediği eser ve yılı?",
+"a": "De la république (Devlet Üzerine Altı Kitap), 1576."
+},
+{
+"l": "u8",
+"p": 1,
+"q": "Hobbes'a göre doğa durumundaki yaşam nasıldır?",
+"a": "Herkesin herkese karşı savaşı; yalnız, yoksul, kötü, hayvanca ve kısa."
+},
+{
+"l": "u8",
+"p": 2,
+"q": "Locke'un ve Rousseau'nun temel siyasi eserleri ve yılları?",
+"a": "Locke: Yönetim Üzerine İki İnceleme, 1689; Rousseau: Toplum Sözleşmesi, 1762.",
+"u": [
+"Locke: İki İnceleme, 1689",
+"Rousseau: Toplum Sözleşmesi, 1762"
+]
+},
+{
+"l": "u8",
+"p": 3,
+"q": "Weber'in üç meşru otorite tipi?",
+"a": "Geleneksel, karizmatik, yasal-ussal.",
+"u": [
+"Geleneksel",
+"Karizmatik",
+"Yasal-ussal"
+]
+},
+{
+"l": "u8",
+"p": 4,
+"q": "Almanya'da Federal Meclis şansölyeye güvensizliğini nasıl ifade edebilir?",
+"a": "Ancak üye çoğunluğuyla bir halef seçerek (yapıcı güvensizlik oyu, md. 67)."
+},
+{
+"l": "u8",
+"p": 5,
+"q": "Fransa'da Başbakanı kim atar, hükümet kime karşı sorumludur?",
+"a": "Cumhurbaşkanı atar (md. 8); hükümet Parlamentoya karşı sorumludur (md. 20).",
+"u": [
+"Cumhurbaşkanı atar",
+"Parlamentoya sorumlu"
+]
+},
+{
+"l": "u8",
+"p": 6,
+"q": "Seçim barajı hangi kanunla, ne zaman %10'dan %7'ye indirildi?",
+"a": "7393 sayılı Kanun, 31.3.2022 (2839 s. K. md. 33).",
+"u": [
+"7393 sayılı Kanun",
+"2022"
+]
 }
 ]
 }

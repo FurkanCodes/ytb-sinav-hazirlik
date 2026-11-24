@@ -1888,6 +1888,579 @@
 ]
 },
 {
+"id": "U21",
+"area": "U",
+"d": 1,
+"q": "ABD Başkanı Truman'ın 12 Mart 1947'de Kongrede yaptığı ve 'Truman Doktrini' olarak anılan konuşmada askerî yardım yapılması istenen ülkeler hangisinde birlikte verilmiştir?",
+"o": [
+"Türkiye ve İran",
+"Yunanistan ve İtalya",
+"Türkiye ve Irak",
+"Türkiye ve Yunanistan",
+"İran ve Yunanistan"
+],
+"a": 3,
+"e": "Truman 12 Mart 1947'de Kongreden Yunanistan ve Türkiye'ye 400 milyon dolarlık askerî yardım için yetki istedi; bu tutardan Türkiye'nin payı 100 milyon dolardı. İran, Irak ve İtalya bu programın muhatabı değildi.",
+"src": [
+{
+"t": "Tosun, Truman Doktrini'nin İlanı ve Türkiye'deki Etkileri (MANAS, 2022)",
+"u": "https://dergipark.org.tr/en/download/article-file/2513510"
+}
+]
+},
+{
+"id": "U22",
+"area": "U",
+"d": 2,
+"q": "Bağdat Paktı ile ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
+"o": [
+"Çekirdeğini 24 Şubat 1955'te Türkiye ile Irak arasında imzalanan antlaşma oluşturur.",
+"İngiltere, Pakistan ve İran pakta 1955 içinde katılmıştır.",
+"ABD paktın tam üyesi olmuş ve kuruluş antlaşmasını imzalamıştır.",
+"Irak'ın 1959'da ayrılmasından sonra merkez Ankara'ya taşınmıştır.",
+"Irak'ın ayrılmasından sonra teşkilatın adı Merkezî Antlaşma Teşkilâtı (CENTO) olmuştur."
+],
+"a": 2,
+"e": "TDV İslâm Ansiklopedisine göre ABD pakta üye olmadı; ilk konsey toplantısına gözlemci gönderdi, bazı komitelere ve 1957'de askerî komiteye katıldı. Diğer ifadeler doğrudur: Türk-Irak antlaşması 24.2.1955; İngiltere 5.4, Pakistan 23.9, İran 3.11.1955'te katıldı; Irak 24.3.1959'da ayrıldıktan sonra merkez Ankara'ya taşındı ve ad CENTO oldu (NATO arşivine göre 19.8.1959).",
+"src": [
+{
+"t": "TDV İslâm Ansiklopedisi: Bağdat Paktı",
+"u": "https://islamansiklopedisi.org.tr/bagdat-pakti"
+},
+{
+"t": "NATO arşivi: The Baghdad Pact becomes CENTO (19.8.1959)",
+"u": "https://www.nato.int/en/news-and-events/articles/news/1959/08/19/the-baghdad-pact-becomes-the-central-treaty-organisation-cento"
+}
+]
+},
+{
+"id": "U23",
+"area": "U",
+"d": 2,
+"q": "1964 Johnson Mektubu ile ilgili aşağıdaki ifadelerden hangileri doğrudur?<br>I. Başbakan İsmet İnönü'ye gönderilmiştir.<br>II. Türkiye Kıbrıs'a müdahale eder ve SSCB ile karşı karşıya gelirse NATO'nun ve ABD'nin Türkiye'yi savunmayabileceğini bildirmiştir.<br>III. Gönderildiği hafta tam metni Türk basınında yayımlanmıştır.",
+"o": [
+"Yalnız I",
+"Yalnız II",
+"I ve II",
+"I ve III",
+"I, II ve III"
+],
+"a": 2,
+"keep": true,
+"e": "5 Haziran 1964 tarihli mektup Kıbrıs'a müdahaleye hazırlanan Türkiye'yi durdurmak için Başbakan İnönü'ye gönderildi (I doğru). Türkiye müdahale eder ve SSCB ile karşı karşıya gelirse NATO müttefiklerinin Türkiye'yi savunma yükümlülüğünü henüz değerlendirmediğini, yani Türkiye'nin savunulmayabileceğini, ABD silahlarının Kıbrıs'ta kullanılamayacağını bildiriyordu (II doğru). Mektup ancak yaklaşık bir buçuk yıl sonra, 13 Ocak 1966'da Hürriyet'te Cüneyt Arcayürek tarafından yayımlandı (III yanlış).",
+"src": [
+{
+"t": "Çelik ve Özgöker, Johnson Mektubundan Trump Mektubuna (2020)",
+"u": "https://dergipark.org.tr/en/download/article-file/976770"
+},
+{
+"t": "FRUS 1964-68 c. XVI, belge 54: Johnson'ın İnönü'ye mektubu (5.6.1964)",
+"u": "https://history.state.gov/historicaldocuments/frus1964-68v16/d54"
+}
+]
+},
+{
+"id": "U24",
+"area": "U",
+"d": 1,
+"q": "Kuzey Kıbrıs Türk Cumhuriyeti hangi tarihte ilan edilmiştir?",
+"o": [
+"20 Temmuz 1974",
+"13 Şubat 1975",
+"15 Kasım 1983",
+"24 Nisan 2004",
+"30 Aralık 1963"
+],
+"a": 2,
+"e": "Dışişleri Bakanlığına göre KKTC 15 Kasım 1983'te ilan edildi. 20 Temmuz 1974 Barış Harekâtının, 13 Şubat 1975 Kıbrıs Türk Federe Devletinin, 24 Nisan 2004 Annan Planı referandumlarının, 30 Aralık 1963 Lefkoşa'nın ikiye ayrılmasının tarihidir.",
+"src": [
+{
+"t": "Dışişleri: Kıbrıs meselesinin tarihçesi",
+"u": "https://www.mfa.gov.tr/kibris-meselesinin-tarihcesi_-bm-muzakerelerinin-baslangici.tr.mfa"
+}
+]
+},
+{
+"id": "U25",
+"area": "U",
+"d": 2,
+"q": "Aşağıdaki gelişmelerin kronolojik sıralaması hangisidir?<br>I. Türkiye ile Irak arasında Bağdat Paktının çekirdeğini oluşturan antlaşmanın imzalanması<br>II. Truman Doktrininin ilanı<br>III. Kore'ye 4500 kişilik birlik gönderilmesine ilişkin Bakanlar Kurulu kararı<br>IV. Johnson Mektubu",
+"o": [
+"II - III - I - IV",
+"II - I - III - IV",
+"III - II - I - IV",
+"I - II - III - IV",
+"II - III - IV - I"
+],
+"a": 0,
+"keep": true,
+"e": "Truman Doktrini 12 Mart 1947, Kore kararı 25 Temmuz 1950, Türk-Irak antlaşması 24 Şubat 1955, Johnson Mektubu 5 Haziran 1964. Doğru sıra II - III - I - IV.",
+"src": [
+{
+"t": "Tosun (MANAS, 2022)",
+"u": "https://dergipark.org.tr/en/download/article-file/2513510"
+},
+{
+"t": "Tekinsoy (2024)",
+"u": "https://dergipark.org.tr/tr/download/article-file/4122105"
+},
+{
+"t": "TDV İslâm Ansiklopedisi: Bağdat Paktı",
+"u": "https://islamansiklopedisi.org.tr/bagdat-pakti"
+},
+{
+"t": "Çelik ve Özgöker (2020)",
+"u": "https://dergipark.org.tr/en/download/article-file/976770"
+},
+{
+"t": "FRUS 1950 c. V, belge 715: Ankara telgrafı (24.7.1950)",
+"u": "https://history.state.gov/historicaldocuments/frus1950v05/d715"
+},
+{
+"t": "FRUS 1964-68 c. XVI, belge 54: Johnson'ın İnönü'ye mektubu (5.6.1964)",
+"u": "https://history.state.gov/historicaldocuments/frus1964-68v16/d54"
+}
+]
+},
+{
+"id": "U26",
+"area": "U",
+"d": 2,
+"q": "24 Nisan 2004'te yapılan Annan Planı referandumlarının sonucu hangisinde doğru verilmiştir?",
+"o": [
+"Her iki toplum da planı kabul etmiştir.",
+"Kıbrıs Türkleri planı reddetmiş, Rumlar kabul etmiştir.",
+"Her iki toplum da planı reddetmiştir.",
+"Kıbrıs Türkleri %64,91 ile kabul etmiş, Rumların %75,83'ü reddetmiştir.",
+"Referandum yalnızca Kıbrıs Türk toplumunda yapılmış ve plan kabul edilmiştir."
+],
+"a": 3,
+"e": "Dışişleri Bakanlığına göre Rum halkının %75,83'ü planı reddetti, Kıbrıs Türkleri ise %64,91 çoğunlukla 'evet' dedi. Referandum iki toplumda ayrı ayrı yapıldı.",
+"src": [
+{
+"t": "Dışişleri: Kıbrıs meselesinin tarihçesi",
+"u": "https://www.mfa.gov.tr/kibris-meselesinin-tarihcesi_-bm-muzakerelerinin-baslangici.tr.mfa"
+}
+]
+},
+{
+"id": "U27",
+"area": "U",
+"d": 1,
+"q": "17 Şubat 1923'te toplanan İzmir İktisat Kongresinde kabul edilen ekonomik ilkeler bütününe ne ad verilir?",
+"o": [
+"Misak-ı Millî",
+"Teşvik-i Sanayi Kanunu",
+"Birinci Beş Yıllık Sanayi Planı",
+"Teşkilât-ı Esasiye",
+"Misak-ı İktisadi"
+],
+"a": 4,
+"e": "Kongre kararları 4 Mart 1923'te genel kurulda 'Misak-ı İktisadi' başlığıyla ilan edildi. Misak-ı Millî siyasi bir belgedir; Teşkilât-ı Esasiye 1921 Anayasasıdır; Sanayi Planı 1934'te uygulamaya kondu.",
+"src": [
+{
+"t": "Kayıran ve Saygın, İzmir İktisat Kongresi (Yakın Tarih Dergisi, 2019)",
+"u": "https://dergipark.org.tr/en/download/article-file/837325"
+}
+]
+},
+{
+"id": "U28",
+"area": "U",
+"d": 2,
+"q": "Türkiye Cumhuriyet Merkez Bankası ile ilgili aşağıdaki ifadelerden hangisi YANLIŞTIR?",
+"o": [
+"1715 sayılı Kanunla kurulmuştur.",
+"Faaliyetlerine 3 Ekim 1931'de başlamıştır.",
+"Anonim şirket olarak kurulmuştur.",
+"Bugünkü kuruluş kanunu 1970 tarihli 1211 sayılı Kanundur.",
+"2001 değişikliğiyle Bankanın temel amacı ekonomik kalkınmayı desteklemek olarak belirlenmiştir."
+],
+"a": 4,
+"e": "Ekonomik kalkınmayı desteklemek 1715 sayılı kuruluş kanunundaki temel amaçtı. 25.4.2001 tarihli 4651 sayılı Kanunla değişen 1211 sayılı Kanun md. 4'e göre temel amaç fiyat istikrarını sağlamaktır. Diğer ifadeler TCMB'nin tarihçesine uygundur.",
+"src": [
+{
+"t": "TCMB Sanal Müze: History of the CBRT",
+"u": "https://sanalmuze.tcmb.gov.tr/wps/wcm/connect/sanalmuze/en/main+menu/history+of+the+cbrt"
+},
+{
+"t": "1211 sayılı TCMB Kanunu md. 4",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf"
+},
+{
+"t": "TCMB Tarihçesi ve Görevleri",
+"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
+}
+]
+},
+{
+"id": "U29",
+"area": "U",
+"d": 2,
+"q": "Birinci Beş Yıllık Kalkınma Planı ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"1934-1939 dönemini kapsar ve finansmanını Sümerbank üstlenmiştir.",
+"24 Ocak 1980 kararlarından sonra hazırlanmıştır.",
+"1963-1967 dönemini kapsar ve yılda ortalama yüzde 7 kalkınma hızını hedeflemiştir.",
+"Devlet Planlama Teşkilatı kurulmadan önce, 1950'de uygulamaya girmiştir.",
+"TBMM'de görüşülmeden Bakanlar Kurulu kararıyla yürürlüğe konmuştur."
+],
+"a": 2,
+"e": "Plan 1963-1967 dönemini kapsar ve yılda ortalama yüzde 7 kalkınma hızını hedef alır. 77 sayılı Kanuna uygun olarak TBMM'de görüşülüp 21 Kasım 1962'de onaylandı. DPT bundan önce, 1960'ta 91 sayılı Kanunla kuruldu. 1934-1939 ve Sümerbank, Birinci Beş Yıllık Sanayi Planına aittir.",
+"src": [
+{
+"t": "DPT, Kalkınma Plânı (Birinci Beş Yıl) 1963-1967",
+"u": "https://ms.hmb.gov.tr/uploads/sites/23/2025/02/1-Kalkinma_Plani_Birinci_Bes_Yillik_1963-1967.pdf"
+},
+{
+"t": "Sezer (ODTÜ, 1981)",
+"u": "https://open.metu.edu.tr/bitstream/handle/11511/109848/1981-ozel%20sayi%20163-182%20T%C3%BCrkiye'de%20Planlaman%C4%B1n1.pdf"
+}
+]
+},
+{
+"id": "U30",
+"area": "U",
+"d": 2,
+"q": "Aşağıdakilerden hangisi 24 Ocak 1980 kararlarıyla başlayan dönüşümün unsurlarından biri DEĞILDIR?",
+"o": [
+"İthal ikameci sanayileşme stratejisinin terk edilmesi",
+"İhracata dayalı büyüme modelinin benimsenmesi",
+"Fiyat kontrollerinin kaldırılması",
+"Türk lirasının devalüe edilmesi",
+"Merkez Bankasının Hazineye avans vermesinin kanunla yasaklanması"
+],
+"a": 4,
+"e": "TCMB'ye göre 24 Ocak kararlarıyla fiyat kontrolleri kaldırıldı, serbest dış ticarete geçildi ve TL devalüe edildi; Aydın'a göre ithal ikamesi terk edilip ihracata dayalı büyüme benimsendi. Hazineye avans yasağı ise 25.4.2001 tarihli 4651 sayılı Kanunla getirildi (1211 s. K. md. 56).",
+"src": [
+{
+"t": "TCMB Sanal Müze: History of the CBRT",
+"u": "https://sanalmuze.tcmb.gov.tr/wps/wcm/connect/sanalmuze/en/main+menu/history+of+the+cbrt"
+},
+{
+"t": "TCMB Tarihçesi ve Görevleri",
+"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
+},
+{
+"t": "Aydın (MAKÜ-BİFD, 2021)",
+"u": "https://dergipark.org.tr/tr/download/article-file/1523578"
+},
+{
+"t": "1211 sayılı TCMB Kanunu md. 56",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf"
+}
+]
+},
+{
+"id": "U31",
+"area": "U",
+"d": 3,
+"q": "4651 sayılı Kanunla değişik 1211 sayılı TCMB Kanununa göre aşağıdakilerden hangileri doğrudur?<br>I. Bankanın temel amacı fiyat istikrarını sağlamaktır.<br>II. Banka, fiyat istikrarı amacıyla çelişmemek kaydıyla Hükümetin büyüme ve istihdam politikalarını destekler.<br>III. Banka, Hazinenin ihraç ettiği borçlanma araçlarını birincil piyasadan satın alabilir.",
+"o": [
+"Yalnız I",
+"I ve II",
+"I ve III",
+"II ve III",
+"I, II ve III"
+],
+"a": 1,
+"keep": true,
+"e": "Md. 4 (4651/1): temel amaç fiyat istikrarıdır; Banka bu amaçla çelişmemek kaydıyla Hükümetin büyüme ve istihdam politikalarını destekler (I ve II doğru). Md. 56 (4651/13): Banka, Hazine ile kamu kurum ve kuruluşlarının ihraç ettiği borçlanma araçlarını birincil piyasadan satın alamaz (III yanlış).",
+"src": [
+{
+"t": "1211 sayılı TCMB Kanunu md. 4 ve 56",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.1211.pdf"
+}
+]
+},
+{
+"id": "U32",
+"area": "U",
+"d": 2,
+"q": "Bankacılık Düzenleme ve Denetleme Kurumu (BDDK) ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"4389 sayılı Bankalar Kanunuyla kurulmuş ve 31 Ağustos 2000'de faaliyete başlamıştır.",
+"2001 krizinden sonra 5411 sayılı Bankacılık Kanunuyla kurulmuştur.",
+"1211 sayılı Kanunla TCMB bünyesinde bir daire olarak kurulmuştur.",
+"4651 sayılı Kanunla kurulmuştur.",
+"1980'deki 24 Ocak kararlarıyla kurulmuştur."
+],
+"a": 0,
+"e": "BDDK'ya göre Kurum, 23 Haziran 1999'da yayımlanan 4389 sayılı Bankalar Kanunuyla kuruldu ve 31 Ağustos 2000'de faaliyete başladı. 5411 sayılı Bankacılık Kanunu ise 2001 krizi sonrasındaki reform sürecinde 1 Kasım 2005'te yürürlüğe girdi. 4651 sayılı Kanun TCMB Kanununu değiştirmiştir.",
+"src": [
+{
+"t": "BDDK: Kurum hakkında",
+"u": "https://www.bddk.org.tr/KurumHakkinda/Detay/19"
+}
+]
+},
+{
+"id": "U33",
+"area": "U",
+"d": 2,
+"q": "IMF'nin Özel Çekme Hakkı (SDR) sepetinde aşağıdaki para birimlerinden hangisi YER ALMAZ?",
+"o": [
+"ABD doları",
+"Euro",
+"İsviçre frangı",
+"Çin renminbisi",
+"Japon yeni"
+],
+"a": 2,
+"e": "IMF'ye göre SDR sepeti beş paradan oluşur: ABD doları, euro, Çin renminbisi, Japon yeni ve İngiliz sterlini. İsviçre frangı sepette yoktur. SDR, 1969'da yaratılan tamamlayıcı bir rezerv varlığıdır ve para birimi değildir.",
+"src": [
+{
+"t": "IMF: Special Drawing Rights factsheet",
+"u": "https://www.imf.org/en/About/Factsheets/Sheets/2023/special-drawing-rights-sdr"
+}
+]
+},
+{
+"id": "U34",
+"area": "U",
+"d": 2,
+"q": "Dünya Bankası Grubu kuruluşlarından hangisi dünyanın en yoksul ülkelerine odaklanır?",
+"o": [
+"Uluslararası İmar ve Kalkınma Bankası (IBRD)",
+"Uluslararası Finans Kurumu (IFC)",
+"Çok Taraflı Yatırım Garanti Ajansı (MIGA)",
+"Uluslararası Kalkınma Birliği (IDA)",
+"Uluslararası Yatırım Uyuşmazlıklarını Çözüm Merkezi (ICSID)"
+],
+"a": 3,
+"e": "Dünya Bankası Grubuna göre IDA dünyanın en yoksul ülkelerine odaklanır; IBRD orta gelirli ve kredi değerliliği olan yoksul ülkelere destek verir. IBRD ile IDA birlikte Dünya Bankasını oluşturur. IFC, MIGA ve ICSID özel sektöre yöneliktir.",
+"src": [
+{
+"t": "World Bank Group Infoguide: basics",
+"u": "https://libguides.worldbank.org/WBGInfoguide/basics"
+}
+]
+},
+{
+"id": "U35",
+"area": "U",
+"d": 1,
+"q": "Dünya Ticaret Örgütü sisteminde, bir üyeye tanınan özel bir ticari ayrıcalığın diğer tüm üyelere de tanınmasını öngören ilke hangisidir?",
+"o": [
+"Ulusal muamele",
+"Damping karşıtı önlem",
+"Korunma önlemi",
+"Sübvansiyon",
+"En çok kayrılan ülke (MFN)"
+],
+"a": 4,
+"e": "DTÖ'ye göre en çok kayrılan ülke ilkesinde üyeler ticaret ortakları arasında ayrım yapamaz; birine tanınan ayrıcalık tüm üyelere tanınır (GATT md. 1, GATS md. 2, TRIPS md. 4). Ulusal muamele ise yabancı ve yerli mallar arasında eşit muameledir (GATT md. 3).",
+"src": [
+{
+"t": "WTO: Principles of the trading system",
+"u": "https://www.wto.org/english/thewto_e/whatis_e/tif_e/fact2_e.htm"
+}
+]
+},
+{
+"id": "U36",
+"area": "U",
+"d": 3,
+"q": "GATT md. XXIV'e göre, üyelerin tek bir gümrük bölgesi oluşturduğu ve üçüncü ülkelerle ticarete büyük ölçüde aynı gümrük vergilerini uyguladığı, ancak üretim faktörlerinin serbest dolaşımını henüz içermeyen ekonomik entegrasyon aşaması hangisidir?",
+"o": [
+"Serbest ticaret bölgesi",
+"Gümrük birliği",
+"Ortak pazar",
+"Ekonomik birlik",
+"Tam ekonomik birlik"
+],
+"a": 1,
+"e": "GATT md. XXIV/8(a) gümrük birliğini, birden çok gümrük bölgesinin yerine tek bir gümrük bölgesinin geçmesi ve üyelerin üçüncü ülkelere büyük ölçüde aynı vergileri uygulaması olarak tanımlar. Serbest ticaret bölgesinde (8(b)) yalnızca üyeler arası ticaretteki vergiler kaldırılır. Balassa sıralamasında gümrük birliğinden sonra faktör hareketlerinin serbestleştiği ortak pazar gelir.",
+"src": [
+{
+"t": "GATT 1947 md. XXIV",
+"u": "https://www.wto.org/english/docs_e/legal_e/gatt47_02_e.htm"
+},
+{
+"t": "Bakkalcı (DEÜ İİBF Dergisi, 2002)",
+"u": "https://dergipark.org.tr/en/download/article-file/211334"
+}
+]
+},
+{
+"id": "U37",
+"area": "U",
+"d": 2,
+"q": "IMF'nin tanımlarına göre cari işlemler açığı ile ilgili aşağıdakilerden hangisi doğrudur?",
+"o": [
+"Ulusal tasarrufun yatırımı aştığını gösterir.",
+"Yalnızca mal ihracatı ile mal ithalatı arasındaki farktır.",
+"Ülkenin dışarıya, dışarıdan elde ettiğinden fazla harcadığını gösterir ve finans hesabı girişleriyle finanse edilir.",
+"Ülkenin yurt dışına karşı yükümlülüklerinin azaldığını gösterir.",
+"Net faktör gelirleri ve transferler cari işlemler dengesine dahil edilmez."
+],
+"a": 2,
+"e": "IMF F&D'ye göre cari açık, ülkenin dışarıya, dışarıdan elde ettiğinden fazla harcadığını gösterir ve finans hesabı girişleriyle finanse edilir; ülke yurt dışına yükümlülük biriktirir. Cari denge = dış ticaret dengesi + net faktör geliri + transferler; ayrıca tasarruf ile yatırım arasındaki farka eşittir. Açık, tasarrufun yatırımın altında kaldığını gösterir.",
+"src": [
+{
+"t": "IMF F&D: Current Account Deficits",
+"u": "https://www.imf.org/en/Publications/fandd/issues/Series/Back-to-Basics/Current-Account-Deficits"
+}
+]
+},
+{
+"id": "U38",
+"area": "U",
+"d": 1,
+"q": "Zayıf ekonomik büyüme ile yüksek enflasyonun bir arada görüldüğü, 1970'lerde Arap petrol ambargosundan sonra yaşanan duruma ne ad verilir?",
+"o": [
+"Deflasyon",
+"Stagflasyon",
+"Hiperenflasyon",
+"Devalüasyon",
+"Konvertibilite"
+],
+"a": 1,
+"e": "Dünya Bankası ekonomistlerine göre stagflasyon zayıf büyüme ile yüksek enflasyonun birleşimidir; 1970'lerde Arap petrol ambargosuyla yaşanmıştır. Deflasyon fiyatların düşmesi, devalüasyon sabit kurda paranın değer kaybı, konvertibilite paranın serbestçe değiştirilebilmesidir.",
+"src": [
+{
+"t": "Dünya Bankası podcast: Stagflation",
+"u": "https://www.worldbank.org/en/news/podcast/2022/06/10/stagflation-global-economy-development-podcast"
+},
+{
+"t": "TCMB Terimler Sözlüğü",
+"u": "https://oys.ankara.edu.tr/pluginfile.php/426655/mod_resource/content/1/Okuma%20Metni_Merkez%20Bankas%C4%B1.pdf"
+}
+]
+},
+{
+"id": "U39",
+"area": "U",
+"d": 1,
+"q": "Egemenlik kavramını kapsamlı biçimde ele alan ilk Avrupalı filozof sayılan ve 1576'da 'De la république' (Devlet Üzerine Altı Kitap) eserini yazan düşünür kimdir?",
+"o": [
+"Thomas Hobbes",
+"John Locke",
+"Jean Bodin",
+"Jean-Jacques Rousseau",
+"Montesquieu"
+],
+"a": 2,
+"e": "Stanford Felsefe Ansiklopedisine göre Bodin egemenliği kapsamlı biçimde ele alan ilk Avrupalı filozoftur ve egemenlik kavramı 1576 tarihli De la république eserinin merkezindedir. Hobbes'un Leviathan'ı 1651, Locke'un İki İnceleme'si 1689, Rousseau'nun Toplum Sözleşmesi 1762 tarihlidir.",
+"src": [
+{
+"t": "SEP: Sovereignty",
+"u": "https://plato.stanford.edu/entries/sovereignty/"
+}
+]
+},
+{
+"id": "U40",
+"area": "U",
+"d": 2,
+"q": "Doğa durumunu 'herkesin herkese karşı savaşı' olarak niteleyen ve bundan kurtulmak için mutlak (bölünmez ve sınırsız) bir egemen güç öneren eser ile yazarı hangisidir?",
+"o": [
+"Leviathan - Hobbes",
+"Toplum Sözleşmesi - Rousseau",
+"Yönetim Üzerine İki İnceleme - Locke",
+"Kanunların Ruhu Üzerine - Montesquieu",
+"De la république - Bodin"
+],
+"a": 0,
+"e": "Hobbes'un 1651 tarihli Leviathan'ında doğa durumu herkesin herkese karşı savaşıdır ve yaşam 'yalnız, yoksul, kötü, hayvanca ve kısa'dır; çıkış yolu mutlak bir egemendir. Locke ise doğal hakları ve direnme hakkını savunur.",
+"src": [
+{
+"t": "SEP: Hobbes's Moral and Political Philosophy",
+"u": "https://plato.stanford.edu/entries/hobbes-moral/"
+}
+]
+},
+{
+"id": "U41",
+"area": "U",
+"d": 1,
+"q": "Max Weber'in meşru otorite tipolojisinde, liderin olağanüstü kişisel niteliklerine duyulan bağlılığa dayanan otorite tipi hangisidir?",
+"o": [
+"Geleneksel otorite",
+"Yasal-ussal otorite",
+"Karizmatik otorite",
+"Demokratik otorite",
+"Teokratik otorite"
+],
+"a": 2,
+"e": "Weber meşru tahakkümün üç ideal tipini ayırır: karizmaya, geleneğe ve yasal ussallığa dayanan. Karizmatik otorite izleyicilerin liderin kanıtlanmış kişisel niteliklerine bağlılığına, geleneksel otorite köklü göreneğe, yasal-ussal otorite kişisel olmayan kurallara dayanır. 'Demokratik' ve 'teokratik' Weber'in üç tipi arasında yoktur.",
+"src": [
+{
+"t": "SEP: Max Weber",
+"u": "https://plato.stanford.edu/entries/weber/"
+}
+]
+},
+{
+"id": "U42",
+"area": "U",
+"d": 2,
+"q": "1958 Fransız Anayasasına göre aşağıdakilerden hangisi YANLIŞTIR?",
+"o": [
+"Cumhurbaşkanı beş yıl için doğrudan halk tarafından seçilir.",
+"Başbakanı Cumhurbaşkanı atar.",
+"Cumhurbaşkanı Ulusal Meclisi feshedebilir.",
+"Hükümet Parlamentoya karşı sorumludur.",
+"Ulusal Meclis güvensizlik önergesiyle hükümeti düşüremez."
+],
+"a": 4,
+"e": "Md. 6: Cumhurbaşkanı beş yıl için doğrudan genel oyla seçilir. Md. 8: Başbakanı Cumhurbaşkanı atar. Md. 12: Cumhurbaşkanı Ulusal Meclisi feshedebilir. Md. 20: Hükümet Parlamentoya karşı sorumludur. Md. 49-50: Ulusal Meclis güvensizlik önergesi kabul ederse Başbakan hükümetin istifasını sunmak zorundadır; E yanlıştır.",
+"src": [
+{
+"t": "Conseil constitutionnel: Constitution of 4 October 1958",
+"u": "https://www.conseil-constitutionnel.fr/en/constitution-of-4-october-1958"
+}
+]
+},
+{
+"id": "U43",
+"area": "U",
+"d": 1,
+"q": "2839 sayılı Milletvekili Seçimi Kanununun güncel md. 33'üne göre genel seçimlerde ülke genelinde geçerli oyların yüzde kaçını geçemeyen siyasi partiler milletvekili çıkaramaz?",
+"o": [
+"%3",
+"%5",
+"%7",
+"%10",
+"%12"
+],
+"a": 2,
+"keep": true,
+"e": "Md. 33'e göre baraj yüzde yedidir. Önceki %10'luk baraj, 31.3.2022 tarihli 7393 sayılı Kanunun 1. maddesiyle %7'ye indirildi. İttifak durumunda barajın hesabında ittifaktaki partilerin toplam oyu esas alınır.",
+"src": [
+{
+"t": "2839 sayılı Milletvekili Seçimi Kanunu md. 33",
+"u": "https://www.mevzuat.gov.tr/MevzuatMetin/1.5.2839.pdf"
+}
+]
+},
+{
+"id": "U44",
+"area": "U",
+"d": 3,
+"q": "Aşağıdaki ifadelerden hangileri doğrudur?<br>I. ABD Anayasasına göre federal bir görevde bulunan kişi aynı anda Kongre üyesi olamaz.<br>II. Alman Temel Yasasına göre Federal Şansölye, Federal Cumhurbaşkanının önerisi üzerine Federal Meclis (Bundestag) tarafından seçilir.<br>III. Alman Federal Meclisi, Şansölyeye güvensizliğini ancak bir halef seçerek ifade edebilir.<br>IV. ABD Başkanı Kongre tarafından seçilir ve Kongrenin güvensizlik oyuyla görevden alınabilir.",
+"o": [
+"I ve II",
+"I, II ve III",
+"II ve IV",
+"I, III ve IV",
+"I, II, III ve IV"
+],
+"a": 1,
+"keep": true,
+"e": "I: ABD Anayasası md. I/6. II: Temel Yasa md. 63/1. III: md. 67/1 (yapıcı güvensizlik oyu). IV yanlıştır: ABD Başkanı seçiciler (electors) aracılığıyla dört yıl için seçilir ve yalnızca suçlama (impeachment) ve mahkûmiyetle görevden alınır (md. II/1 ve II/4); güvensizlik oyu parlamenter sisteme özgüdür.",
+"src": [
+{
+"t": "US National Archives: Constitution transcript",
+"u": "https://www.archives.gov/founding-docs/constitution-transcript"
+},
+{
+"t": "Basic Law for the Federal Republic of Germany",
+"u": "https://www.btg-bestellservice.de/pdf/80201000.pdf"
+}
+]
+},
+{
 "id": "G01",
 "area": "G",
 "d": 2,
