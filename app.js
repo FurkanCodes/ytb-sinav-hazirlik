@@ -31,14 +31,18 @@ function plan(key,grade){const s=Object.assign({b:0,n:0,lap:0,ds:0},srs[key]||{}
     let d=IV[s.b];if(grade===1)d=Math.max(1,Math.round(d/2));d=Math.min(d,horizonCap(now));s.due=capExam(now+d*DAY)}
   s.n++;return s}
 function sched(key,grade){srs[key]=plan(key,grade);store.set("srs",srs);bump()}
+/* Early (free) review: a success before the due date keeps the schedule as is (an early repetition is weaker,
+   so it should not push the next review further out) but still counts as a separate-day recall; a miss is a lapse. */
+function schedEarly(key,grade){const s=srs[key];if(!s||!s.due||s.due<=Date.now()+60*MIN||grade===0){sched(key,grade);return}
+  const today=dkey(Date.now());if(s.lastOk!==today){s.ds=(s.ds||0)+1;s.lastOk=today}s.n++;store.set("srs",srs);bump()}
 function ivLabel(key,grade){const s=plan(key,grade);const ms=s.due-Date.now();if(ms<DAY)return "10 dk";const d=Math.round(ms/DAY);return d+" gün"}
 function dueItems(){const now=Date.now();return Object.keys(srs).filter(k=>srs[k].due<=now&&((k[0]==="c"&&cById[k.slice(2)])||(k[0]==="q"&&byId[k.slice(2)])))}
 function nextDue(){let m=Infinity;Object.keys(srs).forEach(k=>{if(srs[k].due>Date.now()&&srs[k].due<m)m=srs[k].due});return m}
 
 /* ---------- Answers, confidence ---------- */
-function record(q,ok,c){const h=hist[q.id]||{n:0,ok:0};h.n++;if(ok)h.ok++;h.last=ok?1:0;hist[q.id]=h;store.set("hist",hist);
+function record(q,ok,c,early){const h=hist[q.id]||{n:0,ok:0};h.n++;if(ok)h.ok++;h.last=ok?1:0;hist[q.id]=h;store.set("hist",hist);
   if(c){conf[c][ok?"ok":"bad"]++;store.set("conf",conf)}
-  sched("q:"+q.id,ok?(c==="guess"?1:2):0)}
+  (early?schedEarly:sched)("q:"+q.id,ok?(c==="guess"?1:2):0)}
 /* ---------- Recall card: typed attempt, then idea-unit check (Tauber et al. 2018; Dunlosky et al. 2011) ---------- */
 function recallCard(el,c,o){const us=c.u&&c.u.length>1?c.u:[c.a];const need=c.need||us.length;let typed="";const key="c:"+c.id;
   const head='<div class="qhead"><span>'+(o.tag||'<span class="tag">Hatırla</span>')+'</span><span>'+(o.right||"Not kapalı")+'</span></div><p class="qtext">'+esc(c.q)+'</p>';
@@ -78,7 +82,7 @@ function askQuestion(el,q,opts){opts=opts||{};const ord=order(q);let sel=null,re
     h+='</div>';el.innerHTML=h;
     el.querySelectorAll(".opt").forEach(b=>b.onclick=()=>{sel=+b.dataset.oi;draw()});
     el.querySelectorAll("[data-c]").forEach(b=>b.onclick=()=>{if(sel===null){el.querySelector(".err").textContent="Önce bir şık işaretle.";return}
-      cf=b.dataset.c;rev=true;if(!opts.noRecord)record(q,sel===q.a,cf);draw()});
+      cf=b.dataset.c;rev=true;if(!opts.noRecord)record(q,sel===q.a,cf,!!opts.early);draw()});
     const nx=el.querySelector("[data-next]");if(nx)nx.onclick=()=>opts.done&&opts.done(sel===q.a,cf)}
   draw()}
 
@@ -99,7 +103,7 @@ function renderToday(){const s=$("#v-bugun");const due=dueItems().length;const n
   const answered=Object.keys(hist).length;const okAll=Object.values(hist).filter(h=>h.last===1).length;
   let h='<div class="hero card"><div><div class="big">'+left+'</div><div class="muted">gün kaldı · 19 Aralık 2026</div></div><div class="list" style="gap:6px;flex:1;min-width:220px">';
   h+='<p style="margin:0"><b>Bugünkü plan</b></p><ol class="steps">';
-  h+='<li>'+(due?'<b>'+due+'</b> tekrar kartı ve sorusu seni bekliyor.':'Bekleyen tekrar yok.')+'</li>';
+  h+='<li>'+(due?'<b>'+due+'</b> tekrar kartı ve sorusu seni bekliyor.':'Planlı tekrar yok. İstersen <a href="#tekrar">Tekrar</a> bölümünde beklemeden serbest tekrar yapabilirsin.')+'</li>';
   h+='<li>'+(nl?(perDay>1?'Günde <b>'+perDay+' yeni konu</b> bitirirsen sınavdan önce 4 gün genel tekrar kalır. Sıradaki: <b>'+esc(nl.title)+'</b>.':'Sıradaki yeni konu: <b>'+esc(nl.title)+'</b>.'):'Bütün konuları bitirdin. Şimdi deneme sınavı ve tekrar zamanı.')+'</li>';
   h+=(left<=3?'<li><b>Sınava '+left+' gün kaldı:</b> Tekrar bölümündeki "Sınav öncesi son tur" ile bütün kartları en zayıftan başlayarak bir kez daha geç. Yeni konuya başlama.</li>':'<li>Haftada en az bir deneme sınavı. Gerçek sınav da çoktan seçmeli olduğu için bu format pratiği önemli.</li>')+'</ol>';
   h+='<div class="row" style="margin-top:6px">'+(due?'<a class="btn" href="#tekrar">Tekrara başla ('+due+')</a>':'')+(nl&&left>3?'<a class="btn'+(due?' ghost':'')+'" href="#ders/'+nl.id+'">'+(due?'Sonra: ':'')+'Yeni konu</a>':(left<=3?'<a class="btn'+(due?' ghost':'')+'" href="#tekrar">Son tur</a>':'<a class="btn" href="#deneme">Deneme sınavı</a>'))+'</div></div></div>';
@@ -196,18 +200,36 @@ function renderNote(id){const l=byL[id];const v=$("#v-not");if(!l){location.hash
   h+='<ul>'+l.points.map(p=>'<li>'+p+'</li>').join("")+'</ul></div>';
   if(l.traps&&l.traps.length)h+='<div class="trap"><h3>Sınav tuzakları</h3><ul class="steps">'+l.traps.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul></div>';
   if(sums[l.id])h+='<div class="card"><h3>Senin özetin</h3><p style="white-space:pre-wrap;margin:8px 0 0">'+esc(sums[l.id])+'</p></div>';
-  h+=srcHtml(l.src)+'<div class="nav2"><a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>';
-  v.innerHTML=h;window.scrollTo(0,0);$("#nQs").onclick=()=>{startPractice(l.qs.map(x=>byId[x]).filter(Boolean))}}
+  h+=srcHtml(l.src)+'<div class="nav2"><a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nCards">Kartlarını tekrar et</button><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>';
+  v.innerHTML=h;window.scrollTo(0,0);$("#nQs").onclick=()=>{startPractice(l.qs.map(x=>byId[x]).filter(Boolean))};
+  const nC=$("#nCards");if(nC)nC.onclick=()=>startFree(freeKeys("l:"+l.id,false),"weak",999)}
 
 /* ---------- Tekrar (SRS session) ---------- */
 let R=null;
 function renderReview(){const v=$("#v-tekrar");const due=dueItems();
   if(!R||R.done){if(!due.length){const nd=nextDue();const learned=Object.keys(srs).filter(k=>k[0]==="c");
-      v.innerHTML='<div class="card list"><h2>Bugünlük tekrar bitti</h2><p class="note">'+(nd<Infinity?'Bir sonraki tekrar: '+new Date(nd).toLocaleString("tr-TR",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})+'.':'Henüz tekrar takviminde kart yok. Önce bir konu çalış.')+' Tekrarlar arasına zaman koymak öğrenmenin parçası, erken tekrar etmene gerek yok.</p><div class="row">'+(learned.length?'<button class="btn ghost" id="rExtra">Ek pratik: en zayıf 10 kart</button>':'')+'<a class="btn" href="#bugun">Bugün ekranı</a></div></div>'+finalCard();
-      const ex=$("#rExtra");if(ex)ex.onclick=()=>{const weak=learned.sort((a,b)=>(srs[a].ds||0)-(srs[b].ds||0)||srs[b].lap-srs[a].lap).slice(0,10);R={q:shuffle(weak),i:0,ok:0,n:0,extra:true};drawReview()};bindFinal();return}
-    v.innerHTML='<div class="card list"><h2>'+due.length+' tekrar hazır</h2><p class="note">Kartlarda önce cevabı yaz, sonra doğru cevapla parça parça karşılaştır. Bilemediğin kart oturum içinde doğru hatırlayana kadar tekrar gelir.</p><div class="row"><button class="btn" id="rGo">Başla</button></div></div>'+finalCard();
-    $("#rGo").onclick=()=>{R={q:shuffle(due).slice(0,40),i:0,ok:0,n:0};drawReview()};bindFinal();return}
+      v.innerHTML='<div class="card list"><h2>Planlı tekrar yok</h2><p class="note">'+(nd<Infinity?'Bir sonraki planlı tekrar: '+new Date(nd).toLocaleString("tr-TR",{day:"numeric",month:"long",hour:"2-digit",minute:"2-digit"})+'.':'Henüz tekrar takviminde kart yok.')+' Beklemek istemiyorsan aşağıdaki serbest tekrarla hemen başlayabilirsin.</p></div>'+freeCard()+finalCard();
+      bindFree();bindFinal();return}
+    v.innerHTML='<div class="card list"><h2>'+due.length+' tekrar hazır</h2><p class="note">Kartlarda önce cevabı yaz, sonra doğru cevapla parça parça karşılaştır. Bilemediğin kart oturum içinde doğru hatırlayana kadar tekrar gelir.</p><div class="row"><button class="btn" id="rGo">Başla</button></div></div>'+freeCard()+finalCard();
+    $("#rGo").onclick=()=>{R={q:shuffle(due).slice(0,40),i:0,ok:0,n:0};drawReview()};bindFree();bindFinal();return}
   drawReview()}
+/* Free review: any time, any scope */
+function freeCard(){const studied=C.filter(c=>srs["c:"+c.id]).length;
+  let o='<option value="studied">Çalıştığım bütün kartlar ('+studied+')</option><option value="all">Bütün kartlar ('+C.length+')</option>';
+  o+=D.areas.map(a=>'<option value="a:'+a.id+'">Alan: '+esc(a.name)+'</option>').join("");
+  o+=LS.map(l=>'<option value="l:'+l.id+'">Konu: '+esc(l.title)+'</option>').join("");
+  return '<div class="card list"><h3>Serbest tekrar</h3><p class="note">İstediğin zaman, istediğin kadar. Takvimden önce doğru bildiğin kart takvimi ileri atmaz (erken tekrar daha az etkili olduğu için), bilemediğin kart ise yakın zamana yeniden planlanır.</p>'+
+    '<div class="row"><select id="fScope" style="flex:1;min-width:0">'+o+'</select></div>'+
+    '<div class="row"><select id="fOrder"><option value="weak">En zayıftan başla</option><option value="mix">Karışık</option></select><select id="fN"><option value="10">10</option><option value="20" selected>20</option><option value="40">40</option><option value="999">Hepsi</option></select><label class="muted" style="font-size:.85rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="fQs"> Soruları da kat</label></div>'+
+    '<p class="err" id="fErr"></p><div class="row"><button class="btn" id="fGo">Serbest tekrarı başlat</button></div></div>'}
+function freeKeys(scope,withQs){let cs=C,qs=[];
+  if(scope==="studied")cs=C.filter(c=>srs["c:"+c.id]);else if(scope[0]==="a"&&scope[1]===":"){const a=scope.slice(2);cs=C.filter(c=>byL[c.l].area===a)}else if(scope.indexOf("l:")===0){const id=scope.slice(2);cs=C.filter(c=>c.l===id)}
+  if(withQs){const ls=new Set(cs.map(c=>c.l));qs=Q.filter(q=>lessonOf[q.id]&&ls.has(lessonOf[q.id].id)).map(q=>"q:"+q.id)}
+  return cs.map(c=>"c:"+c.id).concat(qs)}
+function weakness(k){const s=srs[k];if(!s)return -1;return (s.ds||0)*10-(s.lap||0)*3+(s.b||0)}
+function startFree(keys,order,n){if(!keys.length)return false;keys=order==="weak"?shuffle(keys).sort((a,b)=>weakness(a)-weakness(b)):shuffle(keys);R={q:keys.slice(0,n),i:0,ok:0,n:0,early:true};location.hash="#tekrar";drawReview();return true}
+function bindFree(){const g=$("#fGo");if(!g)return;g.onclick=()=>{const keys=freeKeys($("#fScope").value,$("#fQs").checked);
+  if(!startFree(keys,$("#fOrder").value,+$("#fN").value))$("#fErr").textContent="Bu seçimde kart yok. Önce bir konu çalış ya da \"Bütün kartlar\"ı seç."}}
 /* Final pass before the exam: every studied card and missed question once more, weakest first (successive relearning) */
 function finalKeys(){return Object.keys(srs).filter(k=>(k[0]==="c"&&cById[k.slice(2)])||(k[0]==="q"&&byId[k.slice(2)]&&(srs[k].lap>0||(hist[k.slice(2)]&&hist[k.slice(2)].last===0))))
   .sort((a,b)=>(srs[a].ds||0)-(srs[b].ds||0)||srs[b].lap-srs[a].lap)}
@@ -215,16 +237,16 @@ function finalCard(){const n=finalKeys().length;if(!n)return "";const dl=daysLef
   return '<div class="card list"><h3>Sınav öncesi son tur</h3><p class="note">Çalıştığın bütün kartlar ve yanlış yaptığın sorular, en zayıftan başlayarak bir kez daha. Sınavdan önceki son 2-3 gün için tasarlandı'+(dl>3?', şu an için erken: sınava '+dl+' gün var.':'.')+'</p><div class="row"><button class="btn '+(dl<=3?'':'ghost')+'" id="rFinal">Son turu başlat ('+n+')</button></div></div>'}
 function bindFinal(){const f=$("#rFinal");if(f)f.onclick=()=>{R={q:finalKeys(),i:0,ok:0,n:0,final:true};drawReview()}}
 function drawReview(){const v=$("#v-tekrar");if(R.i>=R.q.length){R.done=true;renderBadge();
-    v.innerHTML='<div class="card list"><h2>Oturum bitti</h2><div class="stats"><div class="stat"><span>Tekrar edilen</span><b>'+R.n+'</b></div><div class="stat"><span>Bilinen</span><b>'+R.ok+' / '+R.n+'</b></div></div><p class="note">'+(R.extra?'Ek pratik takvimi değiştirmez, yalnızca pekiştirir.':'Bildiklerin daha uzun aralıkla, bilemediklerin yakında geri gelecek.')+'</p><div class="row"><a class="btn" href="#bugun">Bugün ekranı</a></div></div>';R=null;return}
+    v.innerHTML='<div class="card list"><h2>Oturum bitti</h2><div class="stats"><div class="stat"><span>Tekrar edilen</span><b>'+R.n+'</b></div><div class="stat"><span>Bilinen</span><b>'+R.ok+' / '+R.n+'</b></div></div><p class="note">'+(R.early?'Serbest tekrar: bildiklerin takvimdeki yerinde kaldı, bilemediklerin yakın zamana planlandı.':'Bildiklerin daha uzun aralıkla, bilemediklerin yakında geri gelecek.')+'</p><div class="row"><a class="btn" href="#bugun">Bugün ekranı</a></div></div>';R=null;return}
   const key=R.q[R.i];const left=R.q.length-R.i;
   v.innerHTML='<div class="row" style="justify-content:space-between"><span class="note">'+left+' kaldı</span><a class="btn ghost" href="#bugun">Ara ver</a></div><div class="bar"><i style="width:'+Math.round(R.i/R.q.length*100)+'%"></i></div><div class="card" id="rBody"></div>';
   const b=$("#rBody");
   // criterion: an item missed in this session returns later in the same session until recalled (max 4 times)
   const nxt=(ok,again)=>{R.counted=R.counted||{};if(!R.counted[key]){R.counted[key]=1;R.n++;if(ok)R.ok++}
     if(again&&R.q.filter(k=>k===key).length<4)R.q.splice(Math.min(R.q.length,R.i+4),0,key);R.i++;drawReview()};
-  if(key[0]==="q"){const q=byId[key.slice(2)];askQuestion(b,q,{label:"Soru tekrarı",noRecord:!!R.extra,done:(ok)=>nxt(ok,!ok)});return}
+  if(key[0]==="q"){const q=byId[key.slice(2)];askQuestion(b,q,{label:R.early?"Serbest tekrar · soru":"Soru tekrarı",early:!!R.early,done:(ok)=>nxt(ok,!ok)});return}
   const c=cById[key.slice(2)];const l=byL[c.l];
-  recallCard(b,c,{tag:'<span class="tag">'+esc(areaName(l.area))+'</span> &nbsp;'+esc(l.title),right:"Kart",noIv:!!R.extra,onGrade:g=>{if(!R.extra)sched(key,g);nxt(g===2,g<2)}})}
+  recallCard(b,c,{tag:'<span class="tag">'+esc(areaName(l.area))+'</span> &nbsp;'+esc(l.title),right:R.early?"Serbest tekrar":"Kart",noIv:!!R.early,onGrade:g=>{(R.early?schedEarly:sched)(key,g);nxt(g===2,g<2)}})}
 function renderBadge(){const n=D?dueItems().length:0;const a=document.querySelector('nav a[data-v="tekrar"]');if(a)a.innerHTML='Tekrar'+(n?' <span class="badge">'+n+'</span>':'')}
 
 /* ---------- Soru çöz (practice) ---------- */
