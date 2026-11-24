@@ -1,0 +1,1136 @@
+{
+"cards": [
+{
+"l": "b1",
+"p": "tl",
+"q": "YTB hangi kanunla, hangi yıl kuruldu?",
+"a": "5978 sayılı Kanun, 2010 (kabul 24.3.2010, RG 6.4.2010).",
+"u": [
+"5978 sayılı Kanun",
+"2010"
+]
+},
+{
+"l": "b1",
+"p": "tl",
+"q": "YTB kurulduğunda kime bağlıydı?",
+"a": "Başbakanlığa."
+},
+{
+"l": "b1",
+"p": "tl",
+"q": "YTB bugün hangi düzenlemede, hangi maddelerde yer alır?",
+"a": "4 sayılı CBK, 51. bölüm, md. 732-753.",
+"u": [
+"4 sayılı CBK",
+"md. 732-753"
+]
+},
+{
+"l": "b1",
+"p": 0,
+"q": "YTB bugün kime bağlıdır? Madde?",
+"a": "Kültür ve Turizm Bakanlığına bağlı, CBK md. 735.",
+"u": [
+"Kültür ve Turizm Bakanlığı",
+"CBK md. 735"
+]
+},
+{
+"l": "b1",
+"p": 1,
+"q": "YTB Başkanı kime karşı sorumludur?",
+"a": "Bakana, yani Kültür ve Turizm Bakanına (md. 736, tanım md. 734/a)."
+},
+{
+"l": "b1",
+"p": 2,
+"q": "YTB'de en çok kaç başkan yardımcısı olabilir?",
+"a": "Üç (md. 736)."
+},
+{
+"l": "b1",
+"p": 3,
+"q": "YTB'nin bütçe türü ve 5018'deki yeri?",
+"a": "Özel bütçeli; (II) sayılı cetvel, B) Özel Bütçeli Diğer İdareler.",
+"u": [
+"Özel bütçeli",
+"(II) sayılı cetvel"
+]
+},
+{
+"l": "b1",
+"p": 4,
+"q": "YTB uzman yardımcılığının hukuki dayanağı?",
+"a": "CBK md. 748/2, o da 657 sayılı Kanun ek md. 41'e atıf yapar.",
+"u": [
+"CBK md. 748/2",
+"657 sayılı Kanun ek md. 41"
+]
+},
+{
+"l": "b2",
+"p": 0,
+"q": "CBK md. 737'ye göre YTB'nin hizmet birimleri?",
+"a": "8 daire başkanlığı ve Hukuk Müşavirliği."
+},
+{
+"l": "b2",
+"p": 1,
+"q": "Yurt dışında yaşayan vatandaşlarla ilgili işler hangi birimde?",
+"a": "Yurtdışı Vatandaşlar Daire Başkanlığı (md. 738)."
+},
+{
+"l": "b2",
+"p": 2,
+"q": "Soydaş ve akraba topluluklarla bağları hangi birim koordine eder?",
+"a": "Kültürel ve Sosyal İlişkiler Daire Başkanlığı (md. 739)."
+},
+{
+"l": "b2",
+"p": 4,
+"q": "STK'lara kapasite geliştirme ve hibe desteği hangi birimin görevi?",
+"a": "Kurumsal İlişkiler ve İletişim Daire Başkanlığı (md. 740)."
+},
+{
+"l": "b2",
+"p": 5,
+"q": "md. 733 kapsamında açıkça sayılan özel grup hangisi?",
+"a": "Kaybettirme hâlleri dışında vatandaşlıktan çıkanlar."
+},
+{
+"l": "b2",
+"p": "t",
+"q": "YTB'de Konsolosluk Hizmetleri Daire Başkanlığı var mı?",
+"a": "Hayır. Konsolosluk hizmetleri Dışişleri Bakanlığının işidir."
+},
+{
+"l": "b3",
+"p": 0,
+"q": "Burslar hangi yıl \"Türkiye Bursları\" adıyla markalaştı, kim koordine eder?",
+"a": "2012; YTB koordinasyonunda, ilgili kurumlarla iş birliği içinde."
+},
+{
+"l": "b3",
+"p": 1,
+"q": "Türkiye Bursları hangi düzeylerde verilir?",
+"a": "Ön lisans, lisans, yüksek lisans, doktora.",
+"u": [
+"Ön lisans",
+"Lisans",
+"Yüksek lisans",
+"Doktora"
+]
+},
+{
+"l": "b3",
+"p": 2,
+"q": "Bursun sağladığı imkânlardan en az beşini say.",
+"a": "Yerleştirme, öğrenim ücreti, aylık burs, barınma, sağlık sigortası, bir yıl Türkçe, bir defalık uçak bileti.",
+"u": [
+"Yerleştirme",
+"Öğrenim ücreti",
+"Aylık burs",
+"Barınma",
+"Sağlık sigortası",
+"Bir yıl Türkçe eğitimi",
+"Bir defalık uçak bileti"
+],
+"need": 5
+},
+{
+"l": "b3",
+"p": 3,
+"q": "Burs mezuniyet sonrası istihdam güvencesi ya da kamuda çalışma zorunluluğu getirir mi?",
+"a": "Hayır, ikisi de yok."
+},
+{
+"l": "b3",
+"p": 4,
+"q": "Yumuşak güç: kimin kavramı, ne zaman, ne demek?",
+"a": "Joseph Nye, 1990. Zorlama ya da ödeme yerine kültür, değer ve politikaların cazibesiyle etkileme.",
+"u": [
+"Joseph Nye",
+"1990",
+"Zorlama ya da ödeme yerine cazibeyle etkileme"
+]
+},
+{
+"l": "b4",
+"p": 0,
+"q": "Anayasa md. 62'de sayılan tedbirlerden dördünü söyle.",
+"a": "Aile birliği, çocukların eğitimi, kültürel ihtiyaçlar, sosyal güvenlik, anavatanla bağlar, yurda dönüşte yardım.",
+"u": [
+"Aile birliği",
+"Çocukların eğitimi",
+"Kültürel ihtiyaçlar",
+"Sosyal güvenlik",
+"Anavatanla bağlar",
+"Yurda dönüşte yardım"
+],
+"need": 4
+},
+{
+"l": "b4",
+"p": 1,
+"q": "Mavi Karttan kimler yararlanır?",
+"a": "Doğumla Türk vatandaşı olup çıkma izniyle çıkanlar ve üçüncü dereceye kadar altsoyları (5901 md. 28/1).",
+"u": [
+"Doğumla Türk vatandaşı olanlar",
+"Çıkma izniyle çıkanlar",
+"Üçüncü dereceye kadar altsoyları"
+]
+},
+{
+"l": "b4",
+"p": 1,
+"q": "Vatandaşlığı sonradan kazanıp çıkma izniyle çıkan kişi Mavi Kart alabilir mi?",
+"a": "Hayır. Kaybettirilenler de alamaz."
+},
+{
+"l": "b4",
+"p": 2,
+"q": "Mavi Kart sahibinde olmayan üç hak ya da yükümlülük?",
+"a": "Seçme-seçilme, muafen araç/ev eşyası ithali, askerlik yükümlülüğü.",
+"u": [
+"Seçme ve seçilme",
+"Muafen araç/ev eşyası ithali",
+"Askerlik yükümlülüğü"
+]
+},
+{
+"l": "b4",
+"p": 2,
+"q": "Mavi Kart sahibi kamuda çalışabilir mi?",
+"a": "Memur olamaz; işçi, geçici veya sözleşmeli personel olabilir.",
+"u": [
+"Memur olamaz",
+"İşçi, geçici veya sözleşmeli olabilir"
+]
+},
+{
+"l": "b4",
+"p": 3,
+"q": "Gümrük kapısında oy hangi yıldan beri var?",
+"a": "1987."
+},
+{
+"l": "b4",
+"p": 3,
+"q": "Temsilcilikte sandık hangi kanunla geldi, ilk kez hangi seçimde uygulandı?",
+"a": "6304 sayılı Kanun (2012); 10 Ağustos 2014 Cumhurbaşkanı seçimi.",
+"u": [
+"6304 sayılı Kanun (2012)",
+"10 Ağustos 2014 Cumhurbaşkanı seçimi"
+]
+},
+{
+"l": "b4",
+"p": 4,
+"q": "Yurt dışındaki seçmen hangi seçimde oy kullanamaz? Dayanak?",
+"a": "Mahalli idareler seçimi; 298 sayılı Kanun md. 94/A.",
+"u": [
+"Mahalli idareler seçimi",
+"298 sayılı Kanun md. 94/A"
+]
+},
+{
+"l": "b5",
+"p": "tl",
+"q": "İlk işgücü anlaşması hangi ülkeyle, hangi tarihte?",
+"a": "Federal Almanya, 30.10.1961."
+},
+{
+"l": "b5",
+"p": "tl",
+"q": "1964'te hangi üç ülkeyle, hangi sırayla anlaşma yapıldı?",
+"a": "Avusturya (Mayıs), Belçika (Temmuz), Hollanda (Ağustos).",
+"u": [
+"Avusturya",
+"Belçika",
+"Hollanda",
+"Doğru sıra (Avusturya, Belçika, Hollanda)"
+]
+},
+{
+"l": "b5",
+"p": "tl",
+"q": "Fransa ile anlaşma ne zaman?",
+"a": "8.4.1965."
+},
+{
+"l": "b5",
+"p": "tl",
+"q": "1967'de hangi iki ülkeyle anlaşma yapıldı?",
+"a": "İsveç (10.3.1967) ve Avustralya (5.10.1967).",
+"u": [
+"İsveç",
+"Avustralya"
+]
+},
+{
+"l": "b5",
+"p": 1,
+"q": "Yurt dışındaki Türk nüfusu ve en yoğun bölge?",
+"a": "Yaklaşık 7,5 milyon (Dışişleri); yarıdan fazlası Batı Avrupa'da.",
+"u": [
+"Yaklaşık 7,5 milyon",
+"Yarıdan fazlası Batı Avrupa'da"
+]
+},
+{
+"l": "b5",
+"p": 2,
+"q": "Diaspora diplomasisinin çağdaş anlayışı nedir?",
+"a": "Diaspora pasif bir hizmet kitlesi değil, kök ülke ile yaşadığı ülke arasında köprü kuran bir aktördür."
+},
+{
+"l": "h1",
+"p": 0,
+"q": "Anayasa md. 4 hangi maddeleri korur?",
+"a": "md. 1 (Cumhuriyet), md. 2 (nitelikler), md. 3 (bütünlük, dil, bayrak, marş, başkent).",
+"u": [
+"md. 1",
+"md. 2",
+"md. 3"
+]
+},
+{
+"l": "h1",
+"p": 1,
+"q": "Milletvekili sayısı hangi maddede, değiştirilebilir mi?",
+"a": "md. 75; değiştirilebilir. 2017'de 550'den 600'e çıktı.",
+"u": [
+"md. 75",
+"Değiştirilebilir (2017'de 600)"
+]
+},
+{
+"l": "h1",
+"p": 2,
+"q": "md. 15/2 çekirdek alandaki hakları say.",
+"a": "Yaşama hakkı, maddi ve manevi bütünlük, din-vicdan-düşünceyi açıklamaya zorlanmama, suç ve cezaların geçmişe yürümemesi, masumiyet karinesi.",
+"u": [
+"Yaşama hakkı",
+"Maddi ve manevi bütünlük",
+"Din, vicdan, düşünceyi açıklamaya zorlanmama",
+"Suç ve cezaların geçmişe yürümemesi",
+"Masumiyet karinesi"
+]
+},
+{
+"l": "h1",
+"p": "t",
+"q": "Kişi özgürlüğü ve güvenliği md. 15 çekirdek alanında mı?",
+"a": "Hayır (md. 19, listede yok)."
+},
+{
+"l": "h1",
+"p": 3,
+"q": "Anayasa md. 66'ya göre Türklüğün ölçütü?",
+"a": "Türk Devletine vatandaşlık bağı ile bağlı olmak."
+},
+{
+"l": "h1",
+"p": 4,
+"q": "Seçme ve milletvekili seçilme yaşları?",
+"a": "18 / 18 (md. 67, md. 76)."
+},
+{
+"l": "h2",
+"p": 0,
+"q": "Kanun teklif etmeye kim yetkilidir?",
+"a": "Yalnızca milletvekilleri (md. 88)."
+},
+{
+"l": "h2",
+"p": 0,
+"q": "Bütçe kanunu teklifini kim, en geç ne zaman sunar?",
+"a": "Cumhurbaşkanı, mali yıl başından en az 75 gün önce (md. 161).",
+"u": [
+"Cumhurbaşkanı",
+"En az 75 gün önce"
+]
+},
+{
+"l": "h2",
+"p": 1,
+"q": "md. 98'deki dört bilgi edinme ve denetim yolu?",
+"a": "Meclis araştırması, genel görüşme, Meclis soruşturması, yazılı soru.",
+"u": [
+"Meclis araştırması",
+"Genel görüşme",
+"Meclis soruşturması",
+"Yazılı soru"
+]
+},
+{
+"l": "h2",
+"p": "t",
+"q": "Gensoru ne zaman, hangi kanunla kaldırıldı?",
+"a": "2017, 6771 sayılı Kanun.",
+"u": [
+"2017",
+"6771 sayılı Kanun"
+]
+},
+{
+"l": "h2",
+"p": 2,
+"q": "Hangi hak grupları CBK ile düzenlenemez, hangisi düzenlenebilir?",
+"a": "Temel haklar, kişi hakları ve ödevleri, siyasi haklar ve ödevler düzenlenemez; sosyal ve ekonomik haklar düzenlenebilir.",
+"u": [
+"Temel haklar: düzenlenemez",
+"Kişi hakları ve ödevleri: düzenlenemez",
+"Siyasi haklar ve ödevler: düzenlenemez",
+"Sosyal ve ekonomik haklar: düzenlenebilir"
+]
+},
+{
+"l": "h2",
+"p": 3,
+"q": "CBK ile kanun ilişkisindeki üç kural?",
+"a": "Kanunda açıkça düzenlenen konuda CBK çıkmaz; çatışmada kanun uygulanır; aynı konuda kanun çıkarsa CBK hükümsüz kalır.",
+"u": [
+"Kanunda açıkça düzenlenen konuda CBK çıkmaz",
+"Çatışmada kanun uygulanır",
+"Aynı konuda kanun çıkarsa CBK hükümsüz"
+]
+},
+{
+"l": "h2",
+"p": 4,
+"q": "İki dönemlik Cumhurbaşkanı hangi durumda bir kez daha aday olabilir?",
+"a": "İkinci döneminde seçimlerin yenilenmesine Meclis karar verirse (md. 116/3)."
+},
+{
+"l": "h3",
+"p": 0,
+"q": "AYM kaç üyeli, TBMM ve Cumhurbaşkanı kaçar üye seçer?",
+"a": "15 üye: TBMM 3 (2'si Sayıştay, 1'i serbest avukat), Cumhurbaşkanı 12.",
+"u": [
+"15 üye",
+"TBMM 3: ikisi Sayıştay, biri serbest avukat",
+"Cumhurbaşkanı 12"
+]
+},
+{
+"l": "h3",
+"p": 0,
+"q": "AYM üyelerinin görev süresi?",
+"a": "12 yıl; bir kişi iki kez seçilemez.",
+"u": [
+"12 yıl",
+"İki kez seçilemez"
+]
+},
+{
+"l": "h3",
+"p": 1,
+"q": "Bireysel başvuruda hangi haklar için başvurulabilir?",
+"a": "Hem Anayasada hem AİHS'te güvence altındaki haklar (ortak alan)."
+},
+{
+"l": "h3",
+"p": 1,
+"q": "Bireysel başvurunun diğer şartları?",
+"a": "Kamu gücü ihlali, olağan kanun yollarının tüketilmesi; 23.9.2012 sonrası kesinleşen işlemler.",
+"u": [
+"Kamu gücü ihlali",
+"Olağan kanun yollarının tüketilmesi",
+"23.9.2012 sonrası kesinleşen işlemler"
+]
+},
+{
+"l": "h3",
+"p": 2,
+"q": "HSK: üye sayısı, başkanı ve tabii üyesi?",
+"a": "13 üye; Başkan Adalet Bakanı; tabii üye Adalet Bakanlığı Müsteşarı (2025).",
+"u": [
+"13 üye",
+"Başkan: Adalet Bakanı",
+"Tabii üye: Adalet Bakanlığı Müsteşarı"
+]
+},
+{
+"l": "h3",
+"p": 2,
+"q": "HSK'ya Cumhurbaşkanı ve TBMM kaçar üye seçer, süre?",
+"a": "Cumhurbaşkanı 4, TBMM 7; 4 yıl, bir kez daha seçilebilir.",
+"u": [
+"Cumhurbaşkanı 4",
+"TBMM 7",
+"4 yıl"
+]
+},
+{
+"l": "h3",
+"p": 3,
+"q": "Danıştay üyelerini kim seçer?",
+"a": "Dörtte üçünü HSK, dörtte birini Cumhurbaşkanı.",
+"u": [
+"Dörtte üçü HSK",
+"Dörtte biri Cumhurbaşkanı"
+]
+},
+{
+"l": "h3",
+"p": 4,
+"q": "Adli-idari yargı arası görev uyuşmazlığını hangi mahkeme çözer?",
+"a": "Uyuşmazlık Mahkemesi (md. 158); başkanı AYM üyesidir."
+},
+{
+"l": "h4",
+"p": 0,
+"q": "İdari işlemin beş unsuru?",
+"a": "Yetki, şekil, sebep, konu, maksat.",
+"u": [
+"Yetki",
+"Şekil",
+"Sebep",
+"Konu",
+"Maksat"
+]
+},
+{
+"l": "h4",
+"p": 0,
+"q": "Kişisel husumetle yapılan işlem hangi unsur bakımından sakattır?",
+"a": "Maksat (amaç). Dayanaksız gerekçe ise sebebi sakatlar."
+},
+{
+"l": "h4",
+"p": 1,
+"q": "İptal davası ile tam yargı davasında aranan ehliyet farkı?",
+"a": "İptal: menfaat ihlali. Tam yargı: kişisel hakkın doğrudan ihlali.",
+"u": [
+"İptal: menfaat ihlali",
+"Tam yargı: kişisel hakkın doğrudan ihlali"
+]
+},
+{
+"l": "h4",
+"p": 2,
+"q": "İYUK md. 10'a göre zımni ret süresi ve bekleme üst sınırı?",
+"a": "30 gün; kesin olmayan cevapta en fazla 4 ay (7331 sayılı Kanun, 2021).",
+"u": [
+"30 gün",
+"En fazla 4 ay"
+]
+},
+{
+"l": "h4",
+"p": 3,
+"q": "Yürütmenin durdurulmasının iki şartı?",
+"a": "Telafisi güç veya imkânsız zarar ve açık hukuka aykırılık, birlikte.",
+"u": [
+"Telafisi güç veya imkânsız zarar",
+"Açık hukuka aykırılık",
+"İkisi birlikte aranır"
+]
+},
+{
+"l": "h4",
+"p": 3,
+"q": "YD kararına itiraz süresi?",
+"a": "Tebliğden itibaren 7 gün, bir defaya mahsus.",
+"u": [
+"7 gün",
+"Bir defaya mahsus"
+]
+},
+{
+"l": "h4",
+"p": 4,
+"q": "Vali-kaymakam ve Bakanlık-belediye ilişkileri hangi kavramlarla açıklanır?",
+"a": "Hiyerarşi / idari vesayet.",
+"u": [
+"Hiyerarşi",
+"İdari vesayet"
+]
+},
+{
+"l": "h4",
+"p": 5,
+"q": "Görevlinin kusuruyla zarar gören kime dava açar?",
+"a": "Yalnızca idareye; idare görevliye rücu eder (AY md. 129/5, 657 md. 13).",
+"u": [
+"Dava idareye açılır",
+"İdare görevliye rücu eder"
+]
+},
+{
+"l": "h5",
+"p": 0,
+"q": "Usulüne göre yürürlüğe konulmuş andlaşmaların değeri ve AYM ilişkisi?",
+"a": "Kanun hükmündedir; Anayasaya aykırılık iddiasıyla AYM'ye götürülemez.",
+"u": [
+"Kanun hükmünde",
+"Anayasaya aykırılık iddiasıyla AYM'ye götürülemez"
+]
+},
+{
+"l": "h5",
+"p": 0,
+"q": "Temel haklara ilişkin andlaşma ile kanun çatışırsa?",
+"a": "Andlaşma esas alınır (2004 eklemesi)."
+},
+{
+"l": "h5",
+"p": 2,
+"q": "1961, 1963 ve 1969 Viyana sözleşmelerinin konuları?",
+"a": "1961 diplomatik ilişkiler, 1963 konsolosluk ilişkileri, 1969 antlaşmalar hukuku.",
+"u": [
+"1961: diplomatik ilişkiler",
+"1963: konsolosluk ilişkileri",
+"1969: antlaşmalar hukuku"
+]
+},
+{
+"l": "h5",
+"p": 3,
+"q": "Pacta sunt servanda hangi sözleşmenin hangi maddesinde?",
+"a": "1969 Viyana Antlaşmalar Hukuku Sözleşmesi md. 26."
+},
+{
+"l": "h5",
+"p": 4,
+"q": "AİHS ne zaman, nerede imzaya açıldı?",
+"a": "4 Kasım 1950, Roma; Avrupa Konseyi çatısı altında.",
+"u": [
+"4 Kasım 1950",
+"Roma"
+]
+},
+{
+"l": "h5",
+"p": "t",
+"q": "AİHM nerede ve kimin organı? AB'nin yargı organı?",
+"a": "AİHM Strazburg, Avrupa Konseyi. AB Adalet Divanı Lüksemburg'da.",
+"u": [
+"Strazburg",
+"Avrupa Konseyi organı",
+"AB Adalet Divanı Lüksemburg'da"
+]
+},
+{
+"l": "u1",
+"p": 0,
+"q": "TDT'nin kurucu belgesi ve ad değişikliği?",
+"a": "Nahçıvan Anlaşması 3.10.2009; ad 12.11.2021 İstanbul Zirvesinde değişti.",
+"u": [
+"Nahçıvan Anlaşması, 3.10.2009",
+"12.11.2021 İstanbul Zirvesi"
+]
+},
+{
+"l": "u1",
+"p": 0,
+"q": "TDT'nin tam üyeleri ve gözlemci ülkeleri?",
+"a": "Tam: Türkiye, Azerbaycan, Kazakistan, Kırgızistan, Özbekistan. Gözlemci: Macaristan, Türkmenistan, KKTC.",
+"u": [
+"Tam: Türkiye",
+"Tam: Azerbaycan",
+"Tam: Kazakistan",
+"Tam: Kırgızistan",
+"Tam: Özbekistan",
+"Gözlemci: Macaristan",
+"Gözlemci: Türkmenistan",
+"Gözlemci: KKTC"
+]
+},
+{
+"l": "u1",
+"p": 1,
+"q": "Türkiye NATO'ya ne zaman, hangi ülkeyle girdi?",
+"a": "18 Şubat 1952, Yunanistan ile.",
+"u": [
+"18 Şubat 1952",
+"Yunanistan ile"
+]
+},
+{
+"l": "u1",
+"p": 2,
+"q": "Avrupa Konseyinin kuruluşu ve Türkiye'nin durumu?",
+"a": "5 Mayıs 1949; Dışişleri Türkiye'yi kurucu üye sayar (Konsey kaydında 13.4.1950).",
+"u": [
+"5 Mayıs 1949",
+"Dışişleri'ne göre kurucu üye"
+]
+},
+{
+"l": "u1",
+"p": 3,
+"q": "Türkiye-AB: 1963, 1987, 1996, 1999, 2005?",
+"a": "Ankara Anlaşması, tam üyelik başvurusu, Gümrük Birliği uygulaması, Helsinki adaylık, katılım müzakereleri.",
+"u": [
+"1963 Ankara Anlaşması",
+"1987 tam üyelik başvurusu",
+"1996 Gümrük Birliği",
+"1999 Helsinki adaylık",
+"2005 katılım müzakereleri"
+]
+},
+{
+"l": "u1",
+"p": 4,
+"q": "Türkiye'nin kurucusu olduğu dört örgüt?",
+"a": "OECD, EİT, KEİ (1992), G20 (1999).",
+"u": [
+"OECD",
+"EİT",
+"KEİ",
+"G20"
+]
+},
+{
+"l": "u2",
+"p": 0,
+"q": "BM Güvenlik Konseyinin yapısı?",
+"a": "15 üye: 5 daimi, 10 geçici; geçiciler Genel Kurulca 2 yıllığına seçilir.",
+"u": [
+"15 üye",
+"5 daimi",
+"10 geçici, 2 yıllığına"
+]
+},
+{
+"l": "u2",
+"p": 1,
+"q": "Bretton Woods'ta (1944) hangi kurumlar kuruldu?",
+"a": "IMF ve Dünya Bankası.",
+"u": [
+"IMF",
+"Dünya Bankası"
+]
+},
+{
+"l": "u2",
+"p": 2,
+"q": "DTÖ ne zaman, hangi turun sonunda kuruldu?",
+"a": "1 Ocak 1995; Uruguay Turu (1986-1994), Marakeş Anlaşması.",
+"u": [
+"1 Ocak 1995",
+"Uruguay Turu"
+]
+},
+{
+"l": "u2",
+"p": 3,
+"q": "AGİT'in temeli ve üç boyutu?",
+"a": "1975 Helsinki Nihai Senedi; siyasi-askeri, ekonomik-çevresel, insani.",
+"u": [
+"1975 Helsinki Nihai Senedi",
+"Siyasi-askeri",
+"Ekonomik-çevresel",
+"İnsani"
+]
+},
+{
+"l": "u3",
+"p": "tl",
+"q": "Lozan Barış Antlaşmasının tarihi?",
+"a": "24 Temmuz 1923."
+},
+{
+"l": "u3",
+"p": "tl",
+"q": "Mondros, Sevr, Mudanya tarihleri?",
+"a": "30.10.1918, 10.8.1920, 11.10.1922.",
+"u": [
+"Mondros 30.10.1918",
+"Sevr 10.8.1920",
+"Mudanya 11.10.1922"
+]
+},
+{
+"l": "u3",
+"p": 0,
+"q": "Musul hangi antlaşmayla çözüldü, sonuç?",
+"a": "5.6.1926 Ankara Antlaşması; Musul Irak'a, Türkiye'ye 25 yıl petrol gelirinin %10'u.",
+"u": [
+"1926 Ankara Antlaşması",
+"Musul Irak'a kaldı",
+"25 yıl petrol gelirinin %10'u"
+]
+},
+{
+"l": "u3",
+"p": 1,
+"q": "Montrö'nün tarihi ve Türkiye için sonucu?",
+"a": "20.7.1936; Boğazlar Komisyonu kalktı, yetki Türkiye'ye geçti, silahlandırma hakkı.",
+"u": [
+"20.7.1936",
+"Boğazlar Komisyonu kalktı, yetki Türkiye'ye geçti",
+"Silahlandırma hakkı"
+]
+},
+{
+"l": "u3",
+"p": "tl",
+"q": "Balkan Antantı ve Sadabat Paktı yılları?",
+"a": "1934 ve 1937.",
+"u": [
+"Balkan Antantı 1934",
+"Sadabat Paktı 1937"
+]
+},
+{
+"l": "u4",
+"p": 0,
+"q": "Neorealizmin kurucusu, eseri ve anahtar kavramı?",
+"a": "Kenneth Waltz, Theory of International Politics (1979), anarşik yapı.",
+"u": [
+"Kenneth Waltz",
+"Theory of International Politics (1979)",
+"Anarşik yapı"
+]
+},
+{
+"l": "u4",
+"p": 0,
+"q": "Morgenthau, Keohane, Wendt hangi yaklaşımlar?",
+"a": "Klasik realizm, neoliberal kurumsalcılık, konstrüktivizm.",
+"u": [
+"Morgenthau: klasik realizm",
+"Keohane: neoliberal kurumsalcılık",
+"Wendt: konstrüktivizm"
+]
+},
+{
+"l": "u4",
+"p": 1,
+"q": "Yönetim fonksiyonlarını (planlama, örgütleme, emir-komuta, koordinasyon, denetim) kim sınıflandırdı?",
+"a": "Henri Fayol (1916)."
+},
+{
+"l": "u4",
+"p": 1,
+"q": "POSDCORB, bilimsel yönetim, bürokrasi, insan ilişkileri: kimler?",
+"a": "Gulick, Taylor, Weber, Mayo.",
+"u": [
+"POSDCORB: Gulick",
+"Bilimsel yönetim: Taylor",
+"Bürokrasi: Weber",
+"İnsan ilişkileri: Mayo"
+]
+},
+{
+"l": "u4",
+"p": 2,
+"q": "Yeni Kamu İşletmeciliğinin dönemi ve ilkeleri?",
+"a": "1980'ler, Thatcher-Reagan; piyasa mekanizması, performans ölçümü, vatandaş müşteri.",
+"u": [
+"1980'ler, Thatcher-Reagan",
+"Piyasa mekanizması",
+"Performans ölçümü",
+"Vatandaş müşteri"
+]
+},
+{
+"l": "u4",
+"p": 3,
+"q": "Kuvvetler ayrılığını sistemleştiren eser?",
+"a": "Montesquieu, Kanunların Ruhu Üzerine (1748).",
+"u": [
+"Kanunların Ruhu Üzerine",
+"Montesquieu"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "\"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır\" hangi belgede, tarih?",
+"a": "Amasya Genelgesi, 22.6.1919.",
+"u": [
+"Amasya Genelgesi",
+"22.6.1919"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "Misak-ı Millîyi hangi meclis, ne zaman kabul etti?",
+"a": "Son Osmanlı Mebusan Meclisi, 28.1.1920.",
+"u": [
+"Son Osmanlı Mebusan Meclisi",
+"28.1.1920"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "Saltanat ne zaman kaldırıldı, Ankara ne zaman başkent oldu?",
+"a": "1.11.1922 ve 13.10.1923.",
+"u": [
+"Saltanat 1.11.1922",
+"Başkent 13.10.1923"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "3 Mart 1924'te çıkan kanunlar?",
+"a": "Halifeliğin, Şer'iyye ve Evkaf Vekâletinin, Erkân-ı Harbiye-i Umumiye Vekâletinin kaldırılması; Tevhid-i Tedrisat.",
+"u": [
+"Halifeliğin kaldırılması",
+"Şer'iyye ve Evkaf Vekâletinin kaldırılması",
+"Erkân-ı Harbiye-i Umumiye Vekâletinin kaldırılması",
+"Tevhid-i Tedrisat"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "Teşkilat-ı Esasiye ve Medeni Kanun tarihleri?",
+"a": "20.4.1924 ve 17.2.1926.",
+"u": [
+"Teşkilat-ı Esasiye 20.4.1924",
+"Medeni Kanun 17.2.1926"
+]
+},
+{
+"l": "g1",
+"p": 0,
+"q": "Kadınların siyasi hakları sırası ve yılları?",
+"a": "Belediye 1930, muhtarlık 1933, milletvekilliği 1934.",
+"u": [
+"Belediye 1930",
+"Muhtarlık 1933",
+"Milletvekilliği 1934"
+]
+},
+{
+"l": "g1",
+"p": "tl",
+"q": "Soyadı Kanunu ne zaman?",
+"a": "21.6.1934."
+},
+{
+"l": "g2",
+"p": 0,
+"q": "Dandanakan, Malazgirt, Miryokefalon: yıllar ve sonuçlar?",
+"a": "1040 Büyük Selçuklu kuruldu; 1071 Anadolu'nun kapısı açıldı; 1176 Anadolu'nun Türk yurdu olduğu kesinleşti.",
+"u": [
+"Dandanakan 1040: Büyük Selçuklu kuruldu",
+"Malazgirt 1071: Anadolu'nun kapısı açıldı",
+"Miryokefalon 1176: Türk yurdu kesinleşti"
+]
+},
+{
+"l": "g2",
+"p": 1,
+"q": "Kutadgu Bilig, Divân-ı Hikmet, Atabetü'l-Hakâyık, Mesnevî yazarları?",
+"a": "Yusuf Has Hâcib, Ahmed Yesevî, Edib Ahmed, Mevlânâ.",
+"u": [
+"Yusuf Has Hâcib",
+"Ahmed Yesevî",
+"Edib Ahmed",
+"Mevlânâ"
+]
+},
+{
+"l": "g2",
+"p": 2,
+"q": "Orhun Yazıtları kimler adına dikildi?",
+"a": "Kül Tigin (732), Bilge Kağan (735), Tonyukuk (716-734 arası).",
+"u": [
+"Kül Tigin",
+"Bilge Kağan",
+"Tonyukuk"
+]
+},
+{
+"l": "g2",
+"p": 3,
+"q": "Türk kahvesi UNESCO'nun hangi listesinde, hangi yıldan beri?",
+"a": "İnsanlığın Somut Olmayan Kültürel Mirası Temsilî Listesi, 2013.",
+"u": [
+"Somut Olmayan Kültürel Miras Temsilî Listesi",
+"2013"
+]
+},
+{
+"l": "g3",
+"p": 0,
+"q": "Türkiye'nin sekiz kara komşusu?",
+"a": "Yunanistan, Bulgaristan, Gürcistan, Ermenistan, Azerbaycan (Nahçıvan), İran, Irak, Suriye.",
+"u": [
+"Yunanistan",
+"Bulgaristan",
+"Gürcistan",
+"Ermenistan",
+"Azerbaycan (Nahçıvan)",
+"İran",
+"Irak",
+"Suriye"
+]
+},
+{
+"l": "g3",
+"p": 1,
+"q": "En uzun kara sınırı hangi ülkeyle?",
+"a": "Suriye, yaklaşık 911 km."
+},
+{
+"l": "g3",
+"p": 2,
+"q": "Kaynağı ve ağzı Türkiye'de olan en uzun akarsu?",
+"a": "Kızılırmak."
+},
+{
+"l": "g3",
+"p": 3,
+"q": "Yedi coğrafi bölge nerede kararlaştırıldı?",
+"a": "1941 Birinci Coğrafya Kongresi, Ankara."
+},
+{
+"l": "g3",
+"p": 4,
+"q": "Kırım hangi denizler arasında, Azak'ı Karadeniz'e ne bağlar?",
+"a": "Karadeniz ile Azak; Kerç Boğazı.",
+"u": [
+"Karadeniz ile Azak",
+"Kerç Boğazı"
+]
+},
+{
+"l": "y1",
+"p": 0,
+"q": "\"Türkiye Büyük Millet Meclisi'nde\" doğru mu?",
+"a": "Hayır: kurum adlarına gelen ek kesmeyle ayrılmaz, \"Meclisinde\"."
+},
+{
+"l": "y1",
+"p": 1,
+"q": "Bağlaç \"de\" ile bulunma eki \"-de\" nasıl ayırt edilir?",
+"a": "\"de\"yi çıkar: cümle kuruluyorsa bağlaçtır, ayrı yazılır."
+},
+{
+"l": "y1",
+"p": 2,
+"q": "birçok / hiçbir / yurt dışı: bitişik mi ayrı mı?",
+"a": "birçok ve hiçbir bitişik, yurt dışı ayrı.",
+"u": [
+"birçok: bitişik",
+"hiçbir: bitişik",
+"yurt dışı: ayrı"
+]
+},
+{
+"l": "y1",
+"p": 3,
+"q": "\"Yaklaşık elli kadar kişi\" neden yanlış?",
+"a": "\"Yaklaşık\" ve \"kadar\" aynı anlamda; biri gereksiz."
+},
+{
+"l": "y1",
+"p": 4,
+"q": "\"İnce eleyip sık dokumak\" ne demek?",
+"a": "Bir şeyi bütün ayrıntılarıyla araştırmak, gözden geçirmek."
+},
+{
+"l": "y2",
+"p": 0,
+"q": "Ana düşünce çoğunlukla nerededir?",
+"a": "Son cümlelerde; \"bu nedenle, demek ki, o hâlde\" sonrasında."
+},
+{
+"l": "y2",
+"p": 1,
+"q": "Metin \"çoğu zaman\" diyorsa \"hiç\" diyen şık?",
+"a": "Aşırı genelleme, yanlış."
+},
+{
+"l": "y2",
+"p": 2,
+"q": "Boşluk doldurmada doğru cümlenin özelliği?",
+"a": "Önceki cümleden devam eder, sonrakini hazırlar (köprü)."
+},
+{
+"l": "y3",
+"p": 0,
+"q": "A işi 10, B 15 günde bitiriyor. Birlikte kaç gün?",
+"a": "1/10 + 1/15 = 1/6, yani 6 gün."
+},
+{
+"l": "y3",
+"p": 1,
+"q": "%10 artış, ardından %10 azalış: net değişim?",
+"a": "1,1 × 0,9 = 0,99, yani %1 azalış."
+},
+{
+"l": "y3",
+"p": 2,
+"q": "Bir sayının %30'u 24 ise sayı kaçtır?",
+"a": "24 / 0,30 = 80."
+},
+{
+"l": "y3",
+"p": 3,
+"q": "a/b = 2/3 ve a + b = 40 ise a kaçtır?",
+"a": "a = 2k, b = 3k, 5k = 40, k = 8, a = 16."
+},
+{
+"l": "y3",
+"p": 5,
+"q": "300 km arayla 70 ve 80 km/sa hızla birbirine giden araçlar kaç saatte karşılaşır?",
+"a": "300 / 150 = 2 saat."
+},
+{
+"l": "y3",
+"p": 6,
+"q": "C(5,2) kaçtır?",
+"a": "5! / (2! × 3!) = 10."
+},
+{
+"l": "y3",
+"p": 7,
+"q": "3 kırmızı 2 mavi toptan geri koymadan iki kırmızı çekme olasılığı?",
+"a": "3/5 × 2/4 = 3/10."
+},
+{
+"l": "y3",
+"p": 8,
+"q": "5 sayının ortalaması 8; biri çıkınca kalan 4'ün ortalaması 7. Çıkan sayı?",
+"a": "40 − 28 = 12."
+},
+{
+"l": "y3",
+"p": 9,
+"q": "1, 3, 7, 15, ? dizisinde sıradaki sayı?",
+"a": "31 (her terim 2 katı + 1)."
+},
+{
+"l": "y3",
+"p": 10,
+"q": "Bugün Pazartesi. 100 gün sonra hangi gün?",
+"a": "100 = 14 × 7 + 2, Çarşamba."
+},
+{
+"l": "y4",
+"p": 0,
+"q": "\"Bütün A'lar B'dir\" önermesinden kesin çıkan?",
+"a": "B olmayan hiçbir şey A değildir (karşıt ters)."
+},
+{
+"l": "y4",
+"p": 1,
+"q": "\"Bazı B'ler C'dir\" bilgisi A'lar hakkında ne söyler?",
+"a": "Kesin hiçbir şey söylemez."
+},
+{
+"l": "y4",
+"p": 2,
+"q": "\"p ise q\" ve \"q değil\" verildi. Sonuç?",
+"a": "p değil (modus tollens)."
+},
+{
+"l": "y4",
+"p": 3,
+"q": "Sıralama sorusunda yerleştirme sırası?",
+"a": "Önce kesin konumlar, sonra yan yana koşulları, en son \"değildir\" koşulları."
+}
+]
+}

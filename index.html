@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>YTB Soru Bankası</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Serif:wght@400;500&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: one reading column like an exam booklet; question card with optical-form bubbles; tabs as booklet sections */
+:root{
+  --bg:#F4F5F7; --paper:#FFFFFF; --ink:#141C28; --muted:#5A6474; --line:#DCE0E6;
+  --accent:#2B56C9; --accent-soft:#E7EDFB; --ok:#1C7F52; --ok-soft:#E3F3EA; --warn:#C27A12; --bad:#B53A26; --bad-soft:#FBE9E5;
+  --sans:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --serif:"IBM Plex Serif",Georgia,"Times New Roman",serif;
+  --mono:"IBM Plex Mono",ui-monospace,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0F141B; --paper:#171E28; --ink:#E7EBF1; --muted:#9AA4B2; --line:#2A3442;
+  --accent:#7C9CF0; --accent-soft:#1E2A44; --ok:#5CC492; --ok-soft:#14301F; --warn:#E0A64A; --bad:#EE8A75; --bad-soft:#3A1D17; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0F141B; --paper:#171E28; --ink:#E7EBF1; --muted:#9AA4B2; --line:#2A3442;
+  --accent:#7C9CF0; --accent-soft:#1E2A44; --ok:#5CC492; --ok-soft:#14301F; --warn:#E0A64A; --bad:#EE8A75; --bad-soft:#3A1D17; color-scheme:dark}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 var(--sans)}
+.wrap{max-width:780px;margin:0 auto;padding-block:28px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:20px}
+header h1{font:600 1.65rem/1.2 var(--sans);margin:0;letter-spacing:-.01em;text-wrap:balance}
+header p{margin:4px 0 0;color:var(--muted);font-size:.95rem}
+.meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin-top:10px;font:500 .8rem var(--mono);color:var(--muted)}
+.meta b{color:var(--ink);font-weight:500}
+nav{display:flex;gap:4px;border-bottom:1px solid var(--line);overflow-x:auto}
+nav a{padding:10px 14px;color:var(--muted);text-decoration:none;font-weight:500;font-size:.95rem;border-bottom:2px solid transparent;white-space:nowrap}
+nav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent)}
+nav a:focus-visible,button:focus-visible,textarea:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chip{border:1px solid var(--line);background:var(--paper);color:var(--ink);border-radius:999px;padding:6px 12px;font:500 .85rem var(--sans);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.chip small{font-family:var(--mono);opacity:.75;margin-left:4px}
+.btn{border:1px solid var(--ink);background:var(--ink);color:var(--paper);border-radius:8px;padding:9px 16px;font:500 .92rem var(--sans);cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn:disabled{opacity:.45;cursor:default}
+.card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:22px 22px 20px}
+.qhead{display:flex;justify-content:space-between;gap:12px;font:500 .8rem var(--mono);color:var(--muted);margin-bottom:12px;flex-wrap:wrap}
+.tag{background:var(--accent-soft);color:var(--accent);border-radius:4px;padding:1px 7px}
+.qtext{font:400 1.08rem/1.65 var(--serif);margin:0 0 18px}
+.opts{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;background:transparent;border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--ink);font:400 .98rem/1.5 var(--sans);cursor:pointer}
+.opt:hover:not(:disabled){border-color:var(--muted)}
+.bub{flex:none;width:26px;height:26px;border-radius:50%;border:1.5px solid var(--muted);display:grid;place-items:center;font:500 .78rem var(--mono);color:var(--muted);margin-top:-1px}
+.opt.sel .bub{background:var(--accent);border-color:var(--accent);color:var(--paper)}
+.opt.ok{border-color:var(--ok);background:var(--ok-soft)}
+.opt.ok .bub{background:var(--ok);border-color:var(--ok);color:var(--paper)}
+.opt.bad{border-color:var(--bad);background:var(--bad-soft)}
+.opt.bad .bub{background:var(--bad);border-color:var(--bad);color:var(--paper)}
+.opt:disabled{cursor:default}
+.expl{margin-top:16px;padding-top:14px;border-top:1px dashed var(--line);font-size:.95rem}
+.expl .verdict{font-weight:600}
+.expl .verdict.ok{color:var(--ok)}.expl .verdict.bad{color:var(--bad)}
+.src{margin-top:8px;font-size:.82rem;color:var(--muted)}
+.src a{color:var(--accent)}
+.nav2{display:flex;justify-content:space-between;gap:8px;margin-top:18px;flex-wrap:wrap}
+.err{color:var(--bad);font-size:.85rem;min-height:1.2em;margin:6px 0 0}
+.bar{height:6px;background:var(--line);border-radius:3px;overflow:hidden}
+.bar i{display:block;height:100%;background:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px}
+.stat{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:6px}
+.stat span{font-size:.8rem;color:var(--muted)}
+.stat b{font:500 1.15rem var(--mono);font-variant-numeric:tabular-nums}
+.timer{font:500 1.1rem var(--mono);font-variant-numeric:tabular-nums}
+.timer.low{color:var(--bad)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(34px,1fr));gap:6px}
+.cell{height:34px;border-radius:6px;border:1px solid var(--line);background:var(--paper);font:500 .75rem var(--mono);color:var(--muted);cursor:pointer}
+.cell.done{background:var(--accent-soft);color:var(--accent);border-color:var(--accent-soft)}
+.cell.cur{outline:2px solid var(--accent)}
+.cell.ok{background:var(--ok-soft);color:var(--ok);border-color:var(--ok-soft)}
+.cell.bad{background:var(--bad-soft);color:var(--bad);border-color:var(--bad-soft)}
+textarea{width:100%;min-height:260px;border:1px solid var(--line);border-radius:8px;padding:12px;font:400 1rem/1.7 var(--serif);background:var(--paper);color:var(--ink);resize:vertical}
+select{border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:var(--paper);color:var(--ink);font:inherit}
+.muted{color:var(--muted)}
+.note{font-size:.88rem;color:var(--muted);margin:0}
+h2{font:600 1.15rem var(--sans);margin:0}
+h3{font:600 1rem var(--sans);margin:0}
+.list{display:flex;flex-direction:column;gap:10px}
+.lgroup{display:flex;flex-direction:column;gap:8px}
+.lcard{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:12px 14px;color:var(--ink);font:500 .98rem/1.4 var(--sans);text-decoration:none}
+.lcard:hover{border-color:var(--muted)}
+.lcard .lm{flex:none;font:500 .75rem var(--mono);color:var(--muted);text-align:right}
+.lcard .lm.done{color:var(--ok)}
+a.btn{text-decoration:none;display:inline-block}
+.steps{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;font-size:.92rem}
+.lesson p{margin:0}
+.lesson ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:10px}
+.tl{display:grid;grid-template-columns:max-content 1fr;gap:6px 14px;font-size:.95rem;margin:0}
+.tl dt{font:500 .85rem var(--mono);color:var(--accent);padding-top:2px}
+.tl dd{margin:0}
+.trap{background:var(--bad-soft);border-radius:10px;padding:14px 16px}
+.trap h3{color:var(--bad);margin-bottom:6px}
+.recall{display:flex;flex-direction:column;gap:8px}
+.rc{border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.rc summary{cursor:pointer;font-weight:500}
+.rc div{margin-top:6px;color:var(--ok)}
+.prompt{border-left:3px solid var(--accent);border-radius:0;padding:2px 0 2px 14px;font:400 1.02rem/1.6 var(--serif)}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+.btn.sm{padding:6px 12px;font-size:.85rem}
+.hero{display:flex;flex-wrap:wrap;gap:20px;align-items:flex-start}
+.big{font:600 3rem/1 var(--mono);font-variant-numeric:tabular-nums;color:var(--accent)}
+.mgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.mtile{display:flex;flex-direction:column;gap:6px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;color:var(--ink);text-decoration:none;font-size:.88rem;line-height:1.35}
+.mtile:hover{border-color:var(--muted)}
+.mtile small{font:500 .72rem var(--mono);color:var(--muted)}
+.mbar{display:block;height:5px;background:var(--line);border-radius:3px;overflow:hidden}
+.mbar i{display:block;height:100%}
+.answer{background:var(--ok-soft);border-left:3px solid var(--ok);padding:12px 14px;border-radius:0 8px 8px 0;font:400 1rem/1.6 var(--sans)}
+.grades{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.grades .btn{display:flex;flex-direction:column;align-items:center;gap:2px;padding:8px 6px}
+.grades small{font:400 .72rem var(--mono);opacity:.75}
+@media (max-width:520px){.grades{grid-template-columns:repeat(2,1fr)}}
+.hyper{background:var(--bad-soft);color:var(--bad);border-radius:8px;padding:8px 12px;margin:8px 0;font-size:.9rem}
+.badge{background:var(--bad);color:var(--paper);border-radius:999px;padding:0 7px;font:500 .72rem var(--mono);margin-left:4px}
+.chunk{font:400 1.05rem/1.7 var(--serif);margin:0}
+.lcard{flex-wrap:wrap}
+details summary{cursor:pointer}
+.ans{min-height:64px;font:400 1rem/1.5 var(--sans);margin-bottom:8px}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:12px}
+.cmp>div{border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.cmp>div:last-child{background:var(--ok-soft);border-color:var(--ok-soft)}
+.cmp small{font:500 .72rem var(--mono);color:var(--muted)}
+.cmp p{margin:4px 0 0}
+@media (max-width:520px){.cmp{grid-template-columns:1fr}}
+.units{display:flex;flex-direction:column;gap:6px;margin:8px 0}
+.units label{display:flex;gap:10px;align-items:flex-start;border:1px solid var(--line);border-radius:8px;padding:8px 10px;cursor:pointer}
+.units input{margin-top:4px;width:18px;height:18px;flex:none}
+.grades3{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.grades3 .btn{display:flex;flex-direction:column;align-items:center;gap:2px}
+.grades3 small{font:400 .72rem var(--mono);opacity:.75}
+</style>
+<meta name="description" content="YTB Uzman Yardımcılığı sınavı için adım adım dersler, aralıklı tekrar kartları ve kaynaklı sorular.">
+<meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0F141B" media="(prefers-color-scheme: dark)">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png" type="image/png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="YTB Sınav">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body>
+
+<div class="wrap">
+  <header>
+    <h1>YTB Soru Bankası</h1>
+    <p>Yurtdışı Türkler ve Akraba Topluluklar Uzman Yardımcılığı sınavı için kaynaklı sorular</p>
+    <div class="meta"><span>Eleme ve yazılı: <b>19.12.2026 Cmt</b></span><span>Eleme: <b>80 soru · 1,25 puan · baraj 60</b></span><span id="countMeta">…</span></div>
+  </header>
+
+  <nav aria-label="Bölümler">
+    <a href="#bugun" data-v="bugun">Bugün</a>
+    <a href="#ogren" data-v="ogren">Öğren</a>
+    <a href="#tekrar" data-v="tekrar">Tekrar</a>
+    <a href="#calis" data-v="calis">Soru çöz</a>
+    <a href="#deneme" data-v="deneme">Deneme</a>
+    <a href="#yanlislar" data-v="yanlislar">Yanlışlar</a>
+    <a href="#yazili" data-v="yazili">Yazılı</a>
+  </nav>
+
+  <section id="v-bugun" class="list"><div class="card"><p class="muted">Yükleniyor…</p></div></section>
+  <section id="v-ogren" class="list" hidden></section>
+  <section id="v-ders" class="list" hidden></section>
+  <section id="v-not" class="list" hidden></section>
+  <section id="v-tekrar" class="list" hidden></section>
+
+  <section id="v-calis" class="list" hidden>
+    <div class="row" id="areaChips" role="group" aria-label="Alan"></div>
+    <div class="row">
+      <label for="diffSel" class="muted" style="font-size:.85rem">Zorluk</label>
+      <select id="diffSel"><option value="0">Tümü</option><option value="1">Kolay</option><option value="2">Orta</option><option value="3">Zor</option></select>
+      <label class="muted" style="font-size:.85rem;display:flex;gap:6px;align-items:center"><input type="checkbox" id="onlyNew"> Yalnızca çözmediklerim</label>
+    </div>
+    <div class="card" id="pCard"><p class="muted">Sorular yükleniyor…</p></div>
+    <div class="stats" id="pStats"></div>
+  </section>
+
+  <section id="v-deneme" class="list" hidden>
+    <div class="card" id="dSetup">
+      <h2>Deneme sınavı</h2>
+      <p class="note" style="margin-top:6px">Gerçek eleme sınavındaki gibi soru başına 1,5 dakika süre verilir (80 soru, 120 dakika). Cevaplar sınav bitince gösterilir.</p>
+      <div class="row" style="margin-top:14px">
+        <label for="dCount" class="muted" style="font-size:.85rem">Soru sayısı</label>
+        <select id="dCount"><option value="20">20 soru · 30 dk</option><option value="40" selected>40 soru · 60 dk</option><option value="80">80 soru · 120 dk</option><option value="100">100 soru · 150 dk</option></select>
+        <button class="btn" id="dStart">Sınavı başlat</button>
+      </div>
+    </div>
+    <div id="dRun" hidden class="list">
+      <div class="row" style="justify-content:space-between"><span class="timer" id="dTimer">00:00</span><span class="muted" id="dProg" style="font-family:var(--mono);font-size:.85rem"></span><button class="btn ghost" id="dFinish">Sınavı bitir</button></div>
+      <p class="err" id="dErr"></p>
+      <div class="card" id="dCard"></div>
+      <div class="grid" id="dGrid"></div>
+    </div>
+    <div id="dRes" hidden class="list"></div>
+  </section>
+
+  <section id="v-yanlislar" class="list" hidden></section>
+
+  <section id="v-yazili" class="list" hidden>
+    <div class="card list">
+      <h2>Yazılı sınav nasıl değerlendirilir</h2>
+      <p class="note">İlana göre yazılı sınav "analiz, tartışma, değerlendirme, çözüm üretebilme, fikir geliştirebilme" yeteneğini ölçen kompozisyon ve yabancı dil yeterliliğini ölçen çeviri ve/veya kompozisyon sorularından oluşur. Süre 14.00-16.00, baraj 70 puan. Taslağın yalnızca bu tarayıcıda saklanır. Bitirince metni kopyalayıp sohbete yapıştırırsan değerlendiririm.</p>
+    </div>
+    <div class="row">
+      <label for="wSel" class="muted" style="font-size:.85rem">Konu</label>
+      <select id="wSel" style="flex:1;min-width:0"></select>
+    </div>
+    <div class="card list">
+      <div class="prompt" id="wPrompt"></div>
+      <p class="note" id="wHint"></p>
+      <textarea id="wText" aria-label="Cevabın" placeholder="Giriş: kavramı tanımla ve konunun neden önemli olduğunu söyle…"></textarea>
+      <div class="row" style="justify-content:space-between">
+        <span class="muted" id="wCount" style="font-family:var(--mono);font-size:.85rem">0 kelime</span>
+        <div class="row"><button class="btn ghost" id="wTimerBtn">60 dk sayaç başlat</button><span class="timer" id="wTimer"></span><button class="btn" id="wCopy">Metni kopyala</button></div>
+      </div>
+      <p class="note" id="wMsg"></p>
+    </div>
+  </section>
+
+  <p class="note">Her soru resmi mevzuat ve kurum sayfalarından kontrol edilmiştir; kaynak bağlantısı açıklamanın altındadır. Mevzuat değişebilir, sınavdan önce mevzuat.gov.tr üzerinden son metni kontrol et.</p>
+</div>
+
+<script src="app.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", function () {
+    navigator.serviceWorker.register("sw.js").catch(function () {});
+  });
+}
+</script>
+</body>
+</html>
