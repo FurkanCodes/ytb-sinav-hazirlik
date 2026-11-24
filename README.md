@@ -6,7 +6,7 @@ YTB (Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı) Uzman Yardımcı
 
 - **40 konu**: adım adım ders (ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu, konu soruları)
 - **262 kart**: aralıklı tekrar, sınav tarihine göre ayarlanan aralıklarla
-- **231 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
+- **279 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
 - **Yazılı hazırlık**: 26 kompozisyon konusu ve kompozisyon planı, 11 çeviri metni (9 İngilizceden Türkçeye, 2 Türkçeden İngilizceye) ve örnek çevirileri; 15 İngilizce kompozisyon konusu ve İngilizce yazım rehberi, Dışişleri meslek memurluğu sınavının resmî örnek soruları, YTB sitesinden 12 Türkçe-İngilizce paralel metin ve 60 kurum terimi
 - **Notlarım**: kendi notların; konuya bağlanabilir, aranabilir, sorulardan ve konu notlarından doğrudan not alınabilir
 
