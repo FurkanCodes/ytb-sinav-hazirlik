@@ -4,9 +4,9 @@ YTB (Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı) Uzman Yardımcı
 
 ## İçerik
 
-- **21 konu**: adım adım ders (ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu, konu soruları)
-- **127 kart**: aralıklı tekrar, sınav tarihine göre ayarlanan aralıklarla
-- **100 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
+- **32 konu**: adım adım ders (ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu, konu soruları)
+- **206 kart**: aralıklı tekrar, sınav tarihine göre ayarlanan aralıklarla
+- **178 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
 - **Yazılı hazırlık**: 20 kompozisyon konusu ve kompozisyon planı, 11 çeviri metni (9 İngilizceden Türkçeye, 2 Türkçeden İngilizceye) ve örnek çevirileri
 - **Notlarım**: kendi notların; konuya bağlanabilir, aranabilir, sorulardan ve konu notlarından doğrudan not alınabilir
 
