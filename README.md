@@ -5,6 +5,7 @@ YTB (Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı) Uzman Yardımcı
 ## İçerik
 
 - **40 konu**: adım adım ders (ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu, konu soruları)
+- **Animasyonlu anlatım**: her konu için sesli (Türkçe konuşma sentezi) ve altyazılı animasyonlu ders: zaman çizgileri, şemalar, sayaçlar, grafikler, tuzak sahneleri ve hatırlama duraklamaları
 - **262 kart**: aralıklı tekrar, sınav tarihine göre ayarlanan aralıklarla
 - **279 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
 - **Yazılı hazırlık**: 26 kompozisyon konusu ve kompozisyon planı, 11 çeviri metni (9 İngilizceden Türkçeye, 2 Türkçeden İngilizceye) ve örnek çevirileri; 15 İngilizce kompozisyon konusu ve İngilizce yazım rehberi, Dışişleri meslek memurluğu sınavının resmî örnek soruları, YTB sitesinden 12 Türkçe-İngilizce paralel metin ve 60 kurum terimi
@@ -20,6 +21,7 @@ Yöntemler ve kaynakları uygulamada "Bugün → Bu uygulama nasıl öğretiyor?
 | `app.js` | Uygulama mantığı (tekrar takvimi, dersler, deneme) |
 | `questions.json` | Test soruları, yazılı ve çeviri konuları |
 | `writing.json` | İngilizce kompozisyon, Dışişleri örnekleri, paralel YTB metinleri, terimler, resmî çıkmış soru bağlantıları |
+| `film/`, `film.js` | Animasyonlu ders senaryoları ve oynatıcı (`node tools/filmcheck.js` her sayının derste geçtiğini denetler) |
 | `lessons.json` | Konu anlatımları |
 | `cards.json` | Tekrar kartları (`u`: kontrol parçaları, `need`: yeterli parça sayısı) |
 | `sw.js`, `manifest.webmanifest`, `icons/` | Telefona kurulum ve çevrim dışı çalışma |

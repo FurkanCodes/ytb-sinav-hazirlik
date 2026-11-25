@@ -1,0 +1,33 @@
+{"id":"h1","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"Anayasa: temel ilkeler ve dokunulamaz haklar","sub":"Değiştirilemeyen maddeler, çekirdek haklar, vatandaşlık ve yaşlar","n":"Bu derste Anayasanın ilk maddelerini ve olağanüstü hallerde bile dokunulamayan hakları göreceğiz. Sorular genellikle hangisi sayılmamıştır biçiminde gelir."},
+{"k":"tree","t":"Madde 4: değiştirilemez hükümler","ic":"shield","root":"md. 4: değiştirilemez, değiştirilmesi teklif edilemez","n":"Anayasanın 4. maddesi üç maddeyi korur. Bunlar değiştirilemez, değiştirilmesi teklif bile edilemez.","items":[
+ {"l":"md. 1","s":"Devletin şekli: *Cumhuriyet*","n":"Madde 1: devletin şekli Cumhuriyettir."},
+ {"l":"md. 2","s":"Cumhuriyetin nitelikleri","n":"Madde 2: Cumhuriyetin nitelikleri."},
+ {"l":"md. 3","s":"Bütünlük, resmî dil, bayrak, millî marş, başkent","n":"Madde 3: devletin bütünlüğü, resmî dil, bayrak, millî marş ve başkent."}]},
+{"k":"quiz","q":"md. 4 hangi maddeleri korur?","a":"md. 1, 2 ve 3","na":"Madde 1, 2 ve 3."},
+{"k":"count","t":"Milletvekili sayısı (md. 75): değiştirilebilir","ic":"vote","n":"Milletvekili sayısı ise 75. maddededir ve değiştirilebilir. 2017'de değiştirildi.","items":[
+ {"v":550,"l":"2017 öncesi milletvekili sayısı","n":"Önce 550 milletvekili vardı."},
+ {"v":600,"l":"2017'den sonra","n":"2017'de 600'e çıkarıldı."}]},
+{"k":"list","t":"md. 15/2: çekirdek alan","ic":"shield","n":"Madde 15'in ikinci fıkrası, olağanüstü hallerde bile dokunulamayan çekirdek alanı sayar.","items":[
+ {"h":"Yaşama hakkı","l":"Savaş hukukuna uygun fiiller sonucu ölümler *hariç*","n":"Yaşama hakkı. Savaş hukukuna uygun fiiller sonucu meydana gelen ölümler bunun dışındadır."},
+ {"h":"Bütünlük","l":"Maddi ve manevi bütünlük","n":"Maddi ve manevi bütünlük."},
+ {"h":"Açıklamaya zorlanmama","l":"Din, vicdan, düşünce ve kanaatleri açıklamaya zorlanmama","n":"Din, vicdan, düşünce ve kanaatleri açıklamaya zorlanmama."},
+ {"h":"Geçmişe yürümezlik","l":"Suç ve cezaların geçmişe yürütülmemesi","n":"Suç ve cezaların geçmişe yürütülmemesi."},
+ {"h":"Masumiyet","l":"*Masumiyet karinesi*","n":"Ve masumiyet karinesi."}]},
+{"k":"compare","t":"Çekirdek alanda mı?","ic":"q","cols":["Çekirdek alanda","Çekirdek alanda değil"],"n":"Şimdi ayıralım: hangisi çekirdek alanda, hangisi değil?","items":[
+ {"c":0,"l":"Yaşama hakkı","n":"Yaşama hakkı çekirdek alandadır."},
+ {"c":0,"l":"Masumiyet karinesi","n":"Masumiyet karinesi de."},
+ {"c":0,"l":"Suç ve cezaların geçmişe yürütülmemesi","n":"Suç ve cezaların geçmişe yürütülmemesi de."},
+ {"c":1,"l":"*Kişi özgürlüğü ve güvenliği* (md. 19)","n":"Ama kişi özgürlüğü ve güvenliği, yani madde 19, çekirdek alanda yoktur."}]},
+{"k":"trap","t":"Tuzak: kişi özgürlüğü","wrong":"Kişi özgürlüğü ve güvenliği md. 15'teki çekirdek alandadır.","right":"Kişi özgürlüğü ve güvenliği (md. 19) çekirdek alanda *yoktur*.","n":"Tuzak: kişi özgürlüğü ve güvenliği çekirdek alanda mı?","n2":"Hayır. Kişi özgürlüğü ve güvenliği, madde 19, 15. maddedeki çekirdek alanda yer almaz."},
+{"k":"quiz","q":"Kişi özgürlüğü ve güvenliği md. 15/2 çekirdek alanında sayılır mı?","a":"Hayır, md. 19 çekirdek alanda yoktur","na":"Hayır. Madde 19 çekirdek alanda yoktur."},
+{"k":"say","t":"md. 66: kim Türktür?","ic":"flag","big":"\"Türk Devletine *vatandaşlık bağı* ile bağlı olan herkes Türktür.\"","n":"Madde 66: Türk Devletine vatandaşlık bağı ile bağlı olan herkes Türktür.","items":[
+ {"l":"Ölçüt soy değil, *vatandaşlık bağı*","n":"Yani ölçüt soy değil, vatandaşlık bağıdır."}]},
+{"k":"count","t":"Seçme ve seçilme yaşı","ic":"vote","items":[
+ {"v":18,"l":"Seçme yaşı (md. 67)","n":"Seçme yaşı 18. Madde 67."},
+ {"v":18,"l":"Milletvekili seçilme yaşı (md. 76, 2017)","n":"Milletvekili seçilme yaşı da 18. Madde 76, 2017 değişikliği."}]},
+{"k":"trap","t":"Tuzak: seçilme yaşı","wrong":"Milletvekili seçilme yaşı 25'tir.","right":"Eski kitaplarda 25 yazar. Güncel hâli *18*.","n":"Eski kitaplar seçilme yaşını 25 diye yazar.","n2":"Bu eski bilgi. Güncel hâli 18."},
+{"k":"quiz","q":"Seçme ve seçilme yaşı?","a":"18 / 18","na":"Seçme 18, seçilme de 18."},
+{"k":"quiz","q":"Milletvekili sayısı hangi maddede ve değiştirilebilir mi?","a":"md. 75; değiştirilebilir (2017'de 550'den 600'e)","na":"Madde 75. Değiştirilebilir. 2017'de 550'den 600'e çıkarıldı."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

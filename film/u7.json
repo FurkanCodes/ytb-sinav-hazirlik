@@ -1,0 +1,83 @@
+{"id":"u7","scenes":[
+{"k":"title","tag":"Uluslararası ilişkiler","ic":"money","t":"Uluslararası ekonomi: temel kavramlar ve kuruluşlar","sub":"Cari açık, stagflasyon, devalüasyon; SDR, Dünya Bankası Grubu, OECD ve DTÖ ilkeleri","n":"Bu derste uluslararası ekonominin temel kavramlarını ve kuruluşlarını göreceğiz. Sınavda kavram tanımları ve kuruluşların yapısı sorulur."},
+{"k":"flow","t":"Cari işlemler dengesi (IMF tanımı)","ic":"chart","n":"IMF'ye göre cari işlemler dengesi üç parçanın toplamıdır.","items":[
+ {"l":"Dış ticaret dengesi","n":"Birinci parça: dış ticaret dengesi."},
+ {"l":"+ Net faktör geliri","s":"Faiz, kâr payı, işçi gelirleri","n":"Buna net faktör geliri eklenir: faiz, kâr payı ve işçi gelirleri."},
+ {"l":"+ Dışarıdan transferler","s":"Örneğin dış yardım","n":"Son olarak dışarıdan gelen transferler eklenir, örneğin dış yardım."},
+ {"l":"= *Cari işlemler dengesi*","n":"Toplam, cari işlemler dengesini verir."}]},
+{"k":"say","t":"Cari açık ne demek?","ic":"money","big":"Ülke dışarıya, dışarıdan elde ettiğinden *fazla harcıyor*.","n":"Cari açık, ülkenin dışarıya, dışarıdan elde ettiğinden daha fazla harcadığını gösterir.","items":[
+ {"l":"Açık, *finans hesabı girişleriyle* finanse edilir","n":"Bu açık, finans hesabına gelen girişlerle finanse edilir."},
+ {"l":"Sonuç: yurt dışına yükümlülük birikir","n":"Bunun sonucunda yurt dışına karşı yükümlülük birikir."},
+ {"l":"Cari denge = ulusal tasarruf − yatırım","n":"Bir başka bakış: cari denge, ulusal tasarruf ile yatırım arasındaki farka eşittir."}]},
+{"k":"quiz","q":"Cari açık nasıl finanse edilir?","a":"Finans hesabı girişleriyle (yurt dışından borçlanma, yükümlülük artışı)","na":"Finans hesabı girişleriyle. Yani yurt dışından borçlanma ve yükümlülük artışıyla."},
+{"k":"list","t":"Enflasyon","ic":"chart","n":"Şimdi fiyatlar. Önce enflasyon.","items":[
+ {"h":"Tanım","l":"Belirli bir dönemde (çoğunlukla bir yıl) fiyatlardaki *artış oranı*","n":"Enflasyon, belirli bir dönemde, çoğunlukla bir yılda, fiyatlardaki artış oranıdır."},
+ {"h":"Ölçü","l":"En yaygın ölçü: *TÜFE*","n":"En yaygın ölçüsü tüketici fiyat endeksi, yani TÜFE'dir."},
+ {"h":"Çekirdek","l":"Gıda, enerji ve yönetilen fiyatlar dışlanır","n":"Çekirdek enflasyon ise gıda, enerji ve yönetilen fiyatları dışarıda bırakır."},
+ {"h":"Türleri","l":"Talep çekişli ve maliyet itişli enflasyon","n":"İki tür ayrılır: talep çekişli enflasyon ve maliyet itişli enflasyon."}]},
+{"k":"compare","t":"Deflasyon mu, stagflasyon mu?","ic":"chart","cols":["Deflasyon","Stagflasyon"],"n":"Enflasyonun iki akrabasını karıştırmayalım.","items":[
+ {"c":0,"l":"Fiyatlar *düşer*","n":"Deflasyonda fiyatlar düşer."},
+ {"c":1,"l":"Zayıf büyüme + *yüksek enflasyon* bir arada","n":"Stagflasyonda ise zayıf büyüme ile yüksek enflasyon bir aradadır."},
+ {"c":0,"l":"Tüketici alımı erteler, büyüme yavaşlar","n":"Deflasyonda tüketiciler alımlarını erteler, büyüme yavaşlar."},
+ {"c":1,"l":"1970'ler: Arap petrol ambargosu","n":"Stagflasyon 1970'lerde, Arap petrol ambargosu döneminde yaşandı."},
+ {"c":0,"l":"Örnek: Japonya","n":"Deflasyonun bilinen örneği Japonya'dır."}]},
+{"k":"list","t":"Kur kavramları (TCMB terimler sözlüğü)","ic":"money","n":"Şimdi kur kavramları. Tanımlar Merkez Bankasının terimler sözlüğünden.","items":[
+ {"h":"Devalüasyon","l":"*Sabit kur* rejiminde ulusal paranın yabancı paralar karşısında değer kaybı","n":"Devalüasyon, sabit kur rejiminde ulusal paranın yabancı paralar karşısındaki değerinin azalmasıdır."},
+ {"h":"Dalgalı kur","l":"Kuru döviz arz ve talebi belirler","n":"Dalgalı kurda ise kur, döviz arzı ve talebiyle belirlenir."},
+ {"h":"Konvertibilite","l":"Paranın başka paralarla *serbestçe değiştirilebilmesi*","n":"Konvertibilite, bir paranın başka paralarla serbestçe değiştirilebilmesidir."}]},
+{"k":"quiz","q":"Devalüasyon hangi kur rejimine ait bir kavramdır?","a":"Sabit kur rejimi","na":"Sabit kur rejimi. Dalgalı kurda kuru arz ve talep belirler."},
+{"k":"timeline","t":"IMF ve SDR","ic":"calendar","n":"Şimdi IMF'nin SDR'si.","items":[
+ {"d":"1969","l":"IMF, SDR'yi *tamamlayıcı uluslararası rezerv varlığı* olarak yarattı","n":"IMF, SDR'yi 1969'da tamamlayıcı bir uluslararası rezerv varlığı olarak yarattı."},
+ {"d":"Mayıs 2022","l":"Son sepet gözden geçirmesi tamamlandı","n":"Sepetin son gözden geçirmesi Mayıs 2022'de tamamlandı."},
+ {"d":"1.8.2022","l":"Yeni ağırlıklar yürürlüğe girdi","n":"Yeni ağırlıklar 1 Ağustos 2022'de yürürlüğe girdi."}]},
+{"k":"tree","t":"SDR sepeti","ic":"globe","root":"SDR sepeti: 5 para","n":"SDR sepeti beş paradan oluşur.","items":[
+ {"l":"ABD doları","n":"ABD doları."},
+ {"l":"Euro","n":"Euro."},
+ {"l":"Çin renminbisi","n":"Çin renminbisi."},
+ {"l":"Japon yeni","n":"Japon yeni."},
+ {"l":"İngiliz sterlini","n":"Ve İngiliz sterlini."}]},
+{"k":"trap","t":"Tuzak: SDR bir para mı?","wrong":"SDR, IMF'nin para birimidir.","right":"SDR *para birimi değildir*; IMF'nin yarattığı tamamlayıcı rezerv varlığıdır.","n":"Tuzak: SDR, IMF'nin para birimi midir?","n2":"Hayır. SDR bir para birimi değildir. IMF'nin yarattığı tamamlayıcı bir rezerv varlığıdır."},
+{"k":"quiz","q":"SDR sepetindeki beş para hangileridir?","a":"ABD doları, euro, Çin renminbisi, Japon yeni, İngiliz sterlini","na":"ABD doları, euro, Çin renminbisi, Japon yeni ve İngiliz sterlini."},
+{"k":"tree","t":"Dünya Bankası Grubu: beş kuruluş","ic":"building","root":"Dünya Bankası Grubu","n":"Dünya Bankası Grubu beş kuruluştan oluşur.","items":[
+ {"l":"IBRD","s":"Orta gelirli ve kredi değerliliği olan yoksul ülkeler","n":"IBRD, orta gelirli ve kredi değerliliği olan yoksul ülkelere odaklanır."},
+ {"l":"IDA","s":"En yoksul ülkeler","n":"IDA, en yoksul ülkelere odaklanır."},
+ {"l":"IFC","s":"Özel sektöre finansman, teknik yardım","n":"IFC özel sektöre finansman ve teknik yardım sağlar."},
+ {"l":"MIGA","s":"Siyasi risk sigortası","n":"MIGA siyasi risk sigortası sağlar."},
+ {"l":"ICSID","s":"Uyuşmazlık çözümü","n":"ICSID ise uyuşmazlık çözümü sağlar."}]},
+{"k":"compare","t":"Dar anlamda 'Dünya Bankası' hangisi?","ic":"building","cols":["Dünya Bankası (dar anlam)","Grubun diğer kuruluşları"],"n":"Hangisi dar anlamda Dünya Bankasıdır, ayıralım.","items":[
+ {"c":0,"l":"IBRD","n":"IBRD: Dünya Bankası."},
+ {"c":1,"l":"IFC","n":"IFC: grubun diğer kuruluşu."},
+ {"c":0,"l":"IDA","n":"IDA: Dünya Bankası."},
+ {"c":1,"l":"MIGA","n":"MIGA: diğer kuruluş."},
+ {"c":1,"l":"ICSID","n":"ICSID: diğer kuruluş."}]},
+{"k":"trap","t":"Tuzak: Banka mı, Grup mu?","wrong":"Dünya Bankası beş kuruluşun tümüdür.","right":"Dar anlamda Dünya Bankası yalnızca *IBRD ve IDA*'dır; beşinin tümü *Dünya Bankası Grubu*dur.","n":"Bir tuzak: Dünya Bankası beş kuruluşun hepsi midir?","n2":"Hayır. Dar anlamda Dünya Bankası yalnızca IBRD ve IDA'dır. Beş kuruluşun tümü Dünya Bankası Grubudur."},
+{"k":"timeline","t":"OECD'nin doğuşu","ic":"calendar","n":"Şimdi OECD.","items":[
+ {"d":"Selef","l":"*OEEC*: Marshall Planı yardımlarının dağıtımına yardım için kuruldu","n":"OECD'nin selefi OEEC'dir. Marshall Planı yardımlarının dağıtımına yardım için kuruldu."},
+ {"d":"14.12.1960","l":"*Paris Sözleşmesi* imzalandı, OECD oluşturuldu","n":"OECD, 14 Aralık 1960'ta imzalanan Paris Sözleşmesiyle oluşturuldu."},
+ {"d":"30.9.1961","l":"OECD faaliyete başladı","n":"Ve 30 Eylül 1961'de faaliyete başladı."}]},
+{"k":"count","t":"Sayılarla OECD","ic":"people","n":"Merkezi Paris'tedir. Sayılara bakalım.","items":[
+ {"v":38,"suf":" üye","l":"Dışişleri Bakanlığına göre üye sayısı","n":"Dışişleri Bakanlığına göre OECD'nin 38 üyesi var."},
+ {"v":20,"suf":" kurucu","l":"Türkiye *kurucu üyelerden* biri","n":"Türkiye, 20 kurucu üyeden biridir."}]},
+{"k":"say","t":"Katılım süreci sürenler","ic":"globe","big":"Adaylarla katılım süreci sürüyor: *Romanya, Bulgaristan, Hırvatistan* gibi.","n":"Romanya, Bulgaristan ve Hırvatistan gibi adaylarla katılım süreci sürmektedir."},
+{"k":"quiz","q":"OECD hangi sözleşmeyle kuruldu, ne zaman faaliyete başladı?","a":"Paris Sözleşmesi (14.12.1960); faaliyet 30.9.1961","na":"14 Aralık 1960 tarihli Paris Sözleşmesiyle kuruldu. 30 Eylül 1961'de faaliyete başladı."},
+{"k":"list","t":"DTÖ'nün iki temel ilkesi","ic":"law","n":"Şimdi Dünya Ticaret Örgütünün iki temel ilkesi.","items":[
+ {"h":"MFN","l":"En çok kayrılan ülke: bir üyeye tanınan ayrıcalık *tüm üyelere* tanınır","n":"En çok kayrılan ülke ilkesi: bir üyeye tanınan ayrıcalık, tüm üyelere tanınır."},
+ {"h":"Dayanak","l":"GATT md. 1, GATS md. 2, TRIPS md. 4","n":"Dayanakları: GATT madde 1, GATS madde 2 ve TRIPS madde 4."},
+ {"h":"İstisnalar","l":"Serbest ticaret anlaşmaları; gelişmekte olan ülkelere tercihli erişim","n":"İstisnaları: serbest ticaret anlaşmaları ve gelişmekte olan ülkelere tercihli erişim."},
+ {"h":"Ulusal muamele","l":"Yabancı ve yerli mal *eşit* tutulur (GATT md. 3)","n":"Ulusal muamele ilkesi: yabancı ve yerli mal eşit tutulur. GATT madde 3."},
+ {"h":"Ne zaman?","l":"Ürün *pazara girdikten sonra* uygulanır","n":"Ulusal muamele, ürün pazara girdikten sonra uygulanır."}]},
+{"k":"trap","t":"Tuzak: gümrük vergisi ulusal muameleyi ihlal eder mi?","wrong":"İthalatta gümrük vergisi almak ulusal muamele ilkesine aykırıdır.","right":"Ulusal muamele ürün *pazara girdikten sonra* uygulanır; ithalattaki gümrük vergisi ilkeyi *ihlal etmez*.","n":"Bir tuzak: ithalatta gümrük vergisi almak ulusal muamele ilkesini ihlal eder mi?","n2":"Etmez. Ulusal muamele, ürün pazara girdikten sonra uygulanır."},
+{"k":"flow","t":"Balassa'nın (1961) entegrasyon aşamaları","ic":"link","n":"Balassa, 1961'de bölgesel entegrasyonu beş aşamada tanımladı.","items":[
+ {"l":"Serbest ticaret bölgesi","n":"Birinci aşama: serbest ticaret bölgesi."},
+ {"l":"Gümrük birliği","n":"İkinci: gümrük birliği."},
+ {"l":"Ortak pazar","n":"Üçüncü: ortak pazar."},
+ {"l":"Ekonomik birlik","n":"Dördüncü: ekonomik birlik."},
+ {"l":"Tam ekonomik birlik","n":"Ve beşinci: tam ekonomik birlik."}]},
+{"k":"compare","t":"GATT md. XXIV: iki model","ic":"globe","cols":["Gümrük birliği","Serbest ticaret bölgesi"],"n":"GATT'ın yirmi dördüncü maddesi iki modeli ayırır.","items":[
+ {"c":0,"l":"Üyeler arası vergiler kalkar","n":"Gümrük birliğinde üyeler arası vergiler kalkar."},
+ {"c":1,"l":"Üyeler arası vergiler kalkar","n":"Serbest ticaret bölgesinde de üyeler arası vergiler kalkar."},
+ {"c":0,"l":"Üçüncü ülkelere *büyük ölçüde aynı* vergiler","n":"Ama gümrük birliğinde üyeler, üçüncü ülkelere büyük ölçüde aynı vergileri uygular."},
+ {"c":1,"l":"Üçüncü ülkelere karşı ortak tarife *yok*","n":"Serbest ticaret bölgesinde ise yalnızca üyeler arası ticaretteki vergiler kalkar."}]},
+{"k":"quiz","q":"Gümrük birliğini serbest ticaret bölgesinden ayıran nedir?","a":"Üçüncü ülkelere karşı ortak (büyük ölçüde aynı) gümrük vergileri","na":"Üçüncü ülkelere karşı ortak, yani büyük ölçüde aynı gümrük vergileri."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi adım adım çalış ya da konu sorularını çöz."}
+]}

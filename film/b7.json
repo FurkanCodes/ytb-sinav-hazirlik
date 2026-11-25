@@ -1,0 +1,74 @@
+{"id":"b7","scenes":[
+{"k":"title","tag":"Kurum bilgisi","ic":"globe","t":"Kültürel diplomasi kurumları","sub":"Yunus Emre Vakfı, TİKA, Türkiye Maarif Vakfı ve Diyanet'in yurt dışı teşkilatı","n":"YTB yurt dışında tek başına çalışmaz. Bu derste aynı sahadaki dört kurumu göreceğiz. Sorular kuruluş kanunu, merkez, bağlılık ve görev eşleştirmesi biçiminde gelir."},
+{"k":"tree","t":"Aynı sahada dört kurum","ic":"people","root":"YTB'nin yurt dışındaki komşuları","n":"YTB ile aynı sahada çalışan dört kurum var.","items":[
+ {"l":"Yunus Emre Vakfı","s":"5653 sayılı Kanun, merkez Ankara","n":"Yunus Emre Vakfı: 5653 sayılı Kanun, merkezi Ankara."},
+ {"l":"TİKA","s":"Kültür ve Turizm Bakanlığına bağlı","n":"TİKA: bugün Kültür ve Turizm Bakanlığına bağlı."},
+ {"l":"Türkiye Maarif Vakfı","s":"6721 sayılı Kanun, merkez İstanbul","n":"Türkiye Maarif Vakfı: 6721 sayılı Kanun, merkezi İstanbul."},
+ {"l":"Diyanet yurt dışı teşkilatı","s":"633 sayılı Kanun, Cumhurbaşkanlığına bağlı","n":"Diyanet'in yurt dışı teşkilatı: 633 sayılı Kanun, Diyanet Cumhurbaşkanlığına bağlı."}]},
+{"k":"timeline","t":"Kuruluş kanunları ve bağlılık değişiklikleri","ic":"calendar","n":"Şimdi tarihleri sırayla dizelim.","items":[
+ {"d":"1965","l":"*633 sayılı* Diyanet İşleri Başkanlığı Kuruluş ve Görevleri Hakkında Kanun","n":"1965: 633 sayılı Diyanet İşleri Başkanlığı Kuruluş ve Görevleri Hakkında Kanun."},
+ {"d":"1992","l":"TİKA, *480 sayılı KHK* ile Dışişleri Bakanlığı bünyesinde kuruldu","n":"1992: TİKA, 480 sayılı Kanun Hükmünde Kararname ile Dışişleri Bakanlığı bünyesinde kuruldu."},
+ {"d":"1999","l":"TİKA *Başbakanlığa* bağlandı","n":"1999: TİKA Başbakanlığa bağlandı."},
+ {"d":"2007","l":"*5653 sayılı* Yunus Emre Vakfı Kanunu (RG 18.5.2007)","n":"2007: 5653 sayılı Yunus Emre Vakfı Kanunu. Resmî Gazete tarihi 18 Mayıs 2007."},
+ {"d":"2016","l":"*6721 sayılı* Türkiye Maarif Vakfı Kanunu (RG 28.6.2016)","n":"2016: 6721 sayılı Türkiye Maarif Vakfı Kanunu. Resmî Gazete tarihi 28 Haziran 2016."},
+ {"d":"2018","l":"4 sayılı CBK (RG 15.7.2018): TİKA *Kültür ve Turizm Bakanlığına* bağlı","n":"2018: 4 sayılı Cumhurbaşkanlığı Kararnamesi, Resmî Gazete 15 Temmuz 2018. TİKA Kültür ve Turizm Bakanlığına bağlandı."},
+ {"d":"2026","l":"*202 sayılı CBK* (RG 31.10.2026): TİKA bölümü yeniden düzenlendi","n":"2026: 202 sayılı Cumhurbaşkanlığı Kararnamesi, Resmî Gazete 31 Ekim 2026. TİKA bölümü yeniden düzenlendi."}]},
+{"k":"list","t":"Yunus Emre Vakfı (5653 sayılı Kanun, md. 1-3)","ic":"book","n":"İlk kurum Yunus Emre Vakfı. 2007 tarihli 5653 sayılı Kanun, madde 1 ile 3 arası.","items":[
+ {"h":"Merkez","l":"*Ankara*","n":"Vakfın merkezi Ankara'dır."},
+ {"h":"Amaç","l":"Türkiye'yi, kültürel mirasını, Türk dilini, kültürünü ve sanatını tanıtmak; dostluk ve kültürel alışveriş","n":"Amacı Türkiye'yi, kültürel mirasını, Türk dilini, kültürünü ve sanatını tanıtmak, dostluğu ve kültürel alışverişi geliştirmektir."},
+ {"h":"Türkiye'de","l":"*Yunus Emre Enstitüsü*: Vakfa bağlı eğitim ve araştırma kuruluşu","n":"Türkiye'de Yunus Emre Enstitüsü vardır. Vakfa bağlı bir eğitim ve araştırma kuruluşudur."},
+ {"h":"Yurt dışında","l":"*Yunus Emre Türk Kültür Merkezleri*","n":"Yurt dışında ise Yunus Emre Türk Kültür Merkezleri açılır."},
+ {"h":"Tekel","l":"Merkez açılan şehirde diğer kamu kurumları aynı amaçla başka birim oluşturamaz","n":"Kültür Merkezi açılan şehirlerde diğer kamu kurumları aynı amaçla başka birim oluşturamaz."}]},
+{"k":"tree","t":"Vakfın organları (md. 4)","ic":"people","root":"Yunus Emre Vakfı","n":"Vakfın organları kanunun dördüncü maddesindedir.","items":[
+ {"l":"Mütevelli Heyet","s":"Karar organı, başkanı *Kültür ve Turizm Bakanı*","n":"Mütevelli Heyet karar organıdır. Başkanı Kültür ve Turizm Bakanıdır."},
+ {"l":"Yönetim Kurulu","s":"İcra organı, başkanı *YEE Başkanı*","n":"Yönetim Kurulu icra organıdır. Başkanı Yunus Emre Enstitüsü Başkanıdır."},
+ {"l":"Denetleme Kurulu","n":"Ayrıca bir Denetleme Kurulu vardır."},
+ {"l":"Danışma Kurulu","n":"Ve bir Danışma Kurulu."}]},
+{"k":"list","t":"Yönetim Kurulunun tabii üyeleri","ic":"star","n":"Yönetim Kurulunun tabii üyeleri sınavda sık sorulur.","items":[
+ {"l":"Yunus Emre Enstitüsü Başkanı","n":"Birincisi Yunus Emre Enstitüsü Başkanı."},
+ {"l":"*TİKA Başkanı*","n":"İkincisi TİKA Başkanı."},
+ {"l":"*YTB Başkanı*","n":"Üçüncüsü YTB Başkanı."},
+ {"l":"Dışişleri Bakanlığı Yurtdışı Tanıtım ve Kültürel İlişkiler Genel Müdürü","n":"Dördüncüsü Dışişleri Bakanlığı Yurtdışı Tanıtım ve Kültürel İlişkiler Genel Müdürü."}]},
+{"k":"quiz","q":"YTB Başkanı hangi vakfın Yönetim Kurulunun tabii üyesidir?","a":"Yunus Emre Vakfı","na":"Yunus Emre Vakfı."},
+{"k":"flow","t":"TİKA'nın bağlılık yolculuğu","ic":"link","n":"İkinci kurum TİKA. Bağlılığı üç kez değişti.","items":[
+ {"l":"1992: Dışişleri Bakanlığı bünyesinde","s":"480 sayılı KHK","n":"1992'de 480 sayılı Kanun Hükmünde Kararname ile Dışişleri Bakanlığı bünyesinde kuruldu."},
+ {"l":"1999: Başbakanlığa bağlandı","s":"TİKA resmî sitesi","n":"1999'da Başbakanlığa bağlandı. Bu bilgi TİKA'nın resmî sitesine dayanır."},
+ {"l":"Bugün: *Kültür ve Turizm Bakanlığına* bağlı","s":"4 sayılı CBK md. 520 vd.","n":"Bugünkü dayanağı 4 sayılı Cumhurbaşkanlığı Kararnamesinin 520. ve devamı maddeleridir. Kültür ve Turizm Bakanlığına bağlıdır."}]},
+{"k":"say","t":"TİKA'nın statüsü","ic":"building","big":"Kamu tüzel kişiliğini haiz, *özel bütçeli* Türk İşbirliği ve Koordinasyon Ajansı Başkanlığı","n":"TİKA'nın tam adı Türk İşbirliği ve Koordinasyon Ajansı Başkanlığıdır. Kamu tüzel kişiliğine sahiptir ve özel bütçelidir.","items":[
+ {"l":"Başkan, *Bakana* karşı sorumludur","n":"Başkan, Bakana karşı sorumludur."}]},
+{"k":"trap","t":"Tuzak: TİKA'nın bağlılığı","wrong":"TİKA bugün Dışişleri Bakanlığına bağlıdır.","right":"TİKA bugün *Kültür ve Turizm Bakanlığına* bağlıdır. Dışişleri bağlılığı *1992-1999* dönemine aittir.","n":"Tuzak: TİKA bugün Dışişleri Bakanlığına mı bağlı?","n2":"Hayır. Bugün Kültür ve Turizm Bakanlığına bağlıdır. Dışişleri bağlılığı 1992 ile 1999 arasındaki döneme aittir."},
+{"k":"list","t":"TİKA'nın görevi (4 sayılı CBK md. 521-525)","ic":"globe","n":"TİKA'nın görevleri kararnamenin 521 ile 525. maddeleri arasındadır.","items":[
+ {"h":"İlişkiler","l":"İşbirliği hedeflenen ülke ve topluluklarla iktisadi, ticari, teknik, sosyal, kültürel ve eğitim ilişkileri","n":"İşbirliği hedeflenen ülke ve topluluklarla iktisadi, ticari, teknik, sosyal, kültürel ve eğitim ilişkilerini proje ve programlarla geliştirir."},
+ {"h":"Koordinasyon","l":"İnsani yardım ve teknik işbirliği desteklerini koordine eder; dış yardımların uygulaması ve takibi","n":"İnsani yardım ve teknik işbirliği desteklerini koordine eder. Dış yardımların uygulanmasını, teknik koordinasyonunu ve takibini sağlar."},
+ {"h":"Yurt dışı","l":"*Program Koordinasyon Ofisleri*: TİKA sitesine göre 61 ülkede 63 ofis","n":"Yurt dışında Program Koordinasyon Ofisleri kurulabilir. TİKA sitesine göre 61 ülkede 63 ofis var."},
+ {"h":"202 sayılı CBK","l":"31.10.2026: tanımlar eklendi, birimler bölge dairelerine göre yeniden düzenlendi","n":"31 Ekim 2026 tarihli 202 sayılı kararname tanımlar ekledi. Hizmet birimlerini Orta Asya ve Kafkaslar, Balkanlar ve Doğu Avrupa gibi bölge dairelerine göre yeniden düzenledi."}]},
+{"k":"quiz","q":"TİKA bugün kime bağlı, dayanağı ne?","a":"Kültür ve Turizm Bakanlığı; 4 sayılı CBK md. 520 vd.","na":"Kültür ve Turizm Bakanlığı. Dayanağı 4 sayılı Cumhurbaşkanlığı Kararnamesi, madde 520 ve devamı."},
+{"k":"list","t":"Türkiye Maarif Vakfı (6721 sayılı Kanun, 2016)","ic":"book","n":"Üçüncü kurum Türkiye Maarif Vakfı. 2016 tarihli 6721 sayılı Kanun.","items":[
+ {"h":"Merkez","l":"*İstanbul*","n":"Vakfın merkezi İstanbul'dur."},
+ {"h":"Eğitim","l":"Yurt dışında okul öncesinden üniversiteye örgün ve yaygın eğitim","n":"Yurt dışında okul öncesinden üniversiteye kadar örgün ve yaygın eğitim verir."},
+ {"h":"Faaliyet","l":"Burs verir, okul ve yurt açar, eğitmen yetiştirir","n":"Burs verir, okul ve yurt açar, eğitmen yetiştirir."},
+ {"h":"Kural","l":"TMV'nin okul açtığı ülkede MEB dışındaki kurumların aynı amaçla birim açması *MEB iznine* tabi","n":"Vakfın okul açtığı ülkelerde, Millî Eğitim Bakanlığı dışındaki kamu kurumlarının aynı amaçla birim açması Bakanlığın iznine tabidir."}]},
+{"k":"bars","t":"Mütevelli Heyeti: 12 üye","ic":"people","n":"Vakfın Mütevelli Heyeti 12 üyeden oluşur.","items":[
+ {"l":"Cumhurbaşkanının atadığı daimi üye","v":7,"txt":"7 daimi üye","c":1,"n":"7'si Cumhurbaşkanının atadığı daimi üyedir."},
+ {"l":"MEB temsilcisi","v":2,"txt":"2 MEB","c":0,"n":"2 Millî Eğitim Bakanlığı temsilcisi."},
+ {"l":"Dışişleri temsilcisi","v":1,"txt":"1 Dışişleri","c":0,"n":"1 Dışişleri temsilcisi."},
+ {"l":"Maliye temsilcisi","v":1,"txt":"1 Maliye","c":0,"n":"1 Maliye temsilcisi."},
+ {"l":"YÖK temsilcisi","v":1,"txt":"1 YÖK","c":0,"n":"Ve 1 Yükseköğretim Kurulu temsilcisi."}]},
+{"k":"say","t":"Diğer organlar","ic":"building","big":"Yönetim Kurulu: *başkan ve 6 üye*, 5 yıllık. Ayrıca Denetim Kurulu.","n":"Yönetim Kurulu bir başkan ve 6 üyeden oluşur, görev süresi 5 yıldır. Ayrıca bir Denetim Kurulu vardır."},
+{"k":"trap","t":"Tuzak: iki vakıf, iki şehir","wrong":"Yunus Emre Vakfının merkezi İstanbul, Türkiye Maarif Vakfınınki Ankara'dır.","right":"Yunus Emre Vakfı *Ankara*, Türkiye Maarif Vakfı *İstanbul*.","n":"İki vakfın merkezleri sık karıştırılır.","n2":"Yunus Emre Vakfının merkezi Ankara, Türkiye Maarif Vakfının merkezi İstanbul'dur."},
+{"k":"quiz","q":"Türkiye Maarif Vakfının kanunu ve merkezi?","a":"6721 sayılı Kanun (2016); İstanbul","na":"6721 sayılı Kanun, 2016. Merkezi İstanbul."},
+{"k":"list","t":"Diyanet'in yurt dışı teşkilatı","ic":"shield","n":"Dördüncü kurum Diyanet. Dayanakları 1965 tarihli 633 sayılı Kanun ve Anayasanın 136. maddesi.","items":[
+ {"h":"Bağlılık","l":"Genel idare içinde, *Cumhurbaşkanlığına bağlı*","n":"Diyanet İşleri Başkanlığı genel idare içindedir ve Cumhurbaşkanlığına bağlıdır."},
+ {"h":"Teşkilat","l":"Merkez, taşra ve yurt dışı teşkilatı","n":"Başkanlık merkez, taşra ve yurt dışı teşkilatından oluşur."},
+ {"h":"Yurt dışı","l":"*Müşavirlik ve ataşelikler* (md. 18/A, 2025 değişikliği)","n":"Yurt dışı teşkilatı müşavirlik ve ataşeliklerden oluşur. Madde 18/A, 2025 değişikliği."},
+ {"h":"Süre","l":"Sürekli görev *üç yıl*; Cumhurbaşkanı onayıyla bir yıla kadar uzar","n":"Yurt dışı sürekli görev süresi üç yıldır. Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir."},
+ {"h":"Dış İlişkiler GM","l":"Yurt dışındaki vatandaşların din hizmetleri; soydaş ve akraba topluluklara yardım","n":"Dış İlişkiler Genel Müdürlüğü yurt dışındaki vatandaşların din hizmetlerini yürütür, soydaş ve akraba topluluklara yardımcı olur."}]},
+{"k":"compare","t":"Birimlerin adları","ic":"flag","cols":["Türkiye'de","Yurt dışında"],"n":"Birimlerin adlarını yerleriyle eşleştirelim.","items":[
+ {"c":0,"l":"Yunus Emre *Enstitüsü*","n":"Türkiye'de: Yunus Emre Enstitüsü."},
+ {"c":1,"l":"Yunus Emre *Türk Kültür Merkezi*","n":"Yurt dışında: Yunus Emre Türk Kültür Merkezi."},
+ {"c":1,"l":"TİKA: *Program Koordinasyon Ofisi*","n":"TİKA'nın yurt dışı birimi: Program Koordinasyon Ofisi."},
+ {"c":1,"l":"Diyanet: *müşavirlik ve ataşelik*","n":"Diyanet'in yurt dışı birimleri: müşavirlik ve ataşelik."}]},
+{"k":"trap","t":"Tuzak: birim adları","wrong":"Yunus Emre Enstitüsü yurt dışında açılan birimdir.","right":"Enstitü *Türkiye'deki* kuruluştur. Yurt dışındakiler *Yunus Emre Türk Kültür Merkezi*.","n":"Tuzak: Yunus Emre Enstitüsü yurt dışında mı açılır?","n2":"Hayır. Enstitü Türkiye'deki kuruluştur. Yurt dışındaki birimlerin adı Yunus Emre Türk Kültür Merkezidir. TİKA'nınkiler Program Koordinasyon Ofisi, Diyanet'inkiler müşavirlik ve ataşeliktir."},
+{"k":"quiz","q":"Diyanet'te yurt dışı sürekli görev süresi kaç yıl?","a":"Üç yıl; Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir","na":"Üç yıl. Cumhurbaşkanı onayıyla bir yıla kadar uzatılabilir."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

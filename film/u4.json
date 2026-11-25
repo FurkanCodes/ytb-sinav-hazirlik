@@ -1,0 +1,48 @@
+{"id":"u4","scenes":[
+{"k":"title","tag":"Uluslararası ilişkiler","ic":"book","t":"Kuramlar: uluslararası ilişkiler ve kamu yönetimi","sub":"Bu kavram kimin? Düşünür, okul ve anahtar kelime","n":"Kuram soruları neredeyse her zaman bu kavram kimin diye sorulan eşleştirmelerdir. Düşünürü, okulu ve anahtar kelimeyi birlikte öğreneceğiz."},
+{"k":"say","t":"Yöntem","ic":"link","big":"Her isim için üçlü: *düşünür*, okul, anahtar kelime.","n":"Yöntemimiz basit: her isim için düşünür, okul ve anahtar kelimeyi bir üçlü olarak aklında tut."},
+{"k":"list","t":"Uluslararası ilişkiler kuramları","ic":"globe","n":"Önce uluslararası ilişkiler kuramları.","items":[
+ {"h":"Morgenthau","l":"Klasik realizm","n":"Morgenthau: klasik realizm."},
+ {"h":"Kenneth Waltz","l":"*Neorealizm*: \"Theory of International Politics\" (1979), anarşik yapı","n":"Kenneth Waltz: neorealizm. Eseri Theory of International Politics, 1979. Anahtar kelime: anarşik yapı."},
+ {"h":"Robert Keohane","l":"Neoliberal kurumsalcılık","n":"Robert Keohane: neoliberal kurumsalcılık."},
+ {"h":"Alexander Wendt","l":"Konstrüktivizm","n":"Alexander Wendt: konstrüktivizm."},
+ {"h":"Joseph Nye","l":"*Yumuşak güç* (1990)","n":"Joseph Nye: yumuşak güç kavramı, 1990."}]},
+{"k":"count","t":"İki yıl, iki kavram","ic":"calendar","items":[
+ {"v":1979,"l":"Waltz, Theory of International Politics: neorealizm","n":"1979: Waltz'un neorealizmi kuran eseri."},
+ {"v":1990,"l":"Nye: yumuşak güç","n":"1990: Nye'ın yumuşak güç kavramı."}]},
+{"k":"quiz","q":"Neorealizmin kurucusu ve eseri?","a":"Kenneth Waltz, Theory of International Politics (1979)","na":"Kenneth Waltz. Eseri Theory of International Politics, 1979."},
+{"k":"quiz","q":"Konstrüktivizm kimle, yumuşak güç kimle eşleşir?","a":"Konstrüktivizm: Alexander Wendt. Yumuşak güç: Joseph Nye","na":"Konstrüktivizm Alexander Wendt ile, yumuşak güç Joseph Nye ile eşleşir."},
+{"k":"list","t":"Kamu yönetimi kuramları","ic":"building","n":"Şimdi kamu yönetimi kuramları.","items":[
+ {"h":"Taylor","l":"Bilimsel yönetim","n":"Taylor: bilimsel yönetim."},
+ {"h":"Weber","l":"Bürokrasi kuramı","n":"Weber: bürokrasi kuramı."},
+ {"h":"Henri Fayol","l":"Yönetim fonksiyonları (1916)","n":"Henri Fayol: yönetim fonksiyonları, 1916."},
+ {"h":"Gulick","l":"*POSDCORB*","n":"Gulick: POSDCORB kısaltması."},
+ {"h":"Elton Mayo","l":"İnsan ilişkileri okulu","n":"Elton Mayo: insan ilişkileri okulu."}]},
+{"k":"flow","t":"Fayol'ün beş fonksiyonu (1916)","ic":"chart","n":"Henri Fayol 1916'da yönetimi beş fonksiyona ayırdı.","items":[
+ {"l":"Planlama","n":"Bir: planlama."},
+ {"l":"Örgütleme","n":"İki: örgütleme."},
+ {"l":"Emir-komuta","n":"Üç: emir-komuta."},
+ {"l":"Koordinasyon","n":"Dört: koordinasyon."},
+ {"l":"Denetim","n":"Beş: denetim."}]},
+{"k":"trap","t":"Tuzak: Fayol mu, Gulick mi?","wrong":"POSDCORB kısaltması Fayol'ündür.","right":"*Beş fonksiyon* Fayol'ün, *POSDCORB* kısaltması Gulick'in.","n":"Bu iki isim sık karışır: POSDCORB Fayol'ün mü?","n2":"Hayır. Beş fonksiyon Fayol'ün, POSDCORB kısaltması Gulick'in."},
+{"k":"quiz","q":"POSDCORB kimin?","a":"Luther Gulick","na":"Luther Gulick."},
+{"k":"list","t":"Yeni Kamu İşletmeciliği","ic":"money","n":"Yeni Kamu İşletmeciliği, 1980'lerde Thatcher ve Reagan dönemlerinde yayıldı.","items":[
+ {"h":"Ne zaman","l":"1980'ler: *Thatcher* ve *Reagan* dönemleri","n":"Dönem: 1980'ler, Thatcher ve Reagan."},
+ {"h":"İlke 1","l":"Piyasa mekanizması","n":"Birinci ilke: piyasa mekanizması."},
+ {"h":"İlke 2","l":"Performans ölçümü","n":"İkinci ilke: performans ölçümü."},
+ {"h":"İlke 3","l":"Vatandaşı müşteri olarak görme","n":"Üçüncü ilke: vatandaşı müşteri olarak görme."}]},
+{"k":"say","t":"Kuvvetler ayrılığı","ic":"law","big":"*Montesquieu*: \"Kanunların Ruhu Üzerine\" (1748)","n":"Kuvvetler ayrılığı ilkesi Montesquieu'ya aittir. Eseri: Kanunların Ruhu Üzerine, 1748."},
+{"k":"compare","t":"Eşleştirme tekrarı: hangi alan?","ic":"q","cols":["Uluslararası ilişkiler","Kamu yönetimi"],"n":"Son olarak isimleri iki alana ayıralım.","items":[
+ {"c":0,"l":"Morgenthau: klasik realizm","n":"Morgenthau, klasik realizm."},
+ {"c":1,"l":"Taylor: bilimsel yönetim","n":"Taylor, bilimsel yönetim."},
+ {"c":0,"l":"Waltz: neorealizm, anarşik yapı","n":"Waltz, neorealizm."},
+ {"c":1,"l":"Weber: bürokrasi","n":"Weber, bürokrasi."},
+ {"c":0,"l":"Keohane: neoliberal kurumsalcılık","n":"Keohane, neoliberal kurumsalcılık."},
+ {"c":1,"l":"Fayol: beş fonksiyon","n":"Fayol, beş fonksiyon."},
+ {"c":0,"l":"Wendt: konstrüktivizm","n":"Wendt, konstrüktivizm."},
+ {"c":1,"l":"Gulick: POSDCORB","n":"Gulick, POSDCORB."},
+ {"c":0,"l":"Nye: yumuşak güç","n":"Nye, yumuşak güç."},
+ {"c":1,"l":"Mayo: insan ilişkileri","n":"Mayo, insan ilişkileri."}]},
+{"k":"quiz","q":"İnsan ilişkileri okulu kimle anılır?","a":"Elton Mayo","na":"Elton Mayo."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

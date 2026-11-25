@@ -1,0 +1,70 @@
+{"id":"h7","scenes":[
+{"k":"title","tag":"Hukuk","ic":"building","t":"İdari teşkilat: merkezden ve yerinden yönetim","sub":"Anayasa md. 123-127 ve 135, il idaresi ve Cumhurbaşkanlığı teşkilatı","n":"İdare hukukunun teşkilat kısmı. Anayasanın 123 ile 127. maddeleri ve 135. maddesi neredeyse her sınavda çıkar."},
+{"k":"say","t":"Neden güncel bilgi?","ic":"warn","big":"*2017* ve *2025* değişiklikleri eski kitaplardaki bilgileri geçersiz kıldı.","n":"Dikkat: 2017 ve 2025 değişiklikleri eski kitaplardaki bilgileri geçersiz kıldı. Bu derste güncel hâlini göreceğiz."},
+{"k":"list","t":"md. 123: bütünlük ve kamu tüzelkişiliği","ic":"law","items":[
+ {"h":"Bütünlük","l":"İdare kuruluş ve görevleriyle *bir bütündür*, kanunla düzenlenir","n":"Anayasanın 123. maddesine göre idare, kuruluş ve görevleriyle bir bütündür ve kanunla düzenlenir."},
+ {"h":"İki esas","l":"*Merkezden yönetim* ve *yerinden yönetim*","n":"İdarenin kuruluş ve görevleri merkezden yönetim ve yerinden yönetim esaslarına dayanır."}]},
+{"k":"compare","t":"Kamu tüzelkişiliği nasıl kurulur?","ic":"book","cols":["Bugün (2017, 6771)","Eski metin"],"n":"Kamu tüzelkişiliğinin nasıl kurulduğu 2017'de, 6771 sayılı Kanunla değişti.","items":[
+ {"c":0,"l":"*Kanunla* veya *Cumhurbaşkanlığı kararnamesiyle*","n":"Bugün kamu tüzelkişiliği kanunla veya Cumhurbaşkanlığı kararnamesiyle kurulur."},
+ {"c":1,"l":"Ancak kanunla veya kanunun açıkça verdiği yetkiye dayanılarak","n":"Eski metinde ise ancak kanunla veya kanunun açıkça verdiği yetkiye dayanılarak kurulabiliyordu."}]},
+{"k":"trap","t":"Tuzak: yalnızca kanun mu?","wrong":"Kamu tüzelkişiliği yalnızca kanunla kurulur.","right":"*2017*'den beri Cumhurbaşkanlığı kararnamesiyle de kurulabilir.","n":"Bir tuzak: Kamu tüzelkişiliği yalnızca kanunla mı kurulur?","n2":"Hayır. 2017'den beri Cumhurbaşkanlığı kararnamesiyle de kurulabilir."},
+{"k":"tree","t":"md. 126: merkezi idare","ic":"flag","root":"Türkiye: illere ayrılır","n":"Anayasanın 126. maddesi: Türkiye coğrafya, ekonomik şartlar ve kamu hizmetlerinin gereklerine göre illere, iller de diğer kademeli bölümlere ayrılır.","items":[
+ {"l":"İl","s":"Kanunla kurulur","n":"5442 sayılı İl İdaresi Kanununun birinci ve ikinci maddelerine göre iller ilçelere ayrılır. İl kanunla kurulur."},
+ {"l":"İlçe","s":"Kanunla kurulur","n":"İlçeler bucaklara bölünür. İlçe de kanunla kurulur."},
+ {"l":"Bucak","s":"Cumhurbaşkanı onayıyla kurulur","n":"Bucak ise Cumhurbaşkanı onayıyla kurulur."}]},
+{"k":"say","t":"İllerin idaresi","ic":"star","big":"İllerin idaresi *yetki genişliği* esasına dayanır.","n":"Bu maddenin en önemli cümlesi: İllerin idaresi yetki genişliği esasına dayanır. Ayrıca birden çok ili içine alan merkezi idare teşkilatı kurulabilir.","items":[
+ {"l":"Birden çok ili içine alan merkezi idare teşkilatı kurulabilir","n":"Yani bölge düzeyinde merkezi teşkilat da mümkündür."}]},
+{"k":"trap","t":"Tuzak: yetki genişliği","wrong":"Yetki genişliği bir yerinden yönetim biçimidir.","right":"Yetki genişliği *merkezi idarenin* parçasıdır. İl özel idaresi ise *mahalli idaredir*.","n":"Bir tuzak: Yetki genişliği yerinden yönetim midir?","n2":"Hayır. Vali ve il genel idaresi merkezi idarenin parçasıdır. İl özel idaresi ise mahalli idaredir."},
+{"k":"quiz","q":"İllerin idaresi hangi esasa dayanır?","a":"Yetki genişliği (Anayasa md. 126).","na":"Yetki genişliği esasına. Anayasanın 126. maddesi."},
+{"k":"list","t":"Vali (5442 md. 4, 9, 11)","ic":"people","n":"Şimdi vali. 5442 sayılı Kanunun 4, 9 ve 11. maddeleri.","items":[
+ {"h":"Konum","l":"İl genel idaresinin başı ve merciidir","n":"Vali il genel idaresinin başı ve merciidir."},
+ {"h":"Temsil","l":"İlde *Cumhurbaşkanının temsilcisi* ve idari yürütme vasıtası","n":"İlde Cumhurbaşkanının temsilcisi ve idari yürütme vasıtasıdır."},
+ {"h":"Sorumluluk","l":"İlin genel idaresinden Cumhurbaşkanına karşı sorumlu","n":"İlin genel idaresinden Cumhurbaşkanına karşı sorumludur."},
+ {"h":"Emir","l":"Cumhurbaşkanı yardımcıları ve bakanlar valiye re'sen emir verir","n":"Cumhurbaşkanı yardımcıları ve bakanlar valilere re'sen emir ve talimat verir."},
+ {"h":"Yetki","l":"Genel emir çıkarır; genel ve özel kolluğun amiridir","n":"Vali genel emir çıkarabilir ve il sınırları içindeki genel ve özel kolluk kuvvetlerinin amiridir."}]},
+{"k":"compare","t":"Valinin emri altında mı?","ic":"shield","cols":["Emri altında","Emri altında değil"],"n":"Sınavda sık sorulur: kim valinin emri altındadır?","items":[
+ {"c":0,"l":"Genel ve özel kolluk kuvvetleri","n":"İl sınırları içindeki genel ve özel kolluk kuvvetleri valinin emri altındadır."},
+ {"c":1,"l":"Adli teşkilat","n":"Adli teşkilat valinin emri altında değildir."},
+ {"c":1,"l":"Askerî birlikler","n":"Askerî birlikler de valinin emri altında değildir."}]},
+{"k":"flow","t":"Kaymakam (5442 md. 27, 31)","ic":"link","n":"Kaymakam, 5442 sayılı Kanunun 27 ve 31. maddeleri.","items":[
+ {"l":"Cumhurbaşkanı","n":"Zincirin başında Cumhurbaşkanı var."},
+ {"l":"Vali","s":"İlçe işlerini doğrudan kaymakama yazar","n":"Valiler ilçeye ait işleri doğrudan kaymakama yazar."},
+ {"l":"Kaymakam","s":"İlçe genel idaresinin başı ve merciidir","n":"Kaymakam ilçe genel idaresinin başı ve merciidir. Valinin talimat ve emirlerini yürütür."},
+ {"l":"İlçede idari yürütme vasıtası","s":"İlçenin genel idaresinden sorumlu","n":"İlçede Cumhurbaşkanının idari yürütme vasıtasıdır ve ilçenin genel idaresinden sorumludur."}]},
+{"k":"list","t":"md. 127: mahalli idareler","ic":"vote","n":"Şimdi yerinden yönetim. Anayasanın 127. maddesi, mahalli idareler.","items":[
+ {"h":"Tanım","l":"İl, belediye, köy halkının *mahalli müşterek ihtiyaçları*","n":"Mahalli idareler il, belediye ve köy halkının mahalli müşterek ihtiyaçlarını karşılar."},
+ {"h":"Organ","l":"Karar organları seçmenlerce seçilen kamu tüzelkişileri","n":"Karar organları seçmenlerce seçilen kamu tüzelkişileridir."},
+ {"h":"Kuruluş","l":"Yerinden yönetim ilkesine uygun, kanunla","n":"Kuruluşları yerinden yönetim ilkesine uygun olarak kanunla düzenlenir."},
+ {"h":"Seçim","l":"*Beş yılda bir*","n":"Seçimler beş yılda bir yapılır."},
+ {"h":"Büyükşehir","l":"Büyük yerleşim merkezlerine özel yönetim biçimi","n":"Kanun, büyük yerleşim merkezleri için özel yönetim biçimleri getirebilir."}]},
+{"k":"list","t":"md. 127: denetim","ic":"law","items":[
+ {"h":"Organlık","l":"Kazanılması ve kaybı *yargı yoluyla* denetlenir","n":"Organlık sıfatının kazanılması ve kaybı yargı yoluyla denetlenir."},
+ {"h":"İçişleri Bakanı","l":"Görevle ilgili suç soruşturmasında geçici tedbir: kesin hükme kadar uzaklaştırma","n":"İçişleri Bakanı, görevle ilgili suç soruşturmasında organları geçici tedbir olarak kesin hükme kadar görevden uzaklaştırabilir."},
+ {"h":"Birlik","l":"Birlik kurmak *Cumhurbaşkanının iznine* bağlı","n":"Mahalli idarelerin birlik kurması Cumhurbaşkanının iznine bağlıdır."}]},
+{"k":"quiz","q":"Mahalli idare seçimleri kaç yılda bir yapılır?","a":"Beş yılda bir (md. 127).","na":"Beş yılda bir. Anayasanın 127. maddesi."},
+{"k":"list","t":"md. 135: meslek kuruluşları","ic":"people","n":"Hizmet yerinden yönetime bir örnek: Anayasanın 135. maddesindeki kamu kurumu niteliğindeki meslek kuruluşları.","items":[
+ {"h":"Kuruluş","l":"Kanunla kurulur","n":"Kamu kurumu niteliğindeki meslek kuruluşları kanunla kurulur."},
+ {"h":"Seçim","l":"Organları üyelerce, *yargı gözetimi* altında, gizli oyla seçilir","n":"Organları kendi üyelerince, yargı gözetimi altında, gizli oyla seçilen kamu tüzelkişileridir."},
+ {"h":"Üyelik","l":"Kamuda asli ve sürekli görevlilere üyelik zorunlu değil","n":"Kamu kurumlarında asli ve sürekli görevde çalışanların üye olma zorunluluğu yoktur."},
+ {"h":"Yasak","l":"Amaç dışı faaliyet yok; siyasi partiler aday gösteremez","n":"Bu kuruluşlar amaçları dışında faaliyette bulunamaz. Seçimlerinde siyasi partiler aday gösteremez."}]},
+{"k":"count","t":"Faaliyetten men kararı","ic":"calendar","items":[
+ {"v":24,"suf":" saat","l":"Hâkim onayına sunulur","n":"Faaliyetten men kararı 24 saat içinde hâkim onayına sunulur."},
+ {"v":48,"suf":" saat","l":"Hâkim karar verir","n":"Hâkim 48 saat içinde karar verir."}]},
+{"k":"tree","t":"Politika Kurulları (1 sayılı CBK, RG 10.7.2018)","ic":"star","root":"Başkan: Cumhurbaşkanı","n":"Şimdi Cumhurbaşkanlığı teşkilatı. 1 sayılı Cumhurbaşkanlığı Kararnamesi, Resmî Gazete 10 Temmuz 2018. Politika Kurullarının başkanı Cumhurbaşkanıdır.","items":[
+ {"l":"Üyeler","s":"En az üç; Cumhurbaşkanı atar (md. 21)","n":"Kurullar en az üç üyeden oluşur ve üyeleri Cumhurbaşkanı atar. Madde 21."},
+ {"l":"Çalışma","s":"Doğrudan Cumhurbaşkanı ile (md. 33)","n":"Kurullar alanlarında doğrudan Cumhurbaşkanı ile çalışır. Madde 33."},
+ {"l":"Bugün 10 kurul","s":"Örn. Güvenlik ve Dış Politikalar, Hukuk Politikaları","n":"Bugün 10 kurul vardır. Örneğin Güvenlik ve Dış Politikalar Kurulu ve Hukuk Politikaları Kurulu."},
+ {"l":"Tarım ve Gıda Politikaları","s":"2025'te eklendi","n":"Tarım ve Gıda Politikaları Kurulu ise 2025'te eklendi."}]},
+{"k":"quiz","q":"Politika Kurullarının başkanı kimdir?","a":"Cumhurbaşkanı (1 sayılı CBK md. 21).","na":"Cumhurbaşkanı. 1 sayılı Cumhurbaşkanlığı Kararnamesi, madde 21."},
+{"k":"compare","t":"Ofisler: 183 sayılı CBK (2025) sonrası","ic":"money","cols":["Kaldı","Hükümleri kaldırıldı"],"n":"2025'te 183 sayılı Cumhurbaşkanlığı Kararnamesiyle ofisler değişti.","items":[
+ {"c":0,"l":"*Yatırım ve Finans Ofisi* (eski adı Yatırım Ofisi)","n":"Bugün yalnızca Yatırım ve Finans Ofisi vardır. Eski adı Yatırım Ofisiydi."},
+ {"c":1,"l":"Dijital Dönüşüm Ofisi","n":"Dijital Dönüşüm Ofisine ilişkin hükümler kaldırıldı."},
+ {"c":1,"l":"Finans Ofisi","n":"Finans Ofisine ilişkin hükümler kaldırıldı."},
+ {"c":1,"l":"İnsan Kaynakları Ofisi","n":"İnsan Kaynakları Ofisine ilişkin hükümler de kaldırıldı."}]},
+{"k":"list","t":"Yatırım ve Finans Ofisi","ic":"building","items":[
+ {"h":"Ad","l":"183 sayılı CBK ile değişti, RG 28.3.2025","n":"Ofisin adı da 183 sayılı kararnameyle değişti. Resmî Gazete 28 Mart 2025."},
+ {"h":"Statü","l":"Cumhurbaşkanlığına bağlı, özel bütçeli, kamu tüzel kişiliği","n":"Cumhurbaşkanlığına bağlıdır, özel bütçelidir ve kamu tüzel kişiliğine sahiptir."},
+ {"h":"Merkez","l":"Ankara","n":"Merkezi Ankara'dır."}]},
+{"k":"trap","t":"Tuzak: kaç ofis?","wrong":"Cumhurbaşkanlığının dört ofisi vardır.","right":"183 sayılı CBK'den (2025) sonra *yalnızca Yatırım ve Finans Ofisi* kaldı.","n":"Son tuzak: Eski kaynaklarda dört Cumhurbaşkanlığı ofisi yazar.","n2":"183 sayılı kararnameden sonra, 2025'te, yalnızca Yatırım Ofisi kaldı ve adı Yatırım ve Finans Ofisi oldu."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

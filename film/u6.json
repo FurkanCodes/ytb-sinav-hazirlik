@@ -1,0 +1,65 @@
+{"id":"u6","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"money","t":"Türkiye ekonomisi: kilometre taşları","sub":"1923 kongresi, devletçilik, planlı dönem, 1980 dönüşümü, 2001 reformları","n":"Bu derste Cumhuriyet ekonomisinin dönüm noktalarını göreceğiz: 1923 kongresi, devletçilik, planlı dönem, 1980 dönüşümü ve 2001 reformları. Türkiye ekonomisi sorularının omurgası bunlardır."},
+{"k":"say","t":"Büyük resim","ic":"link","big":"Özel sektör (1923) → *devletçilik* (1930'lar) → plan (1960'lar) → *piyasa* (1980) → reform (2001)","n":"Önce büyük resim: 1923'te özel sektör öncelikli bir model, 1929 krizinden sonra devletçilik, 1960'larda planlı dönem, 1980'de piyasaya dönüş ve 2001'de yapısal reformlar."},
+{"k":"list","t":"İzmir İktisat Kongresi, 17 Şubat 1923","ic":"people","n":"İzmir İktisat Kongresi 17 Şubat 1923'te, Lozan görüşmelerinin kesintiye uğradığı dönemde İzmir'de toplandı.","items":[
+ {"h":"Katılım","l":"*1135* delege; divan başkanı Kazım Karabekir","n":"Kongreye 1135 delege katıldı. Divan başkanı Kazım Karabekir'di."},
+ {"h":"4 Mart 1923","l":"Kararlar *Misak-ı İktisadi* adıyla ilan edildi","n":"Kararlar 4 Mart 1923'te Misak-ı İktisadi adıyla ilan edildi."},
+ {"h":"Model","l":"Özel sektör öncelikli","n":"Benimsenen model özel sektör öncelikliydi."},
+ {"h":"Yabancı sermaye","l":"Düşman olunmayacak, ama Türk kanunlarına uyacak","n":"Yabancı sermayeye düşman olunmayacak, ama yabancı sermaye Türk kanunlarına uyacaktı."},
+ {"h":"İlk kez","l":"Merkez bankası fikri ele alındı","n":"Merkez bankası fikri de ilk kez bu kongrede ele alındı."}]},
+{"k":"quiz","q":"İzmir İktisat Kongresinin kararlarına ne ad verildi?","a":"Misak-ı İktisadi (4 Mart 1923)","na":"Misak-ı İktisadi. 4 Mart 1923'te ilan edildi."},
+{"k":"timeline","t":"TCMB'nin doğuşu","ic":"building","n":"Şimdi Türkiye Cumhuriyet Merkez Bankası, kısaca TCMB.","items":[
+ {"d":"11.6.1930","l":"*1715 sayılı Kanun* TBMM'de kabul edildi","n":"1715 sayılı Kanun TBMM'de 11 Haziran 1930'da kabul edildi."},
+ {"d":"30.6.1930","l":"Resmî Gazete'de yayımlandı","n":"Kanun 30 Haziran 1930'da Resmî Gazete'de yayımlandı."},
+ {"d":"3.10.1931","l":"Banka *faaliyete başladı*","n":"Banka ise 3 Ekim 1931'de faaliyete başladı."},
+ {"d":"1970","l":"Bugünkü kanun: *1211 sayılı Kanun*","n":"Bugünkü kanun, 1970 tarihli 1211 sayılı Kanundur."}]},
+{"k":"list","t":"TCMB'nin kuruluş özellikleri","ic":"book","items":[
+ {"h":"Biçim","l":"*Anonim şirket*: bağımsızlığın göstergesi","n":"Banka, bağımsızlığının göstergesi olarak anonim şirket biçiminde kuruldu."},
+ {"h":"İlk amaç","l":"Ekonomik kalkınmayı desteklemek (1715 sayılı Kanun)","n":"Kuruluş kanununa göre temel amacı ekonomik kalkınmayı desteklemekti."}]},
+{"k":"trap","t":"Tuzak: iki tarih","wrong":"TCMB 1930'da faaliyete başladı.","right":"Kanun *1930'da* çıktı; Banka *3 Ekim 1931'de* faaliyete başladı.","n":"İlk tuzak: TCMB 1930'da mı faaliyete başladı?","n2":"Hayır. Kanun 1930'da çıktı, ama Banka faaliyete 3 Ekim 1931'de başladı."},
+{"k":"flow","t":"Devletçilik ve Birinci Beş Yıllık Sanayi Planı","ic":"chart","n":"Şimdi devletçilik dönemi.","items":[
+ {"l":"1929 krizi","s":"Devletçi model benimsendi","n":"1929 krizinden sonra devletçi model benimsendi."},
+ {"l":"1934-1939: Birinci Beş Yıllık Sanayi Planı","s":"Dokuma, maden, kâğıt, kimya, taş-toprak","n":"Birinci Beş Yıllık Sanayi Planı 1934-1939 dönemini kapsadı. Dokuma, maden, kâğıt, kimya ve taş-toprak kollarına ağırlık verdi."},
+ {"l":"Finansman: *Sümerbank* ve *İş Bankası*","n":"Planın finansmanını Sümerbank ve İş Bankası üstlendi."},
+ {"l":"1936: İkinci plan hazırlandı","s":"Savaş nedeniyle uygulanamadı","n":"İkinci plan 1936'da hazırlanmaya başlandı, ama savaş nedeniyle uygulanamadı."}]},
+{"k":"quiz","q":"Birinci Beş Yıllık Sanayi Planının finansmanını kim üstlendi?","a":"Sümerbank ve İş Bankası","na":"Sümerbank ve İş Bankası."},
+{"k":"timeline","t":"Planlı dönem","ic":"calendar","n":"Şimdi planlı dönem.","items":[
+ {"d":"30.9.1960","l":"*91 sayılı Kanunla* DPT kuruldu","n":"Devlet Planlama Teşkilatı, 30 Eylül 1960 tarihli 91 sayılı Kanunla kuruldu."},
+ {"d":"1961","l":"Anayasa md. 129: kalkınma plana bağlandı, DPT anayasal kurum","n":"1961 Anayasasının 129. maddesi kalkınmayı plana bağladı ve DPT'yi anayasal kurum yaptı."},
+ {"d":"21.11.1962","l":"Birinci Kalkınma Planı TBMM'de onaylandı (77 sayılı Kanuna uygun)","n":"Birinci Beş Yıllık Kalkınma Planı, 77 sayılı Kanuna uygun olarak TBMM'de 21 Kasım 1962'de onaylandı."},
+ {"d":"3.12.1962","l":"Plan yayımlandı","n":"Plan 3 Aralık 1962'de yayımlandı."},
+ {"d":"1963","l":"*1963-1967* planı uygulamaya girdi","n":"Ve 1963'te uygulamaya girdi. Kapsadığı dönem 1963-1967."}]},
+{"k":"count","t":"Birinci Kalkınma Planının hedefi","ic":"chart","items":[
+ {"v":7,"pre":"%","l":"Yılda ortalama kalkınma hızı hedefi","n":"Hedef: yılda ortalama yüzde 7 kalkınma hızı."}]},
+{"k":"quiz","q":"DPT hangi kanunla, hangi yıl kuruldu?","a":"91 sayılı Kanun, 1960","na":"91 sayılı Kanunla, 1960'ta."},
+{"k":"compare","t":"24 Ocak 1980: ne bitti, ne başladı?","ic":"link","cols":["Benimsenen","Terk edilen"],"n":"24 Ocak 1980 kararları ekonomide yön değiştirdi.","items":[
+ {"c":1,"l":"İthal ikameci sanayileşme","n":"İthal ikameci sanayileşme terk edildi."},
+ {"c":0,"l":"*İhracata dayalı* büyüme","n":"Yerine ihracata dayalı büyüme benimsendi."},
+ {"c":1,"l":"Fiyat kontrolleri","n":"Fiyat kontrolleri kaldırıldı."},
+ {"c":0,"l":"Mevduat ve kredi faizleri piyasada belirlenecek","n":"Mevduat ve kredi faizlerinin piyasada belirlenmesi kararlaştırıldı."},
+ {"c":0,"l":"TL devalüe edildi","n":"Türk lirası devalüe edildi."}]},
+{"k":"timeline","t":"1989'dan 2000'e","ic":"calendar","items":[
+ {"d":"1989","l":"*32 sayılı Karar*: TL konvertibl ilan edildi","n":"1989'da 32 sayılı Kararla Türk lirası konvertibl ilan edildi."},
+ {"d":"1994","l":"Finansal kriz ve *5 Nisan kararları*","n":"1994'te finansal kriz yaşandı ve 5 Nisan kararları alındı."},
+ {"d":"23.6.1999","l":"*4389 sayılı Bankalar Kanunu* yayımlandı: BDDK kuruldu","n":"23 Haziran 1999'da 4389 sayılı Bankalar Kanunu yayımlandı. BDDK bu kanunla kuruldu."},
+ {"d":"31.8.2000","l":"BDDK faaliyete başladı","n":"BDDK 31 Ağustos 2000'de faaliyete başladı."}]},
+{"k":"quiz","q":"TL hangi kararla, hangi yıl konvertibl ilan edildi?","a":"32 sayılı Karar, 1989","na":"32 sayılı Kararla, 1989'da."},
+{"k":"flow","t":"2001 krizi ve yapısal reformlar","ic":"law","n":"Şimdi 2001 krizi ve yapısal reformlar.","items":[
+ {"l":"22.2.2001: dalgalı kur rejimi","n":"22 Şubat 2001'de dalgalı kur rejimine geçildi."},
+ {"l":"25.4.2001: *4651 sayılı Kanun*","s":"TCMB'nin temel amacı: fiyat istikrarı","n":"25 Nisan 2001 tarihli 4651 sayılı Kanunla TCMB'nin temel amacı fiyat istikrarı oldu."},
+ {"l":"Araç bağımsızlığı (1211 s. K. md. 4)","s":"Para politikasını ve araçlarını Banka kendisi belirler","n":"Banka para politikasını ve araçlarını doğrudan kendisi belirler hâle geldi. Buna araç bağımsızlığı denir; 1211 sayılı Kanun, madde 4."},
+ {"l":"Hazineye avans, kredi, birincil piyasadan alım yasak (md. 56)","n":"Hazineye avans, kredi ve birincil piyasadan alım yasaklandı. Madde 56."},
+ {"l":"1.11.2005: *5411 sayılı Bankacılık Kanunu* yürürlükte","n":"Sonraki reform: 5411 sayılı Bankacılık Kanunu 1 Kasım 2005'te yürürlüğe girdi."}]},
+{"k":"trap","t":"Tuzak: BDDK ne zaman kuruldu?","wrong":"BDDK 2001 krizinden sonra kuruldu.","right":"Kuruluş kanunu *1999* (4389), faaliyet *31.8.2000*. 5411 sayılı Kanun (2005) sonraki reform.","n":"Bir tuzak: BDDK 2001 krizinden sonra mı kuruldu?","n2":"Hayır. Kuruluş kanunu 1999 tarihli 4389 sayılı Kanun, faaliyet başlangıcı 31 Ağustos 2000. 2005 tarihli 5411 sayılı Kanun ise sonraki reformdur."},
+{"k":"trap","t":"Tuzak: fiyat istikrarı","wrong":"Fiyat istikrarı 1930 kuruluş kanunundan beri TCMB'nin temel amacıdır.","right":"Kuruluşta amaç *kalkınmayı desteklemekti*. Fiyat istikrarı *2001* değişikliğiyle geldi (4651 sayılı Kanun).","n":"Son tuzak: fiyat istikrarı 1930 kuruluş kanununda mı vardı?","n2":"Hayır. Kuruluşta temel amaç ekonomik kalkınmayı desteklemekti. Fiyat istikrarı 2001'deki 4651 sayılı Kanunla temel amaç oldu."},
+{"k":"quiz","q":"4651 sayılı Kanunla TCMB'nin temel amacı ne oldu?","a":"Fiyat istikrarını sağlamak","na":"Fiyat istikrarını sağlamak."},
+{"k":"say","t":"Son durak: 1 Ocak 2005","ic":"money","big":"Türk lirasından *altı sıfır* atıldı: Yeni Türk Lirası.","n":"Son durak: 1 Ocak 2005'te Türk lirasından altı sıfır atıldı ve Yeni Türk Lirası doğdu."},
+{"k":"count","t":"Kanun numaraları","ic":"law","n":"Kanun numaralarını bir arada görelim.","items":[
+ {"v":1715,"l":"TCMB kuruluş kanunu (1930)","n":"1715: TCMB'nin kuruluş kanunu, 1930."},
+ {"v":91,"l":"DPT'nin kuruluşu (1960)","n":"91: Devlet Planlama Teşkilatının kuruluşu, 1960."},
+ {"v":1211,"l":"Bugünkü TCMB Kanunu (1970)","n":"1211: bugünkü TCMB Kanunu, 1970."},
+ {"v":4389,"l":"Bankalar Kanunu: BDDK (1999)","n":"4389: Bankalar Kanunu ve BDDK, 1999."},
+ {"v":4651,"l":"Fiyat istikrarı (2001)","n":"4651: fiyat istikrarı, 2001."},
+ {"v":5411,"l":"Bankacılık Kanunu (2005)","n":"5411: Bankacılık Kanunu, 2005."}]},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi hatırlamayı pekiştirmek için adım adım çalış ya da konu sorularını çöz."}
+]}

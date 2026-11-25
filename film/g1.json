@@ -1,0 +1,34 @@
+{"id":"g1","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"flag","t":"Kurtuluş Savaşı ve inkılaplar","sub":"Amasya Genelgesinden milletvekilliği hakkına: kronolojiyi bir kez sırayla oku","n":"Bu derste Kurtuluş Savaşından inkılaplara uzanan kronolojiyi göreceğiz. Tarih soruları çoğunlukla sıralama ya da hangisi aynı gün yapılmadı biçiminde gelir."},
+{"k":"say","t":"Nasıl çalışmalı?","ic":"book","big":"Sorular *sıralama* ya da *\"hangisi aynı gün yapılmadı\"* biçiminde gelir.","n":"Bu yüzden tarihleri tek tek ezberlemek yerine, kronolojiyi bir kez baştan sona sırayla oku."},
+{"k":"timeline","t":"Kurtuluştan Cumhuriyete","ic":"calendar","n":"Önce kurtuluştan Cumhuriyete giden yol.","items":[
+ {"d":"22.6.1919","l":"*Amasya Genelgesi*: \"Milletin istiklalini yine milletin azim ve kararı kurtaracaktır.\"","n":"22 Haziran 1919: Amasya Genelgesi. Milletin istiklalini yine milletin azim ve kararı kurtaracaktır."},
+ {"d":"28.1.1920","l":"*Misak-ı Millî* son Osmanlı Mebusan Meclisinde kabul edildi (ilanı 17.2.1920)","n":"28 Ocak 1920: Misak-ı Millî, son Osmanlı Mebusan Meclisinde kabul edildi. İlanı 17 Şubat 1920."},
+ {"d":"1.11.1922","l":"Saltanat kaldırıldı","n":"1 Kasım 1922: saltanat kaldırıldı."},
+ {"d":"13.10.1923","l":"*Ankara* başkent oldu","n":"13 Ekim 1923: Ankara başkent oldu."},
+ {"d":"29.10.1923","l":"*Cumhuriyet* ilan edildi","n":"29 Ekim 1923: Cumhuriyet ilan edildi."}]},
+{"k":"trap","t":"Tuzak: Misak-ı Millî","wrong":"Misak-ı Millîyi TBMM kabul etti.","right":"Misak-ı Millîyi *son Osmanlı Mebusan Meclisi* kabul etti (28.1.1920).","n":"İlk tuzak: Misak-ı Millîyi TBMM mi kabul etti?","n2":"Hayır. Misak-ı Millîyi son Osmanlı Mebusan Meclisi kabul etti, 28 Ocak 1920'de."},
+{"k":"quiz","q":"Ankara hangi tarihte başkent oldu?","a":"13 Ekim 1923","na":"13 Ekim 1923. Cumhuriyet ise 29 Ekim 1923'te ilan edildi."},
+{"k":"tree","t":"3 Mart 1924: aynı gün","ic":"law","root":"3.3.1924","n":"Şimdi en çok sorulan gün: 3 Mart 1924. Bu tarihte birlikte çıkan düzenlemeler şunlar.","items":[
+ {"l":"Halifelik kaldırıldı","n":"Halifelik kaldırıldı."},
+ {"l":"Şer'iyye ve Evkaf Vekâleti kaldırıldı","n":"Şer'iyye ve Evkaf Vekâleti kaldırıldı."},
+ {"l":"Erkân-ı Harbiye-i Umumiye Vekâleti kaldırıldı","n":"Erkân-ı Harbiye-i Umumiye Vekâleti kaldırıldı."},
+ {"l":"Tevhid-i Tedrisat Kanunu","s":"Öğretim birliği","n":"Ve Tevhid-i Tedrisat Kanunu çıktı."}]},
+{"k":"compare","t":"3 Mart 1924 kanunu mu?","ic":"q","cols":["3 Mart 1924","Başka tarih"],"n":"Hangisi aynı gün yapılmadı sorusuna hazırlık: hangileri 3 Mart 1924'e ait, hangileri değil?","items":[
+ {"c":0,"l":"Halifeliğin kaldırılması","n":"Halifeliğin kaldırılması: 3 Mart 1924."},
+ {"c":0,"l":"Tevhid-i Tedrisat Kanunu","n":"Tevhid-i Tedrisat: 3 Mart 1924."},
+ {"c":1,"l":"Soyadı Kanunu (21.6.1934)","n":"Soyadı Kanunu ise başka bir tarih: 21 Haziran 1934."},
+ {"c":1,"l":"Teşkilat-ı Esasiye Kanunu (20.4.1924)","n":"Teşkilat-ı Esasiye Kanunu da aynı gün değil: 20 Nisan 1924."}]},
+{"k":"trap","t":"Tuzak: Soyadı Kanunu","wrong":"Soyadı Kanunu 3 Mart 1924 kanunlarından biridir.","right":"Soyadı Kanunu *1934*'te çıktı (21.6.1934).","n":"Bir tuzak daha: Soyadı Kanunu 3 Mart 1924 kanunlarından biri mi?","n2":"Hayır. Soyadı Kanunu 1934'te, 21 Haziran 1934'te çıktı."},
+{"k":"quiz","q":"3 Mart 1924'te hangi kanunlar çıktı?","a":"Halifelik, Şer'iyye ve Evkaf Vekâleti, Erkân-ı Harbiye Vekâleti kaldırıldı; Tevhid-i Tedrisat","na":"Halifeliğin, Şer'iyye ve Evkaf Vekâletinin ve Erkân-ı Harbiye Vekâletinin kaldırılması, bir de Tevhid-i Tedrisat."},
+{"k":"timeline","t":"Cumhuriyetin ilk on yılı","ic":"calendar","n":"Şimdi Cumhuriyetin kuruluş yıllarındaki büyük kanunlar.","items":[
+ {"d":"20.4.1924","l":"*Teşkilat-ı Esasiye Kanunu*","n":"20 Nisan 1924: Teşkilat-ı Esasiye Kanunu."},
+ {"d":"17.2.1926","l":"*Türk Medeni Kanunu*","n":"17 Şubat 1926: Türk Medeni Kanunu."},
+ {"d":"21.6.1934","l":"*Soyadı Kanunu*","n":"21 Haziran 1934: Soyadı Kanunu."}]},
+{"k":"flow","t":"Kadın hakları: küçükten büyüğe","ic":"vote","n":"Kadın hakları üç adımda geldi. Kural: küçükten büyüğe.","items":[
+ {"l":"Belediye","s":"3.4.1930","n":"Önce belediye seçimleri: 3 Nisan 1930'da kadınlara seçme ve seçilme hakkı."},
+ {"l":"Muhtarlık","s":"26.10.1933","n":"Sonra muhtarlık seçimleri: 26 Ekim 1933."},
+ {"l":"Milletvekilliği","s":"5.12.1934","n":"En son milletvekilliği seçme ve seçilme hakkı: 5 Aralık 1934."}]},
+{"k":"quiz","q":"Kadınlar seçme ve seçilme hakkını hangi sırayla aldı?","a":"Belediye (1930), muhtarlık (1933), milletvekilliği (1934)","na":"Belediye 1930, muhtarlık 1933, milletvekilliği 1934. Küçükten büyüğe."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

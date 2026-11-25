@@ -1,0 +1,37 @@
+{"id":"u2","scenes":[
+{"k":"title","tag":"Uluslararası ilişkiler","ic":"globe","t":"Küresel sistem: BM, ekonomi örgütleri, AGİT","sub":"Sorular sayı ve kuruluş tarihi üzerinden gelir","n":"Bu derste uluslararası sistemin temel kurumlarını göreceğiz. Sorular genellikle sayı ve kuruluş tarihi üzerinden gelir."},
+{"k":"count","t":"BM Güvenlik Konseyi","ic":"people","n":"Önce BM Güvenlik Konseyi.","items":[
+ {"v":15,"l":"Toplam üye","n":"Konseyin 15 üyesi vardır."},
+ {"v":5,"l":"Daimi üye (usul dışı konularda *veto*)","n":"Bunların beşi daimidir. Daimi üyelerin usul dışı konularda veto hakkı vardır."},
+ {"v":10,"l":"Geçici üye, Genel Kurulca seçilir","n":"On üye geçicidir ve Genel Kurulca seçilir."},
+ {"v":2,"suf":" yıl","l":"Geçici üyelerin görev süresi (BM Şartı md. 23)","n":"Geçici üyeler iki yıllığına seçilir. Dayanak: BM Şartı madde 23."}]},
+{"k":"trap","t":"Tuzak: süre","wrong":"Geçici üyeler dört yıllığına seçilir.","right":"Geçici üyeler *iki yıllığına* seçilir (BM Şartı md. 23).","n":"İlk tuzak: geçici üyeler dört yıllığına mı seçilir?","n2":"Hayır. Süre iki yıldır. BM Şartı madde 23."},
+{"k":"quiz","q":"Güvenlik Konseyinde kaç üye var, kaçı daimi?","a":"15 üye, 5 daimi","na":"15 üye var, beşi daimi."},
+{"k":"tree","t":"Bretton Woods, 1944","ic":"money","root":"Bretton Woods (1944)","n":"Şimdi ekonomi örgütleri. 1944'te Bretton Woods'ta iki kurum doğdu.","items":[
+ {"l":"IMF","s":"Uluslararası Para Fonu","n":"Birincisi IMF."},
+ {"l":"Dünya Bankası","s":"Uluslararası İmar ve Kalkınma Bankası","n":"İkincisi Dünya Bankası, yani Uluslararası İmar ve Kalkınma Bankası."}]},
+{"k":"quiz","q":"Bretton Woods'ta hangi iki kurum doğdu?","a":"IMF ve Dünya Bankası","na":"IMF ve Dünya Bankası."},
+{"k":"flow","t":"GATT'tan DTÖ'ye","ic":"link","n":"GATT'tan Dünya Ticaret Örgütüne giden yol.","items":[
+ {"l":"1947: GATT imzalandı","n":"GATT 1947'de imzalandı."},
+ {"l":"1986-1994: *Uruguay Turu*","n":"Ardından 1986 ile 1994 arasında Uruguay Turu müzakereleri yapıldı."},
+ {"l":"Marakeş Anlaşması","s":"Uruguay Turunu bitirdi","n":"Uruguay Turu Marakeş Anlaşmasıyla sona erdi."},
+ {"l":"1.1.1995: *DTÖ* kuruldu","n":"Ve Dünya Ticaret Örgütü 1 Ocak 1995'te kuruldu."}]},
+{"k":"trap","t":"Tuzak: DTÖ","wrong":"DTÖ Bretton Woods'ta kuruldu.","right":"Bretton Woods'ta IMF ve Dünya Bankası kuruldu. DTÖ *1995'te* kuruldu.","n":"Bir tuzak: Dünya Ticaret Örgütü Bretton Woods'ta mı kuruldu?","n2":"Hayır. Bretton Woods'ta IMF ve Dünya Bankası doğdu. DTÖ 1995'te kuruldu."},
+{"k":"quiz","q":"DTÖ hangi turun sonunda kuruldu?","a":"Uruguay Turu (1995)","na":"Uruguay Turunun sonunda, 1995'te."},
+{"k":"timeline","t":"AGİK'ten AGİT'e","ic":"shield","n":"Son kurum: Avrupa Güvenlik ve İşbirliği Teşkilatı, AGİT.","items":[
+ {"d":"1975","l":"*Helsinki Nihai Senedi* AGİK'i kurdu","n":"1975'te Helsinki Nihai Senedi, AGİK'i yani Avrupa Güvenlik ve İşbirliği Konferansını kurdu."},
+ {"d":"1995","l":"Adı *AGİT* oldu","n":"1995'te adı AGİT oldu."}]},
+{"k":"tree","t":"AGİT: güvenliğin üç boyutu","ic":"shield","root":"AGİT güvenlik anlayışı","n":"AGİT güvenliği üç boyutta ele alır.","items":[
+ {"l":"Siyasi-askeri","n":"Birincisi siyasi-askeri boyut."},
+ {"l":"Ekonomik-çevresel","n":"İkincisi ekonomik-çevresel boyut."},
+ {"l":"İnsani","n":"Üçüncüsü insani boyut."}]},
+{"k":"quiz","q":"AGİK'i kuran belge ve AGİT adının alındığı yıl?","a":"1975 Helsinki Nihai Senedi; 1995","na":"1975 Helsinki Nihai Senedi. Adı 1995'te AGİT oldu."},
+{"k":"compare","t":"Tekrar: hangi tarih hangi kurum?","ic":"calendar","cols":["1944-1975","1986-1995"],"n":"Son olarak tarihleri iki gruba ayıralım.","items":[
+ {"c":0,"l":"Bretton Woods: IMF ve Dünya Bankası, 1944","n":"Bretton Woods, 1944."},
+ {"c":1,"l":"Uruguay Turu başladı, 1986","n":"Uruguay Turu, 1986."},
+ {"c":0,"l":"GATT imzalandı, 1947","n":"GATT, 1947."},
+ {"c":1,"l":"DTÖ kuruldu, 1.1.1995","n":"DTÖ, 1995."},
+ {"c":0,"l":"Helsinki Nihai Senedi: AGİK, 1975","n":"Helsinki Nihai Senedi, 1975."},
+ {"c":1,"l":"AGİK'in adı AGİT oldu, 1995","n":"AGİT adı, 1995."}]},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

@@ -1,0 +1,42 @@
+{"id":"b4","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"Yurt dışındaki vatandaşların hakları","sub":"Anayasa md. 62, Mavi Kart ve yurt dışında seçimler","n":"YTB'nin hedef kitlesini doğrudan ilgilendiren üç hukuki konu: Anayasanın 62. maddesi, Mavi Kart ve seçimler. Sorular genellikle kim yararlanabilir ve ne yapamaz biçiminde gelir."},
+{"k":"list","t":"Anayasa md. 62: Devlet tedbir alır","ic":"law","n":"Anayasanın 62. maddesine göre Devlet, yabancı ülkelerde çalışan vatandaşlar için tedbir alır.","items":[
+ {"h":"Aile","l":"Aile birliği","n":"Aile birliği için."},
+ {"h":"Eğitim","l":"Çocuklarının eğitimi","n":"Çocuklarının eğitimi için."},
+ {"h":"Kültür","l":"Kültürel ihtiyaçları","n":"Kültürel ihtiyaçları için."},
+ {"h":"Sosyal güvenlik","l":"Sosyal güvenliği","n":"Ve sosyal güvenliği için."},
+ {"h":"Bağ ve dönüş","l":"Anavatanla bağlarını korur, *yurda dönüşte* yardımcı olur","n":"Devlet ayrıca anavatanla bağlarını korur ve yurda dönüşlerinde yardımcı olur."}]},
+{"k":"tree","t":"Mavi Kart kimler alır? (5901 md. 28/1)","ic":"people","root":"Doğumla Türk vatandaşı, *çıkma izniyle* çıkan","n":"Mavi Kart, 5901 sayılı Kanunun 28. maddesinin birinci fıkrasında düzenlenir. Doğumla Türk vatandaşı olup çıkma izniyle vatandaşlıktan çıkanlar alabilir.","items":[
+ {"l":"Çocuk","s":"1. derece altsoy","n":"Bunların altsoyları da alabilir. Çocuk birinci derecedir."},
+ {"l":"Torun","s":"2. derece altsoy","n":"Torun ikinci derecedir."},
+ {"l":"Torun çocuğu","s":"3. derece altsoy","n":"Torun çocuğu üçüncü derecedir. Sınır üçüncü derecedir."}]},
+{"k":"trap","t":"Tuzak: kim alamaz?","wrong":"Vatandaşlığı sonradan kazanıp çıkanlar ya da vatandaşlığı kaybettirilenler de Mavi Kart alır.","right":"*Alamazlar.* Yalnızca *doğumla* vatandaş olup *çıkma izniyle* çıkanlar ve altsoyları alır.","n":"İlk tuzak: vatandaşlığı sonradan kazanıp çıkanlar ya da vatandaşlığı kaybettirilenler Mavi Kart alabilir mi?","n2":"Hayır. İkisi de Mavi Kart alamaz. Şart, doğumla vatandaş olmak ve çıkma izniyle çıkmaktır."},
+{"k":"quiz","q":"Mavi Kartta altsoy kaçıncı dereceye kadar?","a":"Üçüncü dereceye kadar (çocuk, torun, torun çocuğu)","na":"Üçüncü dereceye kadar. Çocuk, torun ve torun çocuğu."},
+{"k":"compare","t":"Mavi Kart sahibi (md. 28/2-3)","ic":"shield","cols":["Yapabilir","Yapamaz / yükümlü değil"],"n":"Mavi Kart sahibi neleri yapamaz? Bunu 5901 sayılı Kanunun 28. maddesinin ikinci ve üçüncü fıkraları söyler.","items":[
+ {"c":1,"l":"Seçme ve seçilme hakkı yok","n":"Seçme ve seçilme hakkı yoktur."},
+ {"c":1,"l":"Muafen araç veya ev eşyası ithali yok","n":"Muafen araç veya ev eşyası ithali yoktur."},
+ {"c":1,"l":"Askerlik yükümlülüğü yok","n":"Askerlik yükümlülüğü yoktur."},
+ {"c":1,"l":"*Memur* olamaz","n":"Memur olamaz."},
+ {"c":0,"l":"*İşçi* olarak çalışabilir","n":"Ama işçi olarak çalışabilir."},
+ {"c":0,"l":"Geçici veya *sözleşmeli* personel olabilir","n":"Geçici veya sözleşmeli personel olarak da çalışabilir."}]},
+{"k":"trap","t":"Tuzak: kamuda çalışma","wrong":"Mavi Kart sahibi kamuda çalışamaz.","right":"Yanlış. *Memur olamaz*, ama sözleşmeli ya da işçi olabilir.","n":"İkinci tuzak: Mavi Kart sahibi kamuda çalışamaz mı?","n2":"Bu yanlış. Memur olamaz, ama sözleşmeli ya da işçi olarak çalışabilir."},
+{"k":"timeline","t":"Yurt dışında oy","ic":"vote","n":"Şimdi yurt dışında oy kullanmanın tarihçesi.","items":[
+ {"d":"1987","l":"*Gümrük kapılarında* oy","n":"1987'den beri gümrük kapılarında oy kullanılabiliyor."},
+ {"d":"2012","l":"6304 sayılı Kanun: *temsilciliklerde* sandık","n":"2012'de 6304 sayılı Kanun, temsilciliklerde sandık kurulmasını sağladı."},
+ {"d":"10.8.2014","l":"İlk uygulama: Cumhurbaşkanı seçimi","n":"İlk uygulama 10 Ağustos 2014 Cumhurbaşkanı seçimiydi."}]},
+{"k":"trap","t":"Tuzak: iki tarih","wrong":"Yurt dışında temsilcilik sandıkları 1987'den beri var.","right":"*1987* = gümrük kapısı. Temsilcilik sandığı ilk kez *2014*'te.","n":"Üçüncü tuzak: gümrük kapısı ile temsilcilik sandığı karıştırılır.","n2":"Gümrük kapılarında oy 1987'den beri var. Temsilcilik sandığı ise ilk kez 2014'te kuruldu."},
+{"k":"quiz","q":"Temsilciliklerde ilk oy hangi seçimde?","a":"10 Ağustos 2014 Cumhurbaşkanı seçimi","na":"10 Ağustos 2014 Cumhurbaşkanı seçiminde."},
+{"k":"compare","t":"Hangi seçimlerde yurt dışında oy?","ic":"vote","cols":["Oy kullanılır","Kullanılmaz"],"n":"Yurt dışında hangi seçimlerde oy kullanılır?","items":[
+ {"c":0,"l":"Milletvekili seçimi","n":"Milletvekili seçiminde kullanılır."},
+ {"c":0,"l":"Cumhurbaşkanı seçimi","n":"Cumhurbaşkanı seçiminde kullanılır."},
+ {"c":0,"l":"Halkoylaması","n":"Halkoylamasında da kullanılır."},
+ {"c":1,"l":"*Mahalli idareler* seçimi (298 s. K. md. 94/A)","n":"Mahalli idareler seçimleri ise yurt dışında yapılmaz. Dayanak: 298 sayılı Kanunun 94/A maddesi."}]},
+{"k":"quiz","q":"Yurt dışında hangi seçimde oy kullanılamaz?","a":"Mahalli idareler seçimi (298 sayılı Kanun md. 94/A)","na":"Mahalli idareler seçiminde."},
+{"k":"count","t":"Sayılarla bu konu","ic":"chart","n":"Sayıları bir arada görelim.","items":[
+ {"v":62,"pre":"md. ","l":"Anayasa: yurt dışında çalışan vatandaşlar","n":"Anayasa, madde 62: yabancı ülkelerde çalışan vatandaşlar."},
+ {"v":28,"pre":"md. ","l":"5901 sayılı Kanun: Mavi Kart","n":"Madde 28: 5901 sayılı Kanunda Mavi Kart."},
+ {"v":3,"suf":". derece","l":"Mavi Kartta altsoy sınırı","n":"Üçüncü derece: altsoy sınırı."},
+ {"v":1987,"l":"Gümrük kapılarında oy","n":"1987: gümrük kapıları."},
+ {"v":6304,"suf":" s. Kanun","l":"Temsilciliklerde sandık (2012)","n":"6304 sayılı Kanun: temsilcilik sandıkları."}]},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

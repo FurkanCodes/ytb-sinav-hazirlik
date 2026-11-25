@@ -1,0 +1,25 @@
+{"id":"y2","scenes":[
+{"k":"title","tag":"Sözel yetenek","ic":"book","t":"Paragraf soruları","sub":"Bilgi değil yöntem: ana düşünce, aşırı genelleme, boşluk doldurma","n":"Paragraf soruları bilgi değil yöntem ister. Birkaç kural, soruların çoğunu çözer."},
+{"k":"tree","t":"Dört kural","ic":"star","root":"Paragraf yöntemi","n":"Bu derste dört kural göreceğiz.","items":[
+ {"l":"Ana düşünce","s":"Son cümlelerde","n":"Bir: ana düşünce nerede aranır."},
+ {"l":"Aşırı genelleme","s":"Abartan şıkkı ele","n":"İki: aşırı genelleme yapan şık."},
+ {"l":"Boşluk doldurma","s":"Köprü cümle","n":"Üç: boşluk doldurma."},
+ {"l":"Metinde olmayan","s":"Ekleme yapan şık yanlış","n":"Dört: metinde olmayan bilgiyi ekleyen şık."}]},
+{"k":"flow","t":"Ana düşünce nerede?","ic":"q","n":"Ana düşünce genellikle son cümlelerdedir.","items":[
+ {"l":"Metni oku, sona odaklan","s":"Ana düşünce genellikle son cümlelerde","n":"Metni okurken sona odaklan."},
+ {"l":"Sonuç bağlacını bul","s":"*\"Bu nedenle\"*, \"demek ki\", \"o hâlde\"","n":"Bu nedenle, demek ki, o hâlde gibi sonuç bağlaçlarını ara."},
+ {"l":"Bu cümle = yazarın vardığı sonuç","n":"Bu bağlaçlarla başlayan cümle, yazarın vardığı sonuçtur."}]},
+{"k":"trap","t":"Tuzak: ayrıntı","wrong":"Metindeki bir ayrıntıyı tekrar eden şık ana düşüncedir.","right":"Ayrıntıyı tekrar eden şık *ana düşünce değildir*.","n":"Tuzak: metinde geçen bir ayrıntıyı tekrar eden şık, doğru gibi görünür.","n2":"Ama bu ana düşünce değildir. Ana düşünce, yazarın vardığı sonuçtur."},
+{"k":"quiz","q":"Ana düşünceyi önce nerede ararsın?","a":"Son cümlelerde, \"bu nedenle\" gibi sonuç bağlaçlarından sonra.","na":"Son cümlelerde. Bu nedenle gibi sonuç bağlaçlarından sonra."},
+{"k":"compare","t":"Aşırı genelleme","ic":"warn","cols":["Metin diyor","Şık diyor: yanlış"],"n":"İkinci kural: aşırı genelleme yapan şıkkı ele.","items":[
+ {"c":0,"l":"\"*çoğu zaman*\"","n":"Metin çoğu zaman diyorsa,"},
+ {"c":1,"l":"\"*hiç* bilmiyor\"","n":"hiç bilmiyor diyen şık yanlıştır. Metnin söylediğinden daha ileri gider."}]},
+{"k":"flow","t":"Boşluk doldurma: köprü cümle","ic":"link","n":"Üçüncü kural: boşluk doldurma. Doğru cümle, boşluğun öncesi ile sonrası arasında köprü kurar.","items":[
+ {"l":"Önceki cümle","n":"Önce boşluktan önceki cümleye bak."},
+ {"l":"Boşluk","s":"Öncekinden *devam etmeli*, sonrakini hazırlamalı","n":"Seçeceğin cümle önceki cümleden devam etmeli ve sonraki cümleyi hazırlamalı."},
+ {"l":"Sonraki cümle","n":"Sonra boşluktan sonraki cümleyle uyuşup uyuşmadığını kontrol et."}]},
+{"k":"say","t":"Metinde olmayanı ekleme","ic":"shield","big":"Doğru gibi görünse de *metinde söylenmeyen* bilgi içeren şık yanlıştır.","n":"Dördüncü kural: doğru gibi görünen ama metinde söylenmeyen bilgi içeren şık yanlıştır. Kendi bilgini değil, metni esas al."},
+{"k":"quiz","q":"Metin \"çoğu zaman\" diyor, şık \"hiç bilmiyor\" diyor. Ne yaparsın?","a":"Elersin: aşırı genelleme yapan şık yanlıştır.","na":"Elersin. Aşırı genelleme yapan şık yanlıştır."},
+{"k":"quiz","q":"Boşluğa gelecek cümle neyi sağlamalı?","a":"Önceki cümleden devam etmeli, sonraki cümleyi hazırlamalı.","na":"Önceki cümleden devam etmeli ve sonraki cümleyi hazırlamalı. Yani köprü kurmalı."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

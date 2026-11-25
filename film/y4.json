@@ -1,0 +1,29 @@
+{"id":"y4","scenes":[
+{"k":"title","tag":"Sayısal yetenek","ic":"q","t":"Mantık ve sıralama","sub":"\"Kesinlikle doğru\" olanı bulmak: önermeler, modus tollens, sıralama","n":"Mantık sorularında kilit ifade: kesinlikle doğru. Yalnızca verilen bilgilerden zorunlu olarak çıkanı seç."},
+{"k":"say","t":"Altın kural","ic":"shield","big":"Yalnızca verilen bilgilerden *zorunlu olarak* çıkanı seç.","n":"Altın kural: olabilir değil, zorunlu. Verilen bilgilerin dışına çıkma."},
+{"k":"compare","t":"\"Bütün A'lar B'dir\"","ic":"link","cols":["Kesin çıkar","Kesin çıkmaz"],"n":"Önerme: bütün A'lar B'dir. Bundan ne çıkar, ne çıkmaz?","items":[
+ {"c":0,"l":"\"B olmayan A değildir\" (karşıt ters)","n":"Kesin çıkan: B olmayan A değildir. Buna karşıt ters denir."},
+ {"c":1,"l":"\"Bütün B'ler A'dır\"","n":"Kesin çıkmayan: bütün B'ler A'dır. Önerme tersine çevrilemez."}]},
+{"k":"quiz","q":"\"Bütün memurlar sınava girdi\" ise kesin olan?","a":"Sınava girmeyen kişi memur değildir.","na":"Sınava girmeyen kişi memur değildir. Bu, karşıt terstir."},
+{"k":"say","t":"\"Bazı B'ler C'dir\"","ic":"q","big":"Bu bilgi, *A'ların* C olup olmadığı hakkında kesin bir şey söylemez.","n":"Bütün A'lar B'dir ve bazı B'ler C'dir dense bile, bu bilgi A'ların C olup olmadığı hakkında kesin bir şey söylemez."},
+{"k":"flow","t":"Bazı A B'dir + Hiçbir B C değildir","ic":"link","n":"Şimdi iki önermeyi birleştirelim.","items":[
+ {"l":"Bazı A B'dir","n":"Birinci bilgi: bazı A B'dir."},
+ {"l":"Hiçbir B C değildir","n":"İkinci bilgi: hiçbir B C değildir."},
+ {"l":"Kesin sonuç: *Bazı A C değildir*","s":"B olan A'lar C olamaz","n":"Kesin sonuç: bazı A C değildir. Çünkü B olan A'lar C olamaz."}]},
+{"k":"compare","t":"Hangisi çıkar?","ic":"warn","cols":["Çıkar","Çıkmaz"],"n":"Aynı iki önermeden hangisi çıkar, hangisi çıkmaz?","items":[
+ {"c":0,"l":"Bazı A C değildir","n":"Bazı A C değildir: çıkar."},
+ {"c":1,"l":"Hiçbir A C değildir (B olmayan A'lar hakkında bilgi yok)","n":"Hiçbir A C değildir: çıkmaz. Çünkü B olmayan A'lar hakkında bilgi yok."}]},
+{"k":"quiz","q":"\"Bazı A B'dir\" ve \"Hiçbir B C değildir\". Kesin sonuç?","a":"Bazı A C değildir. (\"Hiçbir A C değildir\" çıkmaz.)","na":"Bazı A C değildir. Hiçbir A C değildir sonucu ise çıkmaz."},
+{"k":"flow","t":"Modus tollens","ic":"law","n":"Şimdi koşullu önermeler: modus tollens kuralı.","items":[
+ {"l":"Verilen: p ise q","n":"Verilen: p ise q."},
+ {"l":"Verilen: q değil","n":"Bir de q değil bilgisi verildi."},
+ {"l":"Sonuç: *p değil*","n":"Sonuç: p değil. Bu modus tollenstir."}]},
+{"k":"trap","t":"Tuzak: tersten çıkarım","wrong":"\"p ise q\" ve \"q doğru\" ise \"p doğru\".","right":"\"q doğru\" bilgisinden *\"p doğru\" çıkmaz*.","n":"Tuzak: p ise q verilmiş ve q doğru. O hâlde p de doğru mu?","n2":"Hayır. q doğru bilgisinden p doğru sonucu çıkmaz."},
+{"k":"quiz","q":"\"p ise q\" ve \"q değil\" verildi. Sonuç?","a":"p değil (modus tollens).","na":"p değil. Modus tollens."},
+{"k":"flow","t":"Sıralama soruları: üç adım","ic":"chart","n":"Son blok: sıralama soruları. Üç adımla çöz.","items":[
+ {"l":"Kesin konumları yerleştir","s":"\"en son\", \"üçüncü\"","n":"Birinci adım: en son, üçüncü gibi kesin konumları yerleştir."},
+ {"l":"Yan yana koşulları dene","s":"\"hemen önünde\" → kalan boşluklar","n":"İkinci adım: hemen önünde gibi yan yana koşulları kalan boşluklara dene."},
+ {"l":"\"Değildir\" koşullarıyla ele","n":"Üçüncü adım: değildir koşullarıyla seçenekleri ele."}]},
+{"k":"quiz","q":"Sıralama sorusunda ilk ne yaparsın?","a":"Kesin konumları yerleştirirsin (en son, üçüncü).","na":"Önce kesin konumları yerleştirirsin. En son, üçüncü gibi."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

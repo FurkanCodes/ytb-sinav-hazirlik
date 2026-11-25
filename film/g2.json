@@ -1,0 +1,27 @@
+{"id":"g2","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"book","t":"Türk tarihi ve kültürü","sub":"Savaşlar, ilk eserler ve kültürel miras","n":"Bu derste savaşları, ilk eserleri ve kültürel mirası göreceğiz. Bu konu YTB'nin kültürel diplomasi işleriyle de bağlantılıdır."},
+{"k":"timeline","t":"Üç savaş, üç sonuç","ic":"shield","n":"Önce Anadolu'nun kapısını açan üç savaş.","items":[
+ {"d":"1040","l":"*Dandanakan*: Büyük Selçuklu Devletini kurdu","n":"1040, Dandanakan Savaşı. Büyük Selçuklu Devletini kurdu."},
+ {"d":"1071","l":"*Malazgirt*: Anadolu'nun kapılarını açtı","n":"1071, Malazgirt. Anadolu'nun kapılarını açtı."},
+ {"d":"1176","l":"*Miryokefalon*: Anadolu'nun Türk yurdu olduğunu kesinleştirdi","n":"1176, Miryokefalon. Anadolu'nun Türk yurdu olduğunu kesinleştirdi."}]},
+{"k":"quiz","q":"Anadolu'nun Türk yurdu olduğunu hangi savaş kesinleştirdi?","a":"Miryokefalon (1176)","na":"Miryokefalon, 1176. Malazgirt ise 1071'de kapıları açmıştı."},
+{"k":"list","t":"Eser ve yazarı","ic":"book","n":"Şimdi eser ve yazar eşleştirmesi. Sınavda en çok böyle sorulur.","items":[
+ {"h":"Divânu Lugâti't-Türk","l":"*Kaşgarlı Mahmud*","n":"Divânu Lugâti't-Türk: Kaşgarlı Mahmud."},
+ {"h":"Kutadgu Bilig","l":"*Yusuf Has Hâcib*","n":"Kutadgu Bilig: Yusuf Has Hâcib."},
+ {"h":"Divân-ı Hikmet","l":"*Ahmed Yesevî*","n":"Divân-ı Hikmet: Ahmed Yesevî."},
+ {"h":"Atabetü'l-Hakâyık","l":"*Edib Ahmed*","n":"Atabetü'l-Hakâyık: Edib Ahmed."},
+ {"h":"Mesnevî","l":"*Mevlânâ*","n":"Mesnevî: Mevlânâ."}]},
+{"k":"trap","t":"Tuzak: Mesnevî","wrong":"Mesnevî Yunus Emre'nindir.","right":"Mesnevî *Mevlânâ*'nındır.","n":"Bir tuzak: Mesnevî Yunus Emre'nin eseri mi?","n2":"Hayır. Mesnevî Mevlânâ'nındır."},
+{"k":"quiz","q":"Kutadgu Bilig kimin eseridir?","a":"Yusuf Has Hâcib","na":"Yusuf Has Hâcib."},
+{"k":"tree","t":"Orhun Yazıtları kimler adına?","ic":"flag","root":"Orhun Yazıtları","n":"Şimdi Orhun Yazıtları. Üç kişi adına dikildi.","items":[
+ {"l":"Kül Tigin","s":"732","n":"Kül Tigin adına, 732'de."},
+ {"l":"Bilge Kağan","s":"735","n":"Bilge Kağan adına, 735'te."},
+ {"l":"Tonyukuk","s":"716-734 arası","n":"Tonyukuk adına, 716 ile 734 arasında."}]},
+{"k":"compare","t":"Adına yazıt var mı?","ic":"q","cols":["Yazıt var","Yazıt yok"],"n":"Dikkat: Göktürk Devletinin kurucusu adına yazıt yoktur.","items":[
+ {"c":0,"l":"Kül Tigin, Bilge Kağan, Tonyukuk","n":"Kül Tigin, Bilge Kağan ve Tonyukuk adına yazıt var."},
+ {"c":1,"l":"*Bumin Kağan* (552), Göktürk Devletinin kurucusu","n":"Göktürk Devletinin kurucusu Bumin Kağan, 552, adına ise yazıt yoktur."}]},
+{"k":"quiz","q":"Orhun Yazıtları kimler adına dikildi?","a":"Kül Tigin, Bilge Kağan, Tonyukuk","na":"Kül Tigin, Bilge Kağan ve Tonyukuk."},
+{"k":"say","t":"UNESCO: Türk kahvesi","ic":"star","big":"Türk kahvesi kültürü ve geleneği, *2013*'te İnsanlığın *Somut Olmayan* Kültürel Mirası Temsilî Listesine alındı.","n":"Son olarak kültürel miras. Türk kahvesi kültürü ve geleneği 2013'te İnsanlığın Somut Olmayan Kültürel Mirası Temsilî Listesine alındı."},
+{"k":"trap","t":"Tuzak: hangi liste?","wrong":"Türk kahvesi Dünya Mirası Listesindedir.","right":"Türk kahvesi *somut olmayan miras* listesindedir (2013).","n":"Son tuzak: Türk kahvesi Dünya Mirası Listesinde mi?","n2":"Hayır. Türk kahvesi somut olmayan kültürel miras listesindedir."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

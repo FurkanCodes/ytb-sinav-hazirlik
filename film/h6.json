@@ -1,0 +1,78 @@
+{"id":"h6","scenes":[
+{"k":"title","tag":"Hukuk","ic":"people","t":"İnsan hakları: belgeler ve ulusal kurumlar","sub":"Uluslararası belgeler ve Türkiye'deki başvuru mekanizmaları","n":"İnsan hakları başlığı iki kısımdan oluşur: uluslararası belgeler ve Türkiye'deki başvuru mekanizmaları. Sorularda tarih, süre ve kurum eşleştirmesi istenir."},
+{"k":"say","t":"İki kısım","ic":"link","big":"Belgeler: *İHEB, 1966 sözleşmeleri, AİHS protokolleri*. Kurumlar: *TİHEK, KDK, dilekçe, bilgi edinme*.","n":"Birinci kısım belgeler: İnsan Hakları Evrensel Beyannamesi, 1966 sözleşmeleri ve AİHS protokolleri.","items":[
+ {"l":"Türkiye: TİHEK, Kamu Denetçiliği, dilekçe, bilgi edinme","n":"İkinci kısım Türkiye'deki mekanizmalar: TİHEK, Kamu Denetçiliği Kurumu, dilekçe hakkı ve bilgi edinme."}]},
+{"k":"timeline","t":"Kronoloji","ic":"calendar","n":"Önce bütün tarihleri bir çizgi üzerinde görelim.","items":[
+ {"d":"10.12.1948","l":"*İHEB*, BM Genel Kurulu, Paris (karar 217 A)","n":"10 Aralık 1948: İnsan Hakları Evrensel Beyannamesi, BM Genel Kurulu, Paris. Karar 217 A."},
+ {"d":"20.3.1952","l":"AİHS Ek Protokol (No. 1), Paris","n":"20 Mart 1952: AİHS'e Ek Protokol, yani bir numaralı protokol, Paris."},
+ {"d":"16.12.1966","l":"ICCPR ve ICESCR, New York","n":"16 Aralık 1966: iki büyük sözleşme, New York'ta."},
+ {"d":"1976","l":"ICESCR 3 Ocak, ICCPR 23 Mart 1976'da yürürlükte","n":"1976: Ekonomik ve sosyal haklar sözleşmesi 3 Ocak, medeni ve siyasi haklar sözleşmesi 23 Mart 1976'da yürürlüğe girdi."},
+ {"d":"2003","l":"Türkiye ikisini *23.9.2003'te* onayladı (imza 15.8.2000)","n":"2003: Türkiye iki sözleşmeyi 23 Eylül 2003'te onayladı. İmza 15 Ağustos 2000'deydi."},
+ {"d":"2010","l":"Anayasa md. 74: bilgi edinme ve kamu denetçisi (5982)","n":"2010: 5982 sayılı Kanunla Anayasanın 74. maddesine bilgi edinme ve kamu denetçisi eklendi."},
+ {"d":"2012","l":"6328 sayılı Kamu Denetçiliği Kurumu Kanunu","n":"2012: 6328 sayılı Kamu Denetçiliği Kurumu Kanunu."},
+ {"d":"2016","l":"6701 sayılı TİHEK Kanunu","n":"2016: 6701 sayılı Türkiye İnsan Hakları ve Eşitlik Kurumu Kanunu."}]},
+{"k":"list","t":"İnsan Hakları Evrensel Beyannamesi","ic":"globe","items":[
+ {"h":"Ne zaman, nerede","l":"*10 Aralık 1948*, Paris, BM Genel Kurulu","n":"Beyanname BM Genel Kurulunca 10 Aralık 1948'de Paris'te ilan edildi."},
+ {"h":"Karar","l":"Genel Kurul kararı 217 A","n":"Genel Kurul kararının numarası 217 A."},
+ {"h":"Anlamı","l":"Bütün halklar ve uluslar için *ortak başarı ölçütü*","n":"Bütün halklar ve uluslar için ortak bir başarı ölçütü olarak kabul edildi."},
+ {"h":"İlk","l":"Evrensel korunacak temel hakları ilk kez ortaya koydu","n":"Evrensel olarak korunacak temel hakları ilk kez ortaya koydu."}]},
+{"k":"quiz","q":"İHEB ne zaman, nerede ilan edildi?","a":"10 Aralık 1948, Paris (BM Genel Kurulu kararı 217 A).","na":"10 Aralık 1948'de, Paris'te. BM Genel Kurulu kararı 217 A."},
+{"k":"compare","t":"1966 sözleşmeleri: iki ikiz","ic":"book","cols":["ICCPR: Medeni ve Siyasi Haklar","ICESCR: Ekonomik, Sosyal ve Kültürel Haklar"],"n":"İki sözleşme 16 Aralık 1966'da New York'ta birlikte kabul edildi. Farkları yürürlük tarihindedir.","items":[
+ {"c":0,"l":"Yürürlük: 23.3.1976","n":"Medeni ve Siyasi Haklar Sözleşmesi 23 Mart 1976'da yürürlüğe girdi."},
+ {"c":1,"l":"Yürürlük: 3.1.1976 (önce)","n":"Ekonomik, Sosyal ve Kültürel Haklar Sözleşmesi ise daha önce, 3 Ocak 1976'da yürürlüğe girdi."},
+ {"c":0,"l":"Türkiye: imza 15.8.2000, onay 23.9.2003","n":"Türkiye ikisini de 15 Ağustos 2000'de imzaladı."},
+ {"c":1,"l":"Türkiye: imza 15.8.2000, onay 23.9.2003","n":"Ve ikisini de 23 Eylül 2003'te onayladı."}]},
+{"k":"timeline","t":"AİHS protokolleri","ic":"shield","n":"Şimdi AİHS protokolleri. Numara ile konuyu eşleştir.","items":[
+ {"d":"No. 1 (Paris 1952)","l":"Mülkiyet, eğitim hakkı, serbest seçim","n":"Bir numaralı Ek Protokol, Paris 1952: mülkiyetin korunması, eğitim hakkı ve serbest seçim hakkı."},
+ {"d":"No. 6 (1983)","l":"Ölüm cezasını kaldırır, *savaş zamanı istisnası* var","n":"Altı numaralı protokol, 1983: ölüm cezasını kaldırır ama savaş veya yakın savaş tehlikesi zamanı için istisna tanır."},
+ {"d":"No. 12 (Roma 2000)","l":"Ayrımcılığın genel olarak yasaklanması","n":"12 numaralı protokol, Roma 2000: ayrımcılığın genel olarak yasaklanması."},
+ {"d":"No. 13 (Vilnius 2002)","l":"Ölüm cezası *her durumda* kalkar; askıya alma ve çekince yasak","n":"13 numaralı protokol, Vilnius 2002: ölüm cezasını her durumda kaldırır. Askıya alma ve çekince yasaktır."},
+ {"d":"No. 16 (2013)","l":"En yüksek mahkemeler AİHM'den *danışma görüşü* isteyebilir","n":"16 numaralı protokol, 2013: en yüksek mahkemeler AİHM'den danışma görüşü isteyebilir."}]},
+{"k":"say","t":"Anayasa md. 38 (2004)","ic":"law","big":"*Ölüm cezası* ve *genel müsadere* cezası verilemez.","n":"İç hukukta da karşılığı var: 2004'ten beri Anayasanın 38. maddesine göre ölüm cezası ve genel müsadere cezası verilemez."},
+{"k":"trap","t":"Tuzak: No. 6 mı, No. 13 mü?","wrong":"Protokol No. 6 ölüm cezasını her durumda kaldırır.","right":"No. 6 *savaş zamanı istisnasını* korur. Her durumda kaldıran *No. 13*'tür.","n":"Bir tuzak: Ölüm cezasını her durumda kaldıran altı numaralı protokol müdür?","n2":"Hayır. Altı numaralı protokol savaş zamanı istisnasını korur. Ölüm cezasını her durumda kaldıran 13 numaralı protokoldür."},
+{"k":"quiz","q":"AİHM'den danışma görüşü istemeyi hangi protokol getirdi?","a":"Protokol No. 16 (2013)","na":"16 numaralı protokol, 2013."},
+{"k":"list","t":"TİHEK (6701 sayılı Kanun, 2016)","ic":"building","n":"Şimdi ulusal kurumlar. İlki Türkiye İnsan Hakları ve Eşitlik Kurumu.","items":[
+ {"h":"Statü","l":"İdari ve mali özerk, özel bütçeli, kamu tüzel kişiliği","n":"İdari ve mali özerktir, özel bütçelidir ve kamu tüzel kişiliğine sahiptir."},
+ {"h":"İlişki","l":"*Cumhurbaşkanının görevlendireceği bakanla* ilişkili","n":"Cumhurbaşkanının görevlendireceği bakanla ilişkilidir."},
+ {"h":"Görev","l":"İnsan hakları, ayrımcılığı önleme, işkence ve kötü muameleyle mücadele","n":"Görevi insan haklarını korumak ve geliştirmek, ayrımcılığı önlemek ve işkence ile kötü muameleyle mücadele etmektir."},
+ {"h":"Mekanizma","l":"İşkenceye Karşı Sözleşmenin İhtiyari Protokolü: *ulusal önleme mekanizması*","n":"BM İşkenceye Karşı Sözleşmenin İhtiyari Protokolü uyarınca ulusal önleme mekanizmasıdır."}]},
+{"k":"count","t":"TİHEK Kurulu","ic":"people","items":[
+ {"v":11,"suf":" üye","l":"Hepsi Cumhurbaşkanınca seçilir (2025, 7547 sayılı Kanun)","n":"Karar organı Kuruldur. 11 üyesi vardır ve 2025'ten beri, 7547 sayılı Kanunla, hepsi Cumhurbaşkanınca seçilir."}]},
+{"k":"tree","t":"Kamu Denetçiliği Kurumu","ic":"building","root":"TBMM Başkanlığı","n":"İkinci kurum Kamu Denetçiliği Kurumu. Dayanağı Anayasanın 74. maddesi, 2010, ve 6328 sayılı Kanun, 2012. Kurum TBMM Başkanlığına bağlıdır ve idarenin işleyişiyle ilgili şikâyetleri inceler.","items":[
+ {"l":"Kamu Başdenetçisi: 1","s":"Yaş şartı 50","n":"Kurumda bir Kamu Başdenetçisi vardır. Yaş şartı 50."},
+ {"l":"Denetçiler: 5","s":"Yaş şartı 40","n":"Ve beş denetçi vardır. Denetçi için yaş şartı 40."}]},
+{"k":"flow","t":"Başdenetçi seçimi","ic":"vote","n":"Kamu Başdenetçisi TBMM'ce gizli oyla dört yıl için seçilir. Oylamalar şöyle ilerler.","items":[
+ {"l":"1. ve 2. oylama","s":"Üye tamsayısının üçte ikisi","n":"İlk iki oylamada üye tamsayısının üçte ikisi aranır."},
+ {"l":"3. oylama","s":"Salt çoğunluk","n":"Üçüncü oylamada salt çoğunluk aranır."},
+ {"l":"4. oylama","s":"En çok oy alan iki aday arasında","n":"Sonra en çok oy alan iki aday arasında dördüncü oylama yapılır."},
+ {"l":"Süre: dört yıl","s":"Yalnızca bir dönem daha seçilebilir","n":"Bir kişi yalnızca bir dönem daha seçilebilir."}]},
+{"k":"trap","t":"Tuzak: kime bağlı?","wrong":"KDK ve TİHEK aynı yere bağlıdır.","right":"KDK *TBMM Başkanlığına bağlı*. TİHEK *Cumhurbaşkanının görevlendireceği bakanla ilişkili*.","n":"Bir tuzak: Kamu Denetçiliği Kurumu ile TİHEK karıştırılır.","n2":"Kamu Denetçiliği Kurumu TBMM Başkanlığına bağlıdır. TİHEK ise Cumhurbaşkanının görevlendireceği bakanla ilişkilidir."},
+{"k":"quiz","q":"Kamu Başdenetçisi kim tarafından, kaç yıllığına seçilir?","a":"TBMM, gizli oyla, dört yıl.","na":"TBMM tarafından, gizli oyla, dört yıllığına."},
+{"k":"list","t":"KDK'ya başvuru (6328 md. 5, 17, 20)","ic":"people","n":"Kamu Denetçiliği Kurumuna başvuru kuralları. 6328 sayılı Kanunun 5, 17 ve 20. maddeleri.","items":[
+ {"h":"Kim","l":"Gerçek ve tüzel kişiler","n":"Gerçek ve tüzel kişiler başvurabilir."},
+ {"h":"Nasıl","l":"Ücretsiz; valilik veya kaymakamlık aracılığıyla da","n":"Başvuru ücretsizdir. Valilik veya kaymakamlık aracılığıyla da yapılabilir."},
+ {"h":"Ön şart","l":"İdari başvuru yolları tüketilmeli (telafisi güç zarar istisna)","n":"Önce idari başvuru yolları tüketilmelidir. Telafisi güç zarar hâli istisnadır."},
+ {"h":"Etki","l":"Dava açma süresini *durdurur*","n":"Başvuru dava açma süresini durdurur."},
+ {"h":"Süre","l":"İnceleme en geç *altı ayda* biter","n":"Kurum incelemeyi en geç altı ayda bitirir."}]},
+{"k":"compare","t":"KDK'nın görev alanı","ic":"shield","cols":["İnceler","İnceleyemez"],"n":"Kurum neye bakar, neye bakamaz?","items":[
+ {"c":0,"l":"İdarenin işleyişiyle ilgili şikâyetler","n":"İdarenin işleyişiyle ilgili şikâyetleri inceler."},
+ {"c":1,"l":"Yasama işlemleri","n":"Yasama işlemleri görev alanı dışındadır."},
+ {"c":1,"l":"Yargı kararları","n":"Yargı kararları da."},
+ {"c":1,"l":"TSK'nın sırf askerî faaliyetleri","n":"Ve Türk Silahlı Kuvvetlerinin sırf askerî faaliyetleri."}]},
+{"k":"compare","t":"Dilekçe ve bilgi edinme: kimin hakkı?","ic":"book","cols":["Dilekçe (3071)","Bilgi edinme ve kamu denetçisi (4982)"],"n":"Dayanaklar: Anayasanın 74. maddesi, 3071 sayılı Dilekçe Kanunu ve 4982 sayılı Bilgi Edinme Kanunu.","items":[
+ {"c":0,"l":"Vatandaşlar ve *karşılıklılık* esasıyla Türkiye'de ikamet eden yabancılar","n":"Dilekçe hakkı vatandaşlara ve karşılıklılık esasıyla Türkiye'de ikamet eden yabancılara tanınır."},
+ {"c":1,"l":"Anayasaya göre *herkes*","n":"Anayasaya göre bilgi edinme ve kamu denetçisine başvurma hakkı ise herkese aittir."}]},
+{"k":"bars","t":"Süreler","ic":"calendar","n":"Şimdi süreler. Dikkat: bazıları gün, bazıları iş günü.","items":[
+ {"l":"Dilekçeye gerekçeli cevap","v":30,"txt":"30 gün","c":0,"n":"Dilekçeye en geç 30 gün içinde gerekçeli cevap verilir."},
+ {"l":"TBMM Dilekçe Komisyonu","v":60,"txt":"60 gün","c":0,"n":"TBMM Dilekçe Komisyonu 60 günde sonuçlandırır."},
+ {"l":"Bilgi edinme","v":15,"txt":"15 iş günü","c":1,"n":"Bilgi edinmede süre 15 iş günüdür."},
+ {"l":"Bilgi edinme: başka birim veya kurum gerekirse","v":30,"txt":"30 iş günü","c":1,"n":"Başka bir birim veya kurum gerekirse 30 iş günü."}]},
+{"k":"flow","t":"Bilgi edinmede ret ve itiraz","ic":"flag","items":[
+ {"l":"Başvuru reddedilir","n":"Bilgi edinme başvurusu reddedilirse ne olur?"},
+ {"l":"Tebliğden itibaren 15 gün","s":"Bilgi Edinme Değerlendirme Kuruluna itiraz","n":"Tebliğden itibaren 15 gün içinde Bilgi Edinme Değerlendirme Kuruluna itiraz edilebilir."},
+ {"l":"Kurul 30 iş günü içinde karar verir","n":"Kurul 30 iş günü içinde karar verir."},
+ {"l":"İtiraz dava açma süresini *durdurur*","n":"İtiraz, dava açma süresini durdurur."}]},
+{"k":"trap","t":"Tuzak: gün mü, iş günü mü?","wrong":"Bilgi edinmede de süre 30 gündür.","right":"Dilekçe: *30 gün*. Bilgi edinme: *15 iş günü*, gerekirse 30 iş günü.","n":"Son tuzak: Dilekçe ile bilgi edinme süreleri aynı mıdır?","n2":"Hayır. Dilekçeye cevap süresi 30 gündür. Bilgi edinmede süre iş günü olarak hesaplanır: 15 iş günü, gerekirse 30 iş günü."},
+{"k":"quiz","q":"Bilgi edinme başvurusunda süre?","a":"15 iş günü; başka birim veya kurum gerekiyorsa 30 iş günü.","na":"15 iş günü. Başka birim veya kurum gerekiyorsa 30 iş günü."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi tarih, süre ve kurum eşleştirmelerini konu sorularıyla pekiştir."}
+]}

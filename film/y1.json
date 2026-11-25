@@ -1,0 +1,32 @@
+{"id":"y1","scenes":[
+{"k":"title","tag":"Sözel yetenek","ic":"book","t":"Türkçe: yazım ve anlatım bozuklukları","sub":"Kesme işareti, da/de, bitişik yazım, gereksiz sözcük ve bir deyim","n":"Sözel bölümde puan kaybettiren küçük kurallar var. İyi haber şu: her biri bir kez öğrenilince kalıcıdır."},
+{"k":"compare","t":"Kesme işareti: ayrılır mı?","ic":"law","cols":["Kesmeyle ayrılır","Kesmeyle ayrılmaz"],"n":"İlk kural kesme işareti. Ekin kesmeyle ayrılıp ayrılmayacağı, adın türüne bağlıdır.","items":[
+ {"c":0,"l":"Kişi ve yer adları: *Ankara'da*","n":"Kişi ve yer adlarına gelen ekler kesmeyle ayrılır. Örnek: Ankara'da."},
+ {"c":1,"l":"Kurum, kuruluş, kurul adları: *Türkiye Büyük Millet Meclisinde*","n":"Kurum, kuruluş ve kurul adlarına gelen ekler ise ayrılmaz. Örnek: Türkiye Büyük Millet Meclisinde."}]},
+{"k":"trap","t":"Tuzak: Meclis","wrong":"Meclis'te","right":"*Mecliste*: kurum adı, ek kesmeyle ayrılmaz.","n":"Tuzak: Meclis kelimesine gelen eki kesmeyle ayırıp Meclis'te yazmak.","n2":"Doğrusu Mecliste. Meclis bir kurum adıdır, ekini kesmeyle ayırmayız."},
+{"k":"compare","t":"da/de: bağlaç mı, ek mi?","ic":"link","cols":["Bağlaç: ayrı","Bulunma eki: bitişik"],"n":"İkinci kural: da ve de. Bağlaç olan de ile bulunma eki olan de farklı yazılır.","items":[
+ {"c":0,"l":"Kardeşim *de* geldi.","n":"Bağlaç olan de ayrı yazılır: Kardeşim de geldi."},
+ {"c":1,"l":"Ankara'*da*","n":"Bulunma eki bitişik yazılır: Ankara'da."}]},
+{"k":"flow","t":"Sınama yolu","ic":"q","n":"Hangisi olduğundan emin değilsen basit bir sınama yolu var.","items":[
+ {"l":"\"de\"yi cümleden at","n":"Önce de'yi cümleden at."},
+ {"l":"Cümleyi yeniden oku","n":"Sonra cümleyi yeniden oku."},
+ {"l":"Cümle yine kuruluyor mu?","s":"Anlam bozulmuyorsa: *bağlaç*, ayrı yaz","n":"Cümle yine kuruluyor ve anlam bozulmuyorsa o de bağlaçtır. Ayrı yazılır."}]},
+{"k":"quiz","q":"\"Kardeşimde gelecek\" doğru mu?","a":"Hayır: \"Kardeşim de gelecek\" (bağlaç ayrı).","na":"Hayır. Doğrusu: Kardeşim de gelecek. Buradaki de bağlaçtır, ayrı yazılır."},
+{"k":"compare","t":"Bitişik mi, ayrı mı?","ic":"book","cols":["Bitişik","Ayrı"],"n":"Üçüncü kural: bazı sözcüklerin yazımı ezber ister.","items":[
+ {"c":0,"l":"*birçok*","n":"Birçok bitişik yazılır."},
+ {"c":0,"l":"*hiçbir*","n":"Hiçbir de bitişik yazılır."},
+ {"c":1,"l":"*yurt dışı*","n":"Yurt dışı ise ayrı yazılır."}]},
+{"k":"say","t":"Gereksiz sözcük","ic":"warn","big":"Aynı anlamı veren iki sözcük *yan yana* kullanılmaz.","n":"Dördüncü kural, anlatım bozukluğu: aynı anlamı veren iki sözcük yan yana kullanılmaz.","items":[
+ {"l":"Yanlış: \"yaklaşık elli kadar\"","n":"Yaklaşık elli kadar demek yanlıştır. Yaklaşık ve kadar aynı anlamı verir."},
+ {"l":"Doğru: \"yaklaşık elli\" ya da \"elli kadar\"","n":"Ya yaklaşık elli dersin, ya da elli kadar."}]},
+{"k":"quiz","q":"\"Yaklaşık elli kadar\" ifadesindeki bozukluk ne?","a":"Gereksiz sözcük: \"yaklaşık\" ve \"kadar\" aynı anlamı verir. \"Yaklaşık elli\" ya da \"elli kadar\".","na":"Gereksiz sözcük. Yaklaşık ve kadar aynı anlamı verir. Biri yeter."},
+{"k":"say","t":"Deyim","ic":"star","big":"\"İnce eleyip sık dokumak\" = bir şeyi *bütün ayrıntılarıyla* araştırmak, gözden geçirmek","n":"Son olarak bir deyim. Türk Dil Kurumuna göre ince eleyip sık dokumak, bir şeyi bütün ayrıntılarıyla araştırmak, gözden geçirmek demektir."},
+{"k":"list","t":"Hızlı tekrar","ic":"star","n":"Kuralları bir kez daha toparlayalım.","items":[
+ {"h":"Kesme","l":"Kurum adı: ayrılmaz (Mecliste). Kişi ve yer adı: ayrılır (Ankara'da).","n":"Kesme: kurum adında ek ayrılmaz, kişi ve yer adında ayrılır."},
+ {"h":"da/de","l":"Bağlaç ayrı, bulunma eki bitişik. At ve oku.","n":"da ve de: bağlaç ayrı, bulunma eki bitişik. Emin değilsen at ve oku."},
+ {"h":"Yazım","l":"birçok, hiçbir bitişik; yurt dışı ayrı.","n":"Birçok ve hiçbir bitişik, yurt dışı ayrı."},
+ {"h":"Anlatım","l":"Aynı anlamdaki iki sözcük yan yana olmaz.","n":"Aynı anlamdaki iki sözcük yan yana kullanılmaz."},
+ {"h":"Deyim","l":"İnce eleyip sık dokumak: ayrıntılarıyla araştırmak.","n":"İnce eleyip sık dokumak: ayrıntılarıyla araştırmak, gözden geçirmek."}]},
+{"k":"quiz","q":"\"Türkiye Büyük Millet Meclisi\" adına gelen bulunma eki nasıl yazılır?","a":"Kesmesiz: \"Türkiye Büyük Millet Meclisinde\" (kurum adı).","na":"Kesmesiz: Türkiye Büyük Millet Meclisinde. Kurum adlarına gelen ekler ayrılmaz."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

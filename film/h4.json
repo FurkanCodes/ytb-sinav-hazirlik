@@ -1,0 +1,45 @@
+{"id":"h4","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"İdare hukuku ve idari yargı","sub":"İdari işlem ne zaman hukuka aykırıdır, vatandaş nasıl dava açar?","n":"Uzman yardımcısı olarak her gün karşılaşacağın konu: idari işlem ne zaman hukuka aykırıdır ve vatandaş nasıl dava açar."},
+{"k":"flow","t":"İdari işlemin beş unsuru (İYUK 2/1-a)","ic":"book","n":"İdari Yargılama Usulü Kanununun ikinci maddesine göre idari işlemin beş unsuru vardır.","items":[
+ {"l":"Yetki","n":"Birincisi yetki."},
+ {"l":"Şekil","n":"İkincisi şekil."},
+ {"l":"Sebep","n":"Üçüncüsü sebep."},
+ {"l":"Konu","n":"Dördüncüsü konu."},
+ {"l":"Maksat","n":"Beşincisi maksat."}]},
+{"k":"compare","t":"Hangi unsur sakatlanır?","ic":"warn","cols":["Sebep sakat","Maksat sakat"],"n":"Sınavda sık sorulan eşleştirme: hangi kusur hangi unsuru sakatlar?","items":[
+ {"c":0,"l":"*Dayanaksız* gerekçe","n":"Dayanaksız bir gerekçe, sebep unsurunu sakatlar."},
+ {"c":1,"l":"*Kişisel* amaç","n":"Kişisel bir amaç ise maksat unsurunu sakatlar."}]},
+{"k":"quiz","q":"İdari işlemin beş unsuru nedir?","a":"Yetki, şekil, sebep, konu, maksat.","na":"Yetki, şekil, sebep, konu ve maksat."},
+{"k":"compare","t":"İki dava türü (İYUK md. 2)","ic":"law","cols":["İptal davası","Tam yargı davası"],"n":"İki temel dava türü var. Kimin açabileceği farklıdır.","items":[
+ {"c":0,"l":"*Menfaati* ihlal edilenlerce açılır","n":"İptal davası, menfaati ihlal edilenlerce açılır."},
+ {"c":1,"l":"*Kişisel hakkın* doğrudan ihlali gerekir","n":"Tam yargı davası için ise kişisel hakkın doğrudan ihlal edilmiş olması gerekir."}]},
+{"k":"flow","t":"Zımni ret (İYUK md. 10)","ic":"calendar","n":"Şimdi zımni ret. İdari Yargılama Usulü Kanununun 10. maddesi.","items":[
+ {"l":"Vatandaş idareye başvurur","n":"Vatandaş idareye bir başvuru yapar."},
+ {"l":"30 gün içinde cevap yok","s":"Reddedilmiş sayılır","n":"Başvuru 30 gün içinde cevaplanmazsa reddedilmiş sayılır."},
+ {"l":"Kesin olmayan cevap","s":"Bekleme en fazla 4 ay","n":"İdare kesin olmayan bir cevap verirse, bekleme en fazla dört ay sürer."}]},
+{"k":"bars","t":"2021: süreler kısaldı (7331 sayılı Kanun)","ic":"chart","n":"2021'de 7331 sayılı Kanunla bu süreler kısaltıldı.","items":[
+ {"l":"Cevap süresi: eski","v":60,"txt":"60 gün","c":3,"n":"Cevap süresi eskiden 60 gündü."},
+ {"l":"Cevap süresi: *güncel*","v":30,"txt":"30 gün","c":2,"n":"Bugün 30 gün."},
+ {"l":"Üst sınır: eski","v":6,"txt":"6 ay","c":3,"n":"Üst sınır eskiden altı aydı."},
+ {"l":"Üst sınır: *güncel*","v":4,"txt":"4 ay","c":2,"n":"Bugün dört ay."}]},
+{"k":"trap","t":"Tuzak: eski süreler","wrong":"Zımni ret süresi 60 gün, üst sınır 6 ay.","right":"Güncel: *30 gün / 4 ay* (2021, 7331 sayılı Kanun).","n":"Bir tuzak: Eski kitaplarda 60 gün ve altı ay yazar.","n2":"Güncel süreler 30 gün ve dört aydır."},
+{"k":"quiz","q":"Zımni ret süresi ve üst sınır?","a":"30 gün / 4 ay.","na":"30 gün. Üst sınır dört ay."},
+{"k":"list","t":"Yürütmenin durdurulması (AY md. 125, İYUK md. 27)","ic":"shield","n":"Şimdi yürütmenin durdurulması. Anayasanın 125. ve İdari Yargılama Usulü Kanununun 27. maddesi.","items":[
+ {"h":"Şart","l":"Telafisi güç zarar *ve* açık hukuka aykırılık, birlikte","n":"İki şart birlikte aranır: telafisi güç zarar ve açık hukuka aykırılık."},
+ {"h":"Karar","l":"Gerekçeli olur","n":"Karar gerekçeli olur."},
+ {"h":"Teminat","l":"Kural olarak istenir","n":"Kural olarak teminat istenir."},
+ {"h":"İtiraz","l":"Tebliğden itibaren 7 gün içinde, bir defa","n":"Karara tebliğden itibaren yedi gün içinde, bir defa itiraz edilebilir."}]},
+{"k":"say","t":"Dava açmak yetmez","ic":"warn","big":"Dava açmak işlemi *kendiliğinden durdurmaz*.","n":"Unutma: dava açmak, işlemi kendiliğinden durdurmaz. Bunun için yürütmenin durdurulması kararı gerekir."},
+{"k":"quiz","q":"Yürütmenin durdurulması için hangi iki şart birlikte aranır?","a":"Telafisi güç zarar ve açık hukuka aykırılık","na":"Telafisi güç zarar ve açık hukuka aykırılık, birlikte."},
+{"k":"compare","t":"Hiyerarşi mi, vesayet mi?","ic":"people","cols":["Hiyerarşi","İdari vesayet"],"n":"İdare içindeki iki denetim ilişkisini ayıralım.","items":[
+ {"c":0,"l":"*Aynı* tüzelkişilik içinde","n":"Aynı tüzelkişilik içindeki ilişki hiyerarşidir."},
+ {"c":0,"l":"Örnek: vali-kaymakam","n":"Örneğin vali ile kaymakam arasındaki ilişki."},
+ {"c":1,"l":"*Ayrı* tüzelkişiler üzerinde denetim","n":"Ayrı tüzelkişiler üzerindeki denetim ise idari vesayettir."},
+ {"c":1,"l":"Örnek: bakanlık-belediye","n":"Örneğin bakanlık ile belediye arasındaki ilişki."}]},
+{"k":"flow","t":"Tazminat (AY md. 129/5, 657 md. 13)","ic":"money","n":"Son olarak tazminat. Görevlinin kusuru nedeniyle bir zarar doğduysa ne olur?","items":[
+ {"l":"Görevli kusurlu davranır","n":"Bir görevli kusurlu davranır ve zarar doğar."},
+ {"l":"Dava yalnızca *idareye* açılır","n":"Dava yalnızca idareye açılır."},
+ {"l":"İdare görevliye rücu eder","n":"İdare daha sonra görevliye rücu eder. Dayanak: Anayasanın 129. maddesinin beşinci fıkrası ve 657 sayılı Kanunun 13. maddesi."}]},
+{"k":"trap","t":"Tuzak: kime dava?","wrong":"Kusurlu memura doğrudan dava açılır.","right":"Dava *yalnızca idareye* açılır; idare sonra memura rücu eder.","n":"Son tuzak: Kusurlu memura doğrudan dava açılabilir mi?","n2":"Hayır. Dava yalnızca idareye açılır. İdare sonra görevliye rücu eder."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

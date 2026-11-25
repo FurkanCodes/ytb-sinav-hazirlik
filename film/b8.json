@@ -1,0 +1,78 @@
+{"id":"b8","scenes":[
+{"k":"title","tag":"Kurum bilgisi","ic":"star","t":"YTB'nin projeleri ve programları","sub":"Somut programlar, hedef kitleler ve 2025 Faaliyet Raporundaki sayılar","n":"Başkanlık görev alanı sorularında YTB'nin somut programlarını, hedef kitlelerini ve faaliyet raporundaki sayıları bilmek fark yaratır. Bu ders YTB'nin sitesine ve 2025 Yılı Faaliyet Raporuna dayanır."},
+{"k":"tree","t":"Programların haritası","ic":"people","root":"YTB programları","n":"Programları üç hedef kitleye göre gruplayacağız.","items":[
+ {"l":"Yurtdışı vatandaşlar","s":"Burslar, Türkçe, gençlik, hukuk","n":"Birincisi yurtdışı vatandaşlar: burslar, Türkçe eğitimi, gençlik ve hukuk programları."},
+ {"l":"Kardeş topluluklar","s":"KATİP, BESKAP, Balkan Gençlik Okulları","n":"İkincisi kardeş topluluklar: KATİP, BESKAP ve Balkan Gençlik Okulları."},
+ {"l":"Uluslararası öğrenciler","s":"Türkiye Bursları, Türkiye Mezunları","n":"Üçüncüsü uluslararası öğrenciler: Türkiye Bursları ve Türkiye Mezunları."}]},
+{"k":"list","t":"Yurtdışı vatandaşlara destek ve burslar (2026)","ic":"money","n":"Önce yurtdışı vatandaşlara yönelik destek ve burslar. Hedef kitle Türk vatandaşları ve Mavi Kart sahipleri.","items":[
+ {"h":"Türkçe Saati","l":"*Proje Destek Programı*: Türk STK'larının Türkçe ve kültür eğitimi projeleri","n":"Türkçe Saati Proje Destek Programı, yurt dışındaki Türk sivil toplum kuruluşlarının Türkçe ve kültür eğitimi projelerini destekler."},
+ {"h":"Fuat Sezgin","l":"*Prof. Dr. Fuat Sezgin Üstün Başarı Bursu*: tek seferlik 1.600 / 2.000 / 2.400 avro","n":"Prof. Dr. Fuat Sezgin Üstün Başarı Bursu tek seferliktir: lisansta 1.600, yüksek lisansta 2.000, doktorada 2.400 avro."},
+ {"h":"Lise","l":"*Lise Bitirme Başarı Bursu*: tek seferlik 1.000 avro","n":"Lise Bitirme Başarı Bursu tek seferlik 1.000 avrodur."},
+ {"h":"Tez","l":"*Tez ve Araştırma Bursu*: yurt dışındaki vatandaşlarla ilgili tezler","n":"Tez ve Araştırma Bursu, yurt dışındaki vatandaşlarla ilgili tezlere verilir."},
+ {"h":"Hukuk","l":"*Hukuk Alanında Uzmanlık Bursu*","n":"Bir de Hukuk Alanında Uzmanlık Bursu var."},
+ {"h":"Aile","l":"Üç modüllü *Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu*","n":"Son olarak üç modüllü Aile ve Sosyal Hizmetler Alanlarında Uzmanlık Bursu."}]},
+{"k":"tree","t":"Hukuk Alanında Uzmanlık Bursu","ic":"law","root":"Odak sorunlar","n":"Hukuk Alanında Uzmanlık Bursu dört soruna odaklanır.","items":[
+ {"l":"İnsan hakları ihlalleri","n":"İnsan hakları ihlalleri."},
+ {"l":"Yabancı düşmanlığı","n":"Yabancı düşmanlığı."},
+ {"l":"Irkçılık","n":"Irkçılık."},
+ {"l":"İslam karşıtlığı","n":"Ve İslam karşıtlığı."}]},
+{"k":"quiz","q":"Hukuk Alanında Uzmanlık Bursu hangi sorunlara odaklanır?","a":"İnsan hakları ihlalleri, yabancı düşmanlığı, ırkçılık, İslam karşıtlığı","na":"İnsan hakları ihlalleri, yabancı düşmanlığı, ırkçılık ve İslam karşıtlığı."},
+{"k":"timeline","t":"Büyük Türkçe Projeleri","ic":"calendar","n":"Büyük Türkçe Projeleri ülke bazında yürütülür ve toplam 18.560 öğrenciye ulaşmıştır.","items":[
+ {"d":"2018","l":"*Hollanda*","n":"2018'den beri Hollanda'da."},
+ {"d":"2022","l":"*Belçika*","n":"2022'den beri Belçika'da."},
+ {"d":"2023","l":"*Fransa*. Toplam 18.560 öğrenci","n":"2023'ten beri Fransa'da. Toplam 18.560 öğrenci."}]},
+{"k":"list","t":"Türkçe ve eğitim: diğer sayılar","ic":"book","items":[
+ {"h":"Türkçe Saati","l":"*35.000'den fazla* çocuğun Türkçe eğitimi desteklendi","n":"Türkçe Saati programı 35.000'den fazla çocuğun Türkçe eğitimini desteklemiştir."},
+ {"h":"ATES","l":"17-18 Ekim 2026, Amsterdam: Hollanda, Belçika ve Fransa'dan *90 eğitici*","n":"Avrupa Türkçe Eğiticileri Sertifikasyon Programı, yani ATES, 17-18 Ekim 2026'da Amsterdam'da Hollanda, Belçika ve Fransa'dan 90 eğiticiyi buluşturdu."},
+ {"h":"ATES konuları","l":"İki dillilik; oyun ve drama ile Türkçe öğretimi","n":"Konular iki dillilik ile oyun ve drama ile Türkçe öğretimiydi."}]},
+{"k":"list","t":"2025 raporundan Türkçe sayıları","ic":"chart","n":"2025 Faaliyet Raporundaki Türkçe sayıları.","items":[
+ {"h":"2.417","l":"Belçika Büyük Türkçe Projesi öğrencisi","n":"Belçika Büyük Türkçe Projesi: 2.417 öğrenci."},
+ {"h":"34 proje","l":"Türkçe Saati Projeleri, *8 ülkede*","n":"Türkçe Saati Projeleri: 8 ülkede 34 proje."},
+ {"h":"680","l":"Türkçe Saati Projeleri öğrencisi","n":"Bu projelerde 680 öğrenci."},
+ {"h":"1.000","l":"*TULIP Projesi* çocuk","n":"TULIP Projesi: 1.000 çocuk."}]},
+{"k":"bars","t":"Gençlik ve kültürel hareketlilik (2025)","ic":"people","n":"Gençlik ve kültürel hareketlilik programlarına geçelim.","items":[
+ {"l":"Gençlik Kampı, Nisan (66 ülke)","v":400,"txt":"400 kişi","c":0,"n":"Yurtdışı Türkler Gençlik Kampları: Nisan döneminde 66 ülkeden 400 kişi."},
+ {"l":"Gençlik Kampı, Eylül (57 ülke)","v":200,"txt":"200 kişi","c":0,"n":"Eylül döneminde 57 ülkeden 200 kişi."},
+ {"l":"Evliya Çelebi Kültür Gezileri (8 ülke)","v":310,"txt":"310 katılımcı","c":1,"n":"Evliya Çelebi Kültür Gezileri: 8 ülkeden 310 katılımcı."}]},
+{"k":"flow","t":"YTB Türkiye Stajları Programı","ic":"shield","n":"Şimdi YTB Türkiye Stajları Programı.","items":[
+ {"l":"2023: TUSAŞ iş birliği","s":"\"SKY GLOBAL TÜRK\" adıyla başladı","n":"Program 2023'te TUSAŞ iş birliğiyle SKY GLOBAL TÜRK adıyla başladı."},
+ {"l":"Diaspora kökenli genç mühendisler","s":"Yurt dışında okuyan","n":"Yurt dışında okuyan diaspora kökenli genç mühendislere yöneliktir."},
+ {"l":"Savunma sanayii stajı","s":"TUSAŞ, ASELSAN, TEI, ROKETSAN, HAVELSAN, STM","n":"Onları savunma sanayii kuruluşlarında staja yerleştirir: TUSAŞ, ASELSAN, TEI, ROKETSAN, HAVELSAN ve STM."},
+ {"l":"2026: *115 genç mühendis*","s":"Hak kazandı","n":"2026'da 115 genç mühendis hak kazandı."}]},
+{"k":"say","t":"Diaspora Diplomasi ve Kariyer Akademisi","ic":"globe","big":"16-20 Haziran 2026, *Brüksel*","n":"Diaspora Diplomasi ve Kariyer Akademisi, 16-20 Haziran 2026'da Brüksel'de düzenlenmek üzere duyuruldu. Duyuru tarihi 7 Mayıs 2026.","items":[
+ {"l":"Yurt dışındaki hukuk, siyaset bilimi ve uluslararası ilişkiler öğrencileri","n":"Hedef kitle yurt dışında yaşayan hukuk, siyaset bilimi ve uluslararası ilişkiler öğrencileridir."}]},
+{"k":"quiz","q":"Türkiye Stajları Programı ne zaman, hangi adla başladı?","a":"2023'te TUSAŞ iş birliğiyle \"SKY GLOBAL TÜRK\" adıyla","na":"2023'te, TUSAŞ iş birliğiyle, SKY GLOBAL TÜRK adıyla."},
+{"k":"trap","t":"Tuzak: iki staj programı","wrong":"YTB Türkiye Stajları Programı Türkiye Burslusu öğrencilere yöneliktir.","right":"Türkiye Stajları *yurt dışındaki genç mühendislere*, savunma sanayiinde. *Uluslararası Öğrenci Staj Programı* Türkiye Burslularına.","n":"İki staj programı karıştırılır.","n2":"YTB Türkiye Stajları Programı yurt dışındaki Türk gençlerine, yani genç mühendislere yöneliktir ve savunma sanayiinde yapılır. Uluslararası Öğrenci Staj Programı ise Türkiye'de okuyan Türkiye Burslusu öğrencilere yöneliktir."},
+{"k":"list","t":"Hukuk, insan hakları ve saha","ic":"law","items":[
+ {"h":"13. Hukukçular Buluşması","l":"16-18 Ekim 2026, Amsterdam: 9 ülkeden *40 hukukçu* ve hukuk danışmanı","n":"13. Yurtdışı Hukukçular Buluşması 16-18 Ekim 2026'da Amsterdam'da 9 ülkeden 40 hukukçu ve hukuk danışmanını buluşturdu."},
+ {"h":"Konular","l":"İş ve eğitimde ayrımcılık, aile hukuku, velayet, miras, vergi, hukuki destek","n":"Konular iş ve eğitimde ayrımcılık, aile hukuku, velayet, miras, vergi sorunları ve hukuki destek mekanizmalarıydı."},
+ {"h":"İnsan hakları","l":"2025: İnsan Hakları Proje Destek Programına *72 başvuru*","n":"2025'te İnsan Hakları Proje Destek Programına 72 başvuru geldi."},
+ {"h":"Farkındalık","l":"*15 Mart* İslamofobiyle Mücadele Uluslararası Günü; Hanau anmaları","n":"15 Mart İslamofobiyle Mücadele Uluslararası Günü farkındalık çalışmaları ve Hanau anma programları yapıldı."},
+ {"h":"Karşılama","l":"Sırbistan ve Kapıkule: bugüne kadar ~2 milyon vatandaş, 2025'te 75 bin","n":"Sırbistan ve Kapıkule'deki karşılama ve uğurlama programlarıyla bugüne kadar yaklaşık 2 milyon vatandaşla doğrudan temas kuruldu. 2025'te 75 bin."}]},
+{"k":"say","t":"Kardeş topluluklar","ic":"link","big":"\"Kardeş Topluluklar\" bir *üst tanımlamadır*","n":"YTB sitesi Kardeş Topluluklar ifadesini bir üst tanımlama olarak kullanır.","items":[
+ {"l":"Tarihî, dinî, siyasi, coğrafi ve kültürel bağı olan topluluklar","n":"Türkiye ile tarihî, dinî, siyasi, coğrafi ve kültürel bağı olan toplulukları kapsar."},
+ {"l":"Bağın yakınlığına göre: *soydaşlık* veya *akrabalık*","n":"Bağın yakınlığına göre ilişki soydaşlık veya akrabalık olarak adlandırılır."}]},
+{"k":"list","t":"Kardeş topluluk programları","ic":"people","items":[
+ {"h":"KATİP","l":"Kamu Görevlileri ve Akademisyenlere Yönelik Türkçe İletişim Programı; 2025'te 17 katılımcı","n":"KATİP: Kamu Görevlileri ve Akademisyenlere Yönelik Türkçe İletişim Programı. 2025'te 17 katılımcı."},
+ {"h":"BESKAP","l":"Beşeri ve Sosyal Kalkınma Araştırmaları Destek Programı","n":"BESKAP: Beşeri ve Sosyal Kalkınma Araştırmaları Destek Programı."},
+ {"h":"Balkan","l":"*Balkan Gençlik Okulları*: 2025'te 8 ülkede 608 öğrenci","n":"Balkan Gençlik Okulları: 2025'te 8 ülkede 608 öğrenci."},
+ {"h":"Sözlü tarih","l":"\"Onlar Da İnsandı\": Kırım Tatarlarının 1944 sürgünü, ~250 tanık","n":"Sözlü tarih: Kırım Tatarlarının 1944 sürgününe dair Onlar Da İnsandı çalışması, yaklaşık 250 tanık."},
+ {"h":"Sözlü tarih","l":"\"1944 Ahıska Sürgünü: Son Tanıklar\"","n":"Bir de 1944 Ahıska Sürgünü: Son Tanıklar."},
+ {"h":"Anma","l":"Ahıska Sürgünü 75. Yıl (10.12.2019, Cumhurbaşkanlığı Külliyesi); Bulgaristan Zorunlu Göç (1989) 30. Yıl","n":"Anma programları: Ahıska Sürgünü 75. Yıl, 10 Aralık 2019, Cumhurbaşkanlığı Külliyesi. Ve 1989 Bulgaristan Zorunlu Göçünün 30. yılı."}]},
+{"k":"trap","t":"Tuzak: Türkçe programları","wrong":"Türkçe Saati ülke bazında yürütülen bir projedir; KATİP diaspora çocuklarına yöneliktir.","right":"Türkçe Saati *STK projelerine destek*. Büyük Türkçe Projeleri *ülke bazında*. KATİP *kardeş toplulukların kamu görevlileri ve akademisyenlerine*.","n":"Üç Türkçe programı birbirine karışır.","n2":"Türkçe Saati, STK projelerine verilen bir destek programıdır. Büyük Türkçe Projeleri ülke bazında yürütülür: Hollanda 2018, Belçika 2022, Fransa 2023. KATİP ise kardeş toplulukların kamu görevlileri ve akademisyenlerine yöneliktir."},
+{"k":"list","t":"Türkiye Bursları: 2025'in büyük sayıları","ic":"chart","n":"Son blok: uluslararası öğrenciler ve Türkiye Mezunları, 2025 Faaliyet Raporu.","items":[
+ {"h":"6.527","l":"Yeni burslandırma (uzun ve kısa dönemli, ortak burslar dahil)","n":"2025'te uzun ve kısa dönemli toplam 6.527 burslandırma yapıldı, ortak burslar dahil."},
+ {"h":"15.755","l":"Yıl sonunda Türkiye'deki Türkiye Burslusu öğrenci","n":"Yıl sonunda Türkiye'de 15.755 Türkiye Burslusu öğrenci vardı."},
+ {"h":"%50,4","l":"Burs verilenlerde kız öğrenci oranı","n":"Burs verilenlerde kız öğrenci oranı yüzde 50,4 oldu."},
+ {"h":"145.000","l":"*Türkiye Mezunları Portali* üyesi","n":"Türkiye Mezunları Portali 145.000 üyeye ulaştı."},
+ {"h":"1.164","l":"Hibe ve destek (üç hedef kitlenin toplamı)","n":"Uluslararası öğrenciler, soydaş ve akraba topluluklar ile yurtdışı vatandaşlara yönelik toplam hibe ve destek sayısı 1.164 oldu."}]},
+{"k":"count","t":"Öğrencilere diğer destekler","ic":"star","items":[
+ {"v":135,"l":"Üstün Başarı Burs Programı bursiyeri","n":"Üstün Başarı Burs Programıyla 135 bursiyer desteklendi."},
+ {"v":891,"l":"Akademik Destek Programı öğrencisi","n":"Akademik Destek Programıyla 891 öğrenci."},
+ {"v":107,"l":"Staj yapan öğrenci (1.086 başvuru)","n":"Uluslararası Öğrenci Staj Programına 1.086 başvuru geldi, 107 öğrenci staj yaptı."},
+ {"v":35,"l":"Desteklenen Türkiye Mezunları Derneği (31 ülkede)","n":"31 ülkede 35 Türkiye Mezunları Derneğine destek verildi."}]},
+{"k":"trap","t":"Tuzak: 2025 sayıları","wrong":"15.755, 2025'te verilen yeni burs sayısıdır.","right":"*6.527* yeni burslandırma; *15.755* yıl sonu toplam burslu; *145.000* portal üyesi; *1.164* hibe ve destek.","n":"2025 sayıları birbirine karışır.","n2":"6.527 yeni burslandırma, 15.755 yıl sonu toplam burslu öğrenci, 145.000 Türkiye Mezunları Portali üyesi, 1.164 de üç hedef kitlenin toplamı olan hibe ve destek sayısıdır."},
+{"k":"quiz","q":"2025 yıl sonunda kaç Türkiye Burslusu öğrenci vardı?","a":"15.755","na":"15.755."},
+{"k":"quiz","q":"Büyük Türkçe Projeleri hangi ülkelerde, hangi yıllardan beri?","a":"Hollanda 2018, Belçika 2022, Fransa 2023","na":"Hollanda 2018, Belçika 2022, Fransa 2023."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

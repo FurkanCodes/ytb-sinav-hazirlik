@@ -1,0 +1,31 @@
+{"id":"b2","scenes":[
+{"k":"title","tag":"Kurum bilgisi","ic":"building","t":"Teşkilat ve hizmet birimleri","sub":"Hangi görev hangi daire başkanlığının? Hangi birim adı uydurma?","n":"YTB'nin hizmet birimleri hedef kitlelerine göre kurulmuştur. Sınavda bir görevin hangi birime ait olduğu ya da uydurma bir birim adı sorulur."},
+{"k":"tree","t":"Teşkilat yapısı (CBK md. 737)","ic":"building","root":"YTB hizmet birimleri","n":"Kararnamenin 737. maddesi YTB'nin yapısını sayar: 8 daire başkanlığı ve Hukuk Müşavirliği.","items":[
+ {"l":"*8* daire başkanlığı","s":"Hedef kitlelere göre","n":"Sekiz daire başkanlığı var. Bunlar hedef kitlelere göre kurulmuştur."},
+ {"l":"Hukuk Müşavirliği","s":"md. 737'de ayrıca sayılır","n":"Bunlara ek olarak Hukuk Müşavirliği de 737. maddede sayılır."}]},
+{"k":"list","t":"Kim neyi yapar?","ic":"people","n":"Şimdi sınavda en çok sorulan dört daire başkanlığını görevleriyle eşleştirelim.","items":[
+ {"h":"Yurtdışı Vatandaşlar (md. 738)","l":"Yurt dışında yaşayan *vatandaşlarla* ilgili işler","n":"Yurtdışı Vatandaşlar Daire Başkanlığı, madde 738: yurt dışında yaşayan vatandaşlarla ilgili işleri yürütür."},
+ {"h":"Kültürel ve Sosyal İlişkiler (md. 739)","l":"*Soydaş ve akraba topluluklarla* ekonomik, sosyal, kültürel bağlar","n":"Kültürel ve Sosyal İlişkiler Daire Başkanlığı, madde 739: soydaş ve akraba topluluklarla ekonomik, sosyal ve kültürel bağların geliştirilmesini koordine eder."},
+ {"h":"Uluslararası Öğrenciler","l":"*Türkiye Bursları* ve uluslararası öğrenci işleri","n":"Uluslararası Öğrenciler Daire Başkanlığı: Türkiye Bursları ve uluslararası öğrenci işleri."},
+ {"h":"Kurumsal İlişkiler ve İletişim (md. 740)","l":"STK'lara destek; yayın, panel, basın","n":"Kurumsal İlişkiler ve İletişim Daire Başkanlığı, madde 740: sivil toplum kuruluşlarına destek verir, yayın, panel ve basın işlerini yürütür."}]},
+{"k":"compare","t":"Hedef kitle: iki ayrı birim","ic":"globe","cols":["Yurtdışı Vatandaşlar (md. 738)","Kültürel ve Sosyal İlişkiler (md. 739)"],"n":"İki birim sık karıştırılır. Hedef kitleye bak.","items":[
+ {"c":0,"l":"Yurt dışında yaşayan *vatandaşlar*","n":"Yurt dışında yaşayan vatandaşlar: Yurtdışı Vatandaşlar Daire Başkanlığı."},
+ {"c":1,"l":"*Soydaş ve akraba* topluluklar","n":"Soydaş ve akraba topluluklar: Kültürel ve Sosyal İlişkiler Daire Başkanlığı."}]},
+{"k":"quiz","q":"Soydaş ve akraba topluluklarla bağları hangi birim koordine eder?","a":"Kültürel ve Sosyal İlişkiler Daire Başkanlığı (md. 739)","na":"Kültürel ve Sosyal İlişkiler Daire Başkanlığı. Madde 739."},
+{"k":"trap","t":"Tuzak: uydurma birim","wrong":"YTB'de \"Konsolosluk Hizmetleri Daire Başkanlığı\" vardır.","right":"Böyle bir birim *yoktur*. Konsolosluk hizmetleri *Dışişleri Bakanlığının* işidir.","n":"İlk tuzak: YTB'de Konsolosluk Hizmetleri Daire Başkanlığı var mı?","n2":"Yok. Bu uydurma bir birim adıdır. Konsolosluk hizmetleri Dışişleri Bakanlığının işidir."},
+{"k":"flow","t":"Kurumsal İlişkiler ve İletişim (md. 740)","ic":"link","n":"Kurumsal İlişkiler ve İletişim Daire Başkanlığının iki ayağı var.","items":[
+ {"l":"STK'lara destek","s":"Kapasite geliştirme, idari, mali ve *hibe* desteği","n":"Birinci ayak: sivil toplum kuruluşlarına kapasite geliştirme, idari, mali ve hibe desteği."},
+ {"l":"İletişim","s":"Yayın, panel ve basın işleri","n":"İkinci ayak: yayın, panel ve basın işleri."}]},
+{"k":"trap","t":"Tuzak: STK hibesi","wrong":"STK hibe desteği Destek Hizmetleri ya da Strateji Geliştirme Daire Başkanlığının görevidir.","right":"Hibe desteği *Kurumsal İlişkiler ve İletişim* Daire Başkanlığının görevidir (md. 740).","n":"İkinci tuzak: STK hibe desteğini Destek Hizmetleri ya da Strateji Geliştirme mi verir?","n2":"Hayır. Bu görev Kurumsal İlişkiler ve İletişim Daire Başkanlığınındır. Madde 740."},
+{"k":"quiz","q":"STK'lara hibe desteği hangi birimin?","a":"Kurumsal İlişkiler ve İletişim Daire Başkanlığı (md. 740)","na":"Kurumsal İlişkiler ve İletişim Daire Başkanlığı. Madde 740."},
+{"k":"say","t":"Kapsam (md. 733)","ic":"book","big":"Kapsamda açıkça sayılan bir grup: *kaybettirme hâlleri dışında vatandaşlıktan çıkanlar*","n":"Kararnamenin 733. maddesi YTB'nin kapsamını belirler. Açıkça sayılan gruplardan biri, kaybettirme hâlleri dışında vatandaşlıktan çıkanlardır."},
+{"k":"compare","t":"YTB kapsamında mı?","ic":"shield","cols":["Kapsamda","Kapsamda değil (göç mevzuatı)"],"n":"Hangi gruplar YTB kapsamında, hangileri değil?","items":[
+ {"c":0,"l":"Kaybettirme hâlleri dışında vatandaşlıktan çıkanlar","n":"Kaybettirme hâlleri dışında vatandaşlıktan çıkanlar kapsamdadır."},
+ {"c":1,"l":"Geçici koruma","n":"Geçici koruma kapsamda değildir."},
+ {"c":1,"l":"Uluslararası koruma","n":"Uluslararası koruma da değildir."},
+ {"c":1,"l":"Turkuaz Kart","n":"Turkuaz Kart da kapsamda sayılmaz."}]},
+{"k":"trap","t":"Tuzak: göç mevzuatı","wrong":"Geçici koruma, uluslararası koruma ve Turkuaz Kart YTB kapsamındadır.","right":"Bunlar *göç mevzuatının* konusudur, YTB kapsamında *sayılmaz*.","n":"Son tuzak: geçici koruma, uluslararası koruma ve Turkuaz Kart YTB kapsamında mı?","n2":"Hayır. Bunlar göç mevzuatının konusudur. YTB kapsamında sayılmaz."},
+{"k":"quiz","q":"CBK md. 737'de kaç daire başkanlığı sayılır?","a":"8 daire başkanlığı ve Hukuk Müşavirliği","n":"Kararnamenin 737. maddesinde kaç daire başkanlığı sayılır?","na":"Sekiz daire başkanlığı ve Hukuk Müşavirliği."},
+{"k":"quiz","q":"Türkiye Bursları hangi birimin işidir?","a":"Uluslararası Öğrenciler Daire Başkanlığı","na":"Uluslararası Öğrenciler Daire Başkanlığı."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

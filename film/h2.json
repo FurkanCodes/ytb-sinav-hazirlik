@@ -1,0 +1,35 @@
+{"id":"h2","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"Yasama ve yürütme: CBK, denetim, Cumhurbaşkanı","sub":"2017 değişikliğinden sonraki sistem","n":"Bu derste 2017 değişikliğinden sonraki sistemi göreceğiz. Eski kitaplarda yazan ama artık geçerli olmayan bilgiler bu konuda en büyük tuzaktır."},
+{"k":"compare","t":"Kanun teklifi (md. 88): kim teklif eder?","ic":"law","cols":["Teklif edebilir","Teklif edemez"],"n":"Önce kanun teklifi, madde 88.","items":[
+ {"c":0,"l":"*Milletvekilleri*","n":"Kanunu yalnızca milletvekilleri teklif eder."},
+ {"c":1,"l":"Bakanlar","n":"Bakanlar kanun teklif edemez."}]},
+{"k":"trap","t":"Tuzak: bakanlar","wrong":"Bakanlar kanun teklif edebilir.","right":"Bakanlar kanun *teklif edemez*. Yalnızca *milletvekilleri* teklif eder.","n":"Tuzak: bakanlar kanun teklif edebilir mi?","n2":"Hayır. Bakanlar kanun teklif edemez. Kanun teklifi yalnızca milletvekillerine aittir."},
+{"k":"count","t":"İstisna: bütçe kanunu teklifi (md. 161)","ic":"money","n":"Bütçe kanunu teklifinde ise durum farklıdır. Onu Cumhurbaşkanı sunar.","items":[
+ {"v":75,"suf":" gün","l":"Mali yıl başından en az bu kadar önce","n":"Cumhurbaşkanı bütçe kanunu teklifini mali yıl başından en az 75 gün önce sunar. Madde 161."}]},
+{"k":"quiz","q":"Bütçe teklifi en az kaç gün önce?","a":"75 gün (md. 161)","na":"75 gün. Madde 161."},
+{"k":"tree","t":"Denetim yolları (md. 98): toplam dört","ic":"q","root":"TBMM'nin denetim yolları","n":"Meclisin denetim yolları madde 98'dedir. Toplam dört tane.","items":[
+ {"l":"Meclis araştırması","n":"Birincisi Meclis araştırması."},
+ {"l":"Genel görüşme","n":"İkincisi genel görüşme."},
+ {"l":"Meclis soruşturması","n":"Üçüncüsü Meclis soruşturması."},
+ {"l":"Yazılı soru","n":"Dördüncüsü yazılı soru."}]},
+{"k":"trap","t":"Tuzak: gensoru ve sözlü soru","wrong":"Gensoru ve sözlü soru hâlâ denetim yollarıdır.","right":"Gensoru 2017'de *6771 sayılı Kanunla* kaldırıldı. Sözlü soru da *artık sayılmaz*.","n":"Eski kitaplar gensoruyu ve sözlü soruyu da sayar.","n2":"Gensoru 2017'de 6771 sayılı Kanunla kaldırıldı. Sözlü soru da artık sayılmaz."},
+{"k":"quiz","q":"md. 98'deki dört denetim yolu?","a":"Meclis araştırması, genel görüşme, Meclis soruşturması, yazılı soru","na":"Meclis araştırması, genel görüşme, Meclis soruşturması ve yazılı soru."},
+{"k":"compare","t":"CBK alanı (md. 104/17)","ic":"book","cols":["CBK ile düzenlenebilir","CBK ile düzenlenemez"],"n":"Şimdi Cumhurbaşkanlığı Kararnamesinin alanı. Madde 104, on yedinci fıkra.","items":[
+ {"c":1,"l":"Temel haklar","n":"Temel haklar Cumhurbaşkanlığı Kararnamesiyle düzenlenemez."},
+ {"c":1,"l":"Kişi hakları ve ödevleri","n":"Kişi hakları ve ödevleri de düzenlenemez."},
+ {"c":1,"l":"Siyasi haklar ve ödevler","n":"Siyasi haklar ve ödevler de düzenlenemez."},
+ {"c":0,"l":"*Sosyal ve ekonomik haklar*","n":"Sosyal ve ekonomik haklar ise bu yasağın dışındadır."}]},
+{"k":"quiz","q":"CBK ile hangi hak grubu düzenlenebilir?","a":"Sosyal ve ekonomik haklar","na":"Sosyal ve ekonomik haklar."},
+{"k":"flow","t":"CBK ve kanun ilişkisi (md. 104/17)","ic":"link","n":"Kararname ile kanun karşılaşırsa üç kural var.","items":[
+ {"l":"Kanunda açıkça düzenlenen konu","s":"CBK *çıkarılamaz*","n":"Kanunda açıkça düzenlenen bir konuda Cumhurbaşkanlığı Kararnamesi çıkarılamaz."},
+ {"l":"CBK ile kanun çatışırsa","s":"*Kanun* uygulanır","n":"Kararname ile kanun çatışırsa kanun uygulanır."},
+ {"l":"TBMM aynı konuda kanun çıkarırsa","s":"CBK *hükümsüz* kalır","n":"Meclis aynı konuda kanun çıkarırsa kararname hükümsüz kalır."}]},
+{"k":"quiz","q":"CBK ile kanun çatışırsa hangisi uygulanır?","a":"Kanun","na":"Kanun uygulanır."},
+{"k":"flow","t":"Üçüncü adaylık (md. 116/3)","ic":"vote","n":"Son konu: Cumhurbaşkanının üçüncü kez aday olabilmesi. Madde 116, üçüncü fıkra.","items":[
+ {"l":"Cumhurbaşkanı ikinci döneminde","n":"Cumhurbaşkanı ikinci dönemindedir."},
+ {"l":"Seçimlerin yenilenmesine *Meclis* karar verir","n":"Seçimlerin yenilenmesine Meclis karar verirse."},
+ {"l":"Bir defa daha aday olabilir","n":"Cumhurbaşkanı bir defa daha aday olabilir."}]},
+{"k":"trap","t":"Tuzak: kim yeniledi?","wrong":"Seçimleri Cumhurbaşkanı kendisi yenilerse yeniden aday olabilir.","right":"Hak yalnızca *Meclis* yenilerse doğar. Cumhurbaşkanı kendisi yenilerse *doğmaz*.","n":"Tuzak: seçimleri Cumhurbaşkanı kendisi yenilerse ne olur?","n2":"Bu durumda yeniden aday olma hakkı doğmaz. Hak, ancak ikinci dönemde Meclis seçimlerin yenilenmesine karar verirse doğar."},
+{"k":"quiz","q":"Cumhurbaşkanı hangi durumda bir defa daha aday olabilir?","a":"İkinci döneminde seçimlerin yenilenmesine Meclis karar verirse (md. 116/3)","na":"İkinci döneminde seçimlerin yenilenmesine Meclis karar verirse. Madde 116."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

@@ -1,0 +1,43 @@
+{"id":"u1","scenes":[
+{"k":"title","tag":"Uluslararası ilişkiler","ic":"globe","t":"Türkiye'nin üyesi olduğu örgütler","sub":"Hangi örgüte ne zaman, kiminle girdi; hangilerinin kurucusu?","n":"Bu derste Türkiye'nin hangi örgüte ne zaman ve kiminle girdiğini, hangilerinin kurucusu olduğunu göreceğiz."},
+{"k":"say","t":"Büyük resim","ic":"link","big":"Beş başlık: *TDT*, NATO, Avrupa Konseyi, AB ve *kurucu* olunan örgütler.","n":"Beş başlığımız var: Türk Devletleri Teşkilatı, NATO, Avrupa Konseyi, Avrupa Birliği ve Türkiye'nin kurucusu olduğu örgütler."},
+{"k":"timeline","t":"Türk Devletleri Teşkilatı","ic":"calendar","n":"Önce Türk Devletleri Teşkilatı, kısaca TDT.","items":[
+ {"d":"3.10.2009","l":"Kurucu belge: *Nahçıvan Anlaşması*","n":"Kurucu belgesi, 3 Ekim 2009 tarihli Nahçıvan Anlaşmasıdır."},
+ {"d":"12.11.2021","l":"İstanbul Zirvesi: Türk Konseyinin adı *TDT* oldu","n":"12 Kasım 2021'deki İstanbul Zirvesinde Türk Konseyinin adı Türk Devletleri Teşkilatı olarak değişti."},
+ {"d":"2023","l":"EİT gözlemci kuruluş oldu","n":"2023'ten beri Ekonomik İşbirliği Teşkilatı, yani EİT, gözlemci kuruluştur."}]},
+{"k":"compare","t":"TDT: tam üye mi, gözlemci mi?","ic":"people","cols":["Tam üye","Gözlemci"],"n":"Şimdi üyeleri ikiye ayıralım: tam üyeler ve gözlemciler.","items":[
+ {"c":0,"l":"Türkiye","n":"Türkiye tam üye."},
+ {"c":0,"l":"Azerbaycan","n":"Azerbaycan tam üye."},
+ {"c":0,"l":"Kazakistan","n":"Kazakistan tam üye."},
+ {"c":0,"l":"Kırgızistan","n":"Kırgızistan tam üye."},
+ {"c":0,"l":"Özbekistan","n":"Özbekistan da tam üye."},
+ {"c":1,"l":"Macaristan","n":"Gözlemci ülkeler: Macaristan."},
+ {"c":1,"l":"*Türkmenistan*","n":"Türkmenistan."},
+ {"c":1,"l":"KKTC","n":"Ve Kuzey Kıbrıs Türk Cumhuriyeti."},
+ {"c":1,"l":"EİT (gözlemci kuruluş, 2023'ten beri)","n":"EİT ise ülke değil, gözlemci kuruluştur."}]},
+{"k":"trap","t":"Tuzak: Türkmenistan","wrong":"Türkmenistan TDT'nin tam üyesidir.","right":"Türkmenistan *gözlemcidir*, tam üye değildir.","n":"İlk tuzak: Türkmenistan TDT'nin tam üyesi mi?","n2":"Hayır. Türkmenistan tam üye değil, gözlemcidir."},
+{"k":"quiz","q":"TDT'nin üç gözlemci ülkesi?","a":"Macaristan, Türkmenistan, KKTC","n":"TDT'nin üç gözlemci ülkesi hangileridir?","na":"Macaristan, Türkmenistan ve Kuzey Kıbrıs Türk Cumhuriyeti."},
+{"k":"timeline","t":"NATO genişlemesi","ic":"shield","n":"Şimdi NATO.","items":[
+ {"d":"18.2.1952","l":"*Türkiye ve Yunanistan* birlikte üye oldu","n":"Türkiye 18 Şubat 1952'de Yunanistan ile birlikte NATO'ya üye oldu."},
+ {"d":"1955","l":"Federal Almanya katıldı","n":"Federal Almanya 1955'te katıldı."},
+ {"d":"1982","l":"İspanya katıldı","n":"İspanya ise 1982'de."}]},
+{"k":"quiz","q":"Türkiye NATO'ya ne zaman, kiminle girdi?","a":"18 Şubat 1952, Yunanistan ile","na":"18 Şubat 1952'de, Yunanistan ile birlikte."},
+{"k":"say","t":"Avrupa Konseyi","ic":"building","big":"5.5.1949'da kuruldu. Dışişleri Türkiye'yi *kurucu üye* sayar.","n":"Avrupa Konseyi 5 Mayıs 1949'da kuruldu. Dışişleri Bakanlığı Türkiye'yi kurucu üye sayar.","items":[
+ {"l":"Konseyin kendi kaydında katılım: 13.4.1950","n":"Ancak Konseyin kendi kaydında Türkiye'nin katılım tarihi 13 Nisan 1950'dir."}]},
+{"k":"timeline","t":"Türkiye-AB yolculuğu","ic":"flag","n":"Şimdi Türkiye ile Avrupa Birliği ilişkilerinin beş durağı.","items":[
+ {"d":"1963","l":"*Ankara Anlaşması*","n":"1963: Ankara Anlaşması."},
+ {"d":"1987","l":"Tam üyelik başvurusu","n":"1987: tam üyelik başvurusu."},
+ {"d":"1.1.1996","l":"Gümrük Birliği uygulaması","n":"1 Ocak 1996: Gümrük Birliği uygulaması başladı."},
+ {"d":"1999","l":"Adaylık: Helsinki","n":"1999: Helsinki'de adaylık."},
+ {"d":"3.10.2005","l":"*Katılım müzakereleri* başladı","n":"Ve 3 Ekim 2005: katılım müzakereleri başladı."}]},
+{"k":"trap","t":"Tuzak: müzakere yılı","wrong":"Katılım müzakereleri 2010'da başladı.","right":"Müzakereler *3 Ekim 2005'te* başladı.","n":"Bir tuzak: katılım müzakereleri 2010'da mı başladı?","n2":"Hayır. Müzakereler 3 Ekim 2005'te başladı."},
+{"k":"trap","t":"Tuzak: üyelik","wrong":"Türkiye AB üyesidir.","right":"Türkiye AB üyesi değil, *aday ülkedir*.","n":"Bir başka tuzak: Türkiye Avrupa Birliği üyesi mi?","n2":"Hayır. Türkiye üye değil, aday ülkedir."},
+{"k":"quiz","q":"Gümrük Birliği uygulaması ne zaman başladı?","a":"1 Ocak 1996","na":"1 Ocak 1996."},
+{"k":"tree","t":"Türkiye'nin kurucusu olduğu örgütler","ic":"star","root":"Türkiye: kurucu üye","n":"Son blok: Türkiye'nin kurucusu olduğu dört örgüt.","items":[
+ {"l":"OECD","s":"1960/61","n":"OECD, 1960 ile 61."},
+ {"l":"EİT","s":"1985; 1964 RCD'nin devamı","n":"Ekonomik İşbirliği Teşkilatı, 1985. 1964'te kurulan RCD'nin devamıdır."},
+ {"l":"KEİ","s":"25.6.1992","n":"Karadeniz Ekonomik İşbirliği, 25 Haziran 1992."},
+ {"l":"G20","s":"1999","n":"Ve G20, 1999."}]},
+{"k":"quiz","q":"EİT hangi örgütün devamıdır?","a":"1964 tarihli RCD'nin (EİT 1985)","na":"1964 tarihli RCD'nin devamıdır. EİT 1985'te kuruldu."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

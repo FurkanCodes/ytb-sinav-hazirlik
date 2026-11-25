@@ -1,0 +1,46 @@
+{"id":"h3","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"Yargı organları","sub":"Üye sayıları, kimin kaç üye seçtiği ve görev süreleri","n":"Bu derste yargı organlarının sayılarını ve seçim usullerini göreceğiz. Bunlar ezber ister. En iyi yol, küçük bir tabloyu birkaç kez yazmaktır."},
+{"k":"say","t":"Beş durak","ic":"link","big":"AYM, bireysel başvuru, *HSK*, Danıştay ve Uyuşmazlık Mahkemesi","n":"Beş durağımız var: Anayasa Mahkemesi, bireysel başvuru, Hâkimler ve Savcılar Kurulu, Danıştay ve Uyuşmazlık Mahkemesi."},
+{"k":"tree","t":"Anayasa Mahkemesi (md. 146-147)","ic":"building","root":"AYM: 15 üye","n":"Anayasa Mahkemesi, Anayasanın 146 ve 147. maddelerinde düzenlenir. Toplam 15 üyesi vardır.","items":[
+ {"l":"TBMM: 3 üye","s":"2'si Sayıştay adaylarından, 1'i serbest avukatlardan","n":"TBMM üç üye seçer. İkisi Sayıştay adaylarından, biri serbest avukatlardan."},
+ {"l":"Cumhurbaşkanı: 12 üye","n":"Cumhurbaşkanı ise 12 üye seçer."}]},
+{"k":"count","t":"AYM'de görev süresi","ic":"calendar","items":[
+ {"v":12,"suf":" yıl","l":"Görev süresi","n":"Görev süresi 12 yıldır."},
+ {"v":1,"suf":" kez","l":"Bir kişi iki kez seçilemez","n":"Ve bir kişi iki kez seçilemez. Yani yalnızca bir kez."}]},
+{"k":"quiz","q":"AYM'ye TBMM kaç üye seçer, nereden?","a":"3: ikisi Sayıştay, biri serbest avukat.","na":"Üç üye. İkisi Sayıştay adaylarından, biri serbest avukatlardan."},
+{"k":"flow","t":"Bireysel başvuru (md. 148)","ic":"people","n":"Şimdi Anayasanın 148. maddesindeki bireysel başvurunun şartlarına bakalım.","items":[
+ {"l":"Kamu gücünün ihlali","n":"Önce, kamu gücünün bir ihlali olmalıdır."},
+ {"l":"Hak hem Anayasada hem AİHS'te","n":"İhlal edilen hak hem Anayasada hem de Avrupa İnsan Hakları Sözleşmesi kapsamında olmalıdır."},
+ {"l":"Olağan kanun yolları tüketilmiş","n":"Olağan kanun yolları tüketilmiş olmalıdır."},
+ {"l":"23.9.2012'den sonra kesinleşen işlemler","n":"Ve yalnızca 23 Eylül 2012'den sonra kesinleşen işlemler için başvurulabilir."}]},
+{"k":"say","t":"İnceleme sınırı","ic":"warn","big":"Kanun yolunda gözetilecek hususlarda *inceleme yapılmaz*.","n":"Bir sınır daha: Anayasa Mahkemesi, kanun yolunda gözetilecek hususlarda inceleme yapmaz."},
+{"k":"trap","t":"Tuzak: hangi hak?","wrong":"Yalnızca Anayasada olan bir hak için de bireysel başvuru yapılır.","right":"Hak *hem Anayasada hem AİHS'te* olmalı. Yalnızca Anayasada olan hak yetmez.","n":"Bir tuzak: Yalnızca Anayasada olup AİHS'te olmayan bir hak için bireysel başvuru yapılabilir mi?","n2":"Hayır. Hak hem Anayasada hem de AİHS kapsamında olmalıdır."},
+{"k":"tree","t":"HSK (md. 159)","ic":"shield","root":"HSK: 13 üye","n":"Şimdi Hâkimler ve Savcılar Kurulu. Anayasanın 159. maddesi. Toplam 13 üyesi vardır.","items":[
+ {"l":"Başkan: Adalet Bakanı","n":"Kurulun başkanı Adalet Bakanıdır."},
+ {"l":"Tabii üye: Adalet Bakanlığı Müsteşarı","s":"Kadro dolana kadar Bakanın belirlediği bakan yardımcısı","n":"Tabii üye, Adalet Bakanlığı Müsteşarıdır. Kadro doldurulana kadar bu görevi Bakanın belirlediği bakan yardımcısı yürütür."},
+ {"l":"Cumhurbaşkanı: 4 üye","n":"Cumhurbaşkanı dört üye seçer."},
+ {"l":"TBMM: 7 üye","n":"TBMM ise yedi üye seçer."}]},
+{"k":"timeline","t":"Tabii üye: kim, ne zamandan beri?","ic":"calendar","items":[
+ {"d":"2018-2025","l":"6087 sayılı Kanun: *ilgili bakan yardımcısı*","n":"2018 ile 2025 arasında 6087 sayılı Kanun, tabii üye olarak ilgili bakan yardımcısını sayıyordu."},
+ {"d":"2025","l":"7547 sayılı Kanun: yeniden *Adalet Bakanlığı Müsteşarı*","n":"2025'te 7547 sayılı Kanunla 6087 sayılı Kanunda yeniden Adalet Bakanlığı Müsteşarı oldu. Anayasanın 159. maddesi de bunu söyler."}]},
+{"k":"trap","t":"Tuzak: tabii üye","wrong":"HSK'nın tabii üyesi ilgili bakan yardımcısıdır.","right":"Anayasa md. 159 ve bugünkü 6087: *Adalet Bakanlığı Müsteşarı*.","n":"Bir tuzak: Bazı kaynaklarda tabii üye ilgili bakan yardımcısı diye geçer. Çünkü 2018-2025 arasında 6087 sayılı Kanun öyle diyordu.","n2":"Doğrusu: Anayasanın 159. maddesi ve bugünkü 6087 sayılı Kanun, Adalet Bakanlığı Müsteşarı der."},
+{"k":"count","t":"HSK'da görev süresi","ic":"calendar","items":[
+ {"v":4,"suf":" yıl","l":"Görev süresi; bir kez daha seçilebilir","n":"HSK üyelerinin görev süresi dört yıldır. Bir kez daha seçilebilirler."}]},
+{"k":"trap","t":"Tuzak: süre","wrong":"HSK üyeleri 6 yıl için seçilir.","right":"HSK üyeleri *4 yıl* için seçilir.","n":"Bir tuzak daha: HSK üyeleri altı yıl için mi seçilir?","n2":"Hayır. Dört yıl için seçilir."},
+{"k":"quiz","q":"HSK: üye sayısı, CB ve TBMM payı, süre?","a":"13 üye; CB 4, TBMM 7; 4 yıl.","na":"13 üye. Cumhurbaşkanı dört, TBMM yedi üye seçer. Süre dört yıl."},
+{"k":"bars","t":"Danıştay (md. 155): üyeleri kim seçer?","ic":"building","n":"Danıştay, Anayasanın 155. maddesinde düzenlenir.","items":[
+ {"l":"HSK: *dörtte üç*","v":3,"txt":"3/4","c":0,"n":"Üyelerin dörtte üçünü Hâkimler ve Savcılar Kurulu seçer."},
+ {"l":"Cumhurbaşkanı: *dörtte bir*","v":1,"txt":"1/4","c":1,"n":"Dörtte birini ise Cumhurbaşkanı seçer."}]},
+{"k":"list","t":"Uyuşmazlık Mahkemesi (md. 158)","ic":"law","n":"Son durak: Anayasanın 158. maddesindeki Uyuşmazlık Mahkemesi.","items":[
+ {"h":"Görev","l":"Adli ve idari yargı arasındaki *görev ve hüküm* uyuşmazlıkları","n":"Adli ve idari yargı arasındaki görev ve hüküm uyuşmazlıklarını çözer."},
+ {"h":"Karar","l":"Kesin olarak çözer","n":"Bu uyuşmazlıkları kesin olarak çözer."},
+ {"h":"Başkan","l":"AYM kendi üyeleri arasından görevlendirir","n":"Başkanını Anayasa Mahkemesi kendi üyeleri arasından görevlendirir."}]},
+{"k":"compare","t":"Tekrar: kim kaç üye seçer?","ic":"vote","cols":["Cumhurbaşkanı","TBMM"],"n":"Son olarak seçim paylarını iki sütunda toplayalım.","items":[
+ {"c":0,"l":"AYM: 12 üye","n":"Anayasa Mahkemesinde Cumhurbaşkanı 12 üye seçer."},
+ {"c":1,"l":"AYM: 3 üye","n":"TBMM üç üye seçer."},
+ {"c":0,"l":"HSK: 4 üye","n":"HSK'da Cumhurbaşkanı dört üye seçer."},
+ {"c":1,"l":"HSK: 7 üye","n":"TBMM yedi üye seçer."},
+ {"c":0,"l":"Danıştay: dörtte bir","n":"Danıştayda Cumhurbaşkanı dörtte birini seçer. Dörtte üçünü HSK seçer."}]},
+{"k":"quiz","q":"Uyuşmazlık Mahkemesinin başkanını kim görevlendirir?","a":"AYM, kendi üyeleri arasından (md. 158)","na":"Anayasa Mahkemesi, kendi üyeleri arasından."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Tabloyu bir kez de kendin yaz, sonra konu sorularını çöz."}
+]}

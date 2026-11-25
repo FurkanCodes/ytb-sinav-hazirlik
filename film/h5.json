@@ -1,0 +1,39 @@
+{"id":"h5","scenes":[
+{"k":"title","tag":"Hukuk","ic":"globe","t":"Uluslararası hukuk: andlaşmalar, Viyana sözleşmeleri, AİHS","sub":"Andlaşmaların iç hukuktaki yeri, üç Viyana sözleşmesi ve AİHS sistemi","n":"Üç Viyana sözleşmesi ve AİHS sistemi sık karıştırılır. Bu derste tarih ile konuyu eşleştirmek yeterli olacak."},
+{"k":"list","t":"Anayasa md. 90/son","ic":"law","n":"Önce andlaşmaların iç hukuktaki yeri. Anayasanın 90. maddesinin son fıkrası.","items":[
+ {"h":"Değer","l":"Usulüne göre yürürlüğe konulmuş andlaşmalar *kanun hükmündedir*","n":"Usulüne göre yürürlüğe konulmuş andlaşmalar kanun hükmündedir."},
+ {"h":"AYM","l":"Anayasaya aykırılık iddiasıyla AYM'ye götürülemez","n":"Bunlar Anayasaya aykırılık iddiasıyla Anayasa Mahkemesine götürülemez."},
+ {"h":"Çatışma","l":"Temel haklara ilişkin andlaşma ile kanun çatışırsa *andlaşma* esas alınır","n":"Temel haklara ilişkin bir andlaşma ile kanun çatışırsa andlaşma esas alınır."},
+ {"h":"2004","l":"Bu son kural 2004 eklemesidir","n":"Bu son kural 2004'te eklendi."}]},
+{"k":"trap","t":"Tuzak: andlaşmanın yeri","wrong":"Andlaşmalar Anayasanın üstündedir.","right":"Andlaşmalar Anayasanın üstünde değil, *kanun hükmündedir*.","n":"Bir tuzak: Andlaşmalar Anayasanın üstünde midir?","n2":"Hayır. Andlaşmalar kanun hükmündedir."},
+{"k":"timeline","t":"Üç Viyana sözleşmesi","ic":"calendar","n":"Şimdi üç Viyana sözleşmesini tarih ve konuyla eşleştirelim.","items":[
+ {"d":"1961","l":"*Diplomatik* ilişkiler","n":"1961 Viyana: diplomatik ilişkiler."},
+ {"d":"1963","l":"*Konsolosluk* ilişkileri","n":"1963 Viyana: konsolosluk ilişkileri."},
+ {"d":"1969","l":"*Antlaşmalar* hukuku","n":"1969 Viyana: antlaşmalar hukuku."}]},
+{"k":"tree","t":"1963 Viyana, md. 5: konsolosluk görevleri","ic":"people","root":"Konsolosluk görevleri (md. 5)","n":"1963 Viyana Sözleşmesinin beşinci maddesi konsolosluk görevlerini sayar.","items":[
+ {"l":"Vatandaşa yardım","n":"Vatandaşa yardım."},
+ {"l":"Pasaport","n":"Pasaport işleri."},
+ {"l":"Nüfus","n":"Nüfus işleri."},
+ {"l":"Noterlik","n":"Ve noterlik."}]},
+{"k":"quiz","q":"Konsolosluk görevleri hangi sözleşmede?","a":"1963 Viyana Konsolosluk İlişkileri Sözleşmesi, md. 5.","na":"1963 Viyana Konsolosluk İlişkileri Sözleşmesi, madde 5."},
+{"k":"say","t":"1969 Viyana, md. 26","ic":"book","big":"*Pacta sunt servanda*: andlaşmalar bağlar ve iyi niyetle uygulanır.","n":"1969 Viyana Sözleşmesinin 26. maddesi: pacta sunt servanda. Yani andlaşmalar bağlar ve iyi niyetle uygulanır."},
+{"k":"trap","t":"Tuzak: BM Şartı md. 51","wrong":"BM Şartı md. 51 andlaşma hukukuna ilişkindir.","right":"BM Şartı md. 51 *meşru müdafaadır*, andlaşma hukuku değil.","n":"Bir tuzak: BM Şartının 51. maddesi andlaşma hukukuyla mı ilgilidir?","n2":"Hayır. 51. madde meşru müdafaadır. Andlaşma hukuku 1969 Viyana Sözleşmesidir."},
+{"k":"quiz","q":"Pacta sunt servanda hangi sözleşmenin hangi maddesi?","a":"1969 Viyana, md. 26","na":"1969 Viyana Sözleşmesi, madde 26."},
+{"k":"flow","t":"AİHS sistemi","ic":"shield","n":"Şimdi Avrupa İnsan Hakları Sözleşmesi.","items":[
+ {"l":"Avrupa Konseyi çatısı altında","n":"AİHS, Avrupa Konseyi çatısı altında hazırlandı."},
+ {"l":"4.11.1950: Roma'da imzaya açıldı","n":"4 Kasım 1950'de Roma'da imzaya açıldı."},
+ {"l":"Mahkeme: AİHM, *Strazburg*","n":"Mahkemesi AİHM'dir ve Strazburg'dadır."},
+ {"l":"Bireysel başvuru: iç hukuk yolları tüketilmeli","n":"AİHM'ye bireysel başvuru için önce iç hukuk yolları tüketilmelidir."}]},
+{"k":"compare","t":"Strazburg mu, Lüksemburg mu?","ic":"building","cols":["Avrupa Konseyi","Avrupa Birliği"],"n":"İki Avrupa mahkemesi sık karıştırılır.","items":[
+ {"c":0,"l":"AİHM, Strazburg","n":"AİHM Strazburg'dadır ve Avrupa Konseyinin organıdır."},
+ {"c":1,"l":"AB Adalet Divanı, Lüksemburg","n":"AB'nin yargı organı ise Lüksemburg'daki AB Adalet Divanıdır."}]},
+{"k":"trap","t":"Tuzak: AİHM kimin organı?","wrong":"AİHM bir AB organıdır.","right":"AİHM *Avrupa Konseyi* organıdır. AB'nin yargı organı Lüksemburg'daki AB Adalet Divanıdır.","n":"Bir tuzak: AİHM bir Avrupa Birliği organı mıdır?","n2":"Hayır. AİHM Avrupa Konseyinin organıdır. AB'nin yargı organı Lüksemburg'daki AB Adalet Divanıdır."},
+{"k":"quiz","q":"AİHM nerede, kimin organı?","a":"Strazburg, Avrupa Konseyi.","na":"Strazburg'da. Avrupa Konseyinin organıdır."},
+{"k":"compare","t":"Tekrar: tarih ve konu","ic":"calendar","cols":["Viyana sözleşmeleri","AİHS ve Anayasa"],"n":"Son olarak tarihleri iki grupta toplayalım.","items":[
+ {"c":0,"l":"1961: diplomatik ilişkiler","n":"1961, diplomatik ilişkiler."},
+ {"c":1,"l":"4.11.1950: AİHS, Roma","n":"4 Kasım 1950, AİHS Roma'da imzaya açıldı."},
+ {"c":0,"l":"1963: konsolosluk, md. 5","n":"1963, konsolosluk ilişkileri."},
+ {"c":1,"l":"2004: md. 90/son eklemesi","n":"2004, Anayasanın 90. maddesine temel haklar eklemesi."},
+ {"c":0,"l":"1969: antlaşmalar hukuku, md. 26","n":"1969, antlaşmalar hukuku."}]},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

@@ -1,0 +1,75 @@
+{"id":"b6","scenes":[
+{"k":"title","tag":"Hukuk","ic":"law","t":"Türk vatandaşlığının kazanılması ve kaybı","sub":"Süreler, karar makamı ve sayılmayan şart","n":"YTB'nin hedef kitlesi için vatandaşlık en temel hukuki konudur. Sorular genellikle süreler, karar makamı ve sayılmayan şart üzerinden gelir: üç yıl, beş yıl, iki yıl; Bakanlık mı, Cumhurbaşkanı mı?"},
+{"k":"tree","t":"Vatandaşlık nasıl kazanılır?","ic":"law","root":"Türk vatandaşlığı (5901 s. Kanun)","n":"5901 sayılı Kanuna göre vatandaşlık iki yoldan kazanılır: doğumla veya sonradan.","items":[
+ {"l":"Doğumla","s":"Soy bağı veya doğum yeri (md. 5-8)","n":"Doğumla kazanma soy bağı veya doğum yeri esasına göre olur. Maddeler 5 ile 8 arası."},
+ {"l":"Sonradan","s":"Yetkili makam kararı, evlat edinilme, seçme hakkı","n":"Sonradan kazanmanın üç yolu vardır: yetkili makam kararı, evlat edinilme ve seçme hakkı."}]},
+{"k":"say","t":"Doğumla kazanma","ic":"people","big":"*Kendiliğinden* olur, *doğum anından* hüküm doğurur","n":"Doğumla kazanma kendiliğinden olur ve doğum anından itibaren hüküm doğurur."},
+{"k":"compare","t":"Soy bağı: çocuk Türk mü?","ic":"people","cols":["Doğrudan Türk","Soy bağı kurulursa"],"n":"Soy bağı esasında hangi çocuk doğrudan Türktür?","items":[
+ {"c":0,"l":"Türk ana veya babadan *evlilik içinde* doğan (yurt içi veya dışı)","n":"Türk ana veya babadan evlilik içinde doğan çocuk, yurt içinde de dışında da doğsa Türktür."},
+ {"c":0,"l":"Evlilik dışı: *Türk ana*, yabancı baba","n":"Evlilik dışında Türk ana ve yabancı babadan doğan çocuk da doğrudan Türktür."},
+ {"c":1,"l":"Evlilik dışı: *Türk baba*, yabancı ana","n":"Türk baba ve yabancı anadan evlilik dışı doğan çocuk ise ancak soy bağı kurulursa kazanır."}]},
+{"k":"trap","t":"Tuzak: evlilik dışı çocuk","wrong":"Türk babanın evlilik dışı çocuğu kendiliğinden Türk olur.","right":"Türk babanın evlilik dışı çocuğu *soy bağı kurulunca* kazanır. Türk ananın çocuğu *doğrudan* Türktür.","n":"İlk tuzak: Türk babanın evlilik dışı çocuğu kendiliğinden Türk müdür?","n2":"Hayır. Soy bağı kurulunca kazanır. Türk ananın evlilik dışı çocuğu ise doğrudan Türktür."},
+{"k":"list","t":"Doğum yeri esası (md. 8)","ic":"flag","n":"Şimdi doğum yeri esası, madde 8.","items":[
+ {"h":"Vatansız kalacak çocuk","l":"Türkiye'de doğan, yabancı ana-babasından dolayı *hiçbir ülkenin* vatandaşlığını kazanamayan çocuk doğumdan itibaren Türktür.","n":"Türkiye'de doğan ve yabancı ana babasından dolayı hiçbir ülkenin vatandaşlığını kazanamayan çocuk, doğumdan itibaren Türktür."},
+ {"h":"Bulunmuş çocuk","l":"Türkiye'de bulunan çocuk, aksi sabit olmadıkça *Türkiye'de doğmuş* sayılır.","n":"Türkiye'de bulunmuş çocuk, aksi sabit olmadıkça Türkiye'de doğmuş sayılır."}]},
+{"k":"list","t":"Genel şartlar (md. 9-11, 15, 19)","ic":"book","n":"Yetkili makam kararıyla kazanmada genel şartlar şunlardır.","items":[
+ {"h":"Ehliyet","l":"Ergin ve ayırt etme gücüne sahip olmak","n":"Ergin ve ayırt etme gücüne sahip olmak."},
+ {"h":"İkamet","l":"Başvurudan geriye *kesintisiz beş yıl*","n":"Başvurudan geriye doğru kesintisiz beş yıl ikamet etmek."},
+ {"h":"Yerleşme","l":"Yerleşme kararını davranışla teyit","n":"Yerleşme kararını davranışlarıyla teyit etmek."},
+ {"h":"Sağlık ve ahlak","l":"Sağlık, iyi ahlak","n":"Sağlık ve iyi ahlak sahibi olmak."},
+ {"h":"Dil ve geçim","l":"Yeteri kadar Türkçe, geçim","n":"Yeteri kadar Türkçe konuşmak ve geçimini sağlamak."},
+ {"h":"Güvenlik","l":"Millî güvenlik engeli olmamak","n":"Ve millî güvenlik bakımından engel olmamak."}]},
+{"k":"count","t":"İkamet süresi","ic":"calendar","n":"Süreye dikkat.","items":[
+ {"v":5,"suf":" yıl","l":"Kesintisiz ikamet (başvurudan geriye)","n":"Kesintisiz beş yıl ikamet gerekir."},
+ {"v":12,"suf":" ay","l":"Bu süre içinde toplam yurt dışında bulunulabilir","n":"Bu süre içinde toplam 12 ayı geçmemek üzere yurt dışında bulunulabilir."}]},
+{"k":"say","t":"Karar kimin?","ic":"building","big":"Şartları taşımak *mutlak hak* sağlamaz. Karar *Bakanlığındır* (İçişleri).","n":"Önemli: şartları taşımak mutlak bir hak sağlamaz. Karar Bakanlığın, yani İçişleri Bakanlığının kararıdır."},
+{"k":"quiz","q":"Genel başvuruda ikamet süresi?","a":"Kesintisiz beş yıl; toplam 12 aya kadar yurt dışında bulunulabilir","na":"Kesintisiz beş yıl. Bu sürede toplam 12 aya kadar yurt dışında bulunulabilir."},
+{"k":"tree","t":"İstisnai kazanma (md. 12)","ic":"star","root":"*Cumhurbaşkanı kararı*","n":"İstisnai kazanma, madde 12. Burada karar Cumhurbaşkanınındır. Kimler kapsamda?","items":[
+ {"l":"Sanayi tesisi getirenler / olağanüstü hizmet","s":"Bilim, ekonomi, spor, kültür, sanat","n":"Türkiye'ye sanayi tesisi getirenler veya bilim, ekonomi, spor, kültür, sanat alanlarında olağanüstü hizmeti geçenler."},
+ {"l":"6458 md. 31/1-j ikamet izni, Turkuaz Kart","s":"Yabancı eş ve çocukları da","n":"6458 sayılı Kanunun 31. maddesinin birinci fıkrası j bendine göre ikamet izni alanlar ile Turkuaz Kart sahipleri. Yabancı eş ve çocukları da dahil."},
+ {"l":"Alınması zaruri görülenler","n":"Vatandaşlığa alınması zaruri görülenler."},
+ {"l":"Göçmen olarak kabul edilenler","n":"Ve göçmen olarak kabul edilenler."}]},
+{"k":"flow","t":"Evlenme yoluyla (md. 16-17)","ic":"people","n":"Türk vatandaşı ile evlenme, vatandaşlığı doğrudan kazandırmaz. Süreç şöyle işler.","items":[
+ {"l":"En az *üç yıl* evli, evlilik sürüyor","n":"En az üç yıldır evli olan ve evliliği süren yabancı başvurabilir."},
+ {"l":"Şartlar","s":"Aile birliği içinde yaşama; evlilikle bağdaşmayan faaliyet yok; millî güvenlik engeli yok","n":"Şartlar: aile birliği içinde yaşamak, evlilikle bağdaşmayan faaliyette bulunmamak ve millî güvenlik engeli olmamak."},
+ {"l":"Başvurudan sonra Türk eş ölürse","s":"Aile birliği şartı aranmaz","n":"Başvurudan sonra Türk eş ölürse aile birliği şartı aranmaz."},
+ {"l":"Evlilik butlanla sona ererse","s":"İyiniyetli eş vatandaşlığı korur","n":"Evlenme butlanla sona ererse, iyiniyetli eş vatandaşlığını korur."}]},
+{"k":"say","t":"Evlat edinme","ic":"people","big":"Türk vatandaşınca evlat edinilen *ergin olmayan* kişi, karar tarihinden itibaren kazanabilir","n":"Evlat edinmede ise Türk vatandaşınca evlat edinilen ergin olmayan kişi, karar tarihinden itibaren vatandaşlığı kazanabilir."},
+{"k":"quiz","q":"Evlenme yoluyla başvuru için evlilik süresi?","a":"En az üç yıl ve evlilik devam etmeli","na":"En az üç yıl. Evlilik de devam etmeli."},
+{"k":"flow","t":"Kayıp yolları ve çıkma (md. 21-27)","ic":"link","n":"Şimdi kaybetme. Kayıp, yetkili makam kararıyla veya seçme hakkıyla olur. Yetkili makam kararı üç türlüdür: çıkma, kaybettirme ve iptal. Önce çıkma.","items":[
+ {"l":"Çıkma izni: *Bakanlıkça* verilir","s":"Şartlar: ergin olmak; yabancı vatandaşlığı kazanmış olmak veya inandırıcı belirti","n":"Çıkma izni Bakanlıkça verilir. Şartlar: ergin olmak, yabancı vatandaşlığı kazanmış olmak ya da kazanacağına dair inandırıcı belirti bulunması."},
+ {"l":"Aranmamak, tahdit olmamak","s":"Suç veya askerlik nedeniyle aranmamak; mali ve cezai tahdit yok","n":"Ayrıca suç veya askerlik nedeniyle aranmamak ve mali ya da cezai tahdit bulunmamak gerekir."},
+ {"l":"Çıkma izin belgesi","s":"*İki yıl* geçerli","n":"Çıkma izin belgesi, karar tarihinden itibaren iki yıl geçerlidir."},
+ {"l":"Belgenin imza karşılığı teslimi","s":"Vatandaşlık bu anda kaybedilir","n":"Vatandaşlık, çıkma belgesinin imza karşılığı teslimiyle kaybedilir."}]},
+{"k":"say","t":"Ana-babaya bağlı kaybeden çocuk","ic":"people","big":"Ergin olduktan sonra *üç yıl* içinde seçme hakkıyla yeniden kazanabilir","n":"Ana babaya bağlı olarak vatandaşlığı kaybeden çocuk, ergin olduktan sonra üç yıl içinde seçme hakkıyla yeniden kazanabilir."},
+{"k":"quiz","q":"Çıkma izin belgesi kaç yıl geçerli?","a":"Karar tarihinden itibaren iki yıl","na":"Karar tarihinden itibaren iki yıl."},
+{"k":"list","t":"Kaybettirme: Cumhurbaşkanı kararı","ic":"warn","n":"Kaybettirme Cumhurbaşkanı kararıyla olur. Dört hâl var.","items":[
+ {"h":"Yabancı devlet hizmeti","l":"Türkiye'nin menfaatine aykırı hizmeti verilen süre (*en az 3 ay*) içinde bırakmamak","n":"Türkiye'nin menfaatine aykırı yabancı devlet hizmetini, verilen süre içinde bırakmamak. Bu süre en az üç aydır."},
+ {"h":"Savaş hâli","l":"Savaş hâlindeki devletin hizmetinde izinsiz çalışmak","n":"Savaş hâlindeki bir devletin hizmetinde izinsiz çalışmak."},
+ {"h":"Askerlik","l":"İzinsiz yabancı devlette gönüllü askerlik","n":"İzinsiz olarak yabancı devlette gönüllü askerlik yapmak."},
+ {"h":"Yurda dön ilanı","l":"Yurt dışında olup ilana rağmen *3 ay* içinde dönmemek (TCK 302, 309-315)","n":"Ve Türk Ceza Kanununun 302 ve 309 ile 315 arası maddeleri kapsamında, yurt dışında olup yurda dön ilanına rağmen üç ay içinde dönmemek."}]},
+{"k":"compare","t":"Kaybettirme ve iptal (md. 29-32)","ic":"law","cols":["Kaybettirme","İptal"],"n":"Kaybettirme ile iptali karşılaştıralım.","items":[
+ {"c":0,"l":"Karar *Resmî Gazete*'de yayımlandığı tarihte hüküm doğurur","n":"Kaybettirme kararı Resmî Gazetede yayımlandığı tarihte hüküm doğurur."},
+ {"c":0,"l":"*Şahsidir*","n":"Kaybettirme şahsidir."},
+ {"c":1,"l":"*Yalan beyanla* kazanılan vatandaşlık iptal edilir","n":"Yalan beyanla kazanılan vatandaşlık ise iptal edilir."},
+ {"c":1,"l":"Bağlı *eş ve çocuklara* da uygulanır","n":"İptal, bağlı eş ve çocuklara da uygulanır."}]},
+{"k":"list","t":"Çok vatandaşlık ve Anayasa","ic":"shield","items":[
+ {"h":"Çok vatandaşlık (md. 44)","l":"Yabancı vatandaşlık kazanan belgelerini ibraz eder; kütüğüne *çok vatandaşlık* açıklaması yapılır.","n":"Madde 44: yabancı vatandaşlık kazanan kişi belgelerini ibraz eder ve kütüğüne çok vatandaşlık açıklaması yapılır."},
+ {"h":"Anayasa md. 66","l":"Vatana bağlılıkla bağdaşmayan eylem olmadıkça hiçbir Türk vatandaşlıktan çıkarılamaz.","n":"Anayasanın 66. maddesi: vatana bağlılıkla bağdaşmayan bir eylem olmadıkça hiçbir Türk vatandaşlıktan çıkarılamaz."},
+ {"h":"Yargı yolu","l":"Yargı yolu *kapatılamaz*.","n":"Ve yargı yolu kapatılamaz."}]},
+{"k":"count","t":"Süreler bir arada","ic":"calendar","n":"En çok karıştırılan süreler.","items":[
+ {"v":5,"suf":" yıl","l":"Genel başvuru: ikamet","n":"Genel başvuruda ikamet süresi beş yıl."},
+ {"v":3,"suf":" yıl","l":"Evlenme: evlilik süresi","n":"Evlenmede evlilik süresi üç yıl."},
+ {"v":3,"suf":" yıl","l":"Kaybettirilenlerin yeniden kazanması: ikamet","n":"Kaybettirilenlerin yeniden kazanmasında ikamet süresi de üç yıl."},
+ {"v":2,"suf":" yıl","l":"Çıkma izin belgesinin geçerliliği","n":"Çıkma izin belgesi iki yıl geçerli."}]},
+{"k":"trap","t":"Tuzak: yeniden kazanma (md. 13-14)","wrong":"Çıkma izniyle kaybedenler de yeniden kazanmak için 3 yıl ikamet etmelidir.","right":"*3 yıl ikamet* kaybettirilenler içindir. Çıkma izniyle kaybedenler *ikamet şartı aranmadan* Bakanlık kararıyla yeniden kazanır.","n":"Süre tuzağı: genel başvuruda ikamet beş yıl, evlenmede evlilik üç yıl, kaybettirilenlerin yeniden kazanmasında ikamet üç yıl. Peki çıkma izniyle kaybedenler?","n2":"Onlar için ikamet şartı aranmaz. Madde 13 ve 14'e göre Bakanlık kararıyla yeniden kazanabilirler."},
+{"k":"compare","t":"Karar makamı kim?","ic":"building","cols":["Bakanlık","Cumhurbaşkanı"],"n":"Son olarak karar makamı.","items":[
+ {"c":0,"l":"Genel kazanma","n":"Genel kazanmada karar Bakanlığındır."},
+ {"c":1,"l":"İstisnai kazanma (md. 12)","n":"İstisnai kazanmada karar Cumhurbaşkanınındır."},
+ {"c":0,"l":"Evlenme yoluyla kazanma","n":"Evlenme yoluyla kazanmada Bakanlık."},
+ {"c":1,"l":"Kaybettirme","n":"Kaybettirmede Cumhurbaşkanı."},
+ {"c":0,"l":"Çıkma izni","n":"Çıkma izni ise Bakanlıkça verilir."}]},
+{"k":"trap","t":"Tuzak: karar makamı","wrong":"İstisnai kazanma ve kaybettirme Bakanlık kararıyla olur.","right":"Genel ve evlenme yoluyla kazanma: *Bakanlık*. İstisnai kazanma ve kaybettirme: *Cumhurbaşkanı*.","n":"Bir tuzak daha: istisnai kazanma ve kaybettirme Bakanlık kararıyla mı olur?","n2":"Hayır. Genel ve evlenme yoluyla kazanmada karar Bakanlığındır. İstisnai kazanma ve kaybettirme ise Cumhurbaşkanı kararıyla olur."},
+{"k":"quiz","q":"Kaybettirme kararını kim verir, ne zaman hüküm doğurur?","a":"Cumhurbaşkanı; Resmî Gazete'de yayımlandığı tarihte","na":"Cumhurbaşkanı verir. Resmî Gazetede yayımlandığı tarihte hüküm doğurur."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

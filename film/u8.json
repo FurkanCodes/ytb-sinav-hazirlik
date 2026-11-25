@@ -1,0 +1,69 @@
+{"id":"u8","scenes":[
+{"k":"title","tag":"Uluslararası ilişkiler","ic":"law","t":"Siyaset bilimi: devlet, egemenlik, hükümet sistemleri","sub":"Egemenlik ve toplum sözleşmesi kuramcıları, Weber, hükümet sistemleri ve seçim barajı","n":"Bu derste egemenlik ve toplum sözleşmesi kuramcılarını, Weber'in otorite tiplerini ve hükümet sistemlerini göreceğiz. Sonunda da seçim barajı var."},
+{"k":"say","t":"Egemenlik","ic":"shield","big":"Egemenlik: bir toprak üzerindeki *en üstün otorite*.","n":"Önce temel kavram. Egemenlik, bir toprak üzerindeki en üstün otoritedir."},
+{"k":"list","t":"Jean Bodin","ic":"book","n":"Kavramı kapsamlı biçimde işleyen ilk Avrupalı filozof Jean Bodin'dir.","items":[
+ {"h":"1576","l":"*De la république* (Devlet Üzerine Altı Kitap)","n":"Eseri 1576 tarihli De la république, yani Devlet Üzerine Altı Kitap."},
+ {"h":"İlk","l":"Modern Avrupa felsefesinde ilk *sistemli* egemenlik açıklaması","n":"Bu eser, modern Avrupa felsefesindeki ilk sistemli egemenlik açıklamasıdır."},
+ {"h":"Egemen","l":"Beşerî yasaların *üstünde* ve kaynağıdır","n":"Bodin'e göre egemen, beşerî yasaların üstündedir ve onların kaynağıdır."},
+ {"h":"Sınır","l":"Ama doğal ve ilahi hukukla bağlıdır","n":"Ama egemen, doğal ve ilahi hukukla bağlıdır."}]},
+{"k":"timeline","t":"Kuramcılar ve eserleri","ic":"calendar","n":"Beş kuramcıyı tarih sırasına koyalım.","items":[
+ {"d":"1576","l":"Bodin: De la république","n":"1576: Bodin, De la république."},
+ {"d":"1651","l":"Hobbes: *Leviathan*","n":"1651: Hobbes, Leviathan."},
+ {"d":"1689","l":"Locke: Yönetim Üzerine İki İnceleme","n":"1689: Locke, Yönetim Üzerine İki İnceleme."},
+ {"d":"1762","l":"Rousseau: *Toplum Sözleşmesi*","n":"1762: Rousseau, Toplum Sözleşmesi."},
+ {"d":"1919","l":"Weber: Meslek Olarak Siyaset","n":"Ve 1919: Weber, Meslek Olarak Siyaset."}]},
+{"k":"flow","t":"Hobbes, Leviathan (1651)","ic":"book","n":"Hobbes'un düşüncesini adım adım izleyelim.","items":[
+ {"l":"Doğa durumu: *herkesin herkese karşı savaşı*","n":"Hobbes'a göre doğa durumu, herkesin herkese karşı savaşıdır."},
+ {"l":"Yaşam: yalnız, yoksul, kötü, hayvanca ve kısa","n":"Bu durumda yaşam yalnız, yoksul, kötü, hayvanca ve kısadır."},
+ {"l":"İnsanlar sözleşmeyle ortak bir otorite kurar","n":"Bu yüzden insanlar sözleşmeyle ortak bir otorite kurar."},
+ {"l":"*Mutlak* egemen: bölünmez ve sınırsız","n":"Hobbes mutlak, yani bölünmez ve sınırsız bir egemen güç savunur."}]},
+{"k":"list","t":"Locke, Yönetim Üzerine İki İnceleme (1689)","ic":"people","n":"Locke'un iki incelemesi 1689'da yayımlandı.","items":[
+ {"h":"Doğal haklar","l":"*Yaşam, özgürlük, mülkiyet*","n":"Locke'a göre yaşam, özgürlük ve mülkiyet doğal haklardır."},
+ {"h":"Rıza","l":"Hükümet halkın rızasına dayanır","n":"Hükümet, halkın rızasına dayanır."},
+ {"h":"Devrim hakkı","l":"Görevini yapmayan hükümete direnilebilir","n":"Görevini yapmayan hükümete direnilebilir. Buna devrim hakkı denir."},
+ {"h":"Ayrılık","l":"Yasama ile yürütme ayrılmalıdır","n":"Ve yasama ile yürütme birbirinden ayrılmalıdır."}]},
+{"k":"say","t":"Rousseau, Toplum Sözleşmesi (1762)","ic":"book","big":"\"İnsan özgür doğar, ama her yerde *zincire vurulmuştur*.\"","n":"Rousseau'nun Toplum Sözleşmesi 1762'de yayımlandı. Ünlü cümlesi: İnsan özgür doğar, ama her yerde zincire vurulmuştur.","items":[
+ {"l":"Merkezde *genel irade* vardır","n":"Rousseau'nun düşüncesinin merkezinde genel irade vardır."},
+ {"l":"Temsilî egemenliği *reddeder*","n":"Rousseau temsilî egemenliği reddeder."}]},
+{"k":"compare","t":"Hobbes mu, Locke mu?","ic":"q","cols":["Hobbes","Locke"],"n":"İki sözleşmeciyi ayıralım.","items":[
+ {"c":0,"l":"Mutlak, bölünmez, sınırsız egemen","n":"Mutlak, bölünmez ve sınırsız egemen: Hobbes."},
+ {"c":1,"l":"Görevini yapmayan hükümete direnme hakkı","n":"Görevini yapmayan hükümete direnme hakkı: Locke."},
+ {"c":0,"l":"Herkesin herkese karşı savaşı","n":"Herkesin herkese karşı savaşı: Hobbes."},
+ {"c":1,"l":"Yasama ile yürütme ayrılmalı","n":"Yasama ile yürütmenin ayrılması: Locke."}]},
+{"k":"quiz","q":"Toplum Sözleşmesi kimin eseri, hangi yıl yayımlandı?","a":"Rousseau, 1762","na":"Rousseau, 1762."},
+{"k":"say","t":"Max Weber: devlet nedir?","ic":"shield","big":"Devlet: belirli bir toprak üzerinde *meşru fiziksel güç kullanma tekelini* başarıyla talep eden insan topluluğu.","n":"Weber'e göre devlet, belirli bir toprak üzerinde meşru fiziksel güç kullanma tekelini başarıyla talep eden insan topluluğudur. Kaynak: Meslek Olarak Siyaset, 1919."},
+{"k":"tree","t":"Weber: meşru otoritenin üç ideal tipi","ic":"people","root":"Meşru otorite","n":"Weber meşru otoritenin üç ideal tipini ayırır.","items":[
+ {"l":"Geleneksel","s":"Köklü gelenek","n":"Birincisi geleneksel otorite: köklü geleneğe dayanır."},
+ {"l":"Karizmatik","s":"Liderin kişisel niteliklerine bağlılık","n":"İkincisi karizmatik otorite: liderin kişisel niteliklerine bağlılık."},
+ {"l":"Yasal-ussal","s":"Kişisel olmayan kurallar","n":"Üçüncüsü yasal-ussal otorite: kişisel olmayan kurallara dayanır."}]},
+{"k":"trap","t":"Tuzak: tanım kimin?","wrong":"'Meşru fiziksel güç kullanma tekeli' tanımı Hobbes'a aittir.","right":"Bu tanım *Weber*'e aittir (Meslek Olarak Siyaset, 1919).","n":"Tuzak: meşru fiziksel güç kullanma tekeli tanımı Hobbes'un mudur?","n2":"Hayır. Bu tanım Weber'e aittir."},
+{"k":"quiz","q":"Weber'in üç meşru otorite tipi nelerdir?","a":"Geleneksel, karizmatik, yasal-ussal","na":"Geleneksel, karizmatik ve yasal-ussal."},
+{"k":"list","t":"Başkanlık sistemi: ABD Anayasası","ic":"building","n":"Şimdi hükümet sistemleri. Önce başkanlık sistemi, ABD.","items":[
+ {"h":"md. II/1","l":"Yürütme yetkisi *Başkana* aittir","n":"Anayasanın ikinci maddesinin birinci bölümüne göre yürütme yetkisi Başkana aittir."},
+ {"h":"Seçim","l":"Dört yıl için, *seçiciler (electors)* aracılığıyla","n":"Başkan dört yıl için, seçiciler, yani electors aracılığıyla seçilir."},
+ {"h":"Görevden alma","l":"Yalnızca suçlama (impeachment) ve mahkûmiyetle","n":"Başkan ancak suçlama, yani impeachment, ve mahkûmiyetle görevden alınır."},
+ {"h":"md. I/6","l":"Federal görevdeki kişi aynı anda *Kongre üyesi olamaz*","n":"Birinci maddenin altıncı bölümüne göre federal görevdeki kişi aynı anda Kongre üyesi olamaz."}]},
+{"k":"flow","t":"Parlamenter sistem: Almanya","ic":"building","n":"Parlamenter sistem örneği Almanya.","items":[
+ {"l":"Federal Cumhurbaşkanı önerir","n":"Federal Cumhurbaşkanı Şansölye adayını önerir."},
+ {"l":"Federal Meclis (Bundestag) seçer","s":"md. 63","n":"Federal Şansölyeyi Federal Meclis, yani Bundestag seçer. Madde 63."},
+ {"l":"Güvensizlik ancak *halef seçerek*","s":"Yapıcı güvensizlik oyu, md. 67","n":"Meclis güvensizliğini ancak yeni bir halef seçerek ifade edebilir. Buna yapıcı güvensizlik oyu denir. Madde 67."}]},
+{"k":"quiz","q":"Almanya'daki güvensizlik oyunun adı ve şartı nedir?","a":"Yapıcı güvensizlik oyu: Meclis ancak yeni şansölyeyi seçerek güvensizlik bildirir (md. 67)","na":"Yapıcı güvensizlik oyu. Meclis ancak yeni şansölyeyi seçerek güvensizlik bildirebilir."},
+{"k":"tree","t":"Yarı başkanlık: Fransa, 1958 Anayasası","ic":"flag","root":"Fransa (1958 Anayasası)","n":"Yarı başkanlık örneği, 1958 Anayasasıyla Fransa.","items":[
+ {"l":"Cumhurbaşkanı: beş yıl, *doğrudan halk* seçer","s":"md. 6","n":"Cumhurbaşkanı beş yıl için doğrudan halk tarafından seçilir. Madde 6."},
+ {"l":"Başbakanı *atar*","s":"md. 8","n":"Cumhurbaşkanı Başbakanı atar. Madde 8."},
+ {"l":"Ulusal Meclisi feshedebilir","s":"md. 12","n":"Ulusal Meclisi feshedebilir. Madde 12."},
+ {"l":"Hükümet ulusun politikasını belirler, Parlamentoya sorumlu","s":"md. 20","n":"Hükümet ulusun politikasını belirler ve Parlamentoya karşı sorumludur. Madde 20."},
+ {"l":"Güvensizlik önergesiyle hükümet düşer","s":"md. 49-50","n":"Ulusal Meclis güvensizlik önergesiyle hükümeti düşürebilir. Madde 49 ile 50."}]},
+{"k":"trap","t":"Tuzak: Fransa'da Başbakanı kim belirler?","wrong":"Fransa'da Başbakanı halk ya da meclis seçer.","right":"Başbakanı *Cumhurbaşkanı atar*; ama hükümet Ulusal Meclise karşı sorumludur.","n":"Tuzak: Fransa'da Başbakanı halk mı, meclis mi seçer?","n2":"Hiçbiri. Başbakanı Cumhurbaşkanı atar. Ama hükümet Ulusal Meclise karşı sorumludur."},
+{"k":"bars","t":"2839 sayılı Kanun md. 33: seçim barajı","ic":"vote","n":"Şimdi Türkiye. 2839 sayılı Milletvekili Seçimi Kanununun 33. maddesi seçim barajını düzenler.","items":[
+ {"l":"Eski baraj","v":10,"txt":"%10","c":3,"n":"Baraj eskiden yüzde 10'du."},
+ {"l":"Bugün: *7393 sayılı Kanun* (31.3.2022)","v":7,"txt":"%7","c":2,"n":"31 Mart 2022 tarihli 7393 sayılı Kanunla yüzde 7'ye indi. Ülke genelinde geçerli oyların yüzde yedisini geçemeyen parti milletvekili çıkaramaz."}]},
+{"k":"list","t":"Barajda ittifak ve sandalye dağıtımı","ic":"vote","items":[
+ {"h":"İttifak","l":"Barajda *ittifakın toplam oyu* esas alınır","n":"İttifaklarda barajda ittifakın toplam oyu esas alınır."},
+ {"h":"md. 34","l":"Oylar sırayla bire, ikiye, üçe... bölünür; sandalyeler en büyük paylardan dağıtılır","n":"34. maddeye göre partilerin oyları sırayla bire, ikiye, üçe bölünür. Sandalyeler en büyük paylardan başlayarak dağıtılır."},
+ {"h":"Adı","l":"Kanun adını anmaz; literatürde *d'Hondt yöntemi*","n":"Kanun yöntemin adını anmaz. Literatürde buna d'Hondt yöntemi denir."},
+ {"h":"2022'den beri","l":"Sandalye hesabı ittifakı oluşturan *partilere göre ayrı* yapılır","n":"2022'den beri sandalye hesabı, ittifakı oluşturan partilere göre ayrı yapılır."}]},
+{"k":"trap","t":"Tuzak: baraj kaç?","wrong":"Türkiye'de seçim barajı %10'dur.","right":"Baraj artık *%7*: 7393 sayılı Kanunla (2022) indirildi.","n":"Son tuzak: Türkiye'de seçim barajı yüzde 10 mudur?","n2":"Artık değil. 2022'de 7393 sayılı Kanunla yüzde 7'ye indirildi."},
+{"k":"quiz","q":"Sandalye dağıtım yöntemi hangi maddede, literatürdeki adı ne?","a":"2839 sayılı Kanun md. 34; d'Hondt yöntemi","na":"2839 sayılı Kanunun 34. maddesi. Literatürdeki adı d'Hondt yöntemi."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi adım adım çalış ya da konu sorularını çöz."}
+]}

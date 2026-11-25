@@ -1,0 +1,34 @@
+{"id":"b3","scenes":[
+{"k":"title","tag":"Kurum bilgisi","ic":"star","t":"Türkiye Bursları","sub":"YTB'nin en görünür programı ve yumuşak güç bağlantısı","n":"Türkiye Bursları, YTB'nin en görünür programıdır. Hem test sorusu hem yazılı konusu olarak gelir. Yazılıda genellikle yumuşak güç kavramıyla bağlanır."},
+{"k":"say","t":"Markalaşma","ic":"flag","big":"*2012*: burslar \"Türkiye Bursları\" adıyla markalaştı","n":"Burslar 2012'de Türkiye Bursları adıyla markalaştı.","items":[
+ {"l":"YTB koordinasyonunda, ilgili kurumlarla iş birliği içinde","n":"Program YTB koordinasyonunda, ilgili kurumlarla iş birliği içinde yürütülür."}]},
+{"k":"trap","t":"Tuzak: kim yürütür?","wrong":"Programı YÖK tek başına yürütür.","right":"Programı *YTB koordine eder*; ilgili kurumlarla iş birliği içinde yürütülür.","n":"İlk tuzak: programı YÖK tek başına mı yürütür?","n2":"Hayır. Programı YTB koordine eder, ilgili kurumlarla iş birliği içinde yürütülür."},
+{"k":"quiz","q":"Türkiye Bursları hangi yıl markalaştı?","a":"2012","na":"2012."},
+{"k":"flow","t":"Hangi düzeylerde?","ic":"book","n":"Burs dört düzeyde verilir.","items":[
+ {"l":"Ön lisans","n":"Ön lisans."},
+ {"l":"Lisans","n":"Lisans."},
+ {"l":"Yüksek lisans","n":"Yüksek lisans."},
+ {"l":"Doktora","n":"Ve doktora."}]},
+{"k":"trap","t":"Tuzak: kime verilir?","wrong":"Burs yalnızca Türk soylulara ya da yalnızca lisansüstüne verilir.","right":"*İkisi de yanlış.* Burs ön lisanstan doktoraya dört düzeyde verilir ve Türk soylularla sınırlı değildir.","n":"İkinci tuzak: burs yalnızca Türk soylulara ya da yalnızca lisansüstüne mi verilir?","n2":"Hayır, ikisi de yanlış. Burs yalnızca Türk soylulara verilmez, yalnızca lisansüstüne de verilmez."},
+{"k":"compare","t":"Burs neler sağlar, neler sağlamaz?","ic":"money","cols":["Sağlar","Sağlamaz"],"n":"Şimdi bursun içeriğine bakalım: neler var, neler yok?","items":[
+ {"c":0,"l":"Üniversite ve bölüm yerleştirme","n":"Üniversite ve bölüm yerleştirme: var."},
+ {"c":0,"l":"Öğrenim ücreti","n":"Öğrenim ücreti: var."},
+ {"c":0,"l":"Aylık burs","n":"Aylık burs: var."},
+ {"c":0,"l":"Barınma","n":"Barınma: var."},
+ {"c":0,"l":"Sağlık sigortası","n":"Sağlık sigortası: var."},
+ {"c":0,"l":"*Bir yıl* Türkçe eğitimi","n":"Bir yıl Türkçe eğitimi: var."},
+ {"c":0,"l":"*Bir defaya mahsus* uçak bileti","n":"Bir defaya mahsus uçak bileti: var."},
+ {"c":1,"l":"Mezuniyet sonrası istihdam güvencesi","n":"Mezuniyet sonrası istihdam güvencesi: yok."},
+ {"c":1,"l":"Türkiye'de kamuda çalışma zorunluluğu","n":"Türkiye'de kamuda çalışma zorunluluğu da yok."}]},
+{"k":"quiz","q":"Türkiye Bursları mezuniyet sonrası istihdam güvencesi verir mi?","a":"Hayır. İstihdam güvencesi de kamuda çalışma zorunluluğu da yoktur.","na":"Hayır. İstihdam güvencesi yok, Türkiye'de kamuda çalışma zorunluluğu da yok."},
+{"k":"say","t":"Yumuşak güç","ic":"globe","big":"*Joseph Nye*, 1990: cazibeyle etkileme gücü","n":"Yazılı için kilit kavram: yumuşak güç. Joseph Nye bu kavramı 1990'da ortaya attı.","items":[
+ {"l":"Zorlama ya da ödeme yerine...","n":"Yumuşak güç, zorlama ya da ödeme yerine kullanılan bir etkileme yoludur."},
+ {"l":"...kültür, değer ve politikaların *cazibesi*","n":"Kültür, değer ve politikaların cazibesiyle etkileme gücü demektir."}]},
+{"k":"compare","t":"Hangisi yumuşak güç?","ic":"star","cols":["Yumuşak güç","Yumuşak güç değil"],"n":"Ayırt edelim.","items":[
+ {"c":0,"l":"Kültürün cazibesi","n":"Kültürün cazibesi yumuşak güçtür."},
+ {"c":1,"l":"Zorlama","n":"Zorlama değildir."},
+ {"c":0,"l":"Değerlerin ve politikaların cazibesi","n":"Değerlerin ve politikaların cazibesi yumuşak güçtür."},
+ {"c":1,"l":"Ödeme","n":"Ödeme değildir."}]},
+{"k":"quiz","q":"Yumuşak güç kavramı kimin?","a":"Joseph Nye (1990)","na":"Joseph Nye, 1990."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

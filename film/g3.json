@@ -1,0 +1,32 @@
+{"id":"g3","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"globe","t":"Coğrafya","sub":"Komşular, sınırlar, akarsular, bölgeler ve Kırım","n":"Bu derste Türkiye'nin komşularını, sınırlarını ve akraba toplulukların yaşadığı bölgeleri göreceğiz."},
+{"k":"tree","t":"Kara komşuları: 8","ic":"globe","root":"Türkiye: 8 kara komşusu","n":"Türkiye'nin sekiz kara komşusu var.","items":[
+ {"l":"Yunanistan","n":"Yunanistan."},
+ {"l":"Bulgaristan","n":"Bulgaristan."},
+ {"l":"Gürcistan","n":"Gürcistan."},
+ {"l":"Ermenistan","n":"Ermenistan."},
+ {"l":"Azerbaycan","s":"Nahçıvan üzerinden","n":"Azerbaycan, Nahçıvan üzerinden."},
+ {"l":"İran","n":"İran."},
+ {"l":"Irak","n":"Irak."},
+ {"l":"Suriye","s":"En uzun kara sınırı","n":"Ve Suriye. En uzun kara sınırı Suriye ile."}]},
+{"k":"compare","t":"Kara mı, deniz mi?","ic":"q","cols":["Kara komşusu","Yalnızca deniz komşusu"],"n":"İki ülke sık karıştırılır.","items":[
+ {"c":0,"l":"Azerbaycan (Nahçıvan)","n":"Azerbaycan kara komşusudur, sınır Nahçıvan üzerinden."},
+ {"c":1,"l":"Romanya","n":"Romanya ile ise yalnızca deniz komşuluğu vardır."}]},
+{"k":"trap","t":"Tuzak: Nahçıvan","wrong":"Azerbaycan ile sınır yalnızca Nahçıvan üzerinden olduğu için kara sınırı sayılmaz.","right":"Sınır Nahçıvan üzerinden, ama yine de *kara sınırıdır*.","n":"Tuzak: Azerbaycan ile sınır yalnızca Nahçıvan üzerinden. Bu kara sınırı sayılmaz mı?","n2":"Sayılır. Sınır Nahçıvan üzerinden olsa da yine kara sınırıdır."},
+{"k":"quiz","q":"Türkiye'nin kaç kara komşusu var?","a":"Sekiz","na":"Sekiz."},
+{"k":"say","t":"En uzun kara sınırı","ic":"flag","big":"*Suriye*: yaklaşık 877-911 km","n":"En uzun kara sınırı Suriye ile. Uzunluk kaynağa göre yaklaşık 877 ile 911 kilometre arasında verilir."},
+{"k":"bars","t":"En uzun iç akarsu: Kızılırmak","ic":"chart","n":"Kaynağı ve ağzı Türkiye'de olan en uzun akarsu Kızılırmak. Uzunluğu kaynağa göre değişir.","items":[
+ {"l":"Ders kitapları","v":1.355,"txt":"1.355 km","c":0,"n":"Ders kitaplarında 1.355 kilometre."},
+ {"l":"Britannica","v":1.182,"txt":"yaklaşık 1.182 km","c":1,"n":"Britannica'da yaklaşık 1.182 kilometre."}]},
+{"k":"compare","t":"İç akarsu mu?","ic":"q","cols":["Kaynağı ve ağzı Türkiye'de","Sınır dışına akar"],"items":[
+ {"c":0,"l":"*Kızılırmak*","n":"Kızılırmak kaynağı ve ağzı Türkiye'de olan akarsu."},
+ {"c":1,"l":"Fırat ve Dicle","n":"Fırat ve Dicle ise sınır dışına akar. Bu yüzden iç akarsu sayılmaz."}]},
+{"k":"say","t":"Yedi bölge","ic":"calendar","big":"*1941*, Birinci Coğrafya Kongresi (Ankara)","n":"Yedi coğrafi bölge, 1941'de Ankara'da toplanan Birinci Coğrafya Kongresinde kararlaştırıldı."},
+{"k":"quiz","q":"Yedi bölge hangi toplantıda belirlendi?","a":"1941 Birinci Coğrafya Kongresi","na":"1941, Birinci Coğrafya Kongresi."},
+{"k":"flow","t":"Kırım ve Kerç Boğazı","ic":"globe","n":"Son olarak akraba toplulukların yaşadığı Kırım.","items":[
+ {"l":"Karadeniz","n":"Bir yanda Karadeniz."},
+ {"l":"Kırım","s":"İki deniz arasında","n":"Kırım, Karadeniz ile Azak Denizi arasında yer alır."},
+ {"l":"Azak Denizi","s":"*Kerç Boğazı* ile Karadeniz'e bağlanır","n":"Azak Denizini Karadeniz'e Kerç Boğazı bağlar."}]},
+{"k":"quiz","q":"Azak Denizini Karadeniz'e hangi boğaz bağlar?","a":"Kerç Boğazı","na":"Kerç Boğazı."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

@@ -1,0 +1,44 @@
+{"id":"g6","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"globe","t":"Türkiye coğrafyası: nüfus, yer şekilleri, bölgeler","sub":"Konum, en yüksek dağ, en büyük göl, kıyılar, il sayısı ve güncel nüfus","n":"Genel kültürde konum, en yüksek dağ, en büyük göl, kıyılar ve güncel nüfus rakamı sık sorulur. Nüfus sorularında her zaman TÜİK'in en son Adrese Dayalı Nüfus Kayıt Sistemi sonucunu bil."},
+{"k":"list","t":"Matematik konum ve yüzölçümü","ic":"globe","n":"Önce Türkiye'nin matematik konumu.","items":[
+ {"h":"Enlem","l":"*36°-42°* kuzey enlemleri","n":"Türkiye 36 ile 42 derece kuzey enlemleri arasındadır."},
+ {"h":"Boylam","l":"*26°-45°* doğu boylamları","n":"Ve 26 ile 45 derece doğu boylamları arasında."},
+ {"h":"Yüzölçümü","l":"814.578 km², göller ve adalar dâhil (Ankara Üniversitesi)","n":"Göller ve adalar dâhil yüzölçümü 814.578 kilometrekaredir. Kaynak Ankara Üniversitesi."}]},
+{"k":"quiz","q":"Türkiye'nin matematik konumu?","a":"36°-42° kuzey enlemleri, 26°-45° doğu boylamları","na":"36 ile 42 derece kuzey enlemleri, 26 ile 45 derece doğu boylamları."},
+{"k":"bars","t":"En yüksek dağ: Büyük Ağrı","ic":"chart","n":"En yüksek dağ Büyük Ağrı Dağı. Doğubayazıt ilçesi sınırlarındadır. Yüksekliği kaynağa göre değişir.","items":[
+ {"l":"Büyük Ağrı (DİE, Harita Genel Komutanlığı)","v":5.137,"txt":"5.137 m","c":1,"n":"DİE kaynakları ve Harita Genel Komutanlığı haritaları 5.137 metre verir."},
+ {"l":"Büyük Ağrı (başka kaynaklar)","v":5.165,"txt":"5.165 m","c":0,"n":"Başka kaynaklarda 5.165 metre gibi farklı değerler de geçer."},
+ {"l":"Küçük Ağrı (SERKA)","v":3.896,"txt":"yaklaşık 3.896 m","c":2,"n":"Küçük Ağrı ise yaklaşık 3.896 metredir. Kaynak SERKA."}]},
+{"k":"list","t":"En büyük göl: Van Gölü","ic":"globe","n":"En büyük göl Van Gölü.","items":[
+ {"h":"Alan","l":"Yaklaşık *3.700 km²* (resmî kaynaklarda 3.712-3.765 km²)","n":"Alanı yaklaşık 3.700 kilometrekare. Resmî kaynaklarda 3.712 ile 3.765 kilometrekare arası verilir."},
+ {"h":"Hacim","l":"600 km³: dünyanın en büyük *sodalı gölü*","n":"600 kilometreküp hacmiyle dünyanın en büyük sodalı gölüdür."},
+ {"h":"Tuzluluk","l":"Dışa akışı yok, bu yüzden tuzluluğu yüksek","n":"Dışa akışı yoktur. Bu yüzden tuzluluğu yüksektir."},
+ {"h":"Oluşum","l":"*Volkanik set gölü*: Nemrut volkanının patlaması çöküntünün önünü kapattı","n":"Nemrut volkanının patlamasıyla tektonik çöküntünün önü kapanarak oluşmuş volkanik set gölüdür."}]},
+{"k":"trap","t":"Tuzak: Van Gölü","wrong":"Van Gölü bir tatlı su gölüdür.","right":"Van Gölü *dışa akışı olmayan sodalı* bir göldür.","n":"Tuzak: Van Gölü tatlı su gölü mü?","n2":"Hayır. Van Gölü dışa akışı olmayan, sodalı bir göldür."},
+{"k":"bars","t":"Kıyı uzunlukları (Sayıştay, 2006)","ic":"chart","n":"Şimdi kıyılar. Sayıştay'ın 2006 raporuna göre rakamlar şöyle.","items":[
+ {"l":"Ege","v":2.805,"txt":"2.805 km","c":1,"n":"Ege 2.805 kilometre. En uzun kıyı."},
+ {"l":"Karadeniz","v":1.785,"txt":"1.785 km","c":0,"n":"Karadeniz 1.785 kilometre."},
+ {"l":"Akdeniz","v":1.577,"txt":"1.577 km","c":0,"n":"Akdeniz 1.577 kilometre."},
+ {"l":"Marmara","v":1.089,"txt":"1.089 km","c":0,"n":"Marmara 1.089 kilometre."},
+ {"l":"Adalar","v":1.067,"txt":"1.067 km","c":2,"n":"Adalar 1.067 kilometre."}]},
+{"k":"say","t":"Kaynak değişse de sonuç aynı","ic":"book","big":"MEB ders kitabı: adalar dâhil yaklaşık 8.333 km, Ege payı %33,66. En uzun kıyı *her iki kaynakta da Ege*.","n":"Rakamlar kaynağa göre değişir. MEB ders kitabına göre adalar dâhil toplam kıyı yaklaşık 8.333 kilometre, Ege'nin payı yüzde 33,66. Ama en uzun kıyı her iki kaynakta da Ege'dedir."},
+{"k":"trap","t":"Tuzak: en uzun kıyı","wrong":"Toplam kıyıda en uzun pay Karadeniz'indir.","right":"En uzun pay *Ege*'nindir.","n":"Tuzak: toplam kıyıda en uzun pay Karadeniz'in mi?","n2":"Hayır. En uzun pay Ege'nindir."},
+{"k":"quiz","q":"En uzun kıyı hangi denizde?","a":"Ege (Sayıştay: 2.805 km; MEB: %33,66)","na":"Ege. Sayıştay'a göre 2.805 kilometre; MEB'e göre toplamın yüzde 33,66'sı."},
+{"k":"timeline","t":"71'den 81 ile","ic":"calendar","n":"Şimdi il sayısının hikâyesi.","items":[
+ {"d":"1923","l":"*71* il","n":"1923'te 71 il vardı."},
+ {"d":"1995","l":"Yalova, Kilis, Karabük il oldu: *79*","n":"1995'te Yalova, Kilis ve Karabük il oldu. Sayı 79'a çıktı."},
+ {"d":"1996","l":"Osmaniye il oldu","n":"1996'da Osmaniye il oldu."},
+ {"d":"1999","l":"Deprem sonrası *Düzce* il yapıldı: *81*","n":"1999 depremi sonrasında Düzce il yapıldı ve sayı 81'e çıktı."},
+ {"d":"2025","l":"1999'dan sonra yeni il yok; TÜİK 2025 tablosunda da 81 il","n":"1999'dan sonra yeni il kurulmadı. TÜİK'in 2025 tablosunda da 81 il vardır."}]},
+{"k":"trap","t":"Tuzak: 81. il","wrong":"Türkiye'nin 81. ili Osmaniye'dir.","right":"81. il *Düzce*'dir (1999). Osmaniye *1996*'da il oldu.","n":"Tuzak: 81. il Osmaniye mi?","n2":"Hayır. 81. il Düzce'dir, 1999. Osmaniye 1996'da il oldu."},
+{"k":"quiz","q":"Türkiye'nin 81. ili hangisi, ne zaman?","a":"Düzce, 1999","na":"Düzce, 1999."},
+{"k":"say","t":"Nüfus: ADNKS 2025","ic":"people","big":"31.12.2025 itibarıyla *86.092.168*","n":"Adrese Dayalı Nüfus Kayıt Sistemine göre 31 Aralık 2025 itibarıyla Türkiye nüfusu 86.092.168'dir.","items":[
+ {"l":"TÜİK, bülten 9.2.2026","n":"Kaynak: TÜİK'in 9 Şubat 2026 tarihli bülteni."}]},
+{"k":"list","t":"İller ve yerleşim","ic":"building","n":"İllere göre nüfus.","items":[
+ {"h":"En kalabalık","l":"*İstanbul* (15.754.053), sonra Ankara, İzmir, Bursa, Antalya","n":"En kalabalık il İstanbul: 15.754.053. Onu Ankara, İzmir, Bursa ve Antalya izler."},
+ {"h":"En az nüfuslu","l":"*Bayburt* (82.836)","n":"En az nüfuslu il Bayburt: 82.836."}]},
+{"k":"count","t":"Kentte yaşayanlar","ic":"chart","items":[
+ {"v":93.6,"pre":"%","dec":1,"l":"Nüfusun il ve ilçe merkezlerinde yaşayan payı","n":"Nüfusun yüzde 93,6'sı il ve ilçe merkezlerinde yaşar."}]},
+{"k":"quiz","q":"ADNKS 2025'e göre Türkiye nüfusu?","a":"86.092.168","na":"86.092.168."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}

@@ -1,0 +1,68 @@
+{"id":"g4","scenes":[
+{"k":"title","tag":"Genel kültür","ic":"law","t":"Atatürk ilkeleri ve Cumhuriyet'in ilk yılları","sub":"Kanun numaraları ve kabul tarihleri birlikte","n":"Bu derste Cumhuriyetin ilk yıllarındaki anayasaları, partileri ve inkılap kanunlarını göreceğiz. Sınavda kanun ile tarih eşleştirmesi, kronolojik sıralama ve hangisi yanlıştır soruları çok sorulur."},
+{"k":"say","t":"Altın kural","ic":"book","big":"Kanun *numarası* + kabul *tarihi*: hep birlikte öğren.","n":"Bu yüzden her kanunun numarasını ve kabul tarihini birlikte öğren."},
+{"k":"timeline","t":"Büyük kronoloji, 1921-1937","ic":"calendar","n":"Önce bütün kronoloji, baştan sona.","items":[
+ {"d":"Ocak 1921","l":"*85 sayılı* Teşkilat-ı Esasiye Kanunu (ilk anayasa)","n":"Ocak 1921: 85 sayılı Teşkilat-ı Esasiye Kanunu, yani ilk anayasa."},
+ {"d":"20.4.1924","l":"1924 Teşkilat-ı Esasiye Kanunu kabul edildi","n":"20 Nisan 1924: 1924 Teşkilat-ı Esasiye Kanunu kabul edildi."},
+ {"d":"17.11.1924","l":"Terakkiperver Cumhuriyet Fırkası kuruldu","n":"17 Kasım 1924: Terakkiperver Cumhuriyet Fırkası kuruldu."},
+ {"d":"3.6.1925","l":"Terakkiperver Cumhuriyet Fırkası kapatıldı","n":"3 Haziran 1925: Terakkiperver Cumhuriyet Fırkası kapatıldı."},
+ {"d":"25.11.1925","l":"*671* sayılı Şapka İktisası Hakkında Kanun","n":"25 Kasım 1925: 671 sayılı Şapka İktisası Hakkında Kanun."},
+ {"d":"30.11.1925","l":"*677* sayılı Kanun: tekke, zaviye ve türbeler kapatıldı","n":"30 Kasım 1925: 677 sayılı Kanun. Tekke, zaviye ve türbeler kapatıldı."},
+ {"d":"26.12.1925","l":"*697* (24 saat) ve *698* (takvim) sayılı Kanunlar","n":"26 Aralık 1925: 697 sayılı Kanun, 24 saat; ve 698 sayılı Kanun, takvim."},
+ {"d":"10.4.1928","l":"*1222* sayılı Kanun: \"Türkiye Devletinin dini İslam'dır\" ibaresi çıkarıldı","n":"10 Nisan 1928: 1222 sayılı Kanun. Türkiye Devletinin dini İslam'dır ibaresi Anayasadan çıkarıldı."},
+ {"d":"1.11.1928","l":"*1353* sayılı Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun","n":"1 Kasım 1928: 1353 sayılı Türk Harflerinin Kabul ve Tatbiki Hakkında Kanun."},
+ {"d":"Ağustos 1930","l":"Serbest Cumhuriyet Fırkası kuruldu (yaklaşık üç ay yaşadı)","n":"Ağustos 1930: Serbest Cumhuriyet Fırkası kuruldu. Yaklaşık üç ay yaşadı."},
+ {"d":"1931","l":"*1782* sayılı Ölçüler Kanunu (RG 4.4.1931)","n":"1931: 1782 sayılı Ölçüler Kanunu kabul edildi. Resmî Gazete tarihi 4 Nisan 1931."},
+ {"d":"5.2.1937","l":"*3115* sayılı Kanun: altı ilke Anayasanın 2. maddesine girdi","n":"5 Şubat 1937: 3115 sayılı Kanun. Altı ilke Anayasanın ikinci maddesine girdi."}]},
+{"k":"list","t":"1921 Teşkilat-ı Esasiye: 85 sayılı Kanun","ic":"law","n":"Şimdi ilk anayasa: 85 sayılı Kanun. Özelliklerini tek tek görelim.","items":[
+ {"h":"Temel","l":"*Millî egemenliğe* dayanır","n":"Millî egemenliğe dayanır."},
+ {"h":"Sistem","l":"*Meclis hükümeti* sistemini kurar","n":"Meclis hükümeti sistemini kurar."},
+ {"h":"Kuvvetler","l":"*Kuvvetler birliği* esasına dayanır","n":"Kuvvetler birliği esasına dayanır."},
+ {"h":"Nitelik","l":"Esnek (yumuşak) ve çerçeve bir anayasa (TBMM)","n":"Esnek, yani yumuşak ve çerçeve bir anayasadır."}]},
+{"k":"timeline","t":"1924 Anayasasındaki değişiklikler","ic":"calendar","n":"Şimdi 1924 Anayasasında yapılan değişiklikleri sırayla görelim.","items":[
+ {"d":"10.4.1928","l":"*1222* sayılı Kanun: devletin dinine ilişkin ibare çıkarıldı","n":"10 Nisan 1928'de 1222 sayılı Kanunla devletin dinine ilişkin ibare çıkarıldı."},
+ {"d":"1937","l":"*3115* sayılı Kanun: altı ilke 2. maddeye girdi","n":"1937'de 3115 sayılı Kanunla altı ilke ikinci maddeye girdi."},
+ {"d":"1945","l":"*4695* sayılı Kanun: dili Türkçeleştirildi, adı \"Anayasa\" oldu","n":"1945'te 4695 sayılı Kanunla dili Türkçeleştirildi ve adı Anayasa oldu."},
+ {"d":"1952","l":"*5997* sayılı Kanun: eski metne dönüldü","n":"1952'de 5997 sayılı Kanunla eski metne dönüldü."}]},
+{"k":"say","t":"Altı ilke Anayasada, 1937","ic":"star","big":"md. 2: \"Türkiye Devleti, *cumhuriyetçi, milliyetçi, halkçı, devletçi, lâik ve inkılâpçıdır*.\"","n":"1937'de 3115 sayılı Kanunla 1924 Anayasasının ikinci maddesi şöyle oldu: Türkiye Devleti, cumhuriyetçi, milliyetçi, halkçı, devletçi, lâik ve inkılâpçıdır.","items":[
+ {"l":"Resmî dil Türkçe, başkent Ankara olarak kaldı","n":"Resmî dil Türkçe, başkent Ankara olarak kaldı."}]},
+{"k":"trap","t":"Tuzak: altı ilke ne zaman?","wrong":"Altı ilke 1924'te Anayasaya girdi; \"lâik\" kelimesi 1928'de eklendi.","right":"Altı ilke *1937*'de girdi. 1928 değişikliği yalnızca din ibaresini çıkardı; \"lâik\" *1937*'de eklendi.","n":"Tuzak: altı ilke 1924'te mi Anayasaya girdi? Lâik kelimesi 1928'de mi eklendi?","n2":"Hayır. Altı ilke 1937'de girdi. 1928 değişikliği yalnızca din ibaresini çıkardı. Lâik kelimesi de 1937'de eklendi."},
+{"k":"quiz","q":"Atatürk ilkeleri Anayasaya ne zaman, hangi kanunla girdi?","a":"Şubat 1937, 3115 sayılı Kanun (md. 2)","na":"Şubat 1937. 3115 sayılı Kanun, ikinci madde."},
+{"k":"compare","t":"İki muhalefet partisi","ic":"vote","cols":["TCF: 1924-1925","SCF: 1930"],"n":"Şimdi iki muhalefet partisi. Sınavda sık karıştırılır.","items":[
+ {"c":0,"l":"17.11.1924'te kuruldu: Rauf (Orbay), Kâzım (Karabekir), Ali Fuat (Cebesoy), Refet (Bele), Adnan (Adıvar)","n":"Terakkiperver Cumhuriyet Fırkası 17 Kasım 1924'te kuruldu. Önderleri Rauf Orbay, Kâzım Karabekir, Ali Fuat Cebesoy, Refet Bele ve Adnan Adıvar."},
+ {"c":0,"l":"Cumhuriyetin *ilk muhalefet partisi*","n":"Cumhuriyetin ilk muhalefet partisidir."},
+ {"c":0,"l":"Şeyh Sait İsyanı ile ilişkilendirildi, 3.6.1925'te kapatıldı (yaklaşık yedi ay)","n":"Şeyh Sait İsyanı ile ilişkilendirildi ve 3 Haziran 1925'te kapatıldı. Yaklaşık yedi ay yaşadı."},
+ {"c":1,"l":"Ağustos 1930: *Ali Fethi (Okyar)*, kontrollü muhalefet","n":"Serbest Cumhuriyet Fırkasını Ağustos 1930'da Ali Fethi Okyar kurdu. Kontrollü bir muhalefet olarak."},
+ {"c":1,"l":"1930 belediye seçimlerine katıldı","n":"1930 belediye seçimlerine katıldı."},
+ {"c":1,"l":"Yaklaşık üç ay yaşadı; Fethi Bey partiyi feshetti","n":"Yaklaşık üç ay yaşadı ve Fethi Bey partiyi feshetti."}]},
+{"k":"trap","t":"Tuzak: TCF'nin kurucusu","wrong":"TCF'yi Fethi Okyar kurdu.","right":"Fethi Bey *1930'daki SCF*'nin kurucusudur. TCF 1924-1925, SCF 1930.","n":"Tuzak: Terakkiperver Cumhuriyet Fırkasını Fethi Okyar mı kurdu?","n2":"Hayır. Fethi Bey 1930'daki Serbest Cumhuriyet Fırkasının kurucusudur. TCF 1924 ile 1925 arası, SCF 1930."},
+{"k":"quiz","q":"TCF ve SCF kimlerle, hangi yıllarda?","a":"TCF 1924-1925 (Kâzım Karabekir, Rauf Orbay vd.); SCF 1930 (Ali Fethi Okyar)","na":"TCF 1924 ile 1925 arası: Kâzım Karabekir, Rauf Orbay ve diğerleri. SCF 1930: Ali Fethi Okyar."},
+{"k":"flow","t":"1925 düzenlemeleri","ic":"law","n":"Şimdi 1925'in sonunda art arda gelen düzenlemeler.","items":[
+ {"l":"671: Şapka Kanunu","s":"25.11.1925","n":"25 Kasım 1925: 671 sayılı Şapka Kanunu."},
+ {"l":"677: tekke ve zaviyeler kapatıldı","s":"30.11.1925","n":"30 Kasım 1925: 677 sayılı Kanunla tekke ve zaviyeler kapatıldı."},
+ {"l":"697 + 698: saat ve takvim","s":"26.12.1925, aynı gün iki kanun","n":"26 Aralık 1925: aynı gün iki kanun, 697 ve 698."}]},
+{"k":"tree","t":"26.12.1925: iki kanun","ic":"calendar","root":"26.12.1925","n":"Bu iki kanunun içeriğine bakalım.","items":[
+ {"l":"697 sayılı Kanun","s":"Gün gece yarısından başlar; Greenwich'e göre *30. boylam* esas","n":"697 sayılı Kanunla gün gece yarısından başlar ve Greenwich'e göre 30. boylam esas alınır."},
+ {"l":"698 sayılı Kanun","s":"1341 Kânunuevvel'in 31. gününü izleyen gün = *1 Ocak 1926*","n":"698 sayılı Kanunla 1341 yılı Kânunuevvel ayının 31. gününü izleyen gün 1 Ocak 1926 kabul edildi."}]},
+{"k":"quiz","q":"697 sayılı Kanuna göre saat hangi boylama göre ayarlanır?","a":"Greenwich'e göre 30. boylam","na":"Greenwich'e göre 30. boylam."},
+{"k":"flow","t":"Harf Kanunu: 1353","ic":"book","n":"Şimdi harf inkılabı: 1353 sayılı Kanun.","items":[
+ {"l":"Kabul: 1.11.1928","n":"1 Kasım 1928'de kabul edildi."},
+ {"l":"Resmî Gazete: 3.11.1928","n":"Resmî Gazete tarihi 3 Kasım 1928."},
+ {"l":"Devlet dairelerinde son sınır: 1.1.1929","s":"md. 3","n":"Devlet dairelerinde uygulama 1 Ocak 1929'u geçemezdi. Madde 3."}]},
+{"k":"flow","t":"Ölçüler Kanunu: 1782","ic":"chart","n":"Ve ölçüler: 1782 sayılı Ölçüler Kanunu. Burada kabul ile uygulama farklı tarihlerde.","items":[
+ {"l":"Kabul: 1931","s":"RG 4.4.1931","n":"1931'de kabul edildi. Resmî Gazete tarihi 4 Nisan 1931."},
+ {"l":"Metre sistemi","s":"md. 1","n":"Metre sistemini getirdi. Madde 1."},
+ {"l":"Kanundaki tarih: 1.1.1933","s":"md. 28","n":"Kanun uygulamayı ileriye bıraktı. Madde 28: 1 Ocak 1933."},
+ {"l":"Fiilî uygulama: 1934 başı","s":"ATAM'daki makaleye göre","n":"Atatürk Araştırma Merkezi dergisindeki makaleye göre yeni ölçüler fiilen 1934 başında uygulanmaya başladı."}]},
+{"k":"trap","t":"Tuzak: Ölçüler Kanunu","wrong":"Yeni ölçüler 1931'de, kabul edildiği yıl uygulanmaya başladı.","right":"Kabul *1931*, uygulama *birkaç yıl sonra* (md. 28: 1.1.1933; fiilen 1934 başı).","n":"Son tuzak: Ölçüler Kanunu 1931'de kabul edildi. Uygulama da 1931'de mi başladı?","n2":"Hayır. Uygulama birkaç yıl sonra başladı. Uygulama başlangıcını kabul tarihiyle karıştırma."},
+{"k":"count","t":"Kanun numaraları","ic":"chart","n":"Son olarak kanun numaralarını bir arada görelim.","items":[
+ {"v":85,"l":"1921 Teşkilat-ı Esasiye","n":"85: 1921 Teşkilat-ı Esasiye."},
+ {"v":671,"l":"Şapka Kanunu","n":"671: Şapka Kanunu."},
+ {"v":677,"l":"Tekke ve zaviyeler","n":"677: tekke ve zaviyeler."},
+ {"v":1222,"l":"Din ibaresi çıkarıldı","n":"1222: din ibaresi çıkarıldı."},
+ {"v":1353,"l":"Türk harfleri","n":"1353: Türk harfleri."},
+ {"v":1782,"l":"Ölçüler Kanunu","n":"1782: Ölçüler Kanunu."},
+ {"v":3115,"l":"Altı ilke Anayasada","n":"3115: altı ilke Anayasada."}]},
+{"k":"quiz","q":"Türk Harflerinin Kabul ve Tatbiki Hakkında Kanunun numarası ve kabul tarihi?","a":"1353 sayılı Kanun, 1 Kasım 1928","na":"1353 sayılı Kanun, 1 Kasım 1928."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}
