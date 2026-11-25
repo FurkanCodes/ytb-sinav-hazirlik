@@ -151,6 +151,81 @@ dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
 .tlrow.cur{background:var(--accent-soft);border-radius:6px;padding:5px 6px}
 .tld{font:500 .82rem var(--mono);color:var(--accent)}
 .dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+/* ---------- Animasyonlu ders ---------- */
+.film{--fs-bg:#0E1726;--fs-ink:#EEF2F8;--fs-mut:#9BA9BE;--fs-acc:#F2B544;--fs-blue:#6F95F2;--fs-ok:#5CC492;--fs-bad:#EE8A75;display:flex;flex-direction:column;gap:10px}
+.fstage{position:relative;height:clamp(440px,66vh,640px);border-radius:14px;overflow:hidden;color:var(--fs-ink);cursor:pointer;
+  background:radial-gradient(120% 80% at 15% 10%,#1D3160 0%,transparent 55%),radial-gradient(90% 70% at 90% 95%,#3A2A12 0%,transparent 60%),var(--fs-bg);background-size:140% 140%;animation:fbg 22s ease-in-out infinite alternate}
+@keyframes fbg{from{background-position:0% 0%}to{background-position:100% 100%}}
+.fscene{position:absolute;inset:0;padding:26px 24px;overflow:auto;opacity:0;transform:translateX(30px);transition:opacity .45s ease,transform .45s cubic-bezier(.2,.7,.2,1);scrollbar-width:none}
+.fscene::-webkit-scrollbar{display:none}
+.fscene.in{opacity:1;transform:none}.fscene.out{opacity:0;transform:translateX(-30px)}
+.fscene .it{opacity:0;transform:translateY(14px) scale(.98);transition:opacity .5s ease,transform .55s cubic-bezier(.2,.8,.2,1.2)}
+.fscene .it.on{opacity:1;transform:none}
+.fscene mark{background:linear-gradient(transparent 58%,rgba(242,181,68,.55) 58%);background-size:0% 100%;background-repeat:no-repeat;color:inherit;animation:fmark .8s .35s ease forwards}
+.fscene .it:not(.on) mark{animation:none}
+@keyframes fmark{to{background-size:100% 100%}}
+.fic{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.fic.big{width:56px;height:56px;stroke-width:1.4;color:var(--fs-acc);stroke-dasharray:120;stroke-dashoffset:120;animation:fdraw 1.4s .2s ease forwards}
+@keyframes fdraw{to{stroke-dashoffset:0}}
+.fh{display:flex;align-items:center;gap:10px;margin:0 0 18px;font:600 1.15rem/1.3 var(--sans);color:var(--fs-acc)}
+.ftitle{min-height:100%;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:12px}
+.ftitle h1{margin:0;font:600 clamp(1.6rem,5vw,2.4rem)/1.15 var(--serif);animation:fup .8s .3s both}
+.ftitle p{margin:0;color:var(--fs-mut);font-size:1.05rem;max-width:36em;animation:fup .8s .6s both}
+.ftag{font:500 .78rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--fs-blue);animation:fup .6s .1s both}
+@keyframes fup{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:none}}
+.fsay{font:500 clamp(1.25rem,3.6vw,1.75rem)/1.4 var(--serif);margin:0 0 18px;animation:fup .7s .15s both}
+.fsub p{margin:0 0 10px;color:var(--fs-mut);font-size:1.02rem}.fsub p.now{color:var(--fs-ink)}
+.flist{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:12px}
+.flist li{display:flex;flex-direction:column;gap:2px;padding:12px 14px;border-left:3px solid var(--fs-blue);background:rgba(255,255,255,.04);border-radius:0 10px 10px 0;font-size:1.02rem;line-height:1.45}
+.flist li b{color:var(--fs-acc);font-weight:600}.flist li.now{background:rgba(111,149,242,.14);border-left-color:var(--fs-acc)}
+.ftl{padding:4px 0 40px}
+.ftl-in{position:relative;padding-left:30px}
+.ftl-in::before{content:"";position:absolute;left:8px;top:6px;bottom:0;width:2px;background:rgba(255,255,255,.08)}
+.ftl-line{position:absolute;left:8px;top:6px;width:2px;height:0;background:linear-gradient(var(--fs-blue),var(--fs-acc));transition:height .7s cubic-bezier(.3,.7,.2,1)}
+.ftl-row{position:relative;padding:0 0 18px}
+.ftl-dot{position:absolute;left:-28px;top:4px;width:14px;height:14px;border-radius:50%;background:var(--fs-bg);border:2px solid var(--fs-blue)}
+.ftl-row.now .ftl-dot{background:var(--fs-acc);border-color:var(--fs-acc);box-shadow:0 0 0 6px rgba(242,181,68,.2);animation:fpulse 1.6s ease-in-out infinite}
+@keyframes fpulse{50%{box-shadow:0 0 0 11px rgba(242,181,68,0)}}
+.ftl-d{font:600 .95rem var(--mono);color:var(--fs-acc)}.ftl-l{font-size:1rem;line-height:1.45;color:var(--fs-mut)}.ftl-row.now .ftl-l{color:var(--fs-ink)}
+.fcount{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:14px}
+.fnum{padding:16px;border-radius:12px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08)}.fnum.now{border-color:var(--fs-acc)}
+.fv{font:600 clamp(2rem,7vw,3rem)/1 var(--serif);color:var(--fs-acc);display:flex;align-items:baseline;gap:4px;flex-wrap:wrap}.fv span{font-size:.45em;color:var(--fs-ink)}
+.fl{margin-top:8px;color:var(--fs-mut);font-size:.95rem;line-height:1.4}
+.fbars{display:flex;flex-direction:column;gap:16px}.fbl{margin-bottom:6px}
+.fbt{display:flex;align-items:center;gap:10px}.fbt i{display:block;height:22px;border-radius:6px;width:0;background:var(--fs-blue);transition:width 1.2s cubic-bezier(.3,.7,.2,1)}
+.fbar.on .fbt i{width:calc(var(--w)*.62)}.fbt i.c1{background:var(--fs-acc)}.fbt i.c2{background:var(--fs-ok)}.fbt i.c3{background:var(--fs-bad)}
+.fbt b{font:600 1rem var(--mono);white-space:nowrap}
+.fflow{display:flex;flex-direction:column;align-items:center;gap:4px}
+.fbox{width:min(100%,460px);padding:12px 16px;border-radius:12px;background:rgba(111,149,242,.12);border:1px solid rgba(111,149,242,.35);text-align:center;display:flex;flex-direction:column;gap:3px}
+.fbox.now{border-color:var(--fs-acc);background:rgba(242,181,68,.12)}.fbox small{color:var(--fs-mut);font-size:.9rem}
+.farr{color:var(--fs-acc);font-size:1.3rem;line-height:1}
+.ftree{display:flex;flex-direction:column;align-items:center}
+.froot{padding:12px 20px;border-radius:12px;background:var(--fs-acc);color:#1B1405;font-weight:600;text-align:center;animation:fup .6s .1s both}
+.fstem{width:2px;height:22px;background:var(--fs-acc);transform-origin:top;animation:fgrow .5s .5s both}@keyframes fgrow{from{transform:scaleY(0)}}
+.fkids{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;width:100%;border-top:2px solid rgba(242,181,68,.5);padding-top:14px}
+.fkid{padding:10px 12px;border-radius:10px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.1);display:flex;flex-direction:column;gap:3px;font-size:.95rem}
+.fkid.now{border-color:var(--fs-acc)}.fkid small{color:var(--fs-mut)}
+.fcmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.fcol{border-radius:12px;padding:12px;background:rgba(255,255,255,.04);display:flex;flex-direction:column;gap:8px;min-width:0}
+.fcol h3{margin:0 0 4px;font:600 .95rem var(--sans)}.fcol.c0 h3{color:var(--fs-ok)}.fcol.c1 h3{color:var(--fs-bad)}
+.fchip{padding:8px 10px;border-radius:8px;background:rgba(255,255,255,.06);font-size:.93rem;line-height:1.35}.fcol.c0 .fchip.now{outline:2px solid var(--fs-ok)}.fcol.c1 .fchip.now{outline:2px solid var(--fs-bad)}
+.ftrap,.fquiz{min-height:100%;display:flex;flex-direction:column;justify-content:center;gap:14px}
+.ftrap h2,.fquiz h2{margin:0;font:600 1.3rem/1.35 var(--serif)}
+.fic.warn{color:var(--fs-bad)}
+.fwrong{font-size:1.08rem;color:var(--fs-bad);animation:fup .6s .4s both}.fwrong s{text-decoration-thickness:2px}
+.fright{font-size:1.12rem;padding:12px 14px;border-radius:10px;background:rgba(92,196,146,.14);border-left:3px solid var(--fs-ok)}
+.fqk{font:500 .78rem var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--fs-blue)}
+.fring{position:relative;width:54px;height:54px}.fring svg{width:100%;height:100%;transform:rotate(-90deg)}
+.fring circle{fill:none;stroke:var(--fs-acc);stroke-width:3;stroke-dasharray:107;stroke-dashoffset:0}
+.fring.run circle{animation:fring var(--d,5s) linear forwards}@keyframes fring{to{stroke-dashoffset:107}}
+.fring b{position:absolute;inset:0;display:grid;place-items:center;font:600 1rem var(--mono)}
+.fans{font-size:1.15rem;padding:12px 14px;border-radius:10px;background:rgba(242,181,68,.14);border-left:3px solid var(--fs-acc)}
+.fendb{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}.fendb .btn.ghost{color:var(--fs-ink);border-color:var(--fs-mut)}
+.fprog{height:6px;border-radius:3px;background:var(--line);cursor:pointer;overflow:hidden}.fprog i{display:block;height:100%;width:0;background:var(--accent);transition:width .4s}
+.fcap{margin:0;min-height:3em;font-size:1rem;line-height:1.5}.fcap mark{background:none;color:var(--accent);font-weight:600}
+.fctl{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.fctl .fpp{min-width:64px}
+@media (max-width:560px){.fscene{padding:20px 16px}.fcmp{grid-template-columns:1fr}}
+@media (prefers-reduced-motion:reduce){.fstage{animation:none}.fscene,.fscene .it{transition:opacity .2s}.fscene mark{animation:none;background-size:100% 100%}}
 </style>
 <meta name="description" content="YTB Uzman Yardımcılığı sınavı için adım adım dersler, aralıklı tekrar kartları ve kaynaklı sorular.">
 <meta name="theme-color" content="#F4F5F7" media="(prefers-color-scheme: light)">
@@ -188,6 +263,7 @@ dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
   <section id="v-ogren" class="list" hidden></section>
   <section id="v-ders" class="list" hidden></section>
   <section id="v-not" class="list" hidden></section>
+  <section id="v-film" class="list" hidden></section>
   <section id="v-tekrar" class="list" hidden></section>
   <section id="v-ezber" class="list" hidden></section>
 
@@ -263,6 +339,7 @@ dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
 </div>
 
 <dialog id="repDlg"></dialog>
+<script src="film.js"></script>
 <script src="app.js"></script>
 
 <script>

@@ -1,10 +1,10 @@
 // Offline support. Network first (so updates arrive as soon as you are online), cache as fallback.
 // Bump VERSION when files are added or renamed.
-const VERSION = "ytb-v14";
+const VERSION = "ytb-v15";
 const SHELL = [
   "./",
   "index.html",
-  "app.js",
+  "app.js","film.js","film/index.json",
   "questions.json",
   "lessons.json",
   "cards.json",

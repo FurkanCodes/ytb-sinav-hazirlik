@@ -193,14 +193,14 @@ function drawStep(){const v=$("#v-ders");const l=G.l;const s=G.steps[G.i];const 
 function renderLearn(){const s=$("#v-ogren");
   s.innerHTML='<div class="card list"><h2>Konular</h2><p class="note">"Başla" konuyu adım adım öğretir: ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu ve konu soruları. "Not" konunun tek sayfalık özetidir. Bir şeye bakmak için kullan, tekrar için değil: tekrar okumak kendini test etmekten çok daha az etkilidir.</p></div>'+
   D.areas.map(a=>{const ls=LS.filter(l=>l.area===a.id);return '<div class="lgroup"><h3>'+esc(a.name)+'</h3>'+ls.map(l=>{const st=lstate[l.id];const m=mastery(l);
-    return '<div class="lcard"><div class="list" style="gap:4px;flex:1;min-width:0"><span>'+esc(l.title)+'</span><span class="mbar"><i style="width:'+(m||0)+'%;background:'+mColor(m)+'"></i></span><span class="lm">'+(st?'tamamlandı · soru '+st.score+'/'+st.n+' · hâkimiyet %'+(m||0):l.qs.length+' soru · '+C.filter(c=>c.l===l.id).length+' kart')+'</span></div><div class="row" style="flex:none"><a class="btn ghost sm" href="#not/'+l.id+'">Not</a><a class="btn sm" href="#ders/'+l.id+'">'+(st?'Tekrar et':'Başla')+'</a></div></div>'}).join("")+'</div>'}).join("")}
+    return '<div class="lcard"><div class="list" style="gap:4px;flex:1;min-width:0"><span>'+esc(l.title)+'</span><span class="mbar"><i style="width:'+(m||0)+'%;background:'+mColor(m)+'"></i></span><span class="lm">'+(st?'tamamlandı · soru '+st.score+'/'+st.n+' · hâkimiyet %'+(m||0):l.qs.length+' soru · '+C.filter(c=>c.l===l.id).length+' kart')+'</span></div><div class="row" style="flex:none">'+(FILMS[l.id]?'<a class="btn ghost sm" href="#film/'+l.id+'">▶ Animasyon</a>':'')+'<a class="btn ghost sm" href="#not/'+l.id+'">Not</a><a class="btn sm" href="#ders/'+l.id+'">'+(st?'Tekrar et':'Başla')+'</a></div></div>'}).join("")+'</div>'}).join("")}
 function renderNote(id){const l=byL[id];const v=$("#v-not");if(!l){location.hash="#ogren";return}
   let h='<div class="row"><a href="#ogren" class="btn ghost">← Konular</a></div><div class="card list lesson"><div class="qhead" style="margin:0"><span class="tag">'+esc(areaName(l.area))+'</span><span>'+l.qs.length+' soru</span></div><h2>'+esc(l.title)+'</h2><p class="muted">'+esc(l.intro)+'</p>';
   if(l.tl&&l.tl.length)h+='<dl class="tl">'+l.tl.map(r=>'<dt>'+esc(r[0])+'</dt><dd>'+esc(r[1])+'</dd>').join("")+'</dl>';
   h+='<ul>'+l.points.map(p=>'<li>'+p+'</li>').join("")+'</ul></div>';
   if(l.traps&&l.traps.length)h+='<div class="trap"><h3>Sınav tuzakları</h3><ul class="steps">'+l.traps.map(t=>'<li>'+esc(t)+'</li>').join("")+'</ul></div>';
   if(sums[l.id])h+='<div class="card"><h3>Senin özetin</h3><p style="white-space:pre-wrap;margin:8px 0 0">'+esc(sums[l.id])+'</p></div>';
-  h+=srcHtml(l.src)+'<div class="nav2"><a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nCards">Kartlarını tekrar et</button><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>'+lessonNotesHtml(l.id);
+  h+=srcHtml(l.src)+'<div class="nav2">'+(FILMS[l.id]?'<a class="btn ghost" href="#film/'+l.id+'">▶ Animasyonlu anlatım</a>':'')+'<a class="btn" href="#ders/'+l.id+'">Adım adım çalış</a><button class="btn ghost" id="nCards">Kartlarını tekrar et</button><button class="btn ghost" id="nQs">Sadece soruları çöz</button></div><p class="note">Notu yeniden okumak yerine kendini test et: Tekrar bölümü ve konu soruları bilgiyi çok daha kalıcı yapar.</p>'+lessonNotesHtml(l.id);
   v.innerHTML=h;window.scrollTo(0,0);$("#nQs").onclick=()=>{startPractice(l.qs.map(x=>byId[x]).filter(Boolean))};
   const nC=$("#nCards");if(nC)nC.onclick=()=>startFree(freeKeys("l:"+l.id,false),"weak",999)}
 
@@ -336,7 +336,7 @@ function renderBooklets(){const x=$("#dLinks"),K=(WR||{}).kitapcik;if(!x||!K)ret
   x.innerHTML='<details class="card"><summary><b>Resmî çıkmış sorular ve kitapçıklar</b> <span class="note">'+K.items.length+' bağlantı</span></summary><p style="margin-top:8px">'+esc(K.ozet)+'</p>'+gs.map(g=>'<h3>'+esc(g)+'</h3><ul>'+K.items.filter(i=>i.g===g).map(i=>'<li><a href="'+esc(i.u)+'" target="_blank" rel="noopener">'+esc(i.t)+'</a><br><span class="note">'+esc(i.n)+'</span></li>').join("")+'</ul>').join("")+'<p class="note">'+esc(K.telif)+' ÖSYM sayfaları yurt dışından ya da bazı ağlardan açılmayabilir.</p></details>'}
 
 /* ---------- Ezber: tarihler, kanun numaraları, madde numaraları ---------- */
-let MEM={laws:[],arts:[]};let WR={};const EZ={d:[],k:[],m:[]};const EZBY={};
+let MEM={laws:[],arts:[]};let WR={},FILMS={};const EZ={d:[],k:[],m:[]};const EZBY={};
 const AYLAR=["ocak","şubat","mart","nisan","mayıs","haziran","temmuz","ağustos","eylül","ekim","kasım","aralık"];
 function parseD(s){let m,mo=0,d=0;const ys=s.match(/\d{4}/g);const y=ys?+ys[ys.length-1]:0;
   if((m=s.match(/^(\d{1,2})\.(\d{1,2})\.\d{4}$/))){d=+m[1];mo=+m[2]}
@@ -493,12 +493,12 @@ function lessonNotesHtml(id){const ns=notes.filter(n=>n.l===id).sort((a,b)=>(b.u
   return '<div class="card list"><div class="row" style="justify-content:space-between"><h3>Notlarım ('+ns.length+')</h3><a class="btn ghost sm" href="#notlar/yeni/l/'+id+'">Not ekle</a></div>'+(ns.length?'<div class="list">'+ns.map(noteCard).join("")+'</div>':'<p class="note">Bu konuya ait notun yok.</p>')+'</div>'}
 
 /* ---------- Routing ---------- */
-const views=["bugun","ogren","ders","not","tekrar","ezber","calis","deneme","yanlislar","yazili","notlar"];
-const navOf={ders:"ogren",not:"ogren"};
+const views=["bugun","ogren","ders","not","film","tekrar","ezber","calis","deneme","yanlislar","yazili","notlar"];
+const navOf={ders:"ogren",not:"ogren",film:"ogren"};
 function route(){const parts=(location.hash||"#bugun").slice(1).split("/");let v=parts[0];if(!views.includes(v))v="bugun";
   views.forEach(x=>{$("#v-"+x).hidden=x!==v});const nv=navOf[v]||v;document.querySelectorAll("nav a").forEach(a=>a.setAttribute("aria-current",a.dataset.v===nv?"page":"false"));
   if(!D)return;renderBadge();
-  if(v==="bugun")renderToday();if(v==="ogren")renderLearn();if(v==="ders")startLesson(parts[1]);if(v==="not")renderNote(parts[1]);
+  if(v==="bugun")renderToday();if(v==="ogren")renderLearn();if(v==="ders")startLesson(parts[1]);if(v==="not")renderNote(parts[1]);if(window.Film){if(v==="film"){const fl=byL[parts[1]];if(fl)Film.open($("#v-film"),fl,"#ogren");else location.hash="#ogren"}else Film.close()}
   if(v==="tekrar")renderReview();if(v==="yanlislar")renderW();if(v==="calis")renderStats();
   if(v==="notlar"){if(parts[1])editNote(parts);else renderNotes()}
   if(v==="ezber"){if(parts[1]==="liste"&&EZ[parts[2]])renderEzList(parts[2]);else if(parts[1]==="calis"&&EZS)drawEz();else renderEzber()}}
@@ -506,7 +506,7 @@ window.addEventListener("hashchange",route);
 $("#diffSel").onchange=e=>{pDiff=+e.target.value;buildPList()};
 $("#onlyNew").onchange=e=>{pOnlyNew=e.target.checked;buildPList()};
 
-Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()})).concat([fetch("memory.json").then(r=>r.ok?r.json():{laws:[],arts:[]}).catch(()=>({laws:[],arts:[]})),fetch("writing.json").then(r=>r.ok?r.json():{}).catch(()=>({}))])).then(([d,ld,cd,md,wd])=>{MEM=md;WR=wd;
+Promise.all(["questions.json","lessons.json","cards.json"].map(f=>fetch(f).then(r=>{if(!r.ok)throw 0;return r.json()})).concat([fetch("memory.json").then(r=>r.ok?r.json():{laws:[],arts:[]}).catch(()=>({laws:[],arts:[]})),fetch("writing.json").then(r=>r.ok?r.json():{}).catch(()=>({})),fetch("film/index.json").then(r=>r.ok?r.json():{}).catch(()=>({}))])).then(([d,ld,cd,md,wd,fd])=>{MEM=md;WR=wd;FILMS=fd||{};
   D=d;Q=d.questions;Q.forEach(q=>byId[q.id]=q);LS=ld.lessons;LS.forEach(l=>{byL[l.id]=l;l.qs.forEach(id=>{if(!lessonOf[id])lessonOf[id]=l})});
   const cnt={};C=cd.cards.map(c=>{cnt[c.l]=(cnt[c.l]||0)+1;return Object.assign({id:c.l+"-"+cnt[c.l]},c)});C.forEach(c=>cById[c.id]=c);
   buildEz();$("#countMeta").innerHTML="<b>"+LS.length+"</b> konu · <b>"+C.length+"</b> kart · <b>"+Q.length+"</b> soru";

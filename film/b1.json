@@ -1,0 +1,30 @@
+{"id":"b1","scenes":[
+{"k":"title","tag":"Kurum bilgisi","ic":"building","t":"YTB'nin kuruluşu ve hukuki statüsü","sub":"Hangi düzenlemeyle kuruldu, bugün nerede düzenleniyor, kime bağlı, bütçesi nasıl?","n":"Sınavın kurum bölümünde en çok sorulan bilgiler: YTB hangi düzenlemeyle kuruldu, bugün nerede düzenleniyor, kime bağlı ve bütçesi nasıl."},
+{"k":"timeline","t":"İki tarih, iki düzenleme","ic":"calendar","n":"YTB'nin hayatında iki tarih var.","items":[
+ {"d":"24.3.2010","l":"*5978 sayılı Kanun* kabul edildi (RG 6.4.2010). YTB *Başbakanlığa* bağlı olarak kuruldu.","n":"24 Mart 2010'da 5978 sayılı Kanun kabul edildi. Resmî Gazete tarihi 6 Nisan 2010. YTB Başbakanlığa bağlı olarak kuruldu."},
+ {"d":"2018","l":"*4 sayılı CBK* ile yeniden düzenlendi: 51. bölüm, md. 732-753","n":"2018'de 4 sayılı Cumhurbaşkanlığı Kararnamesi ile yeniden düzenlendi. Bugünkü yeri: kararnamenin 51. bölümü, madde 732 ile 753 arası."}]},
+{"k":"trap","t":"Tuzak: kuruluş yılı","wrong":"YTB 2018'de kuruldu.","right":"YTB *2010'da* kuruldu, 2018'de *yeniden düzenlendi*.","n":"İlk tuzak: YTB 2018'de mi kuruldu?","n2":"Hayır. 2010'da kuruldu, 2018'de yeniden düzenlendi."},
+{"k":"tree","t":"Bugün kime bağlı?","ic":"link","root":"Kültür ve Turizm Bakanlığı","n":"Bugün YTB, Kültür ve Turizm Bakanlığına bağlıdır. Dayanak: 4 sayılı kararnamenin 735. maddesi.","items":[
+ {"l":"YTB","s":"Bağlı kuruluş (CBK md. 735)","n":"YTB bu bakanlığa bağlı bir kuruluştur. Madde 735."},
+ {"l":"Başkan","s":"Bakana karşı sorumlu (md. 736)","n":"Başkan, Bakana karşı sorumludur. Madde 736."},
+ {"l":"Başkan yardımcıları","s":"En çok 3 (md. 736)","n":"En çok üç başkan yardımcısı atanabilir. Yine madde 736."}]},
+{"k":"say","t":"\"Bakan\" kim?","ic":"book","big":"md. 734/a: \"Bakan\" = *Kültür ve Turizm Bakanı*","n":"Kararnamenin 734. maddesinin a bendine göre, bu bölümde Bakan denince Kültür ve Turizm Bakanı anlaşılır."},
+{"k":"trap","t":"Tuzak: bağlılık","wrong":"YTB Cumhurbaşkanlığına bağlıdır ya da ilişkili kuruluştur.","right":"İkisi de yanlış. YTB *Kültür ve Turizm Bakanlığına bağlıdır* (md. 735).","n":"Bazı hazırlık kaynakları YTB'yi Cumhurbaşkanlığına bağlı ya da ilişkili kuruluş diye verir.","n2":"İkisi de yanlış. Doğrusu: Kültür ve Turizm Bakanlığına bağlı."},
+{"k":"quiz","q":"YTB hangi bakanlığa bağlı, hangi madde?","a":"Kültür ve Turizm Bakanlığı, 4 sayılı CBK md. 735","na":"Kültür ve Turizm Bakanlığı. 4 sayılı kararname, madde 735."},
+{"k":"flow","t":"Bütçe: özel bütçeli idare","ic":"money","n":"Şimdi bütçe. YTB özel bütçelidir, madde 735.","items":[
+ {"l":"5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunu","n":"Bunun yeri 5018 sayılı Kamu Mali Yönetimi ve Kontrol Kanunudur."},
+ {"l":"(II) sayılı cetvel","s":"Özel bütçeli idareler","n":"Kanunun iki sayılı cetvelinde, yani özel bütçeli idareler listesinde."},
+ {"l":"B) Özel Bütçeli Diğer İdareler","s":"YTB burada","n":"Daha ayrıntılı olarak: B bölümü, Özel Bütçeli Diğer İdareler. YTB burada yer alır."}]},
+{"k":"quiz","q":"5018 sayılı Kanunda YTB hangi cetvelde?","a":"(II) sayılı cetvel, özel bütçeli idareler","na":"İki sayılı cetvel, özel bütçeli idareler."},
+{"k":"flow","t":"Kadronun dayanağı","ic":"people","n":"Son olarak senin kadron: uzman yardımcılığı.","items":[
+ {"l":"4 sayılı CBK md. 748/2","s":"Uzman ve uzman yardımcısı istihdamı","n":"Uzman ve uzman yardımcısı istihdamı, kararnamenin 748. maddesinin ikinci fıkrasına dayanır."},
+ {"l":"657 sayılı Kanun *ek md. 41*","s":"Atıf yapılan madde","n":"Bu fıkra, 657 sayılı Devlet Memurları Kanununun ek 41. maddesine atıf yapar."}]},
+{"k":"trap","t":"Tuzak: dayanak","wrong":"YTB uzman yardımcılığının dayanağı 375 sayılı KHK ek 26'dır.","right":"375 sayılı KHK ek 26 *sözleşmeli uzmanlar* içindir. Dayanak *657 ek md. 41*.","n":"Bir tuzak daha: 375 sayılı KHK ek 26. madde.","n2":"Bu madde sözleşmeli uzmanlar içindir. YTB uzman yardımcılığının dayanağı 657 sayılı Kanunun ek 41. maddesidir."},
+{"k":"count","t":"Sayılarla YTB","ic":"chart","n":"Şimdi sayıları bir arada görelim.","items":[
+ {"v":2010,"l":"Kuruluş yılı (5978 sayılı Kanun)","n":"2010: kuruluş yılı."},
+ {"v":735,"pre":"md. ","l":"Bağlılık ve özel bütçe","n":"Madde 735: bağlılık ve özel bütçe."},
+ {"v":3,"l":"En çok başkan yardımcısı (md. 736)","n":"Üç: en çok başkan yardımcısı sayısı."},
+ {"v":41,"pre":"ek md. ","l":"657 sayılı Kanun: uzman yardımcılığı","n":"Ek 41: 657 sayılı Kanunda uzman yardımcılığı maddesi."}]},
+{"k":"quiz","q":"En çok kaç başkan yardımcısı olabilir?","a":"Üç (md. 736)","na":"Üç. Madde 736."},
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
+]}
