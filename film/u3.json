@@ -1,33 +1,17 @@
 {"id":"u3","scenes":[
 {"k":"title","tag":"Uluslararası ilişkiler","ic":"globe","t":"Erken Cumhuriyet dış politikası: Lozan, Musul, Montrö","sub":"Sınırları ve Boğazlar rejimini belirleyen antlaşmalar","n":"Bu derste Türkiye'nin sınırlarını ve Boğazlar rejimini belirleyen antlaşmaları göreceğiz. 2026, Montrö'nün 90. yılı; güncel soru olarak gelebilir."},
-{"k":"timeline","t":"Ateşkesten barışa","ic":"calendar","n":"Önce kronolojinin ilk yarısı.","items":[
- {"d":"30.10.1918","l":"Mondros Ateşkesi","n":"30 Ekim 1918: Mondros Ateşkesi."},
- {"d":"10.8.1920","l":"Sevr","n":"10 Ağustos 1920: Sevr."},
- {"d":"11.10.1922","l":"Mudanya Ateşkesi","n":"11 Ekim 1922: Mudanya Ateşkesi."},
- {"d":"24.7.1923","l":"*Lozan Barış Antlaşması*","n":"Ve 24 Temmuz 1923: Lozan Barış Antlaşması."}]},
+{"k":"timeline","t":"Ateşkesten barışa","ic":"calendar","n":"Önce kronolojinin ilk yarısı.","items":[{"d":"30.10.1918","l":"Mondros Ateşkesi","n":"30 Ekim 1918: Mondros Ateşkesi."},{"d":"10.8.1920","l":"Sevr","n":"10 Ağustos 1920: Sevr."},{"d":"11.10.1922","l":"Mudanya Ateşkesi","n":"11 Ekim 1922: Mudanya Ateşkesi."},{"d":"24.7.1923","l":"*Lozan Barış Antlaşması*","n":"Ve 24 Temmuz 1923: Lozan Barış Antlaşması."}]},
 {"k":"quiz","q":"Lozan'ın tarihi?","a":"24 Temmuz 1923","na":"24 Temmuz 1923."},
-{"k":"timeline","t":"Lozan'dan sonra","ic":"calendar","n":"Şimdi kronolojinin ikinci yarısı.","items":[
- {"d":"5.6.1926","l":"Ankara Antlaşması (*Musul*)","n":"5 Haziran 1926: Musul'u çözen Ankara Antlaşması."},
- {"d":"1934","l":"Balkan Antantı","n":"1934: Balkan Antantı."},
- {"d":"20.7.1936","l":"*Montrö* Boğazlar Sözleşmesi","n":"20 Temmuz 1936: Montrö Boğazlar Sözleşmesi."},
- {"d":"1937","l":"Sadabat Paktı","n":"1937: Sadabat Paktı."}]},
-{"k":"flow","t":"Musul meselesi","ic":"link","n":"Musul meselesini adım adım görelim.","items":[
- {"l":"Lozan'da çözülemedi","n":"Musul sorunu Lozan'da çözülemedi."},
- {"l":"5.6.1926 Ankara Antlaşması","s":"Türkiye, İngiltere, Irak","n":"1926 Ankara Antlaşması, Türkiye, İngiltere ve Irak arasında imzalandı."},
- {"l":"Musul *Irak'a* bırakıldı","n":"Antlaşmayla Musul Irak'a bırakıldı."},
- {"l":"Türkiye'ye petrol gelirinden pay","s":"%10, 25 yıl boyunca","n":"Karşılığında Türkiye'ye 25 yıl boyunca petrol gelirinden yüzde 10 pay verildi."}]},
-{"k":"count","t":"Musul'un rakamları","ic":"money","items":[
- {"v":10,"pre":"%","l":"Türkiye'nin petrol gelirinden payı","n":"Yüzde 10: Türkiye'nin petrol gelirinden payı."},
- {"v":25,"suf":" yıl","l":"Payın süresi","n":"25 yıl: bu payın süresi."}]},
+{"k":"timeline","t":"Lozan'dan sonra","ic":"calendar","n":"Şimdi kronolojinin ikinci yarısı.","items":[{"d":"5.6.1926","l":"Ankara Antlaşması (*Musul*)","n":"5 Haziran 1926: Musul'u çözen Ankara Antlaşması."},{"d":"1934","l":"Balkan Antantı","n":"1934: Balkan Antantı."},{"d":"20.7.1936","l":"*Montrö* Boğazlar Sözleşmesi","n":"20 Temmuz 1936: Montrö Boğazlar Sözleşmesi."},{"d":"1937","l":"Sadabat Paktı","n":"1937: Sadabat Paktı."}]},
+{"k":"flow","t":"Musul meselesi","ic":"link","n":"Musul meselesini adım adım görelim.","items":[{"l":"Lozan'da çözülemedi","n":"Musul sorunu Lozan'da çözülemedi."},{"l":"5.6.1926 Ankara Antlaşması","s":"Türkiye, İngiltere, Irak","n":"1926 Ankara Antlaşması, Türkiye, İngiltere ve Irak arasında imzalandı."},{"l":"Musul *Irak'a* bırakıldı","n":"Antlaşmayla Musul Irak'a bırakıldı."},{"l":"Türkiye'ye petrol gelirinden pay","s":"%10, 25 yıl boyunca","n":"Karşılığında Türkiye'ye 25 yıl boyunca petrol gelirinden yüzde 10 pay verildi."}]},
+{"k":"map","t":"Musul haritada","ic":"globe","view":[30,28,49,44],"base":[],"items":[{"iso":"TUR","at":[32.85,39.93],"l":"Ankara 5.6.1926: Ankara Antlaşması","c":1,"n":"5 Haziran 1926: Türkiye, İngiltere ve Irak arasında Ankara Antlaşması."},{"iso":"IRQ","at":[43.13,36.34],"l":"Musul: Irak'a bırakıldı","c":0,"n":"Musul Irak'a bırakıldı."},{"iso":"IRQ","at":[43.13,36.34],"to":"TUR","l":"Petrol gelirinden %10, 25 yıl","c":2,"n":"Türkiye'ye 25 yıl boyunca petrol gelirinden yüzde 10 pay verildi."}]},
+{"k":"count","t":"Musul'un rakamları","ic":"money","items":[{"v":10,"pre":"%","l":"Türkiye'nin petrol gelirinden payı","n":"Yüzde 10: Türkiye'nin petrol gelirinden payı."},{"v":25,"suf":" yıl","l":"Payın süresi","n":"25 yıl: bu payın süresi."}]},
 {"k":"trap","t":"Tuzak: hangi Ankara Antlaşması?","wrong":"Musul'u 1921 Ankara Antlaşması çözdü.","right":"Musul'u çözen *1926* Ankara Antlaşmasıdır (5.6.1926).","n":"İlk tuzak: Musul'u 1921 Ankara Antlaşması mı çözdü?","n2":"Hayır. Musul'u çözen 5 Haziran 1926 tarihli Ankara Antlaşmasıdır."},
 {"k":"quiz","q":"Musul hangi antlaşmayla kime bırakıldı?","a":"1926 Ankara Antlaşması; Irak'a","na":"1926 Ankara Antlaşmasıyla Irak'a bırakıldı."},
-{"k":"compare","t":"Montrö: Lozan'a göre ne değişti?","ic":"shield","cols":["Montrö (1936) ile","Lozan rejiminde"],"n":"Şimdi Montrö. Lozan'daki Boğazlar rejimiyle karşılaştıralım.","items":[
- {"c":1,"l":"Uluslararası Boğazlar Komisyonu vardı","n":"Lozan'da Uluslararası Boğazlar Komisyonu vardı."},
- {"c":0,"l":"Komisyon *kaldırıldı*, yetkileri Türkiye'ye geçti","n":"Montrö ile Komisyon kaldırıldı ve yetkileri Türkiye'ye geçti."},
- {"c":0,"l":"Türkiye Boğazları *silahlandırma* hakkı kazandı","n":"Türkiye Boğazları silahlandırma hakkı kazandı."}]},
+{"k":"compare","t":"Montrö: Lozan'a göre ne değişti?","ic":"shield","cols":["Montrö (1936) ile","Lozan rejiminde"],"n":"Şimdi Montrö. Lozan'daki Boğazlar rejimiyle karşılaştıralım.","items":[{"c":1,"l":"Uluslararası Boğazlar Komisyonu vardı","n":"Lozan'da Uluslararası Boğazlar Komisyonu vardı."},{"c":0,"l":"Komisyon *kaldırıldı*, yetkileri Türkiye'ye geçti","n":"Montrö ile Komisyon kaldırıldı ve yetkileri Türkiye'ye geçti."},{"c":0,"l":"Türkiye Boğazları *silahlandırma* hakkı kazandı","n":"Türkiye Boğazları silahlandırma hakkı kazandı."}]},
+{"k":"map","t":"Boğazlar: Montrö 20.7.1936","ic":"shield","view":[25,38.8,31.5,43.2],"base":[],"items":[{"iso":"TUR","at":[29.05,41.1],"l":"Boğazlar: yetki Türkiye'ye geçti","c":1,"n":"Montrö ile Uluslararası Boğazlar Komisyonu kaldırıldı, yetkileri Türkiye'ye geçti."},{"iso":"TUR","at":[26.4,40.2],"l":"Silahlandırma hakkı","c":2,"n":"Türkiye Boğazları silahlandırma hakkı kazandı."}]},
 {"k":"trap","t":"Tuzak: silahlandırma","wrong":"Montrö Boğazları silahsızlandırdı.","right":"Tam tersi: Montrö Türkiye'ye *silahlandırma* hakkı verdi.","n":"Bir tuzak: Montrö Boğazları silahsızlandırdı mı?","n2":"Hayır, tam tersi. Montrö Türkiye'ye Boğazları silahlandırma hakkı verdi."},
 {"k":"say","t":"Güncel: 90. yıl","ic":"star","big":"Dışişleri 20.7.2026'da Montrö'nün *90. yıl* açıklamasını yayımladı.","n":"Güncel bilgi: Dışişleri Bakanlığı 20 Temmuz 2026'da Montrö'nün 90. yılı için bir açıklama yayımladı."},
 {"k":"quiz","q":"Montrö'nün Türkiye için en önemli sonucu?","a":"Boğazlar Komisyonu kalktı, yetki Türkiye'ye geçti","na":"Boğazlar Komisyonu kalktı ve yetkileri Türkiye'ye geçti."},
 {"k":"quiz","q":"Montrö Boğazlar Sözleşmesi hangi tarihte imzalandı?","a":"20 Temmuz 1936","na":"20 Temmuz 1936."},
-{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
-]}
+{"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}]}

@@ -40,6 +40,33 @@ function build(sb){const steps=[];sb.scenes.forEach((s,si)=>{
   its.forEach((it,i)=>steps.push({s:si,i:i,n:it.n||plain(it.l||it.v||"")}))});
   return steps}
 
+/* ---------- map scene ---------- */
+let WORLD=null,WORLDP=null;
+function loadWorld(){if(WORLD)return Promise.resolve(WORLD);if(!WORLDP)WORLDP=fetch("film/world.json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(w=>WORLD=w).catch(()=>{WORLDP=null;return null});return WORLDP}
+const VIEWS={world:[-170,-58,190,80],europe:[-12,34,45,62],balkans:[12,36,32,48],emed:[18,29,38,42],caucasus:[36,36,52,45],centralasia:[26,34,90,56],middleeast:[24,12,63,42],gulf:[44,20,60,32],asia:[60,-12,150,50],eastasia:[95,18,148,48],africa:[-20,-36,55,38],hornafrica:[30,-5,55,18],latam:[-120,-56,-30,33],turkey:[24,34,46,43]};
+function declutter(node,upto){const ls=[...node.querySelectorAll(".mlab.on")];const cur=ls.find(l=>+l.dataset.i===upto);const order=cur?[cur].concat(ls.filter(l=>l!==cur).reverse()):ls.reverse();const placed=[];
+  const hit=r=>placed.some(p=>!(r.right<p.left||r.left>p.right||r.bottom<p.top||r.top>p.bottom));
+  order.forEach(l=>{l.classList.remove("hide");const sp=l.querySelector("span");let r=sp.getBoundingClientRect();if(hit(r)){l.classList.toggle("below");r=sp.getBoundingClientRect();if(hit(r)){l.classList.toggle("below");l.classList.add("hide");return}}placed.push(r)})}
+function mapHtml(s){const W=WORLD;if(!W)return '<p class="muted">Harita yüklenemedi.</p>';
+  const v=(Array.isArray(s.view)?s.view:(VIEWS[s.view]||VIEWS.world)).slice();
+  const k=Math.max(.45,Math.cos((v[1]+v[3])/2*Math.PI/180));
+  const st=F&&F.el.querySelector(".fstage");if(st){const tw=st.clientWidth-40,th=st.clientHeight-(s.t?110:50),ta=tw/th,va=(v[2]-v[0])*k/(v[3]-v[1]);
+    if(va>ta*1.02){const need=(v[2]-v[0])*k/ta,c=(v[1]+v[3])/2;v[1]=Math.max(-80,c-need/2);v[3]=Math.min(84,c+need/2)}
+    else if(va<ta/1.02){const need=(v[3]-v[1])*ta/k,c=(v[0]+v[2])/2;v[0]=c-need/2;v[2]=c+need/2}}
+  const vx=v[0]*10*k,vy=-v[3]*10,vw=(v[2]-v[0])*10*k,vh=(v[3]-v[1])*10;
+  const its=s.items||[];const owner={};its.forEach((it,i)=>{[].concat(it.iso||[]).forEach(c=>{if(owner[c]==null)owner[c]=i})});
+  const base={};[].concat(s.base||["TUR"]).forEach(c=>base[c]=1);
+  let paths="";for(const id in W){const c=W[id];if(!c.p)continue;const b=c.b;
+    if(b&&(b[2]<v[0]*10-50||b[0]>v[2]*10+50||b[3]<-v[3]*10-50||b[1]>-v[1]*10+50)){if(owner[id]==null)continue}
+    const it=owner[id]!=null?its[owner[id]]:null;
+    paths+='<path d="'+c.p+'" class="mc'+(base[id]?" base":"")+(it?" c"+(it.c||0):"")+'"'+(it?' data-mi="'+owner[id]+'"':"")+'/>'}
+  const pos=(lon,lat)=>[((lon*10*k)-vx)/vw*100,((-lat*10)-vy)/vh*100];
+  const at=it=>{if(it.at)return pos(it.at[0],it.at[1]);const c=W[[].concat(it.iso||[])[0]];return c?[((c.c[0]*k)-vx)/vw*100,(c.c[1]-vy)/vh*100]:[50,50]};
+  const sw=vh/((st&&st.clientHeight)||500)*2.6;let arcs="";its.forEach((it,i)=>{if(!it.to||!W[it.to])return;const a=W[[].concat(it.iso)[0]],b=W[it.to];if(!a)return;
+    const x1=it.at?it.at[0]*10:a.c[0],y1=it.at?-it.at[1]*10:a.c[1],x2=b.c[0],y2=b.c[1],mx=(x1+x2)/2,my=(y1+y2)/2-Math.hypot(x2-x1,y2-y1)*.25;
+    arcs+='<path class="marc c'+(it.c||1)+'" data-mi="'+i+'" pathLength="1" stroke-width="'+sw.toFixed(2)+'" d="M'+x1+' '+y1+'Q'+mx+' '+my+' '+x2+' '+y2+'"/>'});
+  const labels=its.map((it,i)=>{const p=at(it);const below=p[1]<18;return '<div class="mlab it'+(below?" below":"")+(p[0]>72?" left":p[0]<28?" right":"")+'" data-i="'+i+'" style="left:'+p[0].toFixed(2)+'%;top:'+p[1].toFixed(2)+'%"><i class="mpin c'+(it.c||0)+'"></i><span>'+mk(it.l)+'</span></div>'}).join("");
+  return head(s)+'<div class="fmap" style="aspect-ratio:'+(vw/vh).toFixed(4)+'"><svg viewBox="'+vx.toFixed(1)+' '+vy+' '+vw.toFixed(1)+' '+vh+'" preserveAspectRatio="none"><g transform="scale('+k.toFixed(4)+',1)">'+paths+arcs+'</g></svg>'+labels+'</div>'}
 /* ---------- render a scene ---------- */
 function head(s){return (s.t?'<h2 class="fh">'+icon(s.ic)+'<span>'+mk(s.t)+'</span></h2>':"")}
 function sceneHtml(s,L){const its=s.items||[];let h="";
@@ -55,6 +82,7 @@ function sceneHtml(s,L){const its=s.items||[];let h="";
   case "compare":h=head(s)+'<div class="fcmp">'+(s.cols||[]).map((c,ci)=>'<div class="fcol c'+ci+'"><h3>'+mk(c)+'</h3>'+its.map((it,i)=>it.c===ci?'<div class="fchip it" data-i="'+i+'">'+mk(it.l)+'</div>':"").join("")+'</div>').join("")+'</div>';break;
   case "trap":h='<div class="ftrap">'+icon("warn","fic big warn")+'<h2>'+mk(s.t||"Sınav tuzağı")+'</h2><div class="fwrong"><s>'+mk(s.wrong)+'</s></div><div class="fright it" data-i="0">'+mk(s.right)+'</div></div>';break;
   case "quiz":h='<div class="fquiz">'+icon("q","fic big")+'<div class="fqk">Hatırla</div><h2>'+mk(s.q)+'</h2><div class="fring"><svg viewBox="0 0 40 40"><circle cx="20" cy="20" r="17"/></svg><b></b></div><div class="fans it" data-i="0">'+mk(s.a)+'</div></div>';break;
+  case "map":h=mapHtml(s);break;
   case "end":h='<div class="ftitle">'+icon("star","fic big")+'<h1>'+mk(s.t||"Bitti")+'</h1>'+(s.sub?'<p>'+mk(s.sub)+'</p>':"")+'<div class="fendb"><a class="btn" href="#ders/'+L.id+'">Adım adım çalış</a><a class="btn ghost" href="#not/'+L.id+'">Nota bak</a></div></div>';break;
   }
   return '<div class="fscene k-'+s.k+'">'+h+'</div>'}
@@ -69,6 +97,8 @@ function show(idx,auto){if(!F)return;stopTalk();idx=Math.max(0,Math.min(F.steps.
   const node=F.node;const upto=st.i;
   node.querySelectorAll(".it").forEach(e=>{const i=+e.dataset.i;const on=i<=upto;if(on&&!e.classList.contains("on")){e.classList.add("on");reveal(sc,e,i)}else if(!on)e.classList.remove("on");e.classList.toggle("now",i===upto)});
   if(sc.k==="timeline")tlLine(node,upto);
+  node.querySelectorAll("[data-mi]").forEach(e=>{const i=+e.dataset.mi;e.classList.toggle("on",i<=upto);e.classList.toggle("now",i===upto)});
+  if(sc.k==="map")setTimeout(()=>declutter(node,upto),60);
   F.i=idx;F.el.querySelector(".fcap").innerHTML=mk(st.n||"");
   const pct=F.steps.length>1?idx/(F.steps.length-1)*100:100;F.el.querySelector(".fprog i").style.width=pct+"%";
   const left=F.steps.slice(idx).reduce((a,x)=>a+estMs(x.n)+(x.wait||0)+500,0)/F.speed;
@@ -97,7 +127,7 @@ function pause(){if(!F)return;F.playing=false;stopTalk();F.el.querySelector(".fp
 function jumpScene(d){const s=F.steps[F.i].s+d;const k=F.steps.findIndex(x=>x.s===s);if(k>=0)show(k)}
 
 function open(el,L,back){close();el.innerHTML='<div class="card"><p class="muted">Animasyon yükleniyor…</p></div>';
-  fetch("film/"+L.id+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(sb=>{
+  fetch("film/"+L.id+".json").then(r=>{if(!r.ok)throw 0;return r.json()}).then(sb=>sb.scenes.some(s=>s.k==="map")?loadWorld().then(()=>sb):sb).then(sb=>{
     F={el:el,L:L,sb:sb,steps:build(sb),i:0,cur:-1,playing:false,tok:0,speed:store.get("filmSpeed",1),voiceOn:store.get("filmVoice",true),v:voice()};
     if("speechSynthesis" in window)speechSynthesis.onvoiceschanged=()=>{if(F)F.v=voice();paintVoice()};
     el.innerHTML='<div class="row" style="justify-content:space-between"><a class="btn ghost" href="'+(back||"#ogren")+'">← Konular</a><span class="fmeta muted"></span></div>'+

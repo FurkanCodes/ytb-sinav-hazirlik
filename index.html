@@ -221,6 +221,23 @@ dialog#repDlg::backdrop{background:rgba(0,0,0,.45)}
 .fring b{position:absolute;inset:0;display:grid;place-items:center;font:600 1rem var(--mono)}
 .fans{font-size:1.15rem;padding:12px 14px;border-radius:10px;background:rgba(242,181,68,.14);border-left:3px solid var(--fs-acc)}
 .fendb{display:flex;gap:10px;flex-wrap:wrap;margin-top:8px}.fendb .btn.ghost{color:var(--fs-ink);border-color:var(--fs-mut)}
+.fmap{position:relative;width:100%;margin:0 auto;border-radius:10px;background:rgba(111,149,242,.06);overflow:visible}
+.fmap svg{position:absolute;inset:0;width:100%;height:100%;overflow:hidden;border-radius:10px}
+.fmap .mc{fill:rgba(255,255,255,.07);stroke:rgba(255,255,255,.22);stroke-width:.6;vector-effect:non-scaling-stroke;transition:fill .8s ease,stroke .8s ease}
+.fmap .mc.base{fill:rgba(242,181,68,.16);stroke:rgba(242,181,68,.6)}
+.fmap .mc.on{fill:rgba(111,149,242,.55);stroke:#9DB6F5}.fmap .mc.on.c1{fill:rgba(242,181,68,.6);stroke:#F2B544}.fmap .mc.on.c2{fill:rgba(92,196,146,.55);stroke:#5CC492}.fmap .mc.on.c3{fill:rgba(238,138,117,.55);stroke:#EE8A75}
+.fmap .mc.now{animation:mglow 1.6s ease-in-out infinite}@keyframes mglow{50%{fill-opacity:.55}}
+.fmap .marc{fill:none;stroke:#F2B544;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset 1.3s ease}
+.fmap .marc.c0{stroke:#9DB6F5}.fmap .marc.c2{stroke:#5CC492}.fmap .marc.c3{stroke:#EE8A75}.fmap .marc.on{stroke-dashoffset:0}
+.mlab{position:absolute;width:0;height:0;z-index:2}
+.fscene .mlab.it{transform:none}
+.mpin{position:absolute;left:-5px;top:-5px;width:10px;height:10px;border-radius:50%;background:var(--fs-blue);box-shadow:0 0 0 2px var(--fs-bg)}
+.mpin.c1{background:var(--fs-acc)}.mpin.c2{background:var(--fs-ok)}.mpin.c3{background:var(--fs-bad)}
+.mlab.now .mpin::after{content:"";position:absolute;inset:-6px;border-radius:50%;border:2px solid currentColor;color:var(--fs-acc);animation:mping 1.4s ease-out infinite}
+@keyframes mping{from{transform:scale(.5);opacity:1}to{transform:scale(1.8);opacity:0}}
+.mlab span{position:absolute;bottom:9px;left:0;transform:translateX(-50%);width:max-content;max-width:150px;padding:3px 7px;border-radius:6px;background:rgba(14,23,38,.88);border:1px solid rgba(255,255,255,.15);font-size:.78rem;line-height:1.25;text-align:center;opacity:.6;transition:opacity .3s}
+.mlab.below span{bottom:auto;top:9px}.mlab.left span{transform:translateX(calc(-100% + 14px))}.mlab.right span{transform:translateX(-14px)}
+.mlab.hide span{opacity:0}.mlab.now span{opacity:1;border-color:var(--fs-acc);font-size:.85rem;z-index:3}.mlab.now{z-index:4}
 .fprog{height:6px;border-radius:3px;background:var(--line);cursor:pointer;overflow:hidden}.fprog i{display:block;height:100%;width:0;background:var(--accent);transition:width .4s}
 .fcap{margin:0;min-height:3em;font-size:1rem;line-height:1.5}.fcap mark{background:none;color:var(--accent);font-weight:600}
 .fctl{display:flex;gap:6px;flex-wrap:wrap;align-items:center}.fctl .fpp{min-width:64px}

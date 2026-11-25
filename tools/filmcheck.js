@@ -3,7 +3,9 @@
 const fs=require("fs"),path=require("path");
 const R=path.join(__dirname,"..");
 const L={};JSON.parse(fs.readFileSync(path.join(R,"lessons.json"),"utf8")).lessons.forEach(l=>L[l.id]=l);
-const KINDS={title:[],say:[],list:["l"],timeline:["d","l"],count:["v","l"],bars:["l","v"],flow:["l"],tree:["l"],compare:["c","l"],trap:[],quiz:[],end:[]};
+const KINDS={title:[],say:[],list:["l"],timeline:["d","l"],count:["v","l"],bars:["l","v"],flow:["l"],tree:["l"],compare:["c","l"],trap:[],quiz:[],end:[],map:["iso","l"]};
+const WORLD=JSON.parse(fs.readFileSync(path.join(R,"film","world.json"),"utf8"));
+const VIEWS=["world","europe","balkans","emed","caucasus","centralasia","middleeast","gulf","asia","eastasia","africa","hornafrica","latam","turkey"];
 const MON={ocak:1,"şubat":2,mart:3,nisan:4,"mayıs":5,haziran:6,temmuz:7,"ağustos":8,"eylül":9,ekim:10,"kasım":11,"aralık":12};
 function nums(s){// normalised number tokens
   s=String(s).replace(/<[^>]+>/g," ");const out=new Set();
@@ -25,7 +27,8 @@ function check(id){const errs=[],f=path.join(R,"film",id+".json");let sb;
     if(s.k==="trap"&&!(s.wrong&&s.right&&s.n2))errs.push("scene "+si+": trap needs wrong/right/n2");
     if(s.k==="quiz"&&!(s.q&&s.a))errs.push("scene "+si+": quiz needs q/a");
     if(s.k==="compare"&&!(Array.isArray(s.cols)&&s.cols.length===2))errs.push("scene "+si+": compare needs 2 cols");
-    if(["list","timeline","count","bars","flow","tree","compare"].includes(s.k)&&!(s.items&&s.items.length))errs.push("scene "+si+": needs items");
+    if(s.k==="map"){if(!(VIEWS.includes(s.view)||(Array.isArray(s.view)&&s.view.length===4&&s.view[0]<s.view[2]&&s.view[1]<s.view[3])))errs.push("scene "+si+": bad map view");[].concat(s.base||[]).forEach(c=>{if(!WORLD[c])errs.push("scene "+si+": unknown base iso "+c)});(s.items||[]).forEach((it,ii)=>{[].concat(it.iso||[]).concat(it.to?[it.to]:[]).forEach(c=>{if(!WORLD[c])errs.push("scene "+si+" item "+ii+": unknown iso "+c)})})}
+    if(["list","timeline","count","bars","flow","tree","compare","map"].includes(s.k)&&!(s.items&&s.items.length))errs.push("scene "+si+": needs items");
     (s.items||[]).forEach((it,ii)=>{KINDS[s.k].forEach(k=>{if(it[k]==null||it[k]==="")errs.push("scene "+si+" item "+ii+": missing "+k)});
       if(s.k==="count"&&isNaN(+it.v))errs.push("scene "+si+" item "+ii+": v not numeric");
       if(!it.n)errs.push("scene "+si+" item "+ii+": missing narration n");

@@ -5,7 +5,7 @@ YTB (Yurtdışı Türkler ve Akraba Topluluklar Başkanlığı) Uzman Yardımcı
 ## İçerik
 
 - **40 konu**: adım adım ders (ön soru, kısa parçalar, yazarak hatırlama kartları, son tur, "neden?" sorusu, konu soruları)
-- **Animasyonlu anlatım**: her konu için sesli (Türkçe konuşma sentezi) ve altyazılı animasyonlu ders: zaman çizgileri, şemalar, sayaçlar, grafikler, tuzak sahneleri ve hatırlama duraklamaları
+- **Animasyonlu anlatım**: her konu için sesli (Türkçe konuşma sentezi) ve altyazılı animasyonlu ders: zaman çizgileri, şemalar, sayaçlar, grafikler, tuzak sahneleri, hatırlama duraklamaları ve bölgesel derslerde animasyonlu haritalar (ülke sınırları: Natural Earth, kamu malı)
 - **262 kart**: aralıklı tekrar, sınav tarihine göre ayarlanan aralıklarla
 - **279 soru**: her biri resmi kaynağa bağlı açıklamalı, ayrıca deneme sınavı modu
 - **Yazılı hazırlık**: 26 kompozisyon konusu ve kompozisyon planı, 11 çeviri metni (9 İngilizceden Türkçeye, 2 Türkçeden İngilizceye) ve örnek çevirileri; 15 İngilizce kompozisyon konusu ve İngilizce yazım rehberi, Dışişleri meslek memurluğu sınavının resmî örnek soruları, YTB sitesinden 12 Türkçe-İngilizce paralel metin ve 60 kurum terimi

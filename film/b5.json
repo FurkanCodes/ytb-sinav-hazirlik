@@ -1,32 +1,16 @@
 {"id":"b5","scenes":[
 {"k":"title","tag":"Kurum bilgisi","ic":"globe","t":"Göç tarihi ve diaspora","sub":"İşgücü anlaşmaları, yurt dışındaki nüfus ve diaspora diplomasisi","n":"Bu derste yurt dışındaki Türk toplumunun nasıl oluştuğunu göreceğiz. Kronoloji soruları ve yazılıda diaspora diplomasisi kavramı gelir."},
-{"k":"timeline","t":"İşgücü anlaşmaları","ic":"calendar","n":"Yurt dışındaki Türk toplumu işgücü anlaşmalarıyla oluştu. Sırayla görelim.","items":[
- {"d":"30.10.1961","l":"*Federal Almanya*: ilk anlaşma","n":"30 Ekim 1961: Federal Almanya. İlk işgücü anlaşması."},
- {"d":"15.5.1964","l":"Avusturya","n":"15 Mayıs 1964: Avusturya."},
- {"d":"16.7.1964","l":"Belçika","n":"16 Temmuz 1964: Belçika."},
- {"d":"19.8.1964","l":"Hollanda","n":"19 Ağustos 1964: Hollanda."},
- {"d":"8.4.1965","l":"Fransa","n":"8 Nisan 1965: Fransa."},
- {"d":"10.3.1967","l":"İsveç","n":"10 Mart 1967: İsveç."},
- {"d":"5.10.1967","l":"Avustralya","n":"Ve 5 Ekim 1967: Avustralya."}]},
-{"k":"tree","t":"Ezber yolu","ic":"star","root":"Önce Almanya (1961)","n":"Bunu ezberlemenin kolay yolu: önce Almanya, 1961.","items":[
- {"l":"1964: üçlü","s":"Avusturya, Belçika, Hollanda (Mayıs, Temmuz, Ağustos)","n":"Sonra 1964'te üçlü: Avusturya, Belçika ve Hollanda. Mayıs, Temmuz, Ağustos sırasıyla."},
- {"l":"1965","s":"Fransa","n":"1965'te Fransa."},
- {"l":"1967: ikili","s":"İsveç ve Avustralya","n":"1967'de ikili: İsveç ve Avustralya."}]},
+{"k":"timeline","t":"İşgücü anlaşmaları","ic":"calendar","n":"Yurt dışındaki Türk toplumu işgücü anlaşmalarıyla oluştu. Sırayla görelim.","items":[{"d":"30.10.1961","l":"*Federal Almanya*: ilk anlaşma","n":"30 Ekim 1961: Federal Almanya. İlk işgücü anlaşması."},{"d":"15.5.1964","l":"Avusturya","n":"15 Mayıs 1964: Avusturya."},{"d":"16.7.1964","l":"Belçika","n":"16 Temmuz 1964: Belçika."},{"d":"19.8.1964","l":"Hollanda","n":"19 Ağustos 1964: Hollanda."},{"d":"8.4.1965","l":"Fransa","n":"8 Nisan 1965: Fransa."},{"d":"10.3.1967","l":"İsveç","n":"10 Mart 1967: İsveç."},{"d":"5.10.1967","l":"Avustralya","n":"Ve 5 Ekim 1967: Avustralya."}]},
+{"k":"tree","t":"Ezber yolu","ic":"star","root":"Önce Almanya (1961)","n":"Bunu ezberlemenin kolay yolu: önce Almanya, 1961.","items":[{"l":"1964: üçlü","s":"Avusturya, Belçika, Hollanda (Mayıs, Temmuz, Ağustos)","n":"Sonra 1964'te üçlü: Avusturya, Belçika ve Hollanda. Mayıs, Temmuz, Ağustos sırasıyla."},{"l":"1965","s":"Fransa","n":"1965'te Fransa."},{"l":"1967: ikili","s":"İsveç ve Avustralya","n":"1967'de ikili: İsveç ve Avustralya."}]},
+{"k":"map","t":"İşgücü anlaşmaları haritada","ic":"globe","view":[-6,36,42,62],"base":[],"n":"Şimdi aynı anlaşmaları haritada görelim.","items":[{"iso":"TUR","to":"DEU","l":"Türkiye'den işgücü göçü","c":1,"n":"Göç Türkiye'den Avrupa'ya doğru oldu. İlk durak Federal Almanya."},{"iso":"DEU","l":"Federal Almanya: 30.10.1961","c":1,"n":"Federal Almanya, 30 Ekim 1961. İlk anlaşma."},{"iso":"AUT","l":"Avusturya: 15.5.1964","c":0,"n":"1964 üçlüsü: Avusturya, 15 Mayıs."},{"iso":"BEL","l":"Belçika: 16.7.1964","c":0,"n":"Belçika, 16 Temmuz."},{"iso":"NLD","l":"Hollanda: 19.8.1964","c":0,"n":"Hollanda, 19 Ağustos."},{"iso":"FRA","at":[2.5,46.6],"l":"Fransa: 8.4.1965","c":2,"n":"Fransa ayrı bir yılda, 8 Nisan 1965."},{"iso":"SWE","l":"İsveç: 10.3.1967","c":3,"n":"İsveç, 10 Mart 1967. Aynı yıl Avustralya da gelecek."}]},
 {"k":"trap","t":"Tuzak: Fransa'nın yeri","wrong":"Fransa, Avusturya, Belçika ve Hollanda ile aynı yıl anlaşma imzaladı.","right":"Avusturya, Belçika, Hollanda *aynı yıl (1964)*. Fransa onlardan *sonra* (1965).","n":"İlk tuzak: Fransa, 1964 üçlüsüyle aynı yılda mı?","n2":"Hayır. Avusturya, Belçika ve Hollanda aynı yıl, 1964'te. Fransa onlardan sonra, 1965'te gelir."},
 {"k":"quiz","q":"İlk işgücü anlaşması hangi ülkeyle, ne zaman?","a":"Federal Almanya, 30.10.1961","na":"Federal Almanya, 30 Ekim 1961."},
 {"k":"quiz","q":"1964'te hangi üç ülkeyle anlaşma imzalandı?","a":"Avusturya, Belçika, Hollanda","na":"Avusturya, Belçika ve Hollanda."},
-{"k":"count","t":"Yurt dışındaki Türkler","ic":"people","n":"Bugün yurt dışında kaç Türk yaşıyor?","items":[
- {"v":7.5,"dec":1,"suf":" milyon","l":"Dışişleri Bakanlığına göre yurt dışında yaşayan Türk","n":"Dışişleri Bakanlığına göre yaklaşık 7,5 milyon Türk yurt dışında yaşıyor."}]},
-{"k":"say","t":"Nerede yoğun?","ic":"globe","big":"Yarıdan fazlası *Batı Avrupa*'da","n":"Bu nüfusun yarıdan fazlası Batı Avrupa'da yaşıyor."},
+{"k":"count","t":"Yurt dışındaki Türkler","ic":"people","n":"Bugün yurt dışında kaç Türk yaşıyor?","items":[{"v":7.5,"dec":1,"suf":" milyon","l":"Dışişleri Bakanlığına göre yurt dışında yaşayan Türk","n":"Dışişleri Bakanlığına göre yaklaşık 7,5 milyon Türk yurt dışında yaşıyor."}]},
+{"k":"map","t":"Nerede yoğun?","ic":"globe","view":[-12,-45,155,62],"base":[],"n":"Bugün yurt dışındaki Türklerin nerede yaşadığına bakalım.","items":[{"iso":"TUR","l":"Yurt dışında ~7,5 milyon Türk","c":1,"n":"Dışişleri Bakanlığına göre yaklaşık 7,5 milyon Türk yurt dışında yaşıyor."},{"iso":"TUR","at":[6,50],"l":"*Yarıdan fazlası* Batı Avrupa'da","c":1,"n":"Bu nüfusun yarıdan fazlası Batı Avrupa'da yaşıyor."},{"iso":"AUS","l":"Avustralya: 5.10.1967","c":0,"n":"Anlaşmaların sonuncusu Avustralya ile: 5 Ekim 1967."}]},
 {"k":"quiz","q":"Yurt dışındaki Türk nüfusu yaklaşık kaç?","a":"7,5 milyon (Dışişleri)","na":"Yaklaşık 7,5 milyon. Kaynak Dışişleri Bakanlığı."},
-{"k":"compare","t":"Diaspora diplomasisi","ic":"link","cols":["Çağdaş anlayış","Eksik bakış"],"n":"Yazılı için kilit kavram: diaspora diplomasisi. Çağdaş anlayış diasporaya nasıl bakar?","items":[
- {"c":1,"l":"Yalnızca hizmet verilen *pasif* kitle","n":"Diaspora yalnızca hizmet verilen pasif bir kitle olarak görülmez."},
- {"c":0,"l":"Kök ülke ile yaşadığı ülke arasında *köprü kuran aktör*","n":"Kök ülke ile yaşadığı ülke arasında köprü kuran bir aktör olarak görülür."}]},
+{"k":"compare","t":"Diaspora diplomasisi","ic":"link","cols":["Çağdaş anlayış","Eksik bakış"],"n":"Yazılı için kilit kavram: diaspora diplomasisi. Çağdaş anlayış diasporaya nasıl bakar?","items":[{"c":1,"l":"Yalnızca hizmet verilen *pasif* kitle","n":"Diaspora yalnızca hizmet verilen pasif bir kitle olarak görülmez."},{"c":0,"l":"Kök ülke ile yaşadığı ülke arasında *köprü kuran aktör*","n":"Kök ülke ile yaşadığı ülke arasında köprü kuran bir aktör olarak görülür."}]},
 {"k":"trap","t":"Tuzak: diaspora politikası","wrong":"Diaspora politikası, geri dönüşü teşvik etmekten ibarettir.","right":"Diaspora politikası *yalnızca geri dönüşü teşvik etmek değildir*.","n":"İkinci tuzak: diaspora politikası yalnızca geri dönüşü teşvik etmek midir?","n2":"Hayır. Diaspora politikası yalnızca geri dönüşü teşvik etmek değildir."},
-{"k":"list","t":"YTB'nin hedefi","ic":"flag","n":"YTB'nin hedefi, vatandaşların yaşadıkları ülkelerdeki konumlarını güçlendirmektir. Dört alanda.","items":[
- {"h":"Ekonomik","l":"Ekonomik konum","n":"Ekonomik konum."},
- {"h":"Sosyal","l":"Sosyal konum","n":"Sosyal konum."},
- {"h":"Kültürel","l":"Kültürel konum","n":"Kültürel konum."},
- {"h":"Hukuki","l":"Hukuki konum","n":"Ve hukuki konum."}]},
+{"k":"list","t":"YTB'nin hedefi","ic":"flag","n":"YTB'nin hedefi, vatandaşların yaşadıkları ülkelerdeki konumlarını güçlendirmektir. Dört alanda.","items":[{"h":"Ekonomik","l":"Ekonomik konum","n":"Ekonomik konum."},{"h":"Sosyal","l":"Sosyal konum","n":"Sosyal konum."},{"h":"Kültürel","l":"Kültürel konum","n":"Kültürel konum."},{"h":"Hukuki","l":"Hukuki konum","n":"Ve hukuki konum."}]},
 {"k":"end","t":"Bu konu bitti","sub":"Şimdi kendini test et: adım adım çalış ya da konu sorularını çöz.","n":"Bu konu bitti. Şimdi kendini test et."}
 ]}

@@ -37,3 +37,18 @@ Icons (`ic`): law, globe, people, building, money, calendar, vote, book, warn, q
 Run `node tools/filmcheck.js <id> [<id>...]` from the repo root (`C:\Users\Furkan\ytb-sinav-hazirlik`). It must print `OK` for each of your ids. Fix every reported problem (usually a number not in the lesson: remove it or use the lesson's exact figure). Write JSON without a BOM, UTF-8.
 
 Only create/edit `film/<your ids>.json`. Do not touch other files (the checker rewrites `film/index.json` itself; that's fine).
+
+## Map scenes (`k: "map"`)
+Animated country map: countries light up one by one, a pin + label appears on each, optional curved arrow between two countries. Country data: `film/world.json` (Natural Earth 50m). Valid country codes and their Turkish names: `tools/COUNTRIES.txt` (e.g. TUR=Türkiye, CYN=Kuzey Kıbrıs Türk Cumhuriyeti, KOS=Kosova, PSX=Filistin, SOL=Somaliland).
+
+```json
+{"k":"map","t":"Heading","ic":"globe","view":"balkans","base":["TUR"],"n":"optional opening narration",
+ "items":[{"iso":"BIH","l":"Bosna-Hersek: 1995 Dayton","c":0,"n":"..."},
+          {"iso":["AZE","KAZ","KGZ","UZB","TKM"],"l":"Türk Devletleri Teşkilatı","c":1,"n":"..."},
+          {"iso":"TUR","to":"SOM","l":"Mogadişu'ya destek","c":1,"at":[45.3,2.0],"n":"..."}]}
+```
+- `view`: a preset (`world, europe, balkans, emed, caucasus, centralasia, middleeast, gulf, asia, eastasia, africa, hornafrica, latam, turkey`) or `[lonWest, latSouth, lonEast, latNorth]`. The player stretches the view to fill a phone-portrait stage, so pick a view tight around the countries you show; squarish views look best.
+- `base`: countries drawn faintly gold from the start (default `["TUR"]`; `[]` for none).
+- Item: `iso` = one code or a list (all light up together; label goes at the first one's centre); `l` = short label (≤ ~35 chars, the narration carries detail); `c` colour 0 blue, 1 gold, 2 green, 3 red; `to` = draws an arrow from this item's point to that country; `at` = [lon, lat] to place the label/arrow start manually (use it for cities, sea areas, or when a country's centre is a bad spot, e.g. Russia, USA, France).
+- Each item is one step with narration, same as other scenes. Facts rule still applies: labels and narration use only lesson facts (a country name alone is fine).
+- Use maps where geography helps memory: who is where, which countries are members of a grouping, where a conflict/agreement/route/opening happened, aid or migration directions. 2-4 map scenes in a regional lesson, typically placed right before/after the scene that teaches the same facts (replacing a list scene when the map shows it better).
